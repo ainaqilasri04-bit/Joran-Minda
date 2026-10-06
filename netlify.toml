@@ -1,5 +1,19 @@
+# Gabungkan media daripada pakej muat naik sebelum menyemak binaan.
+# Fail yang sudah berada dalam public dikekalkan.
 [build]
-  command = "npm run build"
+  command = '''
+node --input-type=commonjs -e "
+  const fs = require('node:fs');
+  const groups = ['02-GAMBAR-HD', '03-AUDIO', '04-KAMERA', '05-ENJIN-KAMERA'];
+  for (const group of groups) {
+    const source = group + '/public';
+    if (fs.existsSync(source)) {
+      fs.cpSync(source, 'public', { recursive: true, force: false });
+      console.log('Media disediakan: ' + group);
+    }
+  }
+" && npm run build
+'''
   publish = "public"
 [build.environment]
   NODE_VERSION = "22"
