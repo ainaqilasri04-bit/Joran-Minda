@@ -1,0 +1,14 @@
+{
+  "asset": "public/assets/home-v9.webp",
+  "generation": "built-in imagegen",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "prompt": "Use case: stylized-concept. Asset type: original high-definition opening-screen artwork for a Malaysian children's educational fishing game, 1536x1024 landscape. Image 1 is ONLY a reference for polished mobile fishing-game energy and scenic composition, not its branding or text. Image 2 is the character identity reference: preserve friendly girl Hana in purple hijab and turquoise outfit, boy Iman in orange shirt and black round glasses, smiling grandfather Tok Wan with straw hat and olive shirt. Create a fresh bright turquoise Malaysian tropical lake, lush palms, distant limestone hills, sunlit wooden jetty. A large beautiful friendly golden fish springs out of sparkling water at lower right, a blue fish and orange fantail swimming visibly nearby. An elegant fishing rod enters from lower left, line curved naturally. Three characters stand safely on the jetty in lower left to mid-left, happily holding a fishing rod together. Rich polished 3D game illustration, crisp faces and fish scales, vivid inviting daylight, soft magical sunlight and splashes, cinematic depth. IMPORTANT layout: reserve upper central sky and lake area (upper 55 percent) as uncluttered bright blue space for an HTML game title and buttons; place action around lower and outer thirds. No letters, no text, no logos, no banners, no cards, no UI, no weapons or explosives. Friendly primary-school adventure.",
+  "reference_roles": [
+    "User-supplied fishing-game poster: visual energy/composition only",
+    "Existing Joran Minda character illustration: character continuity"
+  ],
+  "note": "Original illustration; Joran Minda lettering rendered separately in HTML."
+}

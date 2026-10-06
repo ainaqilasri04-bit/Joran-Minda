@@ -1,0 +1,21 @@
+SUARA BAHASA MELAYU — VERSI 20
+
+10 arahan umum baharu menggunakan Bahasa Melayu standard, suara ms-MY-YasminNeural, tempo -3%.
+Soalan dan pilihan sedia ada diproses secara tempatan sahaja: tempo lebih semula jadi, kelantangan -20 LUFS, dan permulaan serta penghujung yang dilembutkan.
+152 padanan audio keseluruhan. Fail suara-standard-v19.mp3 menggabungkan rakaman dengan penanda masa; manifest.js memilih bahagian yang tepat.
+
+Bacaan cerita menggunakan rakaman Guru. Tiada rakaman Guru disertakan sebelum dimuat naik atau dirakam sendiri.
+Kelajuan arahan boleh ditukar kepada Perlahan, Sederhana atau Semula jadi.
+Muzik dimatikan secara lalai. Jika dihidupkan: 12% pada permulaan, maksimum 30%, dan berhenti semasa suara atau rakaman dimainkan.
+Sorakan awal 40%. Hanya satu saluran pertuturan atau sorakan dimainkan pada satu masa.
+
+BUNYI YAY
+Pautan diminta: https://www.youtube.com/watch?v=attUrDwfdr8
+Bunyi Children Yay! Sound Effect.mp3 diberikan oleh pengguna dan telah dimasukkan.
+Petikan dari 1.24 saat sepanjang 2.6 saat; senyap awal dibuang, sasaran kelantangan -24 LUFS, masuk lembut 30 ms dan keluar lembut 250 ms.
+Rakaman asal tidak dipercepat dan pic suara dikekalkan.
+Gunakan Tetapan > Sorakan pilihan Guru untuk memuat naik bunyi sendiri pada peranti ini.
+Untuk semua pengguna laman, gantikan public/audio-ms/yeay.mp3 dan kemas kini repositori.
+
+SEMAKAN
+Buka audio-ms/semak-suara.html untuk mendengar setiap klip. Semakan sebutan manusia belum dilakukan; semak sebelum PdP.

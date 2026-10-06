@@ -1,0 +1,22 @@
+JORAN MINDA V20 — SEMAKAN TEKNIKAL
+
+- Enam ujian automatik projek lulus: API/peranan/giliran, bilik,
+  sambung permainan, audio/rakaman, enjin cerita dan kawalan tangan.
+- Enjin cerita: 972 laluan bagi empat kisah menghasilkan lima halaman.
+- Binaan mengesahkan 152 padanan audio dan semua aset yang dirujuk.
+- Ujian pelayar V19: satu kisah diselesaikan hingga bonus dan buku 25/25.
+- Arahan, soalan, setiap pilihan, butang hentikan dan sorakan dimainkan.
+- Empat giliran kumpulan pada satu peranti dan pertukaran mod disemak.
+- Audio satu saluran; muzik dimatikan secara lalai dan reda semasa suara.
+- Kekuatan/suis senyap sorakan dan muat naik sorakan sendiri disemak.
+- Gambar halaman asal 1536x1024, nisbah penuh dan pembesaran disemak.
+- Paparan permainan/studio disemak pada lebar 320 hingga 1200 piksel.
+- Eksport PDF berjaya; tiada ralat JavaScript atau klip hilang dilaporkan.
+
+Had semakan:
+- Sebutan suara belum disahkan melalui semakan pendengaran manusia.
+- Bunyi Yay kini menggunakan lampiran pengguna. Petikan audio sah dan
+  padanan audio dalam pakej serta HTML tunggal disahkan pada V20.
+- Rakaman Guru belum diberikan. Mikrofon dan kamera fizikal memerlukan
+  percubaan pada peranti pengguna.
+- GitHub dan Netlify belum diterbitkan melalui akaun pengguna.

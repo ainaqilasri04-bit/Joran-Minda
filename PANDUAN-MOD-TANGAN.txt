@@ -1,0 +1,81 @@
+JORAN MINDA V15 — MEMANCING DENGAN GERAKAN TANGAN
+
+CARA MENCUBA
+1. Masuk permainan seperti biasa. Isi nama, kelas dan peranan.
+2. Selesaikan Baca, Cari dan Nilai sehingga tiba giliran pemancing.
+3. Tekan Buka panduan kamera, kemudian Buka kamera · Cuba latihan.
+4. Benarkan kamera. Tunjukkan satu tangan, kiri atau kanan, dalam cahaya cukup.
+5. Halakan jari telunjuk. Sasaran kecil bergerak mengikut tangan sebenar
+   yang kelihatan dalam kotak kamera.
+6. Buka ibu jari dan jari telunjuk dahulu, kemudian rapatkan kedua-duanya
+   sehingga bar kemajuan penuh dan mesej Ikan dipilih muncul.
+7. Angkat tangan sedikit untuk menarik ikan.
+8. Selepas latihan berjaya, tekan Mula memancing untuk memilih jawapan sebenar.
+
+Latihan tidak menambah markah atau mengubah cerita. Tiga ikan jawapan dan
+turutan BaCaNi dikekalkan. Dalam kumpulan dalam talian, kamera hanya boleh
+dimulakan oleh pemancing pada gilirannya. Semua ahli tetap berbincang.
+Dalam latihan kendiri, murid mengendalikan semua peranan.
+
+PILIHAN MESRA MURID
+- Gerakan kecil dan sasaran besar dihidupkan secara lalai.
+- Paparan cermin membantu menyamakan arah tangan dengan arah di skrin.
+- Pilih semula membatalkan gerakan yang sedang dipilih, tanpa potongan mata.
+- Tutup kamera untuk kembali kepada kawalan sentuh, tetikus atau papan kekunci.
+- Ikan boleh dijeda seperti biasa. Tiada had masa untuk menjawab.
+- Selepas latihan pertama berjaya, butang Buka kamera terus membuka pancingan
+  sebenar. Tekan Latihan tanpa markah untuk berlatih semula.
+
+KAMERA DAN INTERNET
+Kamera diminta terus selepas butang Buka kamera ditekan. Pengesan dimuatkan
+selepas video kamera dipaparkan.
+Mikrofon tidak diminta. Bingkai kamera diproses oleh MediaPipe dalam pekerja
+web pada peranti. Tiada rakaman, muat naik video, API Gemini atau kunci AI.
+Kamera ditutup selepas ikan dipancing, apabila berpindah bahagian atau tab,
+apabila giliran berubah, atau selepas menekan Tutup kamera.
+Jika kamera tidak dibenarkan/tiada atau pengesanan gagal, butang pancing
+biasa terus tersedia. Jangan menilai pencapaian murid daripada kemahiran motor.
+
+Fail HTML tunggal V15 mengandungi model, kod dan WASM termampat. Pengesanan
+tangan tidak memerlukan muat turun pengesan dari Internet. Sumber jenis
+bukan SIMD digunakan untuk keserasian. Font/servis lain mungkin masih
+memerlukan rangkaian; ini bukan tuntutan semua fungsi laman boleh digunakan
+luar talian. Model dibaca dalam pekerja web pada peranti, bukan dihantar.
+Projek ZIP menyediakan semua fail model/pustaka dalam public/hand/ supaya
+laman Netlify menggunakan sumber sendiri. Muat naik keseluruhan folder itu.
+Kamera disokong dalam konteks selamat (HTTPS atau localhost). Sesetengah
+pelayar membenarkan fail tempatan; pratonton dalam aplikasi mungkin menyekat
+kamera. Cuba HTML dalam Chrome, atau laman HTTPS selepas diterbitkan.
+
+UNTUK GURU
+Uji dahulu pada komputer/telefon yang hendak digunakan. Guru boleh membantu
+meletakkan peranti dengan stabil. Gunakan kawalan biasa jika gerakan tangan
+menyukarkan murid. Penjejakan boleh terjejas oleh pencahayaan, kamera, kelajuan
+peranti atau tangan yang terlindung. Ujian teknikal menggunakan kamera video
+simulasi dan koordinat tangan simulasi; belum melibatkan murid sebenar.
+
+Versi dan rujukan: MediaPipe Tasks Vision 0.10.32; Hand Landmarker float16 v1.
+https://developers.google.com/edge/mediapipe/solutions/vision/hand_landmarker/web_js
+
+PAPARAN V14 — HAND TRACKING TANPA BAYANG
+Bayang tangan versi 13 telah dibuang. Kamera mengesan gerakan sebenar tangan
+untuk menggerakkan sasaran kecil, memilih ikan dan menarik jawapan.
+Titik serta garisan sendi hanya dilukis pada paparan kamera kecil.
+Angkat tangan ke aras kamera sehingga seluruh tangan kelihatan dalam kotak.
+Halakan sasaran kepada ikan, rapatkan ibu jari dan jari telunjuk hingga ikan
+dipilih, kemudian angkat tangan sedikit. Pancingan dihantar tanpa menekan
+butang Pancing. Selepas latihan sahaja, tekan Mula memancing untuk teruskan.
+Tangan yang hilang daripada kamera membatalkan gerakan yang belum selesai.
+Paparan kamera/panduan berada di luar kawasan watak.
+Untuk mencuba kawalan sahaja, buka joran-minda-kamera-v15.html dalam Chrome
+atau public/cuba-kamera.html pada laman HTTPS/localhost.
+
+PERUBAHAN V15 — KAMERA DAHULU
+1. Kamera diminta sebaik sahaja Buka kamera ditekan.
+2. Video sendiri muncul sebelum pengesan tangan dimuatkan.
+3. Jika pengesan gagal, kamera kekal kelihatan dan ada butang cuba semula.
+4. Jika izin kamera ditolak, paparan memberitahu cara menyemak tetapan.
+5. Jika pratonton/iframe menyekat kamera, muat turun HTML dan buka dalam Chrome.
+6. Tutup kamera, tukar tab atau keluar giliran menutup semua trek kamera,
+   termasuk ketika pengesan gagal atau masih dimuatkan.
+Jika masih gagal, hantar mesej tepat serta tiga baris semakan kamera.

@@ -1,0 +1,223 @@
+{
+  "mode": "built-in imagegen",
+  "date": "2026-10-06",
+  "note": "24 separate identity-preserving edits. Output retained at native pixel size; no artificial upscaling. WebP quality 95.",
+  "assets": [
+    {
+      "asset": "public/assets/belang-1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 637888,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/belang-2.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 667102,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/belang-3.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 678284,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/belang-4.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 576716,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/belang-5.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 641462,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/belang-cover.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 533266,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Portrait 2:3 output, target 2048x3072 pixels. Preserve the uncluttered upper sky area for the book title."
+    },
+    {
+      "asset": "public/assets/pondok-1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 573020,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/pondok-2.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 562880,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/pondok-3.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 537344,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/pondok-4.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 471188,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/pondok-5.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 569906,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/pondok-cover.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 531800,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Portrait 2:3 output, target 2048x3072 pixels. Preserve the uncluttered upper sky area for the book title."
+    },
+    {
+      "asset": "public/assets/pokok-1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 589052,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/pokok-2.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 552398,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/pokok-3.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 690252,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/pokok-4.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 616882,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/pokok-5.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 654668,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/pokok-cover.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 511362,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Portrait 2:3 output, target 2048x3072 pixels. Preserve the uncluttered upper sky area for the book title."
+    },
+    {
+      "asset": "public/assets/sihat-1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 522186,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/sihat-2.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 615306,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/sihat-3.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 572162,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/sihat-4.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 558224,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/sihat-5.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 558686,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Landscape 3:2 output, target 3072x2048 pixels."
+    },
+    {
+      "asset": "public/assets/sihat-cover.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 503194,
+      "prompt": "Use case: identity-preserve. Edit target: the single attached existing children's storybook illustration. Upgrade it to a polished high-definition print-quality illustration with finely resolved eyes, face, hands, fabric embroidery, hair/fur, plants, wood and water. Preserve EXACTLY the existing scene, identities, number of people, poses, clothes, setting, objects and narrative event. Match the existing warm cheerful 3D illustrated style. Grandfather must be as crisp and polished as the children. Keep the girl's purple hijab and turquoise outfit, boy's orange shirt and round black glasses, grandfather's straw hat and olive shirt. No new characters, no changed action, no added lettering, no borders, no watermarks. Smooth clean edges with natural detail, no halos, no blur, no artificial sharpening noise. Preserve the framing and bright inviting lighting. Portrait 2:3 output, target 2048x3072 pixels. Preserve the uncluttered upper sky area for the book title."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+JORAN MINDA — PAKEJ PROJEK LENGKAP UNTUK GITHUB DAN NETLIFY
+
+Ini ialah pakej BANYAK FAIL dan FOLDER.
+
+1. Klik kanan JORAN-MINDA-PROJEK-GITHUB.zip > Extract All / Ekstrak Semua.
+2. Buka folder joran-minda. Pilih SEMUA kandungan di dalam folder itu.
+3. GitHub: Add file > Upload files. Seret semua fail dan folder yang dipilih.
+4. Pastikan package.json, package-lock.json, netlify.toml, public, server,
+   netlify, scripts dan tests berada pada aras utama repositori.
+5. Tekan Commit changes.
+6. Netlify: Add new project > Import an existing project > GitHub.
+7. Pilih repositori dan gunakan tetapan UNTUK PAKEJ INI:
+   Base directory: kosong
+   Build command: npm run build
+   Publish directory: public
+   Functions directory: netlify/functions (sudah dalam netlify.toml)
+8. Tekan Deploy dan buka pautan laman selepas penerbitan selesai.
+
+Mod individu dan berkumpulan disertakan. Pakej lengkap ini turut
+menyertakan fungsi bilik dalam talian untuk penerbitan melalui Netlify.
+Gambar HD, suara arahan Bahasa Melayu dan bunyi Children Yay! disertakan.
+Rakaman bacaan sendiri: buka Guru: Rakam suara dalam permainan.
+Muzik dimatikan secara lalai dan diredakan ketika suara dimainkan.
+
+Gunakan tetapan di atas untuk pakej lengkap ini.
+Panduan lanjut: README.md.

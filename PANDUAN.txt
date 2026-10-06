@@ -1,0 +1,197 @@
+JORAN MINDA — MUKA DEPAN, STUDIO SUARA DAN TETAPAN PAPARAN (VERSI 16)
+
+MULA DENGAN INI
+Pakej versi 16 sedia untuk dimuat naik ke GitHub. Baca README.md untuk langkah
+muat naik dan Netlify. Buka permainan melalui laman HTTPS selepas diterbitkan.
+Tumbuhan berayun, ikan kecil, siput, udang dan gelembung telah ditambah.
+Butang Jeda menghentikan ikan jawapan dan hidupan air. Tetapan kurang gerakan
+serta pilihan Hidupkan animasi turut mengawal hiasan bawah air.
+
+Tekan Mula bermain pada muka depan. Nama dan kelas tetap perlu diisi.
+Tekan Tetapan untuk tema, saiz tulisan, muzik dan semakan suara arahan.
+A. Cuba pada satu peranti: buka public/index.html melalui pelayan tempatan,
+   atau gunakan fail tunggal joran-minda-latar-cerah.html yang dibekalkan berasingan.
+B. Untuk murid di rumah: terbitkan keseluruhan projek ke Netlify melalui GitHub.
+   Fungsi bilik, rekod dan audio bersama memerlukan laman Netlify yang diterbitkan.
+   Fail HTML tunggal dan pratonton ChatGPT hanya menyokong aktiviti satu peranti.
+
+1. TIGA CARA BERMAIN
+SATU PERANTI
+Empat ahli menentukan peranan: pembaca, pencari bukti, pencatat dan pemancing.
+Isi kelas, nama kumpulan dan empat nama yang berbeza. Pilih kisah dan masuk.
+Serahkan peranti kepada nama yang terpampang. Semua ahli tetap memberi idea.
+
+KUMPULAN DARI RUMAH — AKTIVITI BERSAMA
+Guru membuka Ruang guru. Pilih Kumpulan, isi nama, kelas dan kisah.
+Tetapkan waktu bersama (pilihan) dan pautan pertemuan sedia ada jika mahu.
+Cipta satu bilik bagi setiap kumpulan empat orang. Simpan kunci guru.
+Kongsi pautan laman dan kod bilik, bukan kunci guru.
+Murid memilih Dalam talian, mengisi nama, kelas, kod dan peranan yang dipersetujui.
+Setiap peranan diambil oleh seorang sahaja. Empat ahli diperlukan untuk bermula.
+Nama ahli yang mendapat giliran muncul pada semua skrin. Hanya ahli itu
+mengendalikan butang tugas. Rakan membaca dan memberi cadangan melalui sembang.
+Pautan pertemuan membolehkan mereka bercakap; panggilan video tidak dibina
+ke dalam permainan ini. Waktu pertemuan dipaparkan, tanpa menghantar peringatan.
+Jika seorang terputus, keputusan terdahulu kekal. Tunggu ahli itu menyambung.
+
+LATIHAN KENDIRI DARI RUMAH — IKUT WAKTU SENDIRI
+Guru mencipta bilik dengan pilihan Latihan kendiri. Satu bilik boleh menerima
+hingga 80 pendaftaran murid. Murid memilih Rumah: latihan kendiri, mengisi nama,
+kelas dan kod bilik. Setiap murid mempunyai cerita dan kemajuan sendiri.
+Murid melaksanakan semua langkah, tanpa menunggu tiga rakan lain.
+Guru menerima rekod setiap murid. Aktiviti ini melengkapi sesi berkumpulan;
+ia sendiri bukan aktiviti trialogikal antara empat rakan.
+
+SAMBUNG PERMAINAN
+Tekan Simpan kad sambung selepas masuk. Simpan fail JSON itu sendiri.
+Untuk peranti baharu: buka laman yang sama > Pernah bermain? Sambung permainan lama >
+pilih kad itu. Nama dan kemajuan yang telah dihantar akan dibuka semula.
+Pada pelayar yang sama, nama dan kod yang sama juga boleh menyambung sesi.
+Kad mengandungi kunci sesi peribadi. Jangan edarkan kepada rakan.
+Catatan yang belum ditekan Simpan belum dihantar. Suntingan buku perlu dikongsi
+melalui Kongsi draf atau dimuat turun. Kad sambung memulihkan keputusan misi,
+bukan menaip semula teks yang belum dihantar. Bilik aktif selama 30 hari.
+
+2. GILIRAN BaCaNi PADA SETIAP MUKA SURAT
+BACA: pembaca membaca satu halaman atau memainkan bacaan cikgu.
+CARI: pencari memilih ayat bukti berdasarkan petunjuk. Cuba semula jika belum tepat.
+NILAI: semua ahli memberi idea. Pencatat menulis satu pilihan dan satu sebab.
+PANCING: pemancing memilih ikan keputusan bersama, lalu menekan Pancing ikan ini.
+Ikan terpilih berhenti. Mata kail turun dan menariknya naik secara automatik.
+Tiga ikan — emas, biru dan jingga — hadir pada setiap pusingan termasuk bonus.
+Setiap ikan mempunyai jawapan pada badannya. Ikan berenang sendiri; Jeda
+menghentikan gerakan. Tiada had masa. Kekunci Tab/Enter juga boleh memilih ikan.
+Ulang sehingga lima muka surat selesai. Akhir sekali, jawab bonus peribahasa.
+
+3. MATA DAN REKOD
+Bukti tepat: 2 mata setiap halaman x 5 = 10.
+Keputusan cerita diselesaikan: 2 mata setiap halaman x 5 = 10.
+Maksud peribahasa tepat: 5 mata.
+Jumlah maksimum = 25 mata. Tiada potongan mata untuk mencuba semula.
+Ketiga-tiga pilihan cerita diterima. Mata keputusan ialah ganjaran penyertaan,
+bukan penilaian bahawa hanya satu cerita atau idea yang betul.
+Permintaan yang sama tidak menambah mata berulang kali.
+Dalam kumpulan, markah 25 ialah markah bersama. Rekod individu mengikut tugas:
+pembaca — halaman dibaca; pencari — cubaan/bukti tepat (10 mata tugas);
+pencatat — lima catatan dan catatan bonus; pemancing — keputusan/bonus (15 mata tugas).
+Pembaca dan pencatat tidak dianggap gagal kerana tugas mereka tiada mata ketepatan.
+Dalam latihan kendiri, murid melaksanakan semua tugas dan menerima hingga 25 mata.
+Buka Ruang guru > Muat semula rekod > Muat turun CSV.
+Rekod bukan diagnosis disleksia atau penetapan Tahap Penguasaan secara automatik.
+Tukar peranan pada sesi kumpulan seterusnya supaya guru melihat kemahiran lain.
+
+4. SUARA ARAHAN DAN STUDIO BACAAN CIKGU
+DUA JENIS SUARA
+- Arahan, soalan dan pilihan ikan: suara sintesis bahasa Melayu Malaysia.
+- Bacaan cerita dan buku: rakaman Guru sahaja; tiada gantian suara AI.
+Suara sebenar cikgu belum dimasukkan. Cikgu merakamnya sendiri.
+
+SEMAK SUARA ARAHAN
+Buka Tetapan > Suara arahan > Cuba suara arahan. Audio AI Melayu Malaysia
+(Yasmin) sudah disertakan untuk 73 skrip. Tiada kunci API diperlukan semasa
+penerbitan. Kelajuan boleh dilaraskan. Semak intonasi dan sebutan sebelum PdP.
+Butang Dengar arahan, Dengar soalan dan Dengar pilihan muncul mengikut langkah.
+Untuk menyemak semua skrip, buka /audio-ms/semak-suara.html pada laman permainan.
+Bacaan cerita tetap menggunakan rakaman cikgu. Rujuk SUARA-MELAYU.txt.
+
+CARA MERAKAM CERITA
+1. Buka Guru: Rakam suara. Pilih cerita dan muka surat (1 hingga 5).
+2. Lihat gambar dan teks dalam bahagian Baca teks ini semasa merakam.
+3. Tekan Rakam bacaan. Benarkan mikrofon. Baca teks dengan intonasi cikgu.
+4. Tekan Henti & simpan. Tekan main pada pemain audio untuk mendengar semula.
+5. Jika berpuas hati, muat turun salinan rakaman. Ulang untuk halaman lain.
+Status setiap halaman menunjukkan Belum dirakam, Rakaman siap atau Teks berubah.
+Jika menggunakan telefon, pilihan Muat naik rakaman telefon juga tersedia.
+Mikrofon memerlukan HTTPS/localhost, peranti yang menyokong dan izin pelayar.
+Pratonton ChatGPT mungkin menyekat mikrofon. Gunakan laman HTTPS selepas
+penerbitan, atau muat naik audio yang sudah dirakam untuk mencuba sekarang.
+Rakaman tempatan disimpan pada pelayar/peranti itu; simpan juga salinan sendiri.
+
+UNTUK MURID DI RUMAH
+Buka Ruang guru dan cipta atau buka semula bilik. Dalam studio, tekan
+Ambil cerita terkini daripada bilik guru. Untuk latihan kendiri, pilih nama
+murid. Teks halaman akan mengikut pilihan yang telah disimpan murid itu.
+Rakam teks tersebut, dengar semula, kemudian tekan Kongsi bacaan dengan bilik aktif.
+Ulang bagi halaman yang diperlukan. Murid menekan Dengar cikgu pada halaman itu.
+Perkongsian bilik memerlukan laman penuh dengan fungsi pelayan; pratonton satu
+peranti tidak berkongsi audio ke telefon murid lain.
+Had setiap audio bilik kira-kira 2.5 MB. Gunakan rakaman pendek dan jelas.
+
+CERITA BERCABANG DAN RAKAMAN
+Satu rakaman lima halaman tidak meliputi semua 243 gabungan jalan cerita.
+Jika pilihan atau suntingan menukar ayat, rakam halaman yang berubah. Rakaman
+bilik disimpan mengikut teks halaman supaya bacaan alur lain tidak dimainkan.
+Butang Ambil cerita terkini mengambil keputusan misi; suntingan bebas akhir
+perlu disemak daripada draf buku yang dikongsi. Semasa bacaan atau rakaman,
+muzik dihentikan secara automatik supaya suara jelas.
+
+5. CERITA DAN BUKU
+Empat kisah: Belang, pondok bacaan, kebun Tok Wan dan bekal sihat.
+Setiap halaman ada tiga keputusan. Lima keputusan menghasilkan 243 gabungan
+bagi setiap kisah. Semua pilihan awal disebut semula dalam pengakhiran.
+Jejak keputusan menunjukkan pilihan yang sudah disahkan. Pilihan itu tidak
+diubah di tengah misi; mulakan sesi baharu untuk meneroka alur lain.
+Dua puluh gambar halaman dan empat kulit hadapan disediakan, dengan gambar
+halaman dan kulit hadapan beresolusi tinggi.
+Semua 24 ilustrasi diperkemas menggunakan ImageGen. Gambar halaman disimpan
+pada 1536 x 1024 piksel, kulit pada 1024 x 1536 piksel, tanpa pembesaran palsu.
+Ilustrasi menggambarkan peristiwa utama; bukan 243 set ilustrasi berasingan.
+Semua lima halaman buku boleh disunting. Catatan disimpan berasingan mengikut halaman.
+Muat turun PDF HD: satu kulit hadapan + lima halaman cerita = enam halaman fail.
+Setiap halaman PDF kini dirender pada 2380 x 3368 piksel (sebelum ini 1190 x 1684).
+Tulisan merah-biru dirender semula pada resolusi tinggi. Butiran ilustrasi masih
+mengikut resolusi asal aset, bukan jaminan gambar asal 4K atau 300 dpi.
+Buka Heyzine dan muat naik PDF melalui akaun pengguna. Tiada penerbitan automatik.
+
+6. PAPARAN DAN SOKONGAN
+Muka depan bergaya permainan mudah alih dengan ilustrasi baharu 1536 x 1024.
+Ini ialah permainan web; pakej ini bukan APK atau penerbitan Play Store.
+Tema lalai cerah; tema gelap boleh dipilih dalam Tetapan.
+Empat saiz tulisan: Kecil, Biasa, Besar dan Lebih besar. Pilihan disimpan
+pada pelayar yang sama. Muzik mempunyai pelaras 0–100%, lalai 65%.
+Bunyi bermula selepas sentuhan pengguna, mengikut peraturan pelayar.
+Font Andika dengan huruf a satu tingkat, suku kata merah kemudian
+biru pada teks cerita/jawapan yang dibekalkan, butang besar dan arahan berturutan.
+Pemisahan suku kata menggunakan senarai yang disemak untuk cerita/jawapan.
+Perkataan baharu dalam suntingan murid yang tiada dalam senarai kekal sebagai
+satu perkataan berwarna; guru perlu menyemaknya. Bukan pemisah automatik sempurna.
+Muzik, bunyi dan gerakan boleh dimatikan. Tetapan kurang gerakan pelayar dihormati.
+Kesesuaian individu perlu diperhatikan guru semasa murid menggunakan aktiviti.
+
+7. GITHUB / NETLIFY
+Ekstrak ZIP. Buka folder joran-minda-kelas.
+Muat naik KANDUNGAN folder ini ke akar repositori GitHub yang disambungkan:
+package.json, package-lock.json, netlify.toml, public/, server/, netlify/, scripts/,
+tests/ dan fail panduan. Gantikan fail dengan nama yang sama. Jangan muat naik
+ZIP sahaja. Jika public/ dan netlify/ berada dalam folder tambahan, binaan tidak
+akan menggunakan tetapan ini. Commit perubahan.
+Netlify: Build = npm run build; Publish directory = public;
+Functions directory = netlify/functions; Node = 22 atau lebih baharu.
+Binaan melalui Git diperlukan untuk fungsi bilik dan penyimpanan Netlify Blobs.
+Netlify Drop untuk fail statik sahaja tidak mencukupi.
+Versi 16 mengekalkan ruang data versi 7. Cipta bilik baharu untuk latihan kendiri.
+Kod tidak memerlukan kunci API daripada murid. Perkhidmatan hosting tertakluk
+pada akaun dan had penggunaan penyedia.
+Selepas deploy, uji satu bilik guru dan satu murid pada dua peranti sebelum PdP.
+Pakej ini telah diuji secara tempatan, belum diterbitkan ke akaun Netlify Nadiah.
+
+UNTUK PEMBANGUN
+npm install
+npm run build
+npm test
+npm run dev
+Jangan muat naik node_modules atau .local-data. Kedua-duanya tidak termasuk ZIP.
+
+8. MOD TANGAN — PILIHAN BAHARU
+Pada giliran pemancing, tekan Cuba Mod Tangan. Benarkan kamera dan ikut
+latihan: halakan jari, rapatkan dua jari, kemudian angkat tangan.
+Latihan tidak menambah mata. Kawalan biasa kekal tersedia.
+Rujuk PANDUAN-MOD-TANGAN.txt untuk langkah penuh dan keperluan kamera.
+
+SEMAKAN V12
+Panduan kamera kini berada di sebelah permainan pada desktop dan di luar
+kawasan watak pada telefon. Ia tidak lagi menutup watak di tepi tasik.
+Penanda Tangan dikesan dan titik jari muncul apabila model membaca tangan.
+Untuk ujian kamera sahaja, buka public/cuba-kamera.html melalui pelayan,
+atau fail joran-minda-kamera-v15.html yang dibekalkan berasingan.
+Latihan kamera ini tidak menyimpan rekod murid atau memberi markah.

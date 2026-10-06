@@ -1,0 +1,22 @@
+window.JoranHelpText={
+ home:'Selamat datang ke Joran Minda. Tekan Mula bermain untuk memulakan pengembaraan. Tekan Cara bermain untuk mendengar panduan. Kamu boleh menukar tema, saiz tulisan dan bunyi dalam Tetapan.',
+ settings:'Pilih tema cerah atau gelap. Besarkan tulisan jika perlu. Kamu boleh memperlahankan suara arahan, melaraskan muzik dan mengubah kekuatan sorakan. Arahan automatik boleh dihidupkan atau dimatikan. Bacaan cerita menggunakan rakaman cikgu.',
+ roles:'Tetapkan empat peranan. Pembaca membaca cerita. Pencari memilih ayat bukti. Pencatat menulis pilihan dan satu sebab. Pemancing menangkap ikan yang dipersetujui. Nama orang yang mendapat giliran akan dipaparkan.',
+ solo:'Dalam latihan sendiri, kamu membaca, mencari bukti, mencatat pilihan dan memancing sendiri. Tidak perlu mengisi nama empat orang. Pilih satu kisah dan mula bermain.',
+ notes:'Pilih satu tindakan watak. Tulis pilihan kamu dan satu sebab. Kata kunci juga boleh. Selepas selesai, tekan Simpan untuk meneruskan giliran pemancing.',
+ bonusNotes:'Fikirkan maksud peribahasa. Tulis jawapan ringkas dalam ruangan catatan. Kemudian, tekan Simpan dan pancing ikan yang membawa maksud yang tepat.',
+ teacher:'Ruang guru digunakan untuk mencipta bilik dalam talian dan melihat rekod murid. Pilih mod kumpulan atau latihan kendiri. Selepas bilik dicipta, kongsi kod bilik dengan murid. Jangan kongsikan kunci guru.',
+ studio:'Pilih cerita dan muka surat. Baca teks yang dipaparkan. Tekan Rakam bacaan, kemudian benarkan mikrofon. Selepas membaca, tekan Henti dan simpan. Dengar semula rakaman. Kamu juga boleh memuat naik rakaman telefon. Untuk murid di rumah, kongsi bacaan dengan bilik aktif.',
+ missingStory:'Rakaman bacaan cikgu belum dimasukkan untuk halaman ini. Minta cikgu merakam bacaan atau membantu kamu membaca cerita.',
+ retry:'Belum tepat. Cuba lagi. Tiada mata ditolak.',
+ correct:'Yeay! Jawapan kamu tepat!',
+ caught:'Yeay! Ikan berjaya dipancing!',
+ bonus:'Yeay! Kamu mendapat lima mata bonus!',
+ complete:'Yeay! Tahniah! Buku cerita kamu sudah siap!',
+ choiceHint:'Tekan Dengar pilihan untuk mendengar jawapan pada ikan. Pilih satu ikan, kemudian tekan Pancing ikan ini. Pilihan cerita kamu akan menentukan sambungan cerita.',
+ reader:'Sekarang giliran pembaca. Baca cerita atau dengar rakaman cikgu. Kemudian, tekan Selesai baca.',
+ finder:'Sekarang giliran pencari bukti. Dengar soalan. Pilih ayat bukti yang sepadan dengan petunjuk.',
+ writer:'Sekarang giliran pencatat. Dengar pendapat ahli kumpulan. Catat satu pilihan dan satu sebab.',
+ fisher:'Sekarang giliran pemancing. Dengar tiga pilihan. Pancing ikan yang telah dipersetujui oleh kumpulan.',
+ review:'Semua ahli menyemak buku. Kamu boleh menyunting tajuk dan ayat. Tekan Simpan sebelum memuat turun buku.'
+};

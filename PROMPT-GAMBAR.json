@@ -1,0 +1,92 @@
+{
+  "mode": "Built-in image generation",
+  "assets": [
+    {
+      "key": "belang-1",
+      "ref": "belang",
+      "scene": "Wide children's story illustration. Hana and Iman arrive on the garden path beside Tok Wan's wooden lakeside house, carrying two storybooks. Grandfather welcomes them at a safe distance from the lake. Their attention turns toward a faint kitten sound near the jetty. No kitten visible yet. Bright morning, generous space around all characters."
+    },
+    {
+      "key": "belang-2",
+      "ref": "belang",
+      "scene": "Wide children's story illustration. Hana points to a small wet brown tabby kitten crouching beside an empty lined wooden chest on the lakeside jetty. Iman stands beside Hana and Tok Wan bends down calmly to help. The kitten is safe, slightly damp, not distressed or injured. Gentle concerned facial expressions."
+    },
+    {
+      "key": "belang-4",
+      "ref": "belang",
+      "scene": "Wide children's story illustration. Under the shade of Tok Wan's wooden veranda, a dry brown tabby kitten rests in an open wooden chest lined with a soft clean towel. Hana kneels beside it while Iman places a small clean water bowl on the floor and Tok Wan watches. Calm caring moment, safe setting away from water."
+    },
+    {
+      "key": "belang-5",
+      "ref": "belang",
+      "scene": "Wide children's story illustration. Happy ending on the sunny wooden veranda: the now dry healthy small brown tabby kitten rubs its head against Hana's hand. Iman and grandfather smile beside her; the clean towel-lined wooden chest is nearby. Warm friendship, all faces and kitten fully visible."
+    },
+    {
+      "key": "belang-cover",
+      "ref": "belang",
+      "scene": "Portrait full-bleed children's storybook cover illustration, no lettering. Hana gently holds a healthy little brown tabby kitten with Iman and Tok Wan smiling beside her. Lush Malaysian lakeside village setting, soft light cream sky in upper quarter leaves clear room for book title to be typeset later. Heartwarming, polished 3D storybook art. Whole faces visible with generous margins."
+    },
+    {
+      "key": "pondok-1",
+      "ref": "pondok",
+      "scene": "Wide single children's story illustration, not a collage. Hana, Iman and Tok Wan approach a small rustic wooden reading hut beside the Malaysian lake. Iman carries a basket. Through the open doorway one can see a simple shelf and a few books on the wooden floor. Curious hopeful expressions, sunny bright morning, whole characters visible."
+    },
+    {
+      "key": "pondok-cover",
+      "ref": "pondok",
+      "scene": "Portrait full-bleed children's storybook cover illustration, one scene, no lettering. Hana, Iman and Tok Wan sit together with a large open picture book in a lovely wooden reading hut decorated with handmade paper fish and flowers. Lake and palm trees in the background. Upper quarter a softly lit pale wall with calm space for a title to be typeset later. All faces fully visible."
+    },
+    {
+      "key": "pokok-1",
+      "ref": "pokok",
+      "scene": "Wide children's story illustration. Hana and Iman walk with Tok Wan into his small lakeside container garden on a safe wooden veranda. Rows of young green plants in pots, a watering can and a blue bucket. They look interested and happy. Bright Malaysian morning, wider establishing shot, whole people visible."
+    },
+    {
+      "key": "pokok-2",
+      "ref": "pokok",
+      "scene": "Wide children's story illustration. A very warm sunny day at Tok Wan's small garden. Hana notices several drooping seedlings in pots. Iman looks into an empty blue watering bucket while grandfather brings a watering can. Concerned but hopeful faces, gentle child-friendly problem scene, no harm to children."
+    },
+    {
+      "key": "pokok-4",
+      "ref": "pokok",
+      "scene": "Wide children's story illustration. In the small garden on Tok Wan's veranda, Hana and Iman cooperate in moving two small potted seedlings into a shaded spot and tidying fallen leaves. Grandfather supervises kindly. A watering can and a blank small garden notebook sit nearby. Clearly different pose and camera angle from the reference. Bright tranquil green surroundings."
+    },
+    {
+      "key": "pokok-5",
+      "ref": "pokok",
+      "scene": "Wide children's story illustration. A few days later the little garden is thriving: upright green seedlings and a few small flowers in pots. Hana, Iman and Tok Wan stand proudly beside the garden smiling at their work. Warm afternoon golden light, Malaysian lake in background, fresh flourishing plants, whole faces visible."
+    },
+    {
+      "key": "pokok-cover",
+      "ref": "pokok",
+      "scene": "Portrait full-bleed children's storybook cover illustration, no lettering. Hana with a watering can, Iman holding a potted young plant, and smiling grandfather Tok Wan in a flourishing little garden beside a Malaysian lake. Top quarter soft light cream sky leaves clear space for title to be typeset later. Vibrant gentle green, turquoise and warm golden palette, full faces and plant visible."
+    },
+    {
+      "key": "sihat-cover",
+      "ref": "sihat0",
+      "scene": "Portrait full-bleed children's storybook cover illustration, no lettering. Hana, Iman and Tok Wan sit around a clean picnic mat with a covered food container, sliced fruit and bottles of plain water, beside a bright Malaysian lake. A handwashing tap is subtly visible behind them. Happy healthy picnic. Top quarter soft light cream sky for title to be typeset later, all faces fully visible."
+    }
+  ],
+  "saved_asset_paths": [
+    "public/assets/belang-1.webp",
+    "public/assets/belang-2.webp",
+    "public/assets/belang-4.webp",
+    "public/assets/belang-5.webp",
+    "public/assets/belang-cover.webp",
+    "public/assets/pondok-1.webp",
+    "public/assets/pondok-cover.webp",
+    "public/assets/pokok-1.webp",
+    "public/assets/pokok-2.webp",
+    "public/assets/pokok-4.webp",
+    "public/assets/pokok-5.webp",
+    "public/assets/pokok-cover.webp",
+    "public/assets/sihat-cover.webp"
+  ],
+  "shared_prompt": "Generate one new illustration-story asset using the supplied reference for consistent character design and rendering quality. Hana aged 9: lavender hijab, turquoise long tunic, cream trousers. Iman aged 9: round spectacles, tousled dark hair, orange shirt, navy trousers. Tok Wan: white moustache and short white beard, straw hat, olive green shirt, tan trousers. All characters equally polished expressive 3D storybook quality. Bright inclusive palette. No words, logos, watermarks, panels or borders. Keep important faces in central safe area.",
+  "reference_assets": {
+    "belang": "public/assets/belang-3.webp",
+    "pondok": "public/assets/pondok-2.webp through pondok-5.webp (existing sheet frames)",
+    "pokok": "public/assets/pokok-3.webp",
+    "sihat0": "public/assets/sihat-1.webp"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-10-05",
+  "asset_prompts": [
+    {
+      "key": "lake-hd",
+      "ref": "lake",
+      "prompt": "Enhance this exact illustration into a sharp high-definition 2048 by 1366 landscape game background. Preserve the cheerful turquoise lake, above-and-below-water composition, jetty and three characters in the top left, proportions, clothes and faces, all objects and Malaysian scenery. Restore fine clean detail in plants, wood, water caustics and distant houses. No text, no new fish, no layout changes. Bright inclusive primary-school game art. This is a quality enhancement, not a new composition.",
+      "alpha": false
+    },
+    {
+      "key": "fish-blue",
+      "ref": "fish-v7",
+      "prompt": "Create a second distinct fish species sprite matching the polished friendly 3D rendering quality of this reference. ONE full-body blue-and-silver freshwater fish with a rounded shorter tilapia-like body, graceful blue dorsal fin, light creamy silver broad central flank for later HTML text, kind large eye, closed smiling mouth. Horizontal side profile facing RIGHT, whole fish and tail visible, transparent background, no text, no hook, no scene. Make its anatomy visibly different from the reference golden carp, not merely a recolor. Crisp high resolution 1800 by 900.",
+      "alpha": true
+    },
+    {
+      "key": "fish-orange",
+      "ref": "fish-v7",
+      "prompt": "Create a third distinct fish species sprite matching the polished friendly 3D rendering quality of this reference. ONE full-body coral-orange and cream ornamental freshwater fish, broad oval body with an elegant flowing double fan tail, rounded fins, pale cream central flank for later HTML text, kind big eye and small closed smiling mouth. Side profile facing RIGHT, horizontal 2:1 framing, entire tail and fins visible. Anatomically different from the reference carp. Truly transparent background, no scene, no text, no hook, no shadows behind fish. Crisp high definition 1800 by 900.",
+      "alpha": true
+    }
+  ],
+  "story_enhancement_prompt": "Enhance this exact children's storybook illustration to crisp high definition, landscape 1536x1024. Preserve the same three characters’ identities, purple hijab/turquoise clothes, orange shirt and glasses, grandfather straw hat and olive shirt, actions, positions, objects and setting. Reconstruct fine clean texture, faces and hands. Preserve cheerful daylight composition. No text, logos, new characters or event changes. Inclusive Malay Year 3 storybook.",
+  "enhanced_story_pages": [
+    "belang-3",
+    "pokok-3",
+    "pondok-2",
+    "pondok-3",
+    "pondok-4",
+    "pondok-5",
+    "sihat-1",
+    "sihat-2",
+    "sihat-3",
+    "sihat-4",
+    "sihat-5"
+  ],
+  "notes": "Output lake/story illustrations 1536x1024. Three fish sprites 1774x887. Existing gold fish original reused at full resolution. WebP conversion retained output pixel dimensions."
+}

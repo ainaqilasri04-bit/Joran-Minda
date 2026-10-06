@@ -1,0 +1,11 @@
+HAND TRACKING KAMERA — V15
+
+Gerakkan tangan sebenar di hadapan kamera untuk memilih jawapan.
+Halakan jari telunjuk, rapatkan ibu jari dan jari telunjuk, kemudian angkat.
+Bayang tangan telah dibuang. Paparan permainan menggunakan sasaran kecil.
+Titik sendi hanya kelihatan dalam kotak kamera untuk membantu pengesanan.
+Rujuk PANDUAN-MOD-TANGAN.txt. Halaman latihan: public/cuba-kamera.html.
+Kawalan sentuh/tetikus/papan kekunci kekal tersedia sebagai pilihan tambahan.
+
+V15 membuka kamera sebelum pengesan. Pengesan dibundel dalam fail HTML
+tunggal supaya fungsi kamera tidak bergantung pada muat turun CDN.

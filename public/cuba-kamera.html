@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ms"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cuba Kamera — Joran Minda</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap');
+body{margin:0;background:#fff8e9;color:#174d91;font-family:Andika,sans-serif;font-size:18px;line-height:1.6}*{box-sizing:border-box}#jm15{max-width:1120px;margin:auto;padding:20px}h1{color:#174d91;margin:0;font-size:32px}p{margin:8px 0 14px}button{font:inherit;cursor:pointer}button:disabled{opacity:.6;cursor:default}.jm-primary,.jm-secondary{border:0;border-radius:13px;min-height:48px;padding:12px 18px;line-height:1.4}.jm-primary{background:#17688c;color:#fff8e9}.jm-secondary{background:#d6ebe1;color:#174d91}.jm-small{font-size:16px}.jm-stage{position:relative;isolation:isolate;height:750px;overflow:hidden;border-radius:18px;background:#a8e1ec}.jm-trial-lake{position:absolute;width:100%;height:auto;left:0;top:0;z-index:-2}.jm-trial-water{position:absolute;inset:42% 0 0;background:linear-gradient(#b6ecf1dc,#87d5e7ee);z-index:-1}.jm-fish{position:absolute;width:250px;height:125px;background:transparent;border:0;padding:0;animation:trial-swim 7s ease-in-out infinite alternate;transition:top .8s,left .8s;z-index:2}.jm-fish img{width:100%;height:100%;object-fit:contain}.jm-fish-label{position:absolute;top:36%;left:25%;width:50%;padding:6px 2px;border-radius:14px;background:#fff8df;color:#174d91;font-size:17px;line-height:1.35}.jm-fish:nth-child(1){left:calc(55% - 125px);top:43%}.jm-fish:nth-child(2){left:calc(38% - 125px);top:61%;animation-delay:-2s}.jm-fish:nth-child(3){left:calc(53% - 125px);top:79%;animation-delay:-4s}.jm-fish[aria-pressed=true]{animation-play-state:paused}.jm-fish[aria-pressed=true] .jm-fish-label{outline:3px solid #174da0}.jm-fish.jm-lifted{top:23%!important;left:calc(50% - 125px)!important;animation:none}.jm-trial-footer{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:18px 0}.jm-red{color:#b0202c}.jm-blue{color:#174da0}@keyframes trial-swim{from{translate:-8px 0}to{translate:8px -3px}}@media(max-width:850px){.jm-trial-lake{width:150%;max-width:none}}@media(max-width:500px){#jm15{padding:12px}.jm-fish{width:240px;height:120px}.jm-fish:nth-child(n){left:calc(50% - 120px)}.jm-trial-lake{width:200%}h1{font-size:27px}}@media(prefers-reduced-motion:reduce){.jm-fish{animation:none;transition:none}}
+#jm15 .jm-hand-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:#e4f7ed;border:2px solid #86baa3;border-radius:20px;padding:16px;margin:16px 0;color:#174d91}
+#jm15 .jm-hand-toolbar strong,#jm15 .jm-hand-toolbar span{display:block}
+#jm15 .jm-hand-toolbar span{font-size:calc(14px * var(--jm-text-scale));margin-top:4px}
+#jm15 .jm-hand-panel{border:2px solid #82b9c3;border-radius:20px;background:#fff9e9;padding:20px;margin-bottom:16px;color:#174d91}
+#jm15 .jm-hand-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+#jm15 .jm-hand-heading h3{margin:0;font-size:calc(23px * var(--jm-text-scale))}
+#jm15 .jm-hand-steps{display:grid;grid-template-columns:repeat(3,1fr);list-style:none;padding:0;gap:10px;margin:16px 0}
+#jm15 .jm-hand-steps li{border:1px solid #badacf;border-radius:14px;padding:13px;background:#eff9f3}
+#jm15 .jm-hand-steps b,#jm15 .jm-hand-steps span{display:block}
+#jm15 .jm-hand-steps b{font-size:calc(17px * var(--jm-text-scale))}
+#jm15 .jm-hand-steps span{font-size:calc(15px * var(--jm-text-scale));line-height:1.5;margin-top:6px}
+#jm15 .jm-hand-options,#jm15 .jm-hand-buttons{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0}
+#jm15 .jm-hand-options label{display:flex;align-items:center;gap:8px;line-height:1.4;font-size:calc(16px * var(--jm-text-scale))}
+#jm15 .jm-hand-options input{width:22px;height:22px;accent-color:#14658a}
+#jm15 .jm-hand-status{background:#e8f2fd;padding:12px;border-radius:12px;margin:12px 0 0;font-size:calc(16px * var(--jm-text-scale));line-height:1.6;min-height:48px}
+#jm15 .jm-hand-camera{position:absolute;top:62px;right:16px;width:160px;border:3px solid #fff4ca;background:#e5f2f9;border-radius:14px;overflow:hidden;z-index:16;color:#174d91}
+#jm15 .jm-hand-camera video{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+#jm15 .jm-hand-camera span{display:block;text-align:center;font-size:11px;line-height:1.3;padding:4px;background:#fff9e9}
+#jm15 .jm-hand-live{display:none;position:absolute;left:14px;right:192px;top:72px;z-index:26;background:#fff9ebf5;color:#174d91;border:2px solid #82b9c3;border-radius:14px;padding:12px;font-size:calc(16px * var(--jm-text-scale));line-height:1.4}
+#jm15 .jm-hand-active .jm-hand-live{display:block}
+#jm15 .jm-hand-live p{margin:0 0 7px}
+#jm15 .jm-hand-live progress{display:block;width:100%;height:10px;margin:8px 0;accent-color:#167555}
+#jm15 .jm-hand-live>div{display:flex;flex-wrap:wrap;gap:5px}
+#jm15 .jm-hand-live button{font-size:14px!important;padding:9px 12px!important;min-height:40px;line-height:1.3}
+#jm15 .jm-hand-cursor{position:absolute;z-index:30;transform:translate(-50%,-50%);width:46px;height:46px;border:4px solid #bd243c;border-radius:50%;box-shadow:0 0 0 3px #fff6dc;pointer-events:none;background:#fff9df55;color:#174d91;display:grid;place-items:center}
+#jm15 .jm-hand-cursor span{font-size:29px;line-height:1}
+#jm15 .jm-hand-cursor[data-gesture=pinch],#jm15 .jm-hand-cursor[data-gesture=lift]{border-color:#176aac;background:#fff3a799}
+#jm15 .jm-hand-target{outline:4px dashed #b91f40!important;outline-offset:4px;border-radius:30px}
+#jm15 .jm-hand-practice{position:absolute;z-index:20;top:42%;bottom:0;left:0;right:0;background:linear-gradient(#d3f0f3,#b5e5ec);display:flex;align-items:center;justify-content:center;flex-direction:column;padding:20px;text-align:center;color:#174d91}
+#jm15 .jm-hand-practice h4{font-size:calc(20px * var(--jm-text-scale));margin:0 0 15px}
+#jm15 .jm-hand-practice p{font-size:calc(17px * var(--jm-text-scale));line-height:1.5;max-width:440px;margin:12px 0}
+#jm15 .jm-hand-practice-fish{position:relative;width:min(280px,90%);height:140px}
+#jm15 .jm-hand-practice-fish img{display:block;width:100%;height:100%;object-fit:contain}
+#jm15 .jm-hand-practice-fish span{position:absolute;top:40%;left:30%;background:#fff8df;color:#174d91;padding:5px 12px;border-radius:14px;font-size:20px}
+#jm15[data-theme=dark] :is(.jm-hand-toolbar,.jm-hand-panel,.jm-hand-steps li,.jm-hand-status){background:#213e4c;color:#ecf6ff;border-color:#82b9c3}
+#jm15 [hidden]{display:none!important}
+@media(max-width:700px){#jm15 .jm-hand-steps{grid-template-columns:1fr}#jm15 .jm-hand-panel{padding:15px}#jm15 .jm-hand-camera{width:100px;right:12px;top:62px}#jm15 .jm-hand-camera span{font-size:9px}#jm15 .jm-hand-live{top:175px;left:10px;right:10px;padding:8px;font-size:14px}#jm15 .jm-hand-live button{font-size:14px!important;padding:7px 8px!important;min-height:40px}#jm15 .jm-hand-live progress{height:7px;margin:4px 0}#jm15 .jm-hand-practice{padding:15px}}
+
+#jm15 .jm-camera-layout{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:16px;align-items:start}
+#jm15 .jm-hand-monitor{padding:14px;background:#e7f5ed;border:1px solid #9cc4b7;border-radius:18px;min-width:0}
+#jm15 .jm-hand-camera{position:relative;top:auto;right:auto;width:100%;border:0;border-radius:12px;margin:0 0 12px;z-index:auto;background:#d2ebe4}
+#jm15 .jm-camera-picture{position:relative;aspect-ratio:4/3}
+#jm15 .jm-camera-picture video{height:100%;width:100%;object-fit:fill}
+#jm15 .jm-camera-picture canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+#jm15 .jm-hand-camera span{font-size:13px;padding:7px;background:#e7f5ed}
+#jm15 .jm-hand-live{position:static;display:block;max-width:none;inset:auto;border:0;border-radius:0;background:transparent;padding:0;z-index:auto}
+#jm15 .jm-hand-live button{font-size:16px!important;min-height:44px;padding:10px!important}
+#jm15 .jm-hand-live>div{gap:8px;display:flex;flex-direction:column}
+#jm15 .jm-hand-indicator{display:block;padding:7px 10px;background:#d6ecdf;color:#174d91;border-radius:9px;margin-bottom:12px;font-size:15px}
+#jm15[data-theme=dark] .jm-hand-monitor,#jm15[data-theme=dark] .jm-hand-camera span{background:#213e4c;color:#ecf6ff}
+#jm15[data-theme=dark] .jm-hand-live{color:#ecf6ff}
+@media(max-width:850px){#jm15 .jm-camera-layout{grid-template-columns:1fr}#jm15 .jm-hand-monitor{order:-1;display:grid;grid-template-columns:120px minmax(0,1fr);gap:12px;padding:12px}#jm15 .jm-hand-camera{margin:0}#jm15 .jm-hand-live{font-size:16px}#jm15 .jm-hand-live button{font-size:14px!important;padding:8px!important}#jm15 .jm-hand-live>div{flex-direction:row;flex-wrap:wrap}#jm15 .jm-hand-indicator{grid-column:1/-1;margin:0}#jm15 .jm-hand-camera span{font-size:12px}}
+@media(max-width:420px){#jm15 .jm-hand-monitor{grid-template-columns:1fr}#jm15 .jm-hand-camera{max-width:180px;margin:auto}#jm15 .jm-hand-live>div{display:grid;grid-template-columns:1fr 1fr}}
+
+/* A small fingertip target keeps the answers and characters visible. */
+#jm15 .jm-hand-cursor{width:22px;height:22px;border:3px solid #b51e37;background:#ffdd6955;box-shadow:0 0 0 2px #ffe795}
+#jm15 .jm-hand-cursor[data-gesture=pinch],#jm15 .jm-hand-cursor[data-gesture=selected],#jm15 .jm-hand-cursor[data-gesture=lift]{border-color:#673298;background:#d4bdff66}
+#jm15 .jm-camera-phases{list-style:none;margin:12px 0;padding:0;display:grid;gap:8px;font-size:16px;color:#174d91}
+#jm15 .jm-camera-phases li{border-left:5px solid #9baeb6;background:#eef3f5;border-radius:8px;padding:8px 12px}
+#jm15 .jm-camera-phases [data-state=ok]{border-color:#247f65;background:#def3e6}
+#jm15 .jm-camera-phases [data-state=waiting]{border-color:#a27213;background:#fff0c7}
+#jm15 .jm-camera-phases [data-state=error]{border-color:#b52841;background:#ffe5e8}
+#jm15 .jm-camera-help{margin-top:12px;font-size:16px;line-height:1.6}
+#jm15 .jm-camera-help summary{cursor:pointer;min-height:44px;padding:8px;font-weight:bold}
+#jm15[data-theme=dark] .jm-camera-phases li{background:#213e4c;color:#ecf6ff}
+
+</style></head><body><main id="jm15">
+<h1>Joran Minda · Hand Tracking</h1><p>Buka kamera. Gerakkan tangan, pilih ikan dan angkat jawapan kamu.</p>
+<div class="jm-hand-toolbar">
+ <div><strong>Memancing dengan gerakan tangan</strong><span>Kamera mengesan tangan kamu · kiri atau kanan</span></div>
+ <button type="button" class="jm-secondary" id="jm-hand-open" aria-expanded="false" aria-controls="jm-hand-panel">✋ Buka panduan kamera</button>
+</div>
+<section class="jm-hand-panel" id="jm-hand-panel" aria-label="Kawalan tangan" hidden>
+ <div class="jm-hand-heading"><h3>Gerakkan tangan untuk mengambil jawapan!</h3><button type="button" class="jm-secondary" id="jm-hand-hear">Dengar panduan</button></div>
+ <p>Angkat satu tangan di hadapan kamera sehingga seluruh tangan kelihatan dalam kotak kamera.</p>
+ <ol class="jm-hand-steps"><li><b>1. Tunjukkan tangan</b><span>Halakan jari telunjuk supaya sasaran berada pada ikan.</span></li><li><b>2. Rapatkan dua jari</b><span>Rapatkan ibu jari dan jari telunjuk untuk memilih ikan.</span></li><li><b>3. Angkat tangan</b><span>Tarik ikan pilihan kamu ke atas.</span></li></ol>
+ <p class="jm-small">Kamera hanya aktif selepas kamu membenarkannya. Imej diproses pada peranti ini; tiada video dirakam atau dihantar. Mikrofon tidak digunakan.</p>
+ <div class="jm-hand-options"><label><input type="checkbox" id="jm-hand-easy" checked> Gerakan kecil dan sasaran besar</label><label><input type="checkbox" id="jm-hand-mirror" checked> Paparan cermin</label></div>
+ <div class="jm-hand-buttons"><button type="button" class="jm-primary" id="jm-hand-start">Buka kamera · Cuba latihan</button><button type="button" class="jm-secondary" id="jm-hand-practise-again">Latihan tanpa markah</button><button type="button" class="jm-secondary" id="jm-hand-stop" hidden>Tutup kamera</button></div>
+ <p id="jm-hand-status" class="jm-hand-status" role="status" tabindex="-1">Kamera belum dibuka. Kamu boleh mencuba latihan atau menggunakan butang pancing biasa.</p>
+ <ol class="jm-camera-phases" aria-label="Semakan kamera"><li data-camera-phase="camera" data-state="idle">1. Kamera: belum dibuka</li><li data-camera-phase="video" data-state="idle">2. Paparan video: belum tersedia</li><li data-camera-phase="detector" data-state="idle">3. Pengesan tangan: belum dimulakan</li></ol>
+ <details class="jm-camera-help"><summary>Kamera tidak muncul?</summary><p>Muat turun fail HTML ini, kemudian buka terus dalam Chrome. Tekan Buka kamera dan pilih Benarkan / Allow.</p><p>Jika pernah disekat, buka tetapan laman Chrome dan tukar Kamera kepada Benarkan. Semak juga izin kamera komputer dan tutup aplikasi lain yang menggunakan kamera.</p><p>Jika masih gagal, hantar gambar mesej serta tiga baris semakan kamera di atas kepada guru.</p></details>
+</section>
+
+<div id="jm-hand-layout"><div id="jm-stage" class="jm-stage" role="group" aria-label="Kawasan latihan memancing">
+<img class="jm-trial-lake" src="assets/lake.webp" alt="Hana, Iman dan Tok Wan di tepi tasik"><div class="jm-trial-water"></div>
+<div id="jm-fishes">
+<button class="jm-fish" type="button" data-choice="2" aria-label="Pilih buah dan roti" aria-pressed="false"><img src="assets/fish-v7.webp" alt="Ikan emas"><span class="jm-fish-label"><span class="jm-red">Bu</span><span class="jm-blue">ah</span> <span class="jm-red">dan ro</span><span class="jm-blue">ti</span></span></button>
+<button class="jm-fish" type="button" data-choice="0" aria-label="Pilih buah segar" aria-pressed="false"><img src="assets/fish-blue.webp" alt="Ikan biru"><span class="jm-fish-label"><span class="jm-red">Bu</span><span class="jm-blue">ah</span> <span class="jm-red">se</span><span class="jm-blue">gar</span></span></button>
+<button class="jm-fish" type="button" data-choice="1" aria-label="Pilih roti berinti" aria-pressed="false"><img src="assets/fish-orange.webp" alt="Ikan jingga"><span class="jm-fish-label"><span class="jm-red">Ro</span><span class="jm-blue">ti</span> <span class="jm-red">be</span><span class="jm-blue">rin</span><span class="jm-red">ti</span></span></button>
+</div>
+<div class="jm-hand-practice" id="jm-hand-practice" hidden><h4>Latihan sahaja · tiada mata</h4><div class="jm-hand-practice-fish" id="jm-hand-practice-fish"><img data-hand-practice-image alt="Ikan latihan biru"><span>Mari cuba</span></div><p id="jm-hand-practice-result">Cuba tangkap ikan latihan. Tiada markah diberikan.</p></div>
+<div class="jm-hand-cursor" id="jm-hand-cursor" hidden aria-hidden="true"><span></span></div>
+
+</div><aside class="jm-hand-monitor" id="jm-hand-monitor" hidden><span id="jm-hand-detected" class="jm-hand-indicator" role="status">Kamera belum dibuka</span><div class="jm-hand-camera" id="jm-hand-camera" hidden><div class="jm-camera-picture"><video id="jm-hand-video" muted playsinline aria-label="Paparan kamera sendiri"></video><canvas id="jm-hand-landmarks" width="640" height="480" aria-hidden="true"></canvas></div><span>● Kamera aktif · peranti ini sahaja</span></div>
+<div class="jm-hand-live"><p id="jm-hand-live-status">Halakan jari kepada ikan.</p><progress id="jm-hand-progress" max="1" value="0" aria-label="Kemajuan gerakan tangan"></progress><div><button type="button" class="jm-secondary" id="jm-hand-reset" hidden>Pilih semula</button><button type="button" class="jm-secondary" id="jm-hand-play" hidden>Langkau latihan</button><button type="button" class="jm-secondary" id="jm-hand-quick-stop">Tutup kamera</button></div></div>
+</aside></div>
+<div class="jm-trial-footer"><button id="jm-cast" class="jm-primary" type="button" disabled>Pancing ikan pilihan</button><p id="jm-trial-result" role="status">Buka kamera untuk menguji tangan sebenar, atau pilih ikan dengan sentuhan.</p></div>
+<p class="jm-small">Jika kamera tidak dibenarkan dalam pratonton, muat turun fail ini dan buka terus dalam Chrome. Pengesan tangan disertakan dalam fail ini. Tiada muat turun pengesan berasingan diperlukan.</p>
+</main><script src="hand-control.js"></script><script>
+(function(){const root=document.getElementById('jm15'),q=s=>root.querySelector(s),fish=Array.from(root.querySelectorAll('.jm-fish'));let selected=-1,busy=false;
+q('[data-hand-practice-image]').src='assets/fish-blue.webp';
+function clear(){selected=-1;fish.forEach(f=>{f.setAttribute('aria-pressed','false');f.classList.remove('jm-lifted');});q('#jm-cast').disabled=true;}
+function choose(i){if(busy)return;clear();selected=i;fish[i].setAttribute('aria-pressed','true');q('#jm-cast').disabled=false;}
+fish.forEach((f,i)=>f.onclick=()=>choose(i));
+q('#jm-cast').onclick=()=>{if(busy||selected<0)return;busy=true;fish[selected].classList.add('jm-lifted');q('#jm-trial-result').textContent='Tahniah! Ikan pilihan berjaya dipancing. Ini latihan sahaja.';q('#jm-cast').disabled=true;setTimeout(()=>{busy=false;clear();},1200);};
+function speak(text){q('#jm-hand-status').textContent=text;const voice=window.speechSynthesis?.getVoices().find(v=>/^ms[-_]MY$/i.test(v.lang));if(!voice)return;window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.voice=voice;u.lang='ms-MY';u.rate=.85;window.speechSynthesis.speak(u);}
+window.JoranHand.mount({root,canUse:()=>!busy,context:()=> 'camera-trial',choose,selection:()=>selected,clearSelection:clear,cast:()=>q('#jm-cast').click(),speak});
+q('#jm-hand-panel').hidden=false;q('#jm-hand-open').setAttribute('aria-expanded','true');
+})();
+</script></body></html>
