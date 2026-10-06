@@ -1,0 +1,18 @@
+{
+  "version": 20,
+  "newGenericDirections": 10,
+  "newGenericVoice": "ms-MY-YasminNeural",
+  "newGenericRate": "-3%",
+  "sourceQuestionAudio": "existing packaged Malaysian Malay recordings; processed locally only",
+  "existingTempoAdjustment": 1.07777778,
+  "normalization": "-20 LUFS, -3 dBTP, short boundary fades",
+  "spriteBitrate": "80 kbit/s MP3 mono 24 kHz",
+  "clipCount": 152,
+  "humanPronunciationReview": false,
+  "cheerUse": "User supplied Children Yay! Sound Effect.mp3. Included excerpt starting at 1.24 seconds, lasting 2.6 seconds, loudness target -24 LUFS / -5 dBTP, 30 ms fade in and 250 ms fade out. Original playback speed and pitch preserved.",
+  "cheerRequestedSource": "https://www.youtube.com/watch?v=attUrDwfdr8",
+  "cheerRequestedTitle": "Children Yay! Sound Effect",
+  "cheerSourceFile": "Children Yay! Sound Effect.mp3",
+  "cheerSourceSha256": "949820afa5c9119bc5a3323387a1e58775e2636e14a4d69d2544d84fb7049b73",
+  "cheerOutputSha256": "870f00d09c31732c39ecf3758ff3c9acc7da269960774e1edd1ff1b969edca03"
+}
