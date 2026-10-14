@@ -1,0 +1,21 @@
+#jm19 .jm-task-table{width:100%;border-collapse:collapse;font-size:clamp(15px,1.5vw,19px);margin:14px 0;text-align:left}
+#jm19 .jm-task-table th,#jm19 .jm-task-table td{padding:10px;border-bottom:1px solid #93b5ae}
+#jm19 .jm-task-table th{font-weight:800}
+#jm19 #jm-score-breakdown{width:100%}#jm19 #jm-score-breakdown summary{font-size:18px;padding:8px 0;color:inherit}
+#jm19 #jm-score-breakdown p{color:inherit;font-size:16px}#jm19 #jm-score-table{overflow-x:auto}
+#jm19 #jm-finish-learning{padding:clamp(18px,3vw,32px);margin:28px 0;background:#edf7ed;border:3px solid #29755d;border-radius:22px}
+#jm19 #jm-finish-learning h3{font-size:30px;margin:0 0 12px}#jm19 #jm-finish-learning textarea{min-height:110px}
+#jm19 #jm-certificate-lock{padding:16px;background:#fff6d8;border-radius:12px;font-weight:700}
+#jm19 #jm-room-history{padding:16px;border:1px solid #aac3b4;border-radius:14px;margin:12px 0}
+#jm19 .jm-record-select{display:flex;align-items:center;gap:12px}#jm19 .jm-record-select input{width:28px;height:28px;flex-shrink:0}
+#jm19 #jm-report-tools{padding:14px 0}#jm19 #jm-report-archive{margin:20px 0;border:1px solid #aac3b4;padding:14px;border-radius:12px}
+#jm19 #jm-report-archive button{margin-left:16px}#jm19 #jm-share-all-audio{margin-top:12px}
+#jm19 #jm-version{color:#fff;text-shadow:0 1px 3px #073c46;font-size:14px}
+#jm19[data-theme=dark] #jm-finish-learning{background:#153d36;color:#f4fff5}
+#jm19[data-theme=dark] #jm-certificate-lock{background:#504320;color:#fff9df}
+#jm19 button:focus-visible,#jm19 input:focus-visible,#jm19 textarea:focus-visible,#jm19 select:focus-visible,#jm19 summary:focus-visible{outline:4px solid #eaa600!important;outline-offset:4px!important}
+#jm19 button,#jm19 summary{min-height:44px}#jm19 [hidden]{display:none!important}
+#jm19.jm-large-cursor,#jm19.jm-large-cursor *{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='56' viewBox='0 0 48 56'%3E%3Cpath d='M5 3L5 43L16 33L24 51L33 47L25 29L40 28Z' fill='%23ffe878' stroke='%23163843' stroke-width='3'/%3E%3C/svg%3E") 5 3,auto!important}
+#jm19.jm-large-cursor button,#jm19.jm-large-cursor summary,#jm19.jm-large-cursor a{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='56' viewBox='0 0 48 56'%3E%3Cpath d='M5 3L5 43L16 33L24 51L33 47L25 29L40 28Z' fill='%2366f0ca' stroke='%23163843' stroke-width='3'/%3E%3C/svg%3E") 5 3,pointer!important}
+#jm19.jm-large-cursor textarea,#jm19.jm-large-cursor input[type=text]{cursor:text!important}
+@media(max-width:600px){#jm19 .jm-task-table th,#jm19 .jm-task-table td{padding:8px 5px}#jm19 #jm-finish-learning h3{font-size:25px}}

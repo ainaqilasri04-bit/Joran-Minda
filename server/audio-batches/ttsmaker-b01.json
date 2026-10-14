@@ -1,0 +1,120 @@
+{
+  "batch": "ttsmaker-b01",
+  "clips": [
+    {
+      "id": "3dc608c87b8a522a8f57",
+      "text": "Ayat telah dipilih. Sekarang, pilih nilai murni.",
+      "category": "Arahan",
+      "story": "",
+      "order": 1,
+      "start": 0,
+      "end": 4.80796,
+      "duration": 4.872,
+      "file": "3dc608c87b8a522a8f57.mp3"
+    },
+    {
+      "id": "3572bd2e7d5abf062b46",
+      "text": "Cari ayat yang menunjukkan perbuatan watak.",
+      "category": "Arahan",
+      "story": "",
+      "order": 2,
+      "start": 7.602,
+      "end": 10.7247,
+      "duration": 3.192,
+      "file": "3572bd2e7d5abf062b46.mp3"
+    },
+    {
+      "id": "cc2b3f268538bdf384e2",
+      "text": "Tahniah! Tiga nilai telah dikenal pasti.",
+      "category": "Arahan",
+      "story": "",
+      "order": 3,
+      "start": 13.5301,
+      "end": 17.8781,
+      "duration": 4.416,
+      "file": "cc2b3f268538bdf384e2.mp3"
+    },
+    {
+      "id": "0094408ca7757359df06",
+      "text": "Mari lihat penerangan yang tepat.",
+      "category": "Arahan",
+      "story": "",
+      "order": 4,
+      "start": 20.6852,
+      "end": 23.0836,
+      "duration": 2.448,
+      "file": "0094408ca7757359df06.mp3"
+    },
+    {
+      "id": "286c9cf899c0a1d55bf7",
+      "text": "Idea dan sebab kamu telah disimpan.",
+      "category": "Arahan",
+      "story": "",
+      "order": 5,
+      "start": 25.9129,
+      "end": 28.5335,
+      "duration": 2.688,
+      "file": "286c9cf899c0a1d55bf7.mp3"
+    },
+    {
+      "id": "d260d7c9dd577bacb7bd",
+      "text": "Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Arahan",
+      "story": "",
+      "order": 6,
+      "start": 31.3433,
+      "end": 35.9321,
+      "duration": 4.656,
+      "file": "d260d7c9dd577bacb7bd.mp3"
+    },
+    {
+      "id": "6b1a62fc7b866a7b2081",
+      "text": "Mata untuk tugasan lengkap. Setiap pilihan yang kurang tepat ditolak 2 mata daripada fasa berkenaan; mata fasa paling rendah ialah 0. Ketepatan ayat berpandu dinilai serta-merta.",
+      "category": "Arahan",
+      "story": "",
+      "order": 7,
+      "start": 38.7321,
+      "end": 52.5145,
+      "duration": 13.848,
+      "file": "6b1a62fc7b866a7b2081.mp3"
+    },
+    {
+      "id": "4595912c4fef09a7fd64",
+      "text": "Baca petunjuk yang diberikan. Kemudian, pilih ayat yang menunjukkan perbuatan baik watak.",
+      "category": "Arahan",
+      "story": "",
+      "order": 8,
+      "start": 55.3402,
+      "end": 62.7019,
+      "duration": 7.416,
+      "file": "4595912c4fef09a7fd64.mp3"
+    },
+    {
+      "id": "160be1020e8997a4d178",
+      "text": "Semak tugasan, mata dan pencapaian kamu. Sijil dibuka selepas semua aktiviti selesai.",
+      "category": "Arahan",
+      "story": "",
+      "order": 9,
+      "start": 65.5168,
+      "end": 73.0588,
+      "duration": 7.608,
+      "file": "160be1020e8997a4d178.mp3"
+    },
+    {
+      "id": "ff0f9a920cd5ad58e772",
+      "text": "Nyatakan satu nilai murni dan cara kamu akan mengamalkannya. Kemudian, simpan refleksi.",
+      "category": "Arahan",
+      "story": "",
+      "order": 10,
+      "start": 75.8602,
+      "end": 83.424,
+      "duration": 7.584,
+      "file": "ff0f9a920cd5ad58e772.mp3"
+    }
+  ],
+  "sourceFile": "ttsmaker-file-2026-10-14-14-7-54.mp3",
+  "sourceSha256": "7194a66587b097ca8352e32b2773e0fc6397852ec529f2865f744790afb40b63",
+  "sourceDuration": 83.424,
+  "separatorCount": 9,
+  "spokenContentReviewed": false
+}

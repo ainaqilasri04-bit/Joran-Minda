@@ -1,21 +1,40 @@
-SUARA BAHASA MELAYU — VERSI 20
+JORAN MINDA V33 — SEMUA SUARA AI DALAM KATALOG
 
-10 arahan umum baharu menggunakan Bahasa Melayu standard, suara ms-MY-YasminNeural, tempo -3%.
-Soalan dan pilihan sedia ada diproses secara tempatan sahaja: tempo lebih semula jadi, kelantangan -20 LUFS, dan permulaan serta penghujung yang dilembutkan.
-152 padanan audio keseluruhan. Fail suara-standard-v19.mp3 menggabungkan rakaman dengan penanda masa; manifest.js memilih bahagian yang tepat.
+SUARA YANG TERSEDIA
+Semua 528 teks katalog mempunyai fail audio: 152 klip asal, 10 arahan daripada fail TTSMaker pengguna dan 366 klip Melayu baharu menggunakan ms-MY-YasminNeural. Arahan, maklum balas, soalan, pilihan jawapan dan tahniah boleh didengar tanpa suara Melayu peranti. Fail baharu diperiksa melalui tempoh, penyahkodan dan padanan metadata teks pembekal. Sebutan dan intonasi belum disemak oleh manusia. Bunyi klik dan Yay dikekalkan.
 
-Bacaan cerita menggunakan rakaman Guru. Tiada rakaman Guru disertakan sebelum dimuat naik atau dirakam sendiri.
-Kelajuan arahan boleh ditukar kepada Perlahan, Sederhana atau Semula jadi.
-Muzik dimatikan secara lalai. Jika dihidupkan: 12% pada permulaan, maksimum 30%, dan berhenti semasa suara atau rakaman dimainkan.
-Sorakan awal 40%. Hanya satu saluran pertuturan atau sorakan dimainkan pada satu masa.
+MASUKKAN SEMUA BAKI AUDIO SEKALI GUS
+Untuk laman V33 sedia ada yang mempunyai 152 klip asal:
+1. Buka Studio semua suara.
+2. Buka Simpan suara untuk website dan salinan sandaran.
+3. Di bawah Pulihkan sandaran semua suara, tekan Choose File / Pilih fail.
+4. Pilih Suara-Joran-Minda-Lengkap.json sekali sahaja. Jangan ekstrak fail JSON.
+5. Tunggu mesej 376 rakaman dipulihkan. Rakaman sedia ada dikekalkan.
+6. Pilih Arahan, semakan dan tahniah. Buang tanda Belum mempunyai fail suara sahaja untuk melihat semua teks. Pilih teks dan tekan Dengar suara teks ini. Tekan Hentikan suara untuk berhenti.
+Fail lengkap mengandungi 10 klip TTSMaker terdahulu dan semua 366 klip baharu. Tidak perlu memasukkan fail 10 arahan sekali lagi. Import ini menyimpan audio pada pelayar berkenaan; ia tidak menerbitkan perubahan ke Netlify secara automatik.
 
-BUNYI YAY
-Pautan diminta: https://www.youtube.com/watch?v=attUrDwfdr8
-Bunyi Children Yay! Sound Effect.mp3 diberikan oleh pengguna dan telah dimasukkan.
-Petikan dari 1.24 saat sepanjang 2.6 saat; senyap awal dibuang, sasaran kelantangan -24 LUFS, masuk lembut 30 ms dan keluar lembut 250 ms.
-Rakaman asal tidak dipercepat dan pic suara dikekalkan.
-Gunakan Tetapan > Sorakan pilihan Guru untuk memuat naik bunyi sendiri pada peranti ini.
-Untuk semua pengguna laman, gantikan public/audio-ms/yeay.mp3 dan kemas kini repositori.
+SUARA BUKU CERITA GURU
+Bacaan cerita menggunakan rakaman sebenar Guru. Pakej terkini menyertakan semua 20 halaman daripada sandaran pengguna. Bagi halaman yang dirakam berulang kali, rakaman terbaharu dengan teks yang sepadan dipilih. Rakaman terdahulu masih ada dalam sandaran asal pengguna.
+1. Pilih Bacaan cerita Guru, cerita dan muka surat.
+2. Tekan Rakam bacaan, benarkan mikrofon, baca teks, kemudian Henti & simpan. Atau muat naik rakaman telefon.
+3. Dengar semula. Rakaman terbaharu dengan teks yang sama digunakan; rakaman lama dikekalkan.
+4. Tekan Sandaran semua suara Guru dan simpan fail JSON. Pulihkan melalui Pulihkan sandaran semua suara jika bertukar peranti atau pelayar.
 
-SEMAKAN
-Buka audio-ms/semak-suara.html untuk mendengar setiap klip. Semakan sebutan manusia belum dilakukan; semak sebelum PdP.
+UNTUK SEMUA PERANTI MURID
+Projek terkini sudah menyertakan semua 528 audio katalog. Ekstrak ZIP dan kemas kini repo GitHub sedia ada mengikut PANDUAN-V33.txt. Netlify akan menerbitkan projek selepas kemas kini repo.
+Rakaman buku cerita Guru kini sudah berada dalam public/suara-joran-minda.js. Muat naik fail ini bersama projek. Untuk kemas kini rakaman pada masa depan, eksport Muat turun suara untuk website dan gantikan fail tersebut sebelum menerbitkan semula projek. Pelawat laman akan boleh mendengar rakaman yang dieksport. Rakaman murid tidak dimasukkan. Fail JSON sandaran bukan pengganti fail JS ini. Jika eksport melebihi 24 MB, gunakan sandaran untuk menyediakan fail audio berasingan.
+Sandarkan suara Guru sebelum mengemas kini projek. Fail suara-joran-minda.js dalam pakej ini sudah mengandungi 20 rakaman; jangan gantikannya dengan fail kosong daripada versi terdahulu.
+
+SEMAK SEBELUM PDP
+Tekan Dengar dan Hentikan suara. Buka semula laman dan pastikan status rakaman kekal. Cuba laman pada peranti kedua selepas penerbitan. Arahan dimainkan apabila diminta. Maklum balas kejayaan membaca teks selepas bunyi Yay apabila diminta.
+Rakaman pelayar disimpan mengikut alamat laman dan pelayar. Simpan sandaran untuk mengelakkan kehilangan akibat data pelayar dipadam atau bertukar alamat/peranti. Status sepadan merujuk teks yang dipautkan, bukan pengesahan bahawa seseorang telah membaca semua perkataan dengan betul.
+
+TEKS TAMBAHAN
+Teks baharu atau teks yang disunting pengguna mungkin belum mempunyai audio. Rakam atau muat naik audio tepat bagi teks tersebut melalui Arahan, semakan dan tahniah. Suara Melayu peranti digunakan sebagai pilihan sokongan jika tersedia.
+
+SUMBER DAN PENYEDIAAN AUDIO
+server/audio-batches/ttsmaker-b01.json merekodkan teks, turutan, sumber dan masa potongan 10 klip pengguna. scripts/import-tts-batch.py menerima fail MP3, peta teks JSON dan destinasi sandaran; memerlukan ffmpeg dan ffprobe.
+server/voice-autogen-v33.json merekodkan teks, kategori, tempoh, checksum dan padanan metadata bagi 366 klip baharu. scripts/generate-malay-edge.py menggunakan edge-tts 7.3.1 dengan ms-MY-YasminNeural. Alat ini hanya untuk penyediaan audio; pelayar dan Netlify memainkan MP3 yang sudah disediakan tanpa kunci API. Bacaan buku cerita Guru tidak diganti dengan AI.
+
+SEMAKAN RAKAMAN TERKINI
+33 rakaman cerita dalam sandaran asal diperiksa untuk memilih 20 rakaman terbaharu bagi teks semasa. Fail terpilih ditukar kepada MP3 untuk penerbitan, diperiksa melalui penyahkodan dan diuji pada pelayar baharu. Suara tidak dijana semula. Semakan ini mengesahkan pemetaan teks dan kebolehmainan fail; ketepatan sebutan/bacaan lisan belum disemak oleh manusia.

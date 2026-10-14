@@ -1,0 +1,68 @@
+JORAN MINDA — VERSI 34 UNTUK SEMAKAN
+14 Oktober 2026
+
+STATUS
+Kod bilik dan bank soalan telah ditambah baik. Ini pakej semakan sebelum
+penerbitan. Laman Netlify dan repositori GitHub asal belum dikemas kini.
+
+PENTING TENTANG AUDIO
+20 rakaman cerita Guru dan 528 teks audio sedia ada dikekalkan.
+Kelima-lima fail TTSMaker yang dihantar telah dipisahkan dan dipadankan dengan
+81 teks baharu. Kesemua 609 teks dalam katalog kini mempunyai audio terbina.
+Senarai server/voice-pending-v34.json kosong. Tiada audio tambahan diperlukan
+untuk senarai teks versi ini. Rakaman cerita Guru kekal dalam suara asal.
+Jeda pemisah, tempoh, kebolehbacaan fail MP3 dan padanan teks telah diperiksa.
+Pengguna telah mengesahkan bahawa semua audio telah disemak sebelum
+penerbitan. Semakan melalui pendengaran ini dilakukan oleh pengguna.
+Audio dimainkan apabila butang dengar ditekan. Gunakan butang hentikan
+untuk menghentikan suara. Butiran pemasangan: server/voice-tts-v34.json.
+
+PEMBAIKAN
+1. Tempat ahli kumpulan dibersihkan apabila simpanan proses masuk gagal.
+2. Permintaan penyegerakan bilik tidak berjalan serentak dan bertindih.
+3. Penciptaan bilik menyemak enjin versi 34. Paparan memberikan mesej jelas
+   jika enjin lama atau tetapan akses Netlify menghalang sambungan.
+4. Soalan lama dikekalkan untuk rekod dan bilik lama. Cipta bilik baharu
+   selepas penerbitan untuk menggunakan soalan versi 34.
+5. Empat cerita mempunyai pilihan nilai yang lebih pelbagai: 12 soalan
+   mengenal pasti nilai, 20 soalan memancing khusus mengikut halaman,
+   12 soalan semakan kendiri yang berbeza, 8 soalan pengukuhan situasi dan
+   4 tugasan pengayaan. Pemulihan kekal dalam bentuk suaikan.
+6. Jawapan salah masih membenarkan permainan diteruskan dengan potongan
+   mata. Sijil hanya dibuka selepas semua aktiviti, rakaman yang ditetapkan,
+   semakan buku dan refleksi lengkap.
+
+APA YANG SUDAH DIUJI
+39 ujian automatik lulus. Termasuk aliran perkhidmatan bilik bagi keempat-
+empat cerita dalam mod individu dan kumpulan, kod 6 angka, giliran ahli,
+rakaman, jawapan, latihan mengikut tahap, rekod Guru dan penguncian sijil.
+Ujian menggunakan simpanan ujian berasingan. Rekod murid sebenar tidak diubah.
+Semua fail MP3 sedia ada dan fail suara Guru sama seperti pakej terdahulu.
+Kod JavaScript dan binaan projek disemak.
+
+HAD SEMAKAN
+Ujian pelayar visual berbilang peranti belum dijalankan bagi versi 34 dalam
+sesi ini. Alat kawalan pelayar yang diperlukan tidak tersedia.
+https://joranminda.netlify.app/ dan fungsi biliknya memulangkan HTTP 401
+semasa cubaan akses dari persekitaran semakan. Ini belum membuktikan bahawa
+kod permainan rosak; akses laman sebenar masih perlu disahkan.
+
+CARA MENGGUNAKAN PAKEJ
+Ekstrak ZIP. Folder joran-minda mengandungi keseluruhan projek. Fail
+package.json, netlify.toml serta folder public, server, scripts dan netlify
+perlu berada pada aras projek yang sama dalam GitHub. Gunakan penerbitan
+Netlify yang membina projek daripada GitHub supaya fungsi bilik turut dibina.
+Fail pratonton HTML hanya untuk mencuba pada satu peranti; ia tidak
+menyediakan perkhidmatan bilik dalam talian.
+
+SEMAKAN RINGKAS SELEPAS PENERBITAN
+1. Buka Ruang Guru > Semak sambungan bilik. Paparan mesti menyebut versi 34.
+2. Pilih mod dan cerita, kemudian tekan Dapatkan pautan murid.
+3. Kumpulan: kongsi satu pautan kepada empat ahli. Setiap ahli memilih
+   kedudukan berbeza. Cipta kod lain untuk kumpulan lain.
+4. Individu: beberapa murid boleh menggunakan kod individu yang sama;
+   setiap murid masuk dengan nama sendiri dan mempunyai kemajuan sendiri.
+5. Cuba pautan pada pelayar/peranti lain. Semak giliran, suara Guru,
+   rakaman murid dan hasil dalam Ruang Guru sebelum digunakan bersama kelas.
+6. Tekan butang dengar bagi arahan, soalan, pilihan dan maklum balas.
+   Pastikan bunyi kedengaran serta butang hentikan suara berfungsi.

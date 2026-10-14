@@ -1,0 +1,3662 @@
+{
+  "version": 34,
+  "locale": "ms-MY",
+  "voice": "ms-MY-YasminNeural",
+  "includesTeacherStoryNarration": false,
+  "clips": [
+    {
+      "id": "3dc608c87b8a522a8f57",
+      "text": "Ayat telah dipilih. Sekarang, pilih nilai murni.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "3572bd2e7d5abf062b46",
+      "text": "Cari ayat yang menunjukkan perbuatan watak.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "cc2b3f268538bdf384e2",
+      "text": "Tahniah! Tiga nilai telah dikenal pasti.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "0094408ca7757359df06",
+      "text": "Mari lihat penerangan yang tepat.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "286c9cf899c0a1d55bf7",
+      "text": "Idea dan sebab kamu telah disimpan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "d260d7c9dd577bacb7bd",
+      "text": "Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "6b1a62fc7b866a7b2081",
+      "text": "Mata untuk tugasan lengkap. Setiap pilihan yang kurang tepat ditolak 2 mata daripada fasa berkenaan; mata fasa paling rendah ialah 0. Ketepatan ayat berpandu dinilai serta-merta.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "4595912c4fef09a7fd64",
+      "text": "Baca petunjuk yang diberikan. Kemudian, pilih ayat yang menunjukkan perbuatan baik watak.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "160be1020e8997a4d178",
+      "text": "Semak tugasan, mata dan pencapaian kamu. Sijil dibuka selepas semua aktiviti selesai.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "ff0f9a920cd5ad58e772",
+      "text": "Nyatakan satu nilai murni dan cara kamu akan mengamalkannya. Kemudian, simpan refleksi.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "eee837ecc7913560ada6",
+      "text": "Gunakan Formula Ba Ca Ni. Baca petikan. Cari perbuatan watak. Pilih nilai murni yang ditunjukkan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "b75a3a87cf45af99abc1",
+      "text": "Pilih nilai murni. Padankan perbuatan watak yang menyokong nilai itu. Kemudian, tulis penerangan sendiri.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "59258a628190dd12229b",
+      "text": "Bincang bersama. Ahli yang namanya dipaparkan memberikan jawapan. Semua ahli perlu menghantar sumbangan sebelum penutup.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "dfe9480fb4c3125ed62d",
+      "text": "Suara Bahasa Melayu untuk teks ini belum tersedia pada peranti ini. Maklumkan kepada Guru.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "3f5bf81e22542cd0321e",
+      "text": "Suara Bahasa Melayu tersedia; tekan Cuba suara arahan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "727a326a9704a5d85a2c",
+      "text": "Semua ahli berbincang. Penyumbang menaip dan menghantar jawapan yang dipersetujui.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "3839b5b7394956d18b50",
+      "text": "Penyumbang memilih jawapan sendiri selepas perbincangan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "884a70e679d6fce313c4",
+      "text": "Penyumbang menekan butang sendiri. Semua ahli membantu mencari jawapan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "c4efea4fbdb056974e72",
+      "text": "Serahkan peranti kepada penyumbang yang namanya diserlahkan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "3388543676e8b7c6c100",
+      "text": "Semua ahli berbincang. Penyumbang menaip dan menyimpan jawapan bersama.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "5aca80509663a5708539",
+      "text": "Empat ahli bekerjasama. Nama penyumbang diserlahkan; ahli itu menekan butang sendiri.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "4147c44306bd9a5bba70",
+      "text": "Serahkan peranti mengikut nama penyumbang. Setiap ahli mendapat latihan yang sesuai dengan semakan awalnya.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "dc3a98e2189340ad1c08",
+      "text": "Satu kod untuk empat ahli. Setiap ahli masuk dengan nama sendiri. Penyumbang yang ditetapkan menghantar jawapan; ahli lain membantu.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "d8bfe5db3e9ad0e684cd",
+      "text": "Masuk dengan nama sendiri. Ikut giliran penyumbang yang diserlahkan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "bade2514ae2c13959d24",
+      "text": "Semua ahli bekerjasama. Penyumbang yang dipaparkan menekan sendiri.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "c50d23a188e2ec97ec77",
+      "text": "Semua ahli berbincang. Penyumbang menekan sendiri. Latihan Aktiviti 3 mengikut semakan awal setiap ahli.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "4635e1dd74ad67a532c1",
+      "text": "Semua ahli bekerjasama. Penyumbang yang namanya diserlahkan menekan butang sendiri. Rakan lain membantu.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "16ba863b357a13cc9b55",
+      "text": "Rekod ini telah dipadam. Mulakan pembelajaran baharu atau pulihkan rekod melalui ruang Guru.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "d9b7271940a126e400aa",
+      "text": "Senarai berubah. Muatkan semula rekod.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "d7113e56dc82ba63b43d",
+      "text": "Baca petunjuk dan lihat gambar. Pilih nilai yang sesuai dengan perbuatan watak. Kemudian, lengkapkan ayat penerangan dengan bantuan rakan atau Guru.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "68117a6247425d04226d",
+      "text": "Tentukan sama ada padanan nilai dengan perbuatan watak tepat atau perlu dibetulkan. Kemudian, tulis penerangan ringkas.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "91757ca83c917cae0174",
+      "text": "Cadangkan satu perbuatan baik yang baharu. Terangkan nilai murni yang ditunjukkan melalui perbuatan itu. Semua ahli boleh memberikan idea; penyumbang menghantar jawapan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "fe74d90066c152796ee4",
+      "text": "Suara Melayu peranti dikesan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "23e9c99387d2d16a114c",
+      "text": "Rekod sesi ini telah dipadam. Mulakan pembelajaran baharu.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "db2cfcd16c8c3a9f64af",
+      "text": "Siapakah yang dipanggil oleh Hana untuk membantu anak kucing? Pilih ayat yang menceritakannya.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "894eb2d3f2e3c77e8ee0",
+      "text": "Ayat manakah menunjukkan Hana dan Iman menyediakan dua barang untuk Belang?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "f8a3a23a57991c206b67",
+      "text": "Ayat manakah menunjukkan Hana dan Iman menjalankan tugas menjaga Belang setiap hari?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "cbb71b5322ecd488d621",
+      "text": "Ayat manakah menunjukkan Hana mahu mengemas pondok yang berdebu?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "1569a3ffb1d6f06d3c80",
+      "text": "Ayat manakah menunjukkan Iman membantu Hana meletakkan buku?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "4139e60e209fda33e2aa",
+      "text": "Apakah yang dilakukan oleh semua pembaca selepas membaca? Pilih ayat yang menceritakannya.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "c4ca1966d3e2fcbdf6a2",
+      "text": "Ayat manakah menunjukkan Hana mahu membantu menjaga anak pokok?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "7190d0ad1fcad197cb1e",
+      "text": "Ayat manakah menunjukkan Iman membantu Hana menyiram anak pokok?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "8270ac395a866a2e3258",
+      "text": "Apakah janji Iman kepada Tok Wan? Pilih ayat yang menceritakannya.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "df461a1109b35eae0b7b",
+      "text": "Apakah yang dilakukan oleh Hana dan Iman sebelum makan? Pilih ayat yang menceritakannya.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "0a966392461b2cb5ffed",
+      "text": "Ayat manakah menunjukkan Hana mengajak Iman menjaga kebersihan tempat berkelah?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "3092e7ec08d6d0ccc6df",
+      "text": "Apakah yang dilakukan oleh mereka terhadap baki bekal? Pilih ayat yang menceritakannya.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "4420f9d2b4a07f2d8aaa",
+      "text": "Apakah perbuatan baik yang ditunjukkan dalam gambar dan petikan?",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "f9842d47acd9da1d4c68",
+      "text": "Jawab sendiri dahulu tanpa bantuan rakan. Baca situasi dan pilih satu nilai murni. Jawapan tiga soalan ini menentukan latihan kamu: pemulihan, pengukuhan atau pengayaan. Selepas semakan awal, kamu boleh berbincang dengan rakan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "defe4dac64e64e0d1860",
+      "text": "Baca ayat bukti. Pilih nilai yang sesuai. Catat nilai dan sebab kamu memilihnya. Kemudian, simpan catatan dan pancing jawapan. Dalam kumpulan, bincang bersama. Penyumbang menekan butang sendiri.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "6e7e48da0879ca3228fc",
+      "text": "Tekan Dengar sekali lagi untuk membenarkan suara dimainkan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "26b1efd1258f48fcffac",
+      "text": "Selesai. Kamu boleh mendengar semula.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "40cd09954d86de239e3b",
+      "text": "Jawab sendiri. Selepas semakan ini, rakan boleh membantu dalam latihan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "8b2c4df48655bdddcf39",
+      "text": "Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "2f35942f52f4dba5925a",
+      "text": "Baca semula ayat kamu sebelum menyimpan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "0f83d9b4482a3b96306d",
+      "text": "Isi tajuk buku, tajuk halaman dan ayat dahulu.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "e6fc75f309af6e88958f",
+      "text": "Perubahan belum dapat disimpan. Ruang peranti mungkin penuh.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "07ecffa0dac07edf87f5",
+      "text": "Excel dimuat turun: Individu, Kumpulan, Ahli Kumpulan, Mata Tugasan, Penerangan dan Bacaan. Rekod yang dipadam tidak disertakan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "c64972fb92a8a1824e8f",
+      "text": "Suara Bahasa Melayu peranti dikesan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "ad238d09d54e3ef607bc",
+      "text": "Sila pilih cara bermain. Masukkan nama dan kelas. Untuk mod kumpulan, isi nama keempat-empat ahli. Semua ahli bekerjasama; penyumbang yang namanya dipaparkan menekan butang sendiri.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "ce71c33faa12df74f063",
+      "text": "Siapakah yang dipanggil oleh Hana untuk membantu anak kucing? Pilih ayat yang menceritakannya. Pilihan jawapan: Keberanian. Kasih sayang. Kejujuran.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "024c8f0700e7eb703206",
+      "text": "Hana memanggil Tok Wan untuk membantu anak kucing. Apakah nilai yang ditunjukkan? Pilihan jawapan: Keberanian. Kasih sayang. Kejujuran.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "592efb8a39efa78652a9",
+      "text": "Kasih sayang: Hana memanggil Tok Wan untuk membantu anak kucing. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "095c621533610a8139b1",
+      "text": "Kasih sayang: Hana memanggil Tok Wan untuk membantu anak kucing. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "daa9e7013d06beca58e1",
+      "text": "Kasih sayang: Hana memanggil Tok Wan untuk membantu anak kucing. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "47e1242ce559ce196239",
+      "text": "Nilai kasih sayang ditunjukkan melalui perbuatan berikut: Hana memanggil Tok Wan untuk membantu anak kucing. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "e4dbf2511b40f29d4bc6",
+      "text": "Ayat manakah menunjukkan Hana dan Iman menyediakan dua barang untuk Belang? Pilihan jawapan: Kerjasama. Kesederhanaan. Keberanian.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "4911775b706d1d6767aa",
+      "text": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Apakah nilai yang ditunjukkan? Pilihan jawapan: Kerjasama. Kesederhanaan. Keberanian.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "e22e7ac067badd118967",
+      "text": "Kerjasama: Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "b7f0f74099959c85d6e0",
+      "text": "Kerjasama: Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "8c5759c2774828622e0c",
+      "text": "Kerjasama: Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "a9ab34a1cbdaace6158d",
+      "text": "Nilai kerjasama ditunjukkan melalui perbuatan berikut: Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "53ac892e9fc91a421b87",
+      "text": "Ayat manakah menunjukkan Hana dan Iman menjalankan tugas menjaga Belang setiap hari? Pilihan jawapan: Kejujuran. Kesederhanaan. Tanggungjawab.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "97b7f040d68c9d60c7dc",
+      "text": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Apakah nilai yang ditunjukkan? Pilihan jawapan: Kejujuran. Kesederhanaan. Tanggungjawab.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "f43da57444583ee2b67b",
+      "text": "Tanggungjawab: Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "bed5beb6bd9be6c7a4d0",
+      "text": "Tanggungjawab: Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "4b4aa96bd38f0bfd6c57",
+      "text": "Tanggungjawab: Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "a591bc7cbcc15c8e9b7c",
+      "text": "Nilai tanggungjawab ditunjukkan melalui perbuatan berikut: Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "bb50f4ae5e07e1aaafcb",
+      "text": "Cari ayat yang menunjukkan Hana mahu membantu anak kucing.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "1d07ebca4d4bb0f49ebb",
+      "text": "Ayat bukti: Hana segera memanggil Tok Wan untuk membantu anak kucing itu. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "38180c98cd62de7bb864",
+      "text": "Ayat bukti: Hana segera memanggil Tok Wan untuk membantu anak kucing itu. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "556fc8e4ca771fea0ed0",
+      "text": "Jawapan yang tepat: Hana segera memanggil Tok Wan untuk membantu anak kucing itu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "9335d9fd19992941d5b1",
+      "text": "Kejujuran.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "d49db7ce80208996f0d3",
+      "text": "Kasih sayang.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "273e9703e37d67afe422",
+      "text": "Kesederhanaan.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "2493897ae0eb1ac0ba81",
+      "text": "Kamu berjaya mengenal pasti nilai murni: Kasih sayang.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "80946674227efac95606",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Hana segera memanggil Tok Wan untuk membantu anak kucing itu..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "ee45cdba19a26366f530",
+      "text": "Jawapan yang tepat ialah Hana segera memanggil Tok Wan untuk membantu anak kucing itu.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "d97d1d1e983c8a4a4448",
+      "text": "Jawapan yang tepat ialah Hana segera memanggil Tok Wan untuk membantu anak kucing itu.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "a4c795eecda2976aa09a",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Kasih sayang.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "acefff05bf48801979e3",
+      "text": "Jawapan yang tepat ialah Kasih sayang. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "2623b591b4ac115d9e17",
+      "text": "Jawapan yang tepat ialah Kasih sayang. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "8a392e6f607007cfd613",
+      "text": "Cari ayat yang menunjukkan Hana dan Iman bekerjasama menyediakan keperluan Belang.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "b5088b6dbdd6ca178f05",
+      "text": "Ayat bukti: Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "d1f16dd58f94bc0d79c4",
+      "text": "Ayat bukti: Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "12f3208b1d1ec40f153d",
+      "text": "Jawapan yang tepat: Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "cb35fee29730159d4b68",
+      "text": "Kerjasama.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "eb74834b192aadaa26e6",
+      "text": "Keberanian.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "1f6210e6bbb8cf5f5e53",
+      "text": "Kamu berjaya mengenal pasti nilai murni: Kerjasama.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "92dd06fa6cf3f7176bcd",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "a6ca393bcbaa4c3913dc",
+      "text": "Jawapan yang tepat ialah Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "9a4660fa3600f6a9b94c",
+      "text": "Jawapan yang tepat ialah Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "943b97c0a8138a1c8377",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Kerjasama.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "e79e2df0d45ac1d39fd5",
+      "text": "Jawapan yang tepat ialah Kerjasama. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "85ebf4cbe5b70a253e9e",
+      "text": "Jawapan yang tepat ialah Kerjasama. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "df48d41523ecd16e5974",
+      "text": "Ayat bukti: Hana duduk berhampiran peti lalu bercakap dengan suara yang lembut. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "2185e329a8ca90a9542e",
+      "text": "Ayat bukti: Hana duduk berhampiran peti lalu bercakap dengan suara yang lembut. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "2242274002ae5600edae",
+      "text": "Jawapan yang tepat: Hana duduk berhampiran peti lalu bercakap dengan suara yang lembut. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "85de6e96651cee8de012",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Hana duduk berhampiran peti lalu bercakap dengan suara yang lembut..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "e4229edec76bde4ec38b",
+      "text": "Jawapan yang tepat ialah Hana duduk berhampiran peti lalu bercakap dengan suara yang lembut.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "5e53729e8e8f568a5d6a",
+      "text": "Jawapan yang tepat ialah Hana duduk berhampiran peti lalu bercakap dengan suara yang lembut.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "63dbaecefa3bbe9e024b",
+      "text": "Cari ayat yang menunjukkan mereka melaksanakan tugas secara berterusan.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "642e22b20f2e470748e4",
+      "text": "Ayat bukti: Mereka melaksanakan tugas masing-masing setiap hari. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "7f39ab26bddfe6119d4f",
+      "text": "Ayat bukti: Mereka melaksanakan tugas masing-masing setiap hari. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "551dd1d8ce52cf658f20",
+      "text": "Jawapan yang tepat: Mereka melaksanakan tugas masing-masing setiap hari. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "80bea1d0113743599cd1",
+      "text": "Tanggungjawab.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "91a020afbb6f4a2a073b",
+      "text": "Kamu berjaya mengenal pasti nilai murni: Tanggungjawab.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "381268d72eda470c5bea",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Mereka melaksanakan tugas masing-masing setiap hari..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "00b37c837fc3a2886f38",
+      "text": "Jawapan yang tepat ialah Mereka melaksanakan tugas masing-masing setiap hari.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "dd7f74851dddb75a6e3e",
+      "text": "Jawapan yang tepat ialah Mereka melaksanakan tugas masing-masing setiap hari.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "422a2e240a10fbfe77dc",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Tanggungjawab.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "3949c56a113cc30730b2",
+      "text": "Jawapan yang tepat ialah Tanggungjawab. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "f3c8a72d8b0e68d9cd4e",
+      "text": "Jawapan yang tepat ialah Tanggungjawab. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "f0c2917390387d3b41a8",
+      "text": "Cari ayat yang menunjukkan mereka menjaga Belang bersama-sama.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "c0fd70c54d19f448cd75",
+      "text": "Ayat bukti: Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "a5a5222fc27e80c29e58",
+      "text": "Ayat bukti: Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "b58f23fcd3751e806ab7",
+      "text": "Jawapan yang tepat: Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "ee7e964243914af1573e",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "60893ee33cd7515f5c03",
+      "text": "Jawapan yang tepat ialah Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "c07b48b375a764693fe6",
+      "text": "Jawapan yang tepat ialah Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "863b28e7e050d2859230",
+      "text": "Kasih sayang: Hana memanggil Tok Wan untuk membantu anak kucing. Kerjasama: Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Tanggungjawab: Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "eddbf74202208f729cc9",
+      "text": "Idea dan sebab kamu telah disimpan. Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "586be14eecd78ddfc593",
+      "text": "Padanan pertama tepat. Padanan kedua perlu dibetulkan. Nilai yang tepat ialah Kerjasama. Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "54c356c7d7dc0d86d6a2",
+      "text": "Kasih sayang: Hana memanggil Tok Wan untuk membantu anak kucing. Kerjasama: Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Tanggungjawab: Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "0330816591137e0beff6",
+      "text": "Idea dan sebab kamu telah disimpan. Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "25ba65feb2e7a58a3ef4",
+      "text": "Padanan pertama tepat. Padanan kedua perlu dibetulkan. Nilai yang tepat ialah Kerjasama. Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "de996131260608f89f01",
+      "text": "Ayat manakah menunjukkan Hana mahu mengemas pondok yang berdebu? Pilihan jawapan: Keberanian. Kerajinan. Kejujuran.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "92877f4f940abe2f6ab4",
+      "text": "Hana menawarkan diri untuk mengemas pondok yang berdebu. Apakah nilai yang ditunjukkan? Pilihan jawapan: Keberanian. Kerajinan. Kejujuran.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "1be57714178c5b69c6f4",
+      "text": "Kerajinan: Hana menawarkan diri untuk mengemas pondok yang berdebu. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "16dc3f49c6930313f9c4",
+      "text": "Kerajinan: Hana menawarkan diri untuk mengemas pondok yang berdebu. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "6d03c740d21d57b970d7",
+      "text": "Kerajinan: Hana menawarkan diri untuk mengemas pondok yang berdebu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "b89dae00e1e8e9b0d681",
+      "text": "Nilai kerajinan ditunjukkan melalui perbuatan berikut: Hana menawarkan diri untuk mengemas pondok yang berdebu. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "f64163e840f7d5073740",
+      "text": "Ayat manakah menunjukkan Iman membantu Hana meletakkan buku? Pilihan jawapan: Kerjasama. Kesederhanaan. Keberanian.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "c493f9ee9c6722f0ba9b",
+      "text": "Iman membantu Hana meletakkan buku di atas meja yang bersih. Apakah nilai yang ditunjukkan? Pilihan jawapan: Kerjasama. Kesederhanaan. Keberanian.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "d7604603b069cfb2aa81",
+      "text": "Kerjasama: Iman membantu Hana meletakkan buku di atas meja yang bersih. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "d6e82dc2904c2d33455b",
+      "text": "Kerjasama: Iman membantu Hana meletakkan buku di atas meja yang bersih. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "9fc294f7fd1f19d81b92",
+      "text": "Kerjasama: Iman membantu Hana meletakkan buku di atas meja yang bersih. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "e3287969b6ad7ae390ab",
+      "text": "Nilai kerjasama ditunjukkan melalui perbuatan berikut: Iman membantu Hana meletakkan buku di atas meja yang bersih. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "7a0342c837e6b25d3f18",
+      "text": "Apakah yang dilakukan oleh semua pembaca selepas membaca? Pilih ayat yang menceritakannya. Pilihan jawapan: Kejujuran. Kesederhanaan. Tanggungjawab.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "fe2d57511c78d683559a",
+      "text": "Semua pembaca memulangkan buku ke rak setelah selesai membaca. Apakah nilai yang ditunjukkan? Pilihan jawapan: Kejujuran. Kesederhanaan. Tanggungjawab.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "ec2f1d6a1cd318f5157f",
+      "text": "Tanggungjawab: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "9335fe0eca0f3bffccae",
+      "text": "Tanggungjawab: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "0fe6a6639ea5b576fb82",
+      "text": "Tanggungjawab: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "0b66f80548d89c2d29ed",
+      "text": "Nilai tanggungjawab ditunjukkan melalui perbuatan berikut: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "45b8064c43683215b6d2",
+      "text": "Ayat bukti: Hana menawarkan diri untuk mengemas pondok yang berdebu itu. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "79cd2bcb7bdc81100942",
+      "text": "Ayat bukti: Hana menawarkan diri untuk mengemas pondok yang berdebu itu. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "d7cfb8367b4f1202422d",
+      "text": "Jawapan yang tepat: Hana menawarkan diri untuk mengemas pondok yang berdebu itu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "5f068e4463a856e3d00a",
+      "text": "Kerajinan.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "c192995b172fc6401972",
+      "text": "Kamu berjaya mengenal pasti nilai murni: Kerajinan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "f539b21ff2ce2cfac5ad",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Hana menawarkan diri untuk mengemas pondok yang berdebu itu..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "81eaacd19435cc14d5ea",
+      "text": "Jawapan yang tepat ialah Hana menawarkan diri untuk mengemas pondok yang berdebu itu.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "7b0b149472da528a3479",
+      "text": "Jawapan yang tepat ialah Hana menawarkan diri untuk mengemas pondok yang berdebu itu.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "f8584f3ba8bf2cb90420",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Kerajinan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "7900fd9beb821f3bdddc",
+      "text": "Jawapan yang tepat ialah Kerajinan. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "50022c873b7bee7fa31b",
+      "text": "Jawapan yang tepat ialah Kerajinan. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "1aeb8ef3aafcb1d24dfa",
+      "text": "Cari ayat yang menunjukkan Iman membantu Hana menguruskan buku.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "f1fd2a456adf61bb2dfe",
+      "text": "Ayat bukti: Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "f94bafd8e981ae61f8c9",
+      "text": "Ayat bukti: Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "e95a16001e69d5e3a170",
+      "text": "Jawapan yang tepat: Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "26bc23ac58e7e72f741d",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "733209a47c9ad93a84f3",
+      "text": "Jawapan yang tepat ialah Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "01065f4ffd29ec026542",
+      "text": "Jawapan yang tepat ialah Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "ee894c5d914fa40a20c8",
+      "text": "Ayat bukti: Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "3887dd268b8ce1941403",
+      "text": "Ayat bukti: Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "6541c0738de0cf28d256",
+      "text": "Jawapan yang tepat: Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "1ab17417e1fd6554f536",
+      "text": "Baik hati.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "2d18463d47f7cf975de2",
+      "text": "Kamu berjaya mengenal pasti nilai murni: Baik hati.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "02eb46be49be3da6a440",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "4857e86aeb79ade03733",
+      "text": "Jawapan yang tepat ialah Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "6986c0e3251025c417af",
+      "text": "Jawapan yang tepat ialah Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "3ca119e109047f15d85a",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Baik hati.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "8ebb690a20808ec68e2c",
+      "text": "Jawapan yang tepat ialah Baik hati. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "7dd5f9c4a22e84f07db4",
+      "text": "Jawapan yang tepat ialah Baik hati. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "219646ca8b4248042e06",
+      "text": "Cari ayat yang menunjukkan Iman menjaga kebersihan selepas membuat hiasan.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "c35199a5ee93baea475f",
+      "text": "Ayat bukti: Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "b52a5fe05e9d6d7f8c41",
+      "text": "Ayat bukti: Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "9c17ca38a7bb13e5db2c",
+      "text": "Jawapan yang tepat: Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "0fbcf4325cbe20c25c7d",
+      "text": "Kebersihan.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "869a48906c40aca60486",
+      "text": "Kamu berjaya mengenal pasti nilai murni: Kebersihan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "cfa62ff502293fd528d4",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "012597726abc3737def7",
+      "text": "Jawapan yang tepat ialah Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "5816272189ccd00247d6",
+      "text": "Jawapan yang tepat ialah Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "899f0d6497c071dda1ed",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Kebersihan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "ee050877a7b62281a7ce",
+      "text": "Jawapan yang tepat ialah Kebersihan. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "8484c25cde141791e41a",
+      "text": "Jawapan yang tepat ialah Kebersihan. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "6c80301dd13f6af043a6",
+      "text": "Cari ayat yang mengandungi simpulan bahasa tentang sikap rajin membantu.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "601c128a2595778a5faa",
+      "text": "Ayat bukti: Tok Wan memuji Hana yang ringan tulang kerana rajin membantu mengemas pondok. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "227588941531ac4f1f7c",
+      "text": "Ayat bukti: Tok Wan memuji Hana yang ringan tulang kerana rajin membantu mengemas pondok. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "01f657445202f2dd9ce6",
+      "text": "Jawapan yang tepat: Tok Wan memuji Hana yang ringan tulang kerana rajin membantu mengemas pondok. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "3595367795636683bbad",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Tok Wan memuji Hana yang ringan tulang kerana rajin membantu mengemas pondok..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "7a5a0ff29e83946e4dd5",
+      "text": "Jawapan yang tepat ialah Tok Wan memuji Hana yang ringan tulang kerana rajin membantu mengemas pondok.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "8340a221c0e768c10ce3",
+      "text": "Jawapan yang tepat ialah Tok Wan memuji Hana yang ringan tulang kerana rajin membantu mengemas pondok.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "574bc585a4e83966d0bf",
+      "text": "Kerajinan: Hana menawarkan diri untuk mengemas pondok yang berdebu. Kerjasama: Iman membantu Hana meletakkan buku di atas meja yang bersih. Tanggungjawab: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "772666304642de364b85",
+      "text": "Kerajinan: Hana menawarkan diri untuk mengemas pondok yang berdebu. Kerjasama: Iman membantu Hana meletakkan buku di atas meja yang bersih. Tanggungjawab: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "53e09bdeb593675858aa",
+      "text": "Ayat manakah menunjukkan Hana mahu membantu menjaga anak pokok? Pilihan jawapan: Keberanian. Baik hati. Kejujuran.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "883dca00ebe1ae7f588d",
+      "text": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Apakah nilai yang ditunjukkan? Pilihan jawapan: Keberanian. Baik hati. Kejujuran.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "33fda761bdddc3020c47",
+      "text": "Baik hati: Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "0db6972e8085d81a7ea3",
+      "text": "Baik hati: Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "23e2afbf3881e6331e81",
+      "text": "Baik hati: Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "0ef8a5ec69231de12e30",
+      "text": "Nilai baik hati ditunjukkan melalui perbuatan berikut: Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "c9b968b84f97c0c70343",
+      "text": "Ayat manakah menunjukkan Iman membantu Hana menyiram anak pokok? Pilihan jawapan: Kerjasama. Kesederhanaan. Keberanian.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "433e25b3f4462935f80f",
+      "text": "Iman membantu Hana menyiram anak pokok dengan cermat. Apakah nilai yang ditunjukkan? Pilihan jawapan: Kerjasama. Kesederhanaan. Keberanian.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "c6815623806ac75fc07d",
+      "text": "Kerjasama: Iman membantu Hana menyiram anak pokok dengan cermat. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "786984d6146816eb0e16",
+      "text": "Kerjasama: Iman membantu Hana menyiram anak pokok dengan cermat. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "7330261e0b64146f6a1c",
+      "text": "Kerjasama: Iman membantu Hana menyiram anak pokok dengan cermat. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "feef038ace98f8d45aaa",
+      "text": "Nilai kerjasama ditunjukkan melalui perbuatan berikut: Iman membantu Hana menyiram anak pokok dengan cermat. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "8871a895a68c18e7a12e",
+      "text": "Apakah janji Iman kepada Tok Wan? Pilih ayat yang menceritakannya. Pilihan jawapan: Kejujuran. Kesederhanaan. Tanggungjawab.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "e97a3be4e8bb5100065e",
+      "text": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Apakah nilai yang ditunjukkan? Pilihan jawapan: Kejujuran. Kesederhanaan. Tanggungjawab.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "11bef4a3398e272913ef",
+      "text": "Tanggungjawab: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "0d83c0e51f221ed002ce",
+      "text": "Tanggungjawab: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "03c6c8a23c64008921ce",
+      "text": "Tanggungjawab: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "1338e76bb8c1fee53abd",
+      "text": "Nilai tanggungjawab ditunjukkan melalui perbuatan berikut: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "f9f39fe146fe31603872",
+      "text": "Ayat bukti: Hana segera menawarkan bantuan untuk menjaga anak pokok itu. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "461dcd27e0d26433f71b",
+      "text": "Ayat bukti: Hana segera menawarkan bantuan untuk menjaga anak pokok itu. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "810efa5c7ff9fee6531f",
+      "text": "Jawapan yang tepat: Hana segera menawarkan bantuan untuk menjaga anak pokok itu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "61e1f5c73d32a5ad2438",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Hana segera menawarkan bantuan untuk menjaga anak pokok itu..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "2660daf56180177b814b",
+      "text": "Jawapan yang tepat ialah Hana segera menawarkan bantuan untuk menjaga anak pokok itu.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "42cd3031ddd3e9a29d11",
+      "text": "Jawapan yang tepat ialah Hana segera menawarkan bantuan untuk menjaga anak pokok itu.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "cf4478b6122d2b9d03e0",
+      "text": "Ayat bukti: Iman membantu Hana menyiram anak pokok dengan cermat. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "203e757529875e5175cb",
+      "text": "Ayat bukti: Iman membantu Hana menyiram anak pokok dengan cermat. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "937ca9867ff2e6550ab9",
+      "text": "Jawapan yang tepat: Iman membantu Hana menyiram anak pokok dengan cermat. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "81753aaadadcb890235a",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Iman membantu Hana menyiram anak pokok dengan cermat..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "20d00f91ec6213ae9d01",
+      "text": "Jawapan yang tepat ialah Iman membantu Hana menyiram anak pokok dengan cermat.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "8bc39708822dd7e87414",
+      "text": "Jawapan yang tepat ialah Iman membantu Hana menyiram anak pokok dengan cermat.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "41f6fecbf3410844b26a",
+      "text": "Cari ayat yang menunjukkan Hana memberi perhatian kepada nasihat Tok Wan.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "992f63a596af93f303a0",
+      "text": "Ayat bukti: Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "fe7fc2c0af1be0c5de13",
+      "text": "Ayat bukti: Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "d00b0d8c0ebcd22740d9",
+      "text": "Jawapan yang tepat: Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "554e2ad4a23c59dba89e",
+      "text": "Hormat-menghormati.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "c76f4c5e87e599de8cf3",
+      "text": "Kamu berjaya mengenal pasti nilai murni: Hormat-menghormati.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "09f9d3c49148b9e5e103",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "e9721d32343d55de96f4",
+      "text": "Jawapan yang tepat ialah Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "af24b9f7ffd4f59a3f6a",
+      "text": "Jawapan yang tepat ialah Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "46e9fb685d1996f78f02",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Hormat-menghormati.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "74764402c3755ab4f9c7",
+      "text": "Jawapan yang tepat ialah Hormat-menghormati. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "a65ed844a83a165b3611",
+      "text": "Jawapan yang tepat ialah Hormat-menghormati. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "4315a4b7b87ce2ff21d5",
+      "text": "Ayat bukti: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "9223915b24f0e95e7d6d",
+      "text": "Ayat bukti: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "030d44b4c1147fcb89fc",
+      "text": "Jawapan yang tepat: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "87d7a95e911cef21e572",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "8e6f4edfa29935c0acfb",
+      "text": "Jawapan yang tepat ialah Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "3722777d31e2ca11b2b3",
+      "text": "Jawapan yang tepat ialah Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "ee2aed431da898b92e88",
+      "text": "Cari ayat yang mengandungi peribahasa tentang kerjasama.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "b65fcf64d17ba42ccb31",
+      "text": "Ayat bukti: Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "751e19b046186c52d7b5",
+      "text": "Ayat bukti: Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "d5fff998538fead65b55",
+      "text": "Jawapan yang tepat: Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "dd5d77f00e8f7561e311",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "18e6a1f65b4228592b25",
+      "text": "Jawapan yang tepat ialah Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "c24008f42c1518badcf2",
+      "text": "Jawapan yang tepat ialah Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "89af2c4dbabd28c27a19",
+      "text": "Baik hati: Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Kerjasama: Iman membantu Hana menyiram anak pokok dengan cermat. Tanggungjawab: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "639f6e439a5ed588e15b",
+      "text": "Baik hati: Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Kerjasama: Iman membantu Hana menyiram anak pokok dengan cermat. Tanggungjawab: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "38509771e05eaac1fd47",
+      "text": "Apakah yang dilakukan oleh Hana dan Iman sebelum makan? Pilih ayat yang menceritakannya. Pilihan jawapan: Keberanian. Kebersihan. Kejujuran.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "0c8dfef3bec8074f6378",
+      "text": "Hana dan Iman membasuh tangan dengan sabun sebelum makan. Apakah nilai yang ditunjukkan? Pilihan jawapan: Keberanian. Kebersihan. Kejujuran.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "9cda56095505f0eb1550",
+      "text": "Kebersihan: Hana dan Iman membasuh tangan dengan sabun sebelum makan. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "ca2d789bb353bfe45f08",
+      "text": "Kebersihan: Hana dan Iman membasuh tangan dengan sabun sebelum makan. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "c4aba3d74971cfe2dcbb",
+      "text": "Kebersihan: Hana dan Iman membasuh tangan dengan sabun sebelum makan. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "964d8b55c0171bfa5a4a",
+      "text": "Nilai kebersihan ditunjukkan melalui perbuatan berikut: Hana dan Iman membasuh tangan dengan sabun sebelum makan. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "cf43bf18fbfd14400e37",
+      "text": "Ayat manakah menunjukkan Hana mengajak Iman menjaga kebersihan tempat berkelah? Pilihan jawapan: Kerjasama. Kesederhanaan. Keberanian.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "ac1606c7aedbcb7cf2aa",
+      "text": "Hana mengajak Iman mengumpulkan sampah sebelum pulang. Apakah nilai yang ditunjukkan? Pilihan jawapan: Kerjasama. Kesederhanaan. Keberanian.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "09ef1c7146d40423c626",
+      "text": "Kerjasama: Hana mengajak Iman mengumpulkan sampah sebelum pulang. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "19d1c29029ec0f56afde",
+      "text": "Kerjasama: Hana mengajak Iman mengumpulkan sampah sebelum pulang. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "54650f36eb837659181d",
+      "text": "Kerjasama: Hana mengajak Iman mengumpulkan sampah sebelum pulang. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "ecc81d0152d2394a91a6",
+      "text": "Nilai kerjasama ditunjukkan melalui perbuatan berikut: Hana mengajak Iman mengumpulkan sampah sebelum pulang. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "843599559a11d3b7780b",
+      "text": "Apakah yang dilakukan oleh mereka terhadap baki bekal? Pilih ayat yang menceritakannya. Pilihan jawapan: Kejujuran. Keberanian. Berjimat cermat.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "0944e1eafb5fe0277069",
+      "text": "Mereka menyimpan baki bekal untuk dibawa pulang. Apakah nilai yang ditunjukkan? Pilihan jawapan: Kejujuran. Keberanian. Berjimat cermat.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "cc4d0ceec64f1a59abaa",
+      "text": "Berjimat cermat: Mereka menyimpan baki bekal untuk dibawa pulang. Kamu berjaya menghubungkan perbuatan dengan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "79a0213b0e1c64e9d0a3",
+      "text": "Berjimat cermat: Mereka menyimpan baki bekal untuk dibawa pulang. Jawapan direkodkan. Dua mata ditolak bagi setiap pilihan yang kurang tepat. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "925bf0f633e51abb2a21",
+      "text": "Berjimat cermat: Mereka menyimpan baki bekal untuk dibawa pulang. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "c2391530f20d0132a6dc",
+      "text": "Nilai berjimat cermat ditunjukkan melalui perbuatan berikut: Mereka menyimpan baki bekal untuk dibawa pulang. Penjelasan telah disimpan dalam buku cerita.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "7f2304aba12db0f3fc42",
+      "text": "Ayat bukti: Hana membasuh tangan sebelum membantu menyediakan makanan. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "b72eb342cf3ea9e3640c",
+      "text": "Ayat bukti: Hana membasuh tangan sebelum membantu menyediakan makanan. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "1bd12d5a764c420d0310",
+      "text": "Jawapan yang tepat: Hana membasuh tangan sebelum membantu menyediakan makanan. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "70261000ad8e75ae5676",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Hana membasuh tangan sebelum membantu menyediakan makanan..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "cdbb13465510d6c7052e",
+      "text": "Jawapan yang tepat ialah Hana membasuh tangan sebelum membantu menyediakan makanan.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "7824f5534c40fa114487",
+      "text": "Jawapan yang tepat ialah Hana membasuh tangan sebelum membantu menyediakan makanan.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "7b66c62b4062d9e6cd5b",
+      "text": "Ayat bukti: Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "1fb1435dcf7a7ae61f09",
+      "text": "Ayat bukti: Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "3dd23339f498312befa2",
+      "text": "Jawapan yang tepat: Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "799982920820664682c4",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "ccde187f3fb024901b90",
+      "text": "Jawapan yang tepat ialah Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "847f8855e39cadcadb90",
+      "text": "Jawapan yang tepat ialah Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "53bc72ccea03813599a7",
+      "text": "Ayat bukti: Iman menutup semula bekas makanan supaya makanan kekal bersih. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "2884beb98c9783a249da",
+      "text": "Ayat bukti: Iman menutup semula bekas makanan supaya makanan kekal bersih. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "2383b510b6a2e6059a09",
+      "text": "Jawapan yang tepat: Iman menutup semula bekas makanan supaya makanan kekal bersih. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "35b2b1f5b7d3112d5900",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Iman menutup semula bekas makanan supaya makanan kekal bersih..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "629f959bf001cc5fc9ae",
+      "text": "Jawapan yang tepat ialah Iman menutup semula bekas makanan supaya makanan kekal bersih.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "087d00fb355b6c537a27",
+      "text": "Jawapan yang tepat ialah Iman menutup semula bekas makanan supaya makanan kekal bersih.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "4cfa45d121784c7b70cf",
+      "text": "Cari ayat yang menunjukkan Hana bertanggungjawab menjaga kebersihan tempat.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "0a67370d47e70d4d2cda",
+      "text": "Ayat bukti: Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "12c1134c88e4e579c089",
+      "text": "Ayat bukti: Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "d4b655bc4125d563e019",
+      "text": "Jawapan yang tepat: Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "7a02bf1199ae7c4bc9bd",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "c00805e3832e9dcea752",
+      "text": "Jawapan yang tepat ialah Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "cbc06b0914b9511e8147",
+      "text": "Jawapan yang tepat ialah Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "89e7a28364e8f06f9edd",
+      "text": "Cari ayat yang mengandungi pesanan tentang mencegah penyakit.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "29aef0e9ad2cfad49eb5",
+      "text": "Ayat bukti: Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati. Apakah nilai murni yang ditunjukkan oleh perbuatan ini?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "599a58ccc78f366ad006",
+      "text": "Ayat bukti: Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati. Teruskan menentukan nilai murni.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "2120285b436f803a95ae",
+      "text": "Jawapan yang tepat: Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "6df558ea63d158defeaf",
+      "text": "Kebijaksanaan.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "f50f4668c70a73d684ee",
+      "text": "Kamu berjaya mengenal pasti nilai murni: Kebijaksanaan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "52c14be9a03f2f89c8ae",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati..",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "837efb41113486bf54a1",
+      "text": "Jawapan yang tepat ialah Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati.. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "5629f3cbda84594def65",
+      "text": "Jawapan yang tepat ialah Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati.. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "72a9738b389b8d3cb973",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Kebijaksanaan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "b74a33d55a2e98929eab",
+      "text": "Jawapan yang tepat ialah Kebijaksanaan. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "3af962c312568d45c2cb",
+      "text": "Jawapan yang tepat ialah Kebijaksanaan. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "a4e5b203bc954dfa75c4",
+      "text": "Kebersihan: Hana dan Iman membasuh tangan dengan sabun sebelum makan. Kerjasama: Hana mengajak Iman mengumpulkan sampah sebelum pulang. Berjimat cermat: Mereka menyimpan baki bekal untuk dibawa pulang. Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "eebf9564e53c0c694bb2",
+      "text": "Kebersihan: Hana dan Iman membasuh tangan dengan sabun sebelum makan. Kerjasama: Hana mengajak Iman mengumpulkan sampah sebelum pulang. Berjimat cermat: Mereka menyimpan baki bekal untuk dibawa pulang. Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Maklum balas",
+      "story": ""
+    },
+    {
+      "id": "b279b6158d57f99eedec",
+      "text": "Tahniah! Hubungan nilai dan perbuatan tepat.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "be3eb0a4c5e848ba236a",
+      "text": "Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "e188f203c61ca4090b9f",
+      "text": "Tahniah! Kamu berjaya mencari ayat bukti.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "8b46beca401a7f439ca4",
+      "text": "Sila baca muka surat ini dengan teliti. Perhatikan watak dan peristiwa dalam cerita. Kamu juga boleh mendengar rakaman guru. Setelah selesai, teruskan ke langkah yang berikutnya.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "4c638c7c5387c9aae70f",
+      "text": "Teliti setiap pilihan. Pilih satu tindakan watak dan catat sebab pilihan kamu. Jika bermain secara berkumpulan, bincangkan pilihan itu dengan semua ahli. Kemudian, simpan catatan kamu.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "cc1cb2e34118937fefdc",
+      "text": "Baca jawapan pada setiap ikan. Pilih satu ikan, kemudian tekan butang untuk memancing. Kamu boleh menghentikan pergerakan ikan pada bila-bila masa.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "637f3b9ee7464edfd6f1",
+      "text": "Baca peribahasa dalam cerita. Fikirkan maksudnya dan catat jawapan kamu. Kemudian, pancing ikan yang membawa maksud yang tepat.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "3c70d491a6d0fa7fac18",
+      "text": "Tahniah! Buku cerita kamu telah siap. Baca semula semua muka surat. Semak tajuk dan ayat sebelum memuat turun buku.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "c83414d4f7b312e8c4d2",
+      "text": "Susun enam keping gambar. Tekan dua keping untuk menukar tempatnya. Selepas siap, kongsi idea.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "6c541c9a88b48e1fcfe6",
+      "text": "Baca halaman ini. Pembaca yang namanya dipaparkan menekan Rakam bacaan. Selepas membaca, tekan Henti dan simpan. Kemudian, tekan Seterusnya.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "92557fb8d29686809dfe",
+      "text": "Suara belum dapat dimainkan. Tekan Dengar semula.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "f28bec3a6c222db1b6cc",
+      "text": "Gunakan Formula Ba Ca Ni. Baca cerita. Cari perbuatan watak. Kemudian, tentukan nilai murni.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "65b9760584a667382ee2",
+      "text": "Jawapan kamu menentukan latihan yang sesuai.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "3ad248786e12a66dcdc3",
+      "text": "Baca petunjuk yang diberikan. Kemudian, pilih ayat yang menunjukkan perbuatan baik watak. Jika jawapan belum tepat, cuba sekali lagi. Tiada markah akan ditolak.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "a5b29d8f81bf3c6f73a3",
+      "text": "Jawab tiga soalan semakan awal mengikut kefahaman sendiri. Jawapan kamu menentukan latihan pemulihan, pengukuhan atau pengayaan. Selepas itu, rakan boleh membantu.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "535f2ca27f71e4e2246b",
+      "text": "Sila pilih cara bermain. Kemudian, masukkan nama dan kelas. Jika bermain secara berkumpulan, tetapkan peranan setiap ahli.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "89ea4424d6cc0c1f3ed4",
+      "text": "Baca semula halaman ini. Semak tajuk buku, tajuk halaman dan ayat. Jika perlu, tekan Baiki tajuk dan ayat. Simpan perubahan sebelum menekan Seterusnya.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "79833030176eab707517",
+      "text": "Tekan kad perbuatan, kemudian tekan nilai yang sepadan. Lengkapkan tiga pasangan. Tekan semula kad perbuatan untuk menukar jawapan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "498daed65f645641fb35",
+      "text": "Pilih satu pasangan yang telah kamu buat. Tulis ayat ringkas tentang perbuatan watak dan nilainya. Kata kunci diterima. Kemudian, tekan Simpan latihan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "991feac62638225e5d7d",
+      "text": "Tekan satu kad perbuatan di sebelah kiri dahulu.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "15c8bdfcfe1dada3a088",
+      "text": "Lengkapkan ketiga-tiga pasangan dahulu.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "af291f04cdf5564b2aae",
+      "text": "Tulis ayat ringkas atau kata kunci.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "5469b0775eb7f26ef889",
+      "text": "Tahniah! Tiga padanan tepat.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "5d3d8062c684ff739575",
+      "text": "Latihan disimpan. Mari semak.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "a5d70212b378961b6ab6",
+      "text": "Padankan nombor perbuatan dengan nilai. Semua ahli boleh berbincang.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "5de1a463ea46dbec9c08",
+      "text": "Tekan Seterusnya atau tukar padanan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "a71b78763fd786152fdd",
+      "text": "Tekan kad perbuatan untuk bermula.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "c349b1b8d5b8d94cbe16",
+      "text": "Ilustrasi sijil belum dimuatkan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "14bf14677779e69adb6b",
+      "text": "Terus membaca, berfikir dan mengamalkan nilai murni.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "5c8102149e623242bd27",
+      "text": "Tahniah, pembelajaran kamu lengkap!",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "834d2c8da7c8d557eb70",
+      "text": "Benarkan tetingkap baharu untuk mencetak jadual.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "5a52fc1fd5f48c30feb9",
+      "text": "Jadual dimuat turun. Buka helaian Rekod Guru: dua lajur, Perkara dan Hasil. Semua rekod aktif disusun mengikut individu atau kumpulan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "3ddd300271b3fff26744",
+      "text": "Jawab sendiri dahulu tanpa bantuan rakan. Baca setiap soalan dan pilih satu jawapan. Jawapan tiga soalan ini menentukan latihan kamu: pemulihan, pengukuhan atau pengayaan. Selepas semakan awal, kamu boleh berbincang dengan rakan.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "0fea7f334bb0c87af02e",
+      "text": "Baca setiap situasi. Pilih tindakan atau sebab yang paling sesuai. Kemudian, pilih satu jawapan kamu dan terangkan sebabnya. Rakan boleh membantu selepas kamu mencuba sendiri.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "e05dd04f6d1d8ddf292a",
+      "text": "Enjin bilik belum dikemas kini kepada versi 34. Terbitkan keseluruhan projek melalui GitHub supaya fungsi bilik turut dibina.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "7d4b3b2516138fae6dbf",
+      "text": "Enjin bilik belum versi 34. Kemas kini keseluruhan projek di GitHub dan tunggu penerbitan Netlify selesai. Kemudian, cipta bilik baharu.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "ab24df283cbc8e5108db",
+      "text": "Isi kelas, pilih cerita dan mod. Satu kod kumpulan menempatkan empat ahli. Kod individu boleh digunakan oleh beberapa murid; kemajuan setiap murid diasingkan. Selepas mencipta bilik, kongsi pautan murid.",
+      "category": "Arahan",
+      "story": ""
+    },
+    {
+      "id": "7b0c16e941471b71ca59",
+      "text": "Hana memanggil Tok Wan untuk membantu anak kucing.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "3ccc3f854f48eaa46dda",
+      "text": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "7999385b79977a6aaa01",
+      "text": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "b1745f73bb78b5751e14",
+      "text": "Cari ayat yang menunjukkan Hana menenangkan Belang.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "5ffbce1127a2e8b4020a",
+      "text": "0 daripada 3 padanan tepat. Potongan 6 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana memanggil Tok Wan untuk membantu anak kucing. Nilainya ialah kasih sayang. 2. Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Nilainya ialah kerjasama. 3. Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "belang"
+    },
+    {
+      "id": "d410385b3f601b33430e",
+      "text": "1 daripada 3 padanan tepat. Potongan 4 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana memanggil Tok Wan untuk membantu anak kucing. Nilainya ialah kasih sayang. 2. Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Nilainya ialah kerjasama. 3. Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "belang"
+    },
+    {
+      "id": "189312da6fdf419f2ce7",
+      "text": "2 daripada 3 padanan tepat. Potongan 2 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana memanggil Tok Wan untuk membantu anak kucing. Nilainya ialah kasih sayang. 2. Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Nilainya ialah kerjasama. 3. Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "belang"
+    },
+    {
+      "id": "57346d9a7e52e577336a",
+      "text": "3 daripada 3 padanan tepat. Padanan yang betul: 1. Hana memanggil Tok Wan untuk membantu anak kucing. Nilainya ialah kasih sayang. 2. Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Nilainya ialah kerjasama. 3. Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "belang"
+    },
+    {
+      "id": "06f1f473b82a70d14564",
+      "text": "Hana menawarkan diri untuk mengemas pondok yang berdebu.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "0cccb42aae79c1c86dc6",
+      "text": "Iman membantu Hana meletakkan buku di atas meja yang bersih.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "96d59ad1f1175d04267f",
+      "text": "Semua pembaca memulangkan buku ke rak setelah selesai membaca.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "39b43a6c791f2d79271f",
+      "text": "Cari ayat yang menunjukkan Hana rajin membantu.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "6c032552d025e851458d",
+      "text": "Cari ayat yang menunjukkan Hana sudi berkongsi.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "dcb526605175d1bf281c",
+      "text": "0 daripada 3 padanan tepat. Potongan 6 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana menawarkan diri untuk mengemas pondok yang berdebu. Nilainya ialah kerajinan. 2. Iman membantu Hana meletakkan buku di atas meja yang bersih. Nilainya ialah kerjasama. 3. Semua pembaca memulangkan buku ke rak setelah selesai membaca. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "pondok"
+    },
+    {
+      "id": "c27f73e39821d66fe14b",
+      "text": "1 daripada 3 padanan tepat. Potongan 4 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana menawarkan diri untuk mengemas pondok yang berdebu. Nilainya ialah kerajinan. 2. Iman membantu Hana meletakkan buku di atas meja yang bersih. Nilainya ialah kerjasama. 3. Semua pembaca memulangkan buku ke rak setelah selesai membaca. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "pondok"
+    },
+    {
+      "id": "18b50d20bfa1107e0567",
+      "text": "2 daripada 3 padanan tepat. Potongan 2 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana menawarkan diri untuk mengemas pondok yang berdebu. Nilainya ialah kerajinan. 2. Iman membantu Hana meletakkan buku di atas meja yang bersih. Nilainya ialah kerjasama. 3. Semua pembaca memulangkan buku ke rak setelah selesai membaca. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "pondok"
+    },
+    {
+      "id": "e86401d65c3feb2a4edd",
+      "text": "3 daripada 3 padanan tepat. Padanan yang betul: 1. Hana menawarkan diri untuk mengemas pondok yang berdebu. Nilainya ialah kerajinan. 2. Iman membantu Hana meletakkan buku di atas meja yang bersih. Nilainya ialah kerjasama. 3. Semua pembaca memulangkan buku ke rak setelah selesai membaca. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "pondok"
+    },
+    {
+      "id": "415eb5164eb7ede5dd72",
+      "text": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "e78ea874d8ff5c1316cd",
+      "text": "Iman membantu Hana menyiram anak pokok dengan cermat.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "a1205f8489e702d09295",
+      "text": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "8d92c954148b3b156ea2",
+      "text": "Cari ayat yang menunjukkan Hana prihatin terhadap anak pokok.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "a54f5dbd499d12066683",
+      "text": "Cari ayat yang menunjukkan Iman bekerjasama dengan Hana.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "52c864bb56df9b4c6507",
+      "text": "Cari ayat yang menunjukkan Iman sanggup memikul tanggungjawab.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "1b8c191be37ea7c9ae02",
+      "text": "0 daripada 3 padanan tepat. Potongan 6 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Nilainya ialah baik hati. 2. Iman membantu Hana menyiram anak pokok dengan cermat. Nilainya ialah kerjasama. 3. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "pokok"
+    },
+    {
+      "id": "eb2632ca4be675714a83",
+      "text": "1 daripada 3 padanan tepat. Potongan 4 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Nilainya ialah baik hati. 2. Iman membantu Hana menyiram anak pokok dengan cermat. Nilainya ialah kerjasama. 3. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "pokok"
+    },
+    {
+      "id": "ab0369d3ee685904e3eb",
+      "text": "2 daripada 3 padanan tepat. Potongan 2 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Nilainya ialah baik hati. 2. Iman membantu Hana menyiram anak pokok dengan cermat. Nilainya ialah kerjasama. 3. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "pokok"
+    },
+    {
+      "id": "33b85ee85b9bd6a1ed1e",
+      "text": "3 daripada 3 padanan tepat. Padanan yang betul: 1. Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Nilainya ialah baik hati. 2. Iman membantu Hana menyiram anak pokok dengan cermat. Nilainya ialah kerjasama. 3. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Nilainya ialah tanggungjawab.",
+      "category": "Maklum balas",
+      "story": "pokok"
+    },
+    {
+      "id": "9a1760ffcbc2b2e52b10",
+      "text": "Hana dan Iman membasuh tangan dengan sabun sebelum makan.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "e187f858db77a2ecfd02",
+      "text": "Hana mengajak Iman mengumpulkan sampah sebelum pulang.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "f021257bc6b441e29b8d",
+      "text": "Berjimat cermat.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "d5ae308cfa5050522855",
+      "text": "Mereka menyimpan baki bekal untuk dibawa pulang.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "54cc749c75bc78f07a3c",
+      "text": "Cari ayat yang menunjukkan Hana menjaga kebersihan diri.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "02fa3a69416c3556024c",
+      "text": "Cari ayat yang menunjukkan Tok Wan mengingatkan mereka tentang kebersihan.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "dc39f42d3f2c8c9c68d9",
+      "text": "Cari ayat yang menunjukkan Iman menjaga kebersihan makanan.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "3c41baac0c46c002380b",
+      "text": "0 daripada 3 padanan tepat. Potongan 6 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana dan Iman membasuh tangan dengan sabun sebelum makan. Nilainya ialah kebersihan. 2. Hana mengajak Iman mengumpulkan sampah sebelum pulang. Nilainya ialah kerjasama. 3. Mereka menyimpan baki bekal untuk dibawa pulang. Nilainya ialah berjimat cermat.",
+      "category": "Maklum balas",
+      "story": "sihat"
+    },
+    {
+      "id": "23853010c43e0b3472a2",
+      "text": "1 daripada 3 padanan tepat. Potongan 4 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana dan Iman membasuh tangan dengan sabun sebelum makan. Nilainya ialah kebersihan. 2. Hana mengajak Iman mengumpulkan sampah sebelum pulang. Nilainya ialah kerjasama. 3. Mereka menyimpan baki bekal untuk dibawa pulang. Nilainya ialah berjimat cermat.",
+      "category": "Maklum balas",
+      "story": "sihat"
+    },
+    {
+      "id": "cfe8c5b74b27efaeb687",
+      "text": "2 daripada 3 padanan tepat. Potongan 2 mata daripada Aktiviti 3. Padanan yang betul: 1. Hana dan Iman membasuh tangan dengan sabun sebelum makan. Nilainya ialah kebersihan. 2. Hana mengajak Iman mengumpulkan sampah sebelum pulang. Nilainya ialah kerjasama. 3. Mereka menyimpan baki bekal untuk dibawa pulang. Nilainya ialah berjimat cermat.",
+      "category": "Maklum balas",
+      "story": "sihat"
+    },
+    {
+      "id": "8c92045510a8d84467f2",
+      "text": "3 daripada 3 padanan tepat. Padanan yang betul: 1. Hana dan Iman membasuh tangan dengan sabun sebelum makan. Nilainya ialah kebersihan. 2. Hana mengajak Iman mengumpulkan sampah sebelum pulang. Nilainya ialah kerjasama. 3. Mereka menyimpan baki bekal untuk dibawa pulang. Nilainya ialah berjimat cermat.",
+      "category": "Maklum balas",
+      "story": "sihat"
+    },
+    {
+      "id": "70bbfb2067131b68ddac",
+      "text": "Tahniah!",
+      "category": "Tahniah",
+      "story": ""
+    },
+    {
+      "id": "ab65ffbd38e37133e078",
+      "text": "Jawapan kamu tepat.",
+      "category": "Tahniah",
+      "story": ""
+    },
+    {
+      "id": "99cc3bf3a0f87b733031",
+      "text": "Kamu berjaya memancing jawapan yang tepat.",
+      "category": "Tahniah",
+      "story": ""
+    },
+    {
+      "id": "7cc3d7b15498270a0a44",
+      "text": "Tahniah! Buku cerita kamu telah siap.",
+      "category": "Tahniah",
+      "story": ""
+    },
+    {
+      "id": "362994780769d7eec369",
+      "text": "Tahniah! Semua aktiviti pembelajaran telah dilengkapkan. Sijil kamu kini boleh dimuat turun.",
+      "category": "Tahniah",
+      "story": ""
+    },
+    {
+      "id": "d5860621457f74f4fb17",
+      "text": "Siapakah yang dipanggil oleh Hana untuk membantu anak kucing? Pilih ayat yang menceritakannya. Pilihan jawapan: Kasih sayang. Kejujuran. Berjimat cermat.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "cbbead0422a5c40e8cf5",
+      "text": "Ayat manakah menunjukkan Hana dan Iman menyediakan dua barang untuk Belang? Pilihan jawapan: Hormat-menghormati. Keberanian. Kerjasama.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "918158b3d7d1c5eaa9ff",
+      "text": "Ayat manakah menunjukkan Hana dan Iman menjalankan tugas menjaga Belang setiap hari? Pilihan jawapan: Kesederhanaan. Tanggungjawab. Kebersihan.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "2bdbe4e3df925337b581",
+      "text": "Belang kelihatan dahaga. Tindakan manakah menunjukkan kasih sayang? Pilihan jawapan: Mengajak Belang berlari. Menyembunyikan mangkuk Belang. Menyediakan air bersih untuk Belang.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "cb967682005e756918bf",
+      "text": "Mengapakah Hana dan Iman membahagikan tugas menjaga Belang? Pilihan jawapan: Supaya mereka dapat bekerjasama. Supaya Iman membuat semua kerja. Supaya mereka boleh meninggalkan Belang.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "05356f9f56398178a12c",
+      "text": "Hari ini giliran kamu membersihkan tempat rehat Belang. Apakah tindakan yang bertanggungjawab? Pilihan jawapan: Menunggu orang lain melakukannya. Membersihkannya mengikut jadual. Menyembunyikan jadual tugas.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "b674b9b82058c4bb54ed",
+      "text": "Hana menjaga Belang hanya apabila mahu bermain dengannya. Apakah yang patut diperbaik? Pilihan jawapan: Memberi Belang lebih banyak mainan. Menjaga keperluan Belang setiap hari. Menyuruh Belang mencari makanan sendiri.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "30cd52b89d29151caa22",
+      "text": "Hana menyediakan makanan, manakala Iman menukar air Belang. Mengapakah ini contoh kerjasama? Pilihan jawapan: Mereka melakukan semua tugas seorang diri. Mereka menunggu Tok Wan membuat kerja. Mereka membahagikan tugas dan saling membantu.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "ae6f9c06da7f4b04ab6f",
+      "text": "Di kawasan sekolah, seekor anak kucing berada berhampiran longkang. Cadangkan cara mendapatkan bantuan orang dewasa dengan selamat. Terangkan nilai murni dalam tindakan kamu.",
+      "category": "Arahan",
+      "story": "belang"
+    },
+    {
+      "id": "8381b70fa6efeebfbd32",
+      "text": "Jawapan yang tepat: 1. Menjaga keperluan Belang setiap hari. 2. Mereka membahagikan tugas dan saling membantu. Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Maklum balas",
+      "story": "belang"
+    },
+    {
+      "id": "bca05e877416ad09a598",
+      "text": "Jawapan yang tepat: 1. Menjaga keperluan Belang setiap hari. 2. Mereka membahagikan tugas dan saling membantu. Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Maklum balas",
+      "story": "belang"
+    },
+    {
+      "id": "113e194b321eb1370e82",
+      "text": "Kamu berjaya mengenal pasti nilai murni: Menghargai jasa.",
+      "category": "Maklum balas",
+      "story": "belang"
+    },
+    {
+      "id": "24c5e17f787e777b0174",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Menghargai jasa.",
+      "category": "Maklum balas",
+      "story": "belang"
+    },
+    {
+      "id": "38422d5ee9e1b67ef879",
+      "text": "Jawapan yang tepat ialah Menghargai jasa. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": "belang"
+    },
+    {
+      "id": "5758fc29881fa9ac9329",
+      "text": "Jawapan yang tepat ialah Menghargai jasa. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": "belang"
+    },
+    {
+      "id": "f9c5a3913e118e8fea85",
+      "text": "Ayat bukti: Hana segera memanggil Tok Wan untuk membantu anak kucing itu. Hana meminta bantuan untuk anak kucing yang menggigil. Apakah nilai yang paling sesuai?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "7c57759165a5cae0d1c3",
+      "text": "Ayat bukti: Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut. Hana dan Iman menyediakan barang yang berbeza untuk Belang. Apakah nilai dalam pembahagian tugas ini?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "4e20535e0f73d99d9805",
+      "text": "Cari ayat yang menunjukkan Iman menyediakan keperluan minuman Belang.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "449fd393135f7ef53458",
+      "text": "Ayat bukti: Iman pula meletakkan semangkuk air bersih berhampiran Belang. Iman menyediakan air untuk Belang yang memerlukannya. Apakah nilai dalam tindakan Iman?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "2c3a338ced794498214a",
+      "text": "Ayat bukti: Mereka melaksanakan tugas masing-masing setiap hari. Hana dan Iman menjalankan tugas setiap hari. Apakah nilai yang ditunjukkan?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "911a9f27da0733dc1658",
+      "text": "Cari ayat yang menunjukkan Tok Wan menghargai usaha Hana dan Iman.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "b0bd37be47ac14eed6a8",
+      "text": "Menghargai jasa.",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "bf293cbe54499c2e3b4e",
+      "text": "Ayat bukti: Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing. Tok Wan memuji usaha Hana dan Iman. Apakah sikap baik Tok Wan terhadap usaha mereka?",
+      "category": "Soalan dan pilihan",
+      "story": "belang"
+    },
+    {
+      "id": "20d9483f92c118a4ec0f",
+      "text": "Ayat manakah menunjukkan Hana mahu mengemas pondok yang berdebu? Pilihan jawapan: Kesederhanaan. Kejujuran. Kerajinan.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "5a06c787886d3e647798",
+      "text": "Ayat manakah menunjukkan Iman membantu Hana meletakkan buku? Pilihan jawapan: Kerjasama. Keberanian. Berjimat cermat.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "ed9acd1bb62ea39e5737",
+      "text": "Apakah yang dilakukan oleh semua pembaca selepas membaca? Pilih ayat yang menceritakannya. Pilihan jawapan: Kasih sayang. Tanggungjawab. Hormat-menghormati.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "ca0707b25204accba7eb",
+      "text": "Rakan kamu sedang menyusun buku yang banyak. Apakah cara bekerjasama dengannya? Pilihan jawapan: Membantu menyusun sebahagian buku. Mengambil buku yang telah disusun. Menyuruhnya menyiapkan kerja seorang diri.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "347397b65638712375ee",
+      "text": "Kamu sudah selesai membaca sebuah buku. Tindakan manakah menunjukkan tanggungjawab? Pilihan jawapan: Meninggalkannya di bawah meja. Menyembunyikannya di dalam beg. Memulangkannya ke rak yang betul.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "7536005f7280a08807e8",
+      "text": "Mengapakah sikap Hana yang suka membantu mengemas pondok patut dicontohi? Pilihan jawapan: Pondok akan dipenuhi lebih banyak sampah. Pondok menjadi kemas dan selesa. Buku menjadi sukar ditemukan.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "3f752b8bfc3cc72d8b2d",
+      "text": "Iman mahu berkongsi penanda buku dengan rakannya. Apakah nilai yang ditunjukkan? Pilihan jawapan: Keberanian. Berjimat cermat. Baik hati.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "20f0825b015bf8be8531",
+      "text": "Mengapakah buku perlu dipulangkan ke rak selepas dibaca? Pilihan jawapan: Supaya pembaca lain mudah mencarinya. Supaya rak menjadi berselerak. Supaya buku tidak boleh dibaca lagi.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "460ea1e680a316151d3d",
+      "text": "Sudut bacaan kelas kamu berselerak selepas waktu rehat. Cadangkan dua tugas yang boleh dibahagikan dengan rakan. Terangkan nilai murni yang diamalkan.",
+      "category": "Arahan",
+      "story": "pondok"
+    },
+    {
+      "id": "a3a0e44d0713f995ddc8",
+      "text": "Jawapan yang tepat: 1. Baik hati. 2. Supaya pembaca lain mudah mencarinya. Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Maklum balas",
+      "story": "pondok"
+    },
+    {
+      "id": "adb7d71347f1933f5a37",
+      "text": "Jawapan yang tepat: 1. Baik hati. 2. Supaya pembaca lain mudah mencarinya. Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Maklum balas",
+      "story": "pondok"
+    },
+    {
+      "id": "ecef62c7648b21e4cdfc",
+      "text": "Ayat bukti: Hana menawarkan diri untuk mengemas pondok yang berdebu itu. Hana menawarkan diri untuk mengemas pondok. Apakah nilai yang ditunjukkan?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "57bac3c970b41a40d903",
+      "text": "Ayat bukti: Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih. Iman membantu Hana meletakkan buku di atas meja. Apakah nilai yang menghubungkan tindakan mereka?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "5deda6460eb98d3eb73f",
+      "text": "Ayat bukti: Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku. Hana sudi berkongsi kertas dengan Iman. Apakah nilai yang ditunjukkan?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "5eff195a1d4b0b80d8a2",
+      "text": "Ayat bukti: Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah. Iman membuang sisa kertas ke dalam tong sampah. Apakah nilai yang paling jelas?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "143493abbbaa04239b8d",
+      "text": "Cari ayat yang menunjukkan pembaca menjaga buku selepas membacanya.",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "43092edeb5627d33b8e1",
+      "text": "Ayat bukti: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Semua pembaca memulangkan buku ke rak. Apakah nilai dalam menjaga buku yang digunakan bersama?",
+      "category": "Soalan dan pilihan",
+      "story": "pondok"
+    },
+    {
+      "id": "02ee1fdbee22b6589561",
+      "text": "Ayat manakah menunjukkan Iman membantu Hana menyiram anak pokok? Pilihan jawapan: Kesederhanaan. Berjimat cermat. Kerjasama.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "98a1b5644d5498879099",
+      "text": "Apakah janji Iman kepada Tok Wan? Pilih ayat yang menceritakannya. Pilihan jawapan: Tanggungjawab. Kebersihan. Hormat-menghormati.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "20214f56246a83168e12",
+      "text": "Anak pokok di kelas kelihatan layu. Apakah tindakan baik yang boleh kamu lakukan? Pilihan jawapan: Membiarkan tanah terus kering. Meminta izin untuk menyiramnya. Memetik semua daunnya.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "e151e3d96608904b221b",
+      "text": "Kamu sudah berjanji untuk menjaga pokok pada hari Selasa. Apakah yang patut kamu lakukan? Pilihan jawapan: Datang hanya apabila dipuji. Menyerahkan tugas tanpa memberitahu sesiapa. Melaksanakan tugas pada hari Selasa.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "8b3b357ae4a60677c2ff",
+      "text": "Rakan kamu membawa bekas air yang berat untuk menyiram pokok. Apakah tindakan yang menunjukkan kerjasama? Pilihan jawapan: Membantu membawa bekas itu bersama-sama. Menyuruhnya membawa dengan lebih cepat. Meninggalkannya untuk bermain.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "f84e38dc812ff31e1464",
+      "text": "Tok Wan sedang menerangkan cara menyiram pokok. Bagaimanakah kamu menunjukkan rasa hormat? Pilihan jawapan: Bercakap kuat dengan rakan. Mendengar penerangannya dengan teliti. Meninggalkannya sebelum selesai.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "398c93df18696564f068",
+      "text": "Rakan terlupa jadual menjaga pokok. Apakah bantuan yang sesuai? Pilihan jawapan: Mengingatkannya dan membantu menyemak jadual. Memadamkan namanya tanpa berbincang. Membiarkan pokok itu layu.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "66351533f8957df4e53c",
+      "text": "Kelas kamu akan bercuti selama beberapa hari. Cadangkan cara berbincang dengan Guru untuk memastikan pokok kelas terus dijaga. Terangkan nilai murni dalam cadangan kamu.",
+      "category": "Arahan",
+      "story": "pokok"
+    },
+    {
+      "id": "95041e0a26f09a5d15a1",
+      "text": "Jawapan yang tepat: 1. Mendengar penerangannya dengan teliti. 2. Mengingatkannya dan membantu menyemak jadual. Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Maklum balas",
+      "story": "pokok"
+    },
+    {
+      "id": "57a257db320dea153713",
+      "text": "Jawapan yang tepat: 1. Mendengar penerangannya dengan teliti. 2. Mengingatkannya dan membantu menyemak jadual. Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Maklum balas",
+      "story": "pokok"
+    },
+    {
+      "id": "c437d39133a2a226e788",
+      "text": "Ayat bukti: Hana segera menawarkan bantuan untuk menjaga anak pokok itu. Hana menawarkan bantuan apabila melihat anak pokok layu. Apakah nilai yang ditunjukkan?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "04a3f0a258ec984a42e7",
+      "text": "Ayat bukti: Iman membantu Hana menyiram anak pokok dengan cermat. Iman membantu Hana menyiram pokok. Apakah nilai yang ditunjukkan apabila mereka bekerja bersama?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "dd54a27b5ce3708bac70",
+      "text": "Ayat bukti: Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan. Hana mendengar penerangan Tok Wan dengan teliti. Apakah nilai dalam cara Hana mendengar?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "94aff95ecd1439a9142a",
+      "text": "Ayat bukti: Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Iman berjanji untuk menjaga kebun setiap minggu. Apakah nilai dalam kesanggupan memikul tugas ini?",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "c80bc7c6124f4d19377a",
+      "text": "Ayat bukti: Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing. Mengapakah Tok Wan menyamakan mereka dengan aur dan tebing? Pilih nilai yang sesuai.",
+      "category": "Soalan dan pilihan",
+      "story": "pokok"
+    },
+    {
+      "id": "7b04cf114a0efe7177cd",
+      "text": "Apakah yang dilakukan oleh Hana dan Iman sebelum makan? Pilih ayat yang menceritakannya. Pilihan jawapan: Kebersihan. Kejujuran. Keberanian.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "8610dab11a9583ce7cb7",
+      "text": "Ayat manakah menunjukkan Hana mengajak Iman menjaga kebersihan tempat berkelah? Pilihan jawapan: Berjimat cermat. Hormat-menghormati. Kerjasama.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "34b6e586d925c971e76b",
+      "text": "Apakah yang dilakukan oleh mereka terhadap baki bekal? Pilih ayat yang menceritakannya. Pilihan jawapan: Kesederhanaan. Berjimat cermat. Kasih sayang.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "61e8b13c5be17b981289",
+      "text": "Tangan kamu terkena tanah sebelum makan. Apakah tindakan yang menjaga kebersihan? Pilihan jawapan: Mengelap tangan pada baju sahaja. Terus mengambil makanan. Membasuh tangan dengan sabun.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "cb2c29c5402097ccb9e8",
+      "text": "Masih ada bekal yang elok selepas kamu kenyang. Bagaimanakah kamu mengelakkan pembaziran? Pilihan jawapan: Membuangnya ke dalam tong sampah. Menyimpannya dengan baik untuk dibawa pulang. Meninggalkannya di atas rumput.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "f4583b40b87c7de686fa",
+      "text": "Apakah cara bekerjasama semasa mengemas tempat berkelah? Pilihan jawapan: Membahagikan tugas mengemas dengan rakan. Membiarkan seorang rakan mengemas semuanya. Berlumba untuk pulang dahulu.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "b27b695c8609e57029ac",
+      "text": "Iman menutup bekas makanan selepas mengambil roti. Mengapakah tindakan itu baik? Pilihan jawapan: Supaya makanan menjadi kotor. Supaya bekas sukar ditemukan. Supaya makanan kekal bersih.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "06d2ef2ac1b166a0b206",
+      "text": "Rakan kamu mahu pulang ketika sampah masih bertaburan. Apakah ajakan yang sesuai? Pilihan jawapan: Mari kita tinggalkan sampah ini. Mari kita kutip sampah bersama-sama. Mari kita sembunyikan sampah di bawah tikar.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "0732009b99b55194c112",
+      "text": "Selepas jamuan kelas, masih ada makanan yang elok dan sampah di atas meja. Cadangkan tindakan yang mengelakkan pembaziran serta menjaga kebersihan. Terangkan nilai murni yang diamalkan.",
+      "category": "Arahan",
+      "story": "sihat"
+    },
+    {
+      "id": "bd87ddc28cf549cf287f",
+      "text": "Jawapan yang tepat: 1. Supaya makanan kekal bersih. 2. Mari kita kutip sampah bersama-sama. Semua ahli telah menyumbang. Teruskan ke penutup.",
+      "category": "Maklum balas",
+      "story": "sihat"
+    },
+    {
+      "id": "101094116e512ea110e8",
+      "text": "Jawapan yang tepat: 1. Supaya makanan kekal bersih. 2. Mari kita kutip sampah bersama-sama. Bincang bersama dan teruskan kepada ahli yang berikutnya.",
+      "category": "Maklum balas",
+      "story": "sihat"
+    },
+    {
+      "id": "b664d938878f2559882c",
+      "text": "Kamu berjaya mengenal pasti nilai murni: Berjimat cermat.",
+      "category": "Maklum balas",
+      "story": "sihat"
+    },
+    {
+      "id": "23abefa8c3bbcde6cfaf",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Berjimat cermat.",
+      "category": "Maklum balas",
+      "story": "sihat"
+    },
+    {
+      "id": "3e7862475b1caa260403",
+      "text": "Jawapan yang tepat ialah Berjimat cermat. Dua mata ditolak. Kamu boleh meneruskan.",
+      "category": "Maklum balas",
+      "story": "sihat"
+    },
+    {
+      "id": "1a99856bbefa312d0e0e",
+      "text": "Jawapan yang tepat ialah Berjimat cermat. Dua mata ditolak. Teruskan permainan.",
+      "category": "Maklum balas",
+      "story": "sihat"
+    },
+    {
+      "id": "c9de79be1f4713642a9d",
+      "text": "Ayat bukti: Hana membasuh tangan sebelum membantu menyediakan makanan. Hana membasuh tangan sebelum menyediakan makanan. Apakah nilai yang ditunjukkan?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "d6a51a459f89c5a0be29",
+      "text": "Ayat bukti: Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun. Apakah amalan yang ditekankan?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "8a33eabe3cfaba14737e",
+      "text": "Cari ayat yang menunjukkan mereka tidak membazirkan baki bekal.",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "a8da4d08c2055371b2a6",
+      "text": "Ayat bukti: Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang. Mereka menyimpan baki bekal yang masih elok. Apakah nilai dalam mengelakkan pembaziran?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "c83c53197031f75d5248",
+      "text": "Ayat bukti: Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih. Hana mengajak Iman mengumpulkan sampah bersama. Apakah nilai dalam tindakan bersama ini?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "0a9711c5b4bf79f7f88e",
+      "text": "Ayat bukti: Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati. Tok Wan menasihati mereka supaya mencegah penyakit. Apakah nilai dalam memilih langkah yang baik sebelum masalah berlaku?",
+      "category": "Soalan dan pilihan",
+      "story": "sihat"
+    },
+    {
+      "id": "4427cab5e0cf88dacd9e",
+      "text": "Selamat datang ke Joran Minda. Isi nama dan kelas kamu. Pilih cara bermain. Jika bermain berkumpulan, tetapkan peranan bersama rakan. Kamu akan membaca, mencari bukti dan memilih jalan cerita.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "9d16f562ac4e55b634b4",
+      "text": "Baca muka surat ini dengan tenang. Kamu boleh mendengar rakaman cikgu. Perhatikan watak dan peristiwa dalam cerita. Selepas selesai, tekan butang Selesai baca.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "bde75a8ba8637e779a32",
+      "text": "Baca petunjuk yang diberikan. Cari ayat yang menunjukkan perbuatan baik watak. Pilih ayat itu. Jika belum tepat, cuba lagi. Tiada mata akan ditolak.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "caca09be22a4b3b1c1df",
+      "text": "Lihat tiga pilihan cerita. Jika berkumpulan, dengar cadangan setiap ahli. Pilih satu tindakan watak. Catat pilihan dan satu sebab. Kemudian, tekan butang Simpan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "94c250db2087a169a2b9",
+      "text": "Baca jawapan pada tiga ekor ikan. Pilih ikan yang kamu mahu. Ikan itu akan berhenti. Tekan butang Pancing ikan ini. Mata kail akan turun dan menarik ikan ke atas. Kamu boleh menekan Jeda untuk menghentikan gerakan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "c2848b75ff3ceab0d321",
+      "text": "Baca peribahasa dalam cerita. Fikirkan maksudnya dan catat jawapan. Kemudian, pancing ikan yang membawa maksud yang tepat. Kamu akan mendapat lima mata bonus.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "03a6415081855b42f4e3",
+      "text": "Tahniah, buku kamu sudah siap! Baca semula lima muka surat. Semak tajuk dan ayat. Muat turun buku dalam bentuk PDF. Minta bantuan guru untuk menerbitkannya di Heyzine.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "3888811fe77bb520cb5d",
+      "text": "Selamat belajar dari rumah. Dalam mod kumpulan, tunggu rakan dan ikut giliran. Dalam latihan kendiri, lengkapkan semua langkah sendiri. Simpan kad sambung untuk membuka semula kemajuan kamu. Simpan kad itu sendiri.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "27480d8af1b6108f98db",
+      "text": "Selamat datang ke Joran Minda. Mari membaca, mencari bukti dan memilih jalan cerita bersama-sama.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "3ee0e5631626f8cdc3af",
+      "text": "Selamat datang ke Joran Minda. Baca satu muka surat. Cari ayat bukti. Nilai dan bincangkan pilihan kamu. Kemudian, pancing ikan untuk menentukan jalan cerita. Lengkapkan lima muka surat dan hasilkan buku.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "7bd2370fc1a16133f1ef",
+      "text": "Cari ayat yang menunjukkan Hana mengambil berat.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "5dbcbe1ca9ce30cbde35",
+      "text": "Bagaimanakah mereka hendak membantu Belang?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "c64e6237b0ecf54117c5",
+      "text": "Pilihan satu. Panggil Tok Wan. Pilihan dua. Ambil tuala bersih. Pilihan tiga. Bawa bantuan bersama.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "6dadfcc85507b255180c",
+      "text": "Apakah tempat rehat yang sesuai untuk Belang?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "493e8a017920219a64f7",
+      "text": "Pilihan satu. Alas peti kayu. Pilihan dua. Bentang kain lembut. Pilihan tiga. Peti di beranda.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "01523544d20c9ee2b35d",
+      "text": "Cari ayat yang menunjukkan Iman menjaga keperluan Belang.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "193fd27c1e75cdd4653d",
+      "text": "Bagaimanakah mereka hendak menemani Belang?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "e1f5ffde4d69598e4abd",
+      "text": "Pilihan satu. Duduk dengan tenang. Pilihan dua. Baca cerita perlahan. Pilihan tiga. Gilir menemani.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "9e837bdbf9689623cadb",
+      "text": "Cari ayat yang menunjukkan Hana dan Iman sanggup membantu.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "178300c104a14edf470b",
+      "text": "Apakah tanggungjawab yang mereka mahu utamakan?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "9fb5f9dada7d190608b6",
+      "text": "Pilihan satu. Gilir menjaga Belang. Pilihan dua. Gilir mengemas tempat. Pilihan tiga. Bahagikan tugas.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "3cc46bdbc9c8c374c052",
+      "text": "Cari ayat yang mengandungi peribahasa dalam pengakhiran cerita.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "e862a8a4d3d91ac863bb",
+      "text": "Bagaimanakah kisah persahabatan ini berakhir?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "3e52045d68ad0bf934d7",
+      "text": "Pilihan satu. Buku kenangan Belang. Pilihan dua. Poster sayangi haiwan. Pilihan tiga. Pameran kenangan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "8995ea75a0170fbe055b",
+      "text": "Apakah maksud peribahasa Bagai aur dengan tebing?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "d063c72715ffd941f554",
+      "text": "Pilihan satu. Saling membantu. Pilihan dua. Bekerja sendiri. Pilihan tiga. Bermain sahaja.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "35126f3adfeeb014d42a",
+      "text": "Apakah kerja yang mahu dimulakan dahulu?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "950df335b7565d6fca43",
+      "text": "Pilihan satu. Kutip buku. Pilihan dua. Lap meja. Pilihan tiga. Bahagikan kerja.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "0b6e16f428221764fdc1",
+      "text": "Bagaimanakah buku itu hendak disusun?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "8f82bf4db2dcc10d0f94",
+      "text": "Pilihan satu. Ikut jenis cerita. Pilihan dua. Ikut saiz buku. Pilihan tiga. Label rak buku.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "029f375259bd93849ee5",
+      "text": "Apakah hasil kreatif yang mahu mereka buat?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "efa91fd38b1301727695",
+      "text": "Pilihan satu. Hiasan kertas. Pilihan dua. Penanda buku. Pilihan tiga. Hiasan dan penanda.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "121b338c8eeb79f4193e",
+      "text": "Cari ayat yang menunjukkan Iman bertanggungjawab selepas aktiviti.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "166cfcbadaa0890739ec",
+      "text": "Bagaimanakah mereka mahu menjaga pondok ini?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "3c18e55b9693659e51b7",
+      "text": "Pilihan satu. Jadual mengemas. Pilihan dua. Kad peringatan. Pilihan tiga. Jadual dan kad.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "0796b773fb9b79307bac",
+      "text": "Bagaimanakah mereka mahu meraikan pondok ini?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "67ef21353e851a51c603",
+      "text": "Pilihan satu. Baca bersama rakan. Pilihan dua. Pamerkan karya. Pilihan tiga. Sudut karya rakan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "f663c622c499baadc013",
+      "text": "Apakah maksud peribahasa Ringan tulang?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "a1d486a0c110cfedd1bb",
+      "text": "Apakah bantuan yang mahu dimulakan dahulu?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "01e78feb0785c990fe65",
+      "text": "Pilihan satu. Isi baldi air. Pilihan dua. Periksa tanah. Pilihan tiga. Periksa dan isi air.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "7676a802d9da4718ba8a",
+      "text": "Apakah langkah seterusnya untuk menjaga kebun?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "d549ad9c0497f94b1512",
+      "text": "Pilihan satu. Pindah pasu kecil. Pilihan dua. Kutip daun gugur. Pilihan tiga. Bersih dan susun.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "3b8205689f156aa09d0d",
+      "text": "Cari ayat yang menunjukkan Hana menghormati nasihat Tok Wan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "b7e0ed60b74fa9880dc7",
+      "text": "Bagaimanakah mereka mahu mengingati pesanan Tok Wan?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "e90061eae49ee6428d09",
+      "text": "Pilihan satu. Tulis label pokok. Pilihan dua. Lukis kad penjagaan. Pilihan tiga. Label dan kad.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "65edde9422cd2d8c5332",
+      "text": "Bagaimanakah mereka mahu meneruskan usaha ini?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "7ea580f26890e959b4e1",
+      "text": "Pilihan satu. Buat jadual tugas. Pilihan dua. Catat pertumbuhan. Pilihan tiga. Jadual dan catatan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "6e7a9b5be08b164b88f3",
+      "text": "Bagaimanakah usaha mereka mahu dikongsi?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "68e62331a377c8b34f64",
+      "text": "Pilihan satu. Ajak rakan berkebun. Pilihan dua. Hasilkan buku kebun. Pilihan tiga. Hari kebun bersama.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "42aaeb7cbd75fc7fa860",
+      "text": "Apakah bekal yang mahu mereka sediakan?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "ea1073bddee96c9d8df9",
+      "text": "Pilihan satu. Buah segar. Pilihan dua. Roti berinti. Pilihan tiga. Buah dan roti.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "ef4cac04109bbd41fbae",
+      "text": "Bagaimanakah mereka mahu saling membantu?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "bbe4b44acf66deca711a",
+      "text": "Pilihan satu. Basuh bergilir-gilir. Pilihan dua. Saling ingatkan. Pilihan tiga. Bantu dan ingatkan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "31e3a6d5c854e6c8ccb9",
+      "text": "Bagaimanakah bekal itu mahu digunakan?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "d09c72c7dc9d36438c08",
+      "text": "Pilihan satu. Kongsi bekal. Pilihan dua. Simpan sebahagian. Pilihan tiga. Kongsi dan simpan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "d0ddc16734c05cfcd0c3",
+      "text": "Cari ayat yang menunjukkan Hana bertanggungjawab terhadap kebersihan tempat.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "8b7565b1b903d73c1c33",
+      "text": "Apakah tugas yang mahu mereka dahulukan?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "1134f5eb124da8106d11",
+      "text": "Pilihan satu. Kumpul sampah. Pilihan dua. Lap tempat makan. Pilihan tiga. Bersihkan bersama.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "4637c852103044c68481",
+      "text": "Bagaimanakah mereka mahu mengingati pesanan ini?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "0843413f26d5c53d879e",
+      "text": "Pilihan satu. Buku petua bersih. Pilihan dua. Lagu kebersihan. Pilihan tiga. Poster petua sihat.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "59bfd716ca5c3c935120",
+      "text": "Apakah maksud peribahasa Mencegah lebih baik daripada mengubati?",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "bcf9ef683156c07473d3",
+      "text": "Pilihan satu. Mencegah penyakit. Pilihan dua. Menunggu sakit. Pilihan tiga. Mengabaikan diri.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "569cb47985ab25aaaf08",
+      "text": "Halakan jari telunjuk kepada ikan. Rapatkan ibu jari dan jari telunjuk sehingga ikan dipilih. Kemudian, angkat tangan sedikit untuk menarik ikan. Kamu juga boleh menggunakan butang pancing.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "6a8418fae4d49c3fcc98",
+      "text": "Panggil Tok Wan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "09c23258e8b7e3da6271",
+      "text": "Ambil tuala bersih.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "52ebc7de07cab9599a8e",
+      "text": "Bawa bantuan bersama.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "82436451338b63746764",
+      "text": "Alas peti kayu.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "46ba8a2c9f64b62e0a09",
+      "text": "Bentang kain lembut.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "eba6e59289cdfce22358",
+      "text": "Peti di beranda.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "5e6f1b9c7d55ba4debec",
+      "text": "Duduk dengan tenang.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "614a02d2f134e8a018d7",
+      "text": "Baca cerita perlahan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "4496b6391b9392842d23",
+      "text": "Gilir menemani.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "bf9537cc1f9a27364442",
+      "text": "Gilir menjaga Belang.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "f63f166ea08098092721",
+      "text": "Gilir mengemas tempat.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "f1d5d3979c930bdc5927",
+      "text": "Bahagikan tugas.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "ca0cdfa3c0c1754266a0",
+      "text": "Buku kenangan Belang.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "618c755f02e4c1d333b8",
+      "text": "Poster sayangi haiwan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "556f00de77243ed8d66e",
+      "text": "Pameran kenangan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "28de40c0bbbbdfcaea09",
+      "text": "Saling membantu.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "f8de3ad0b2e0ecec1b41",
+      "text": "Bekerja sendiri.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "a4b1949d25f900162cab",
+      "text": "Bermain sahaja.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "a23c06933ede081babd3",
+      "text": "Kutip buku.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "7390d8e04e1563cfa652",
+      "text": "Lap meja.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "df8b21eb2ba237e173de",
+      "text": "Bahagikan kerja.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "f0eecaa48f51ffdb5ff0",
+      "text": "Ikut jenis cerita.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "6383f8c62466f1d8192b",
+      "text": "Ikut saiz buku.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "b9044bf0a24a9bb82bb7",
+      "text": "Label rak buku.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "32ed3b11b055248a5bf8",
+      "text": "Hiasan kertas.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "93b8511abaeeab7abb79",
+      "text": "Penanda buku.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "45deda0e12adeeb71635",
+      "text": "Hiasan dan penanda.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "cb209e6be318beb11acf",
+      "text": "Jadual mengemas.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "a6947ec5e5cb3c195ccb",
+      "text": "Kad peringatan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "7ff9b65d6e18207ca7d8",
+      "text": "Jadual dan kad.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "8bb6d0090105a580f81a",
+      "text": "Baca bersama rakan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "cbf570d15670c4567fed",
+      "text": "Pamerkan karya.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "fbea5ceeb9a29e076c81",
+      "text": "Sudut karya rakan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "2f9539441b7b0350ffbe",
+      "text": "Rajin membantu.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "cf8c8e21b891dcd72e27",
+      "text": "Cepat berlari.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "15bf1c86cae0105248bd",
+      "text": "Isi baldi air.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "490938d08f54e73cd416",
+      "text": "Periksa tanah.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "211bf8b93b872194b760",
+      "text": "Periksa dan isi air.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "4f593f9677947bbcd9b9",
+      "text": "Pindah pasu kecil.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "dc12c777ec91fcd565f7",
+      "text": "Kutip daun gugur.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "c0dbd0457c363c5f2bd2",
+      "text": "Bersih dan susun.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "550009e4cf9fed48e743",
+      "text": "Tulis label pokok.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "662f3cc8766a7bae9796",
+      "text": "Lukis kad penjagaan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "568db5977369509873bb",
+      "text": "Label dan kad.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "c4d4e0a074bd026c5f4e",
+      "text": "Buat jadual tugas.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "2af567b600bbc3e05191",
+      "text": "Catat pertumbuhan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "f0b93d36d8f4584d94cc",
+      "text": "Jadual dan catatan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "60b6422760b65fee0aea",
+      "text": "Ajak rakan berkebun.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "0893d05ca55bc0ddc5a4",
+      "text": "Hasilkan buku kebun.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "c6d13a32d4501bfcc62d",
+      "text": "Hari kebun bersama.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "d3d9239b6124192fc867",
+      "text": "Buah segar.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "7d8661515e875f71be93",
+      "text": "Roti berinti.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "ecfe4f8ffd83210a6ba9",
+      "text": "Buah dan roti.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "15661107b14368c3764e",
+      "text": "Basuh bergilir-gilir.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "7fb62277391cf12ae5f0",
+      "text": "Saling ingatkan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "98cd0021ffc996d7d2c8",
+      "text": "Bantu dan ingatkan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "012c349a9b9008f35b2e",
+      "text": "Kongsi bekal.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "991ad840d04faf01bcc3",
+      "text": "Simpan sebahagian.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "661085f9fe0da2b39a44",
+      "text": "Kongsi dan simpan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "51c212d0227cc39dd42f",
+      "text": "Kumpul sampah.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "cfcf7abe703586ca31b5",
+      "text": "Lap tempat makan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "4392e9096c330e623668",
+      "text": "Bersihkan bersama.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "21699d4c5b0152ce51f4",
+      "text": "Buku petua bersih.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "330b64f691e372ab431a",
+      "text": "Lagu kebersihan.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "dd646ab4e7b979b29b5f",
+      "text": "Poster petua sihat.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "baa9375e1d98c29b542a",
+      "text": "Mencegah penyakit.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "21c64fa8d136b84b0867",
+      "text": "Menunggu sakit.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "2313d2a5db61f62f9163",
+      "text": "Mengabaikan diri.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "827f15ab888111f0d832",
+      "text": "Pilihan satu. Rajin membantu. Pilihan dua. Cepat berlari. Pilihan tiga. Bermain sahaja.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "40271f79f8ac5f082bc6",
+      "text": "Kamu boleh bermain mengikut masa sendiri. Baca arahan bagi setiap langkah. Minta bantuan guru jika kamu memerlukannya.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "e2718cea9f06207a8d15",
+      "text": "Baca cerita, cari ayat bukti, dan pilih tindakan watak. Catat sebab pilihan kamu. Kemudian, pancing ikan untuk menentukan sambungan cerita. Lengkapkan semua muka surat untuk menghasilkan buku.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "73f6a4eec20ce104298a",
+      "text": "Selamat datang. Mari belajar bersama-sama. Dengar arahan dengan teliti dan cuba mengikut kemampuan kamu.",
+      "category": "Audio sedia ada",
+      "story": ""
+    },
+    {
+      "id": "3382cc70b0a16f27a77f",
+      "text": "Yeay!",
+      "category": "Audio sedia ada",
+      "story": ""
+    }
+  ]
+}

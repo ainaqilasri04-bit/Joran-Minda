@@ -1,8 +1,8 @@
 import{test}from'node:test';import assert from'node:assert/strict';import{createHandler}from'../server/room-service.mjs';import{groupState}from'../server/group-flow.mjs';
 class MemoryStore{constructor(){this.m=new Map();}async get(k){return structuredClone(this.m.get(k)||null);}async setJSON(k,v,o={}){if(o.onlyIfNew&&this.m.has(k))return{modified:false};this.m.set(k,structuredClone(v));return{modified:true};}async list({prefix}){return{blobs:[...this.m.keys()].filter(k=>k.startsWith(prefix)).map(key=>({key}))};}}
-test('four named roles, protected turns, one shared path, wrong answers and concurrent retries',async()=>{
+test('legacy rooms preserve fixed roles, protected turns and concurrent retry behaviour',async()=>{
  const store=new MemoryStore(),handle=createHandler(store);async function call(body,token){const res=await handle(new Request('http://localhost/.netlify/functions/kelas',{method:'POST',headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{})},body:JSON.stringify(body)}));return{status:res.status,data:await res.json()};}
- const made=await call({action:'create',name:'Kumpulan Budi',kelas:'3 A',story:'sihat'});assert.equal(made.status,201);const code=made.data.room.code,teacher=made.data.teacherToken;const members={};
+ const made=await call({action:'create',name:'Kumpulan Budi',kelas:'3 A',story:'sihat'});assert.equal(made.status,201);const code=made.data.room.code,teacher=made.data.teacherToken;const members={};store.m.get('rooms/'+code).version=8;
  for(const role of ['pembaca','pencari','pencatat','pemancing']){members[role]=(await call({action:'join',code,name:role,kelas:'3 A',role})).data;assert(members[role].token);}
  assert.equal((await call({action:'join',code,name:'Pendua',kelas:'3 A',role:'pembaca'})).status,409);
  assert.equal((await call({action:'report',code},members.pembaca.token)).status,403);
@@ -23,7 +23,17 @@ test('four named roles, protected turns, one shared path, wrong answers and conc
  const audio='data:audio/webm;base64,YQ==';assert.equal((await call({action:'audio-save',code,page:1,text:'Hana membaca.',audio},members.pembaca.token)).status,403);assert.equal((await call({action:'audio-save',code,page:1,text:'Hana membaca.',audio},teacher)).status,200);
  const cross=await handle(new Request('http://localhost/.netlify/functions/kelas',{method:'POST',headers:{Origin:'https://evil.example'},body:'{}'}));assert.equal(cross.status,403);
 });
-test('all 972 routes keep five coherent pages and every earlier choice affects the ending',()=>{for(const key of JoranStory.keys){const endings=new Set();for(let mask=0;mask<243;mask++){const path=Array.from({length:5},(_,i)=>Math.floor(mask/3**i)%3);for(let page=0;page<5;page++){const current=JoranStory.make(key,page,path),text=JoranStory.text(key,page,path);assert.equal(current.labels.length,3);assert(text.length<=450);assert(current.sentences[current.evidence]);assert(text.endsWith(current.outcomes[path[page]]));if(page>0){const altered=path.slice();altered[page-1]=(altered[page-1]+1)%3;assert.notEqual(current.sentences.join(' '),JoranStory.make(key,page,altered).sentences.join(' '));}}endings.add(JoranStory.text(key,4,path));}assert.equal(endings.size,243);}assert.equal(groupState().sequence,0);});
+test('all 972 choice routes keep exactly the same teacher narration across five pages',()=>{
+ for(const key of JoranStory.keys)for(let mask=0;mask<243;mask++){
+  const path=Array.from({length:5},(_,i)=>Math.floor(mask/3**i)%3);
+  for(let page=0;page<5;page++){
+   const current=JoranStory.make(key,page,path),text=JoranStory.text(key,page,path);
+   assert.equal(current.labels.length,3);assert.equal(current.sentences.length,3);assert(text.length<=450);
+   assert(current.sentences[current.evidence]);assert.equal(text,JoranStory.text(key,page,[]));
+   assert(!text.includes('undefined'));assert(!text.includes('  '));
+  }
+ }assert.equal(groupState().sequence,0);
+});
 test('home work is isolated, resumable, scores once, and shares teacher instruction audio',async()=>{
  const store=new MemoryStore(),handle=createHandler(store);async function call(body,token){const res=await handle(new Request('http://localhost/.netlify/functions/kelas',{method:'POST',headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{})},body:JSON.stringify(body)}));return{status:res.status,data:await res.json()};}
  const made=(await call({action:'create',name:'Latihan Rumah',kelas:'3 A',story:'belang',mode:'kendiri'})).data,code=made.room.code,t=made.teacherToken;

@@ -1,0 +1,22 @@
+JORAN MINDA — V33
+Aliran PdP, Latihan Pemulihan, buku cerita, markah dan sijil V32 dikekalkan.
+
+Kemas kini audio:
+- Pemain tunggal: Dengar, Hentikan, dengar semula dan pertukaran suara tanpa pertindihan narasi.
+- Hanya fail dengan teks yang sepadan digunakan. Tiada potongan arahan lama yang berlainan.
+- Suara maklum balas membaca hasil pencapaian, bukan Yay sahaja, apabila fail atau suara Melayu peranti tersedia.
+- Studio semua suara: bacaan cerita Guru; arahan; soalan/pilihan; semakan; tahniah.
+- Rakam/muat naik, semak status, simpan, sandarkan dan pulihkan rakaman.
+- Fail suara website boleh dieksport agar murid pada peranti lain mendengar rakaman Guru.
+
+SUARA AI LENGKAP
+Semua 528 teks dalam katalog kini mempunyai fail audio: 152 klip asal, 10 daripada fail TTSMaker pengguna dan 366 klip Melayu baharu. Audio baharu menggunakan suara ms-MY-YasminNeural. Fail diperiksa melalui tempoh, penyahkodan dan padanan metadata teks; sebutan belum disemak oleh manusia. Rakaman suara Guru sebenar untuk semua 20 halaman buku cerita sudah dimasukkan dalam projek. Rakaman terbaharu yang sepadan dengan teks semasa digunakan. Rujuk SUARA-MELAYU.txt.
+
+UNTUK LAMAN V33 SEDIA ADA
+Pulihkan Suara-Joran-Minda-Lengkap.json melalui Studio semua suara > Simpan suara untuk website dan salinan sandaran > Pulihkan sandaran semua suara. Fail tunggal ini memasukkan 376 rakaman yang melengkapkan 152 klip asal. Rakaman sedia ada dikekalkan. Import hanya menyimpan audio pada pelayar berkenaan; untuk semua peranti, terbitkan projek yang dikemas kini. Sandarkan rakaman buku cerita Guru terlebih dahulu dan pulihkan jika perlu.
+
+PENERBITAN
+Ekstrak ZIP. Muat naik kandungan folder joran-minda ke repo projek sedia ada. Tetapan Netlify kekal mengikut netlify.toml. Fail pratonton HTML ialah salinan untuk mencuba; penerbitan website menggunakan projek dalam ZIP.
+
+RAKAMAN GURU SUDAH DIGABUNGKAN
+Fail public/suara-joran-minda.js kini mengandungi 20 rakaman Guru. Terbitkan fail ini bersama keseluruhan projek untuk membolehkan murid pada peranti lain mendengarnya. Tidak perlu mengimport fail sandaran pada setiap peranti murid. Laman Netlify berubah selepas fail projek dikemas kini melalui repo yang disambungkan.

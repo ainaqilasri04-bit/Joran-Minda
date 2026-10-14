@@ -1,26 +1,37 @@
-JORAN MINDA — PAKEJ PROJEK LENGKAP UNTUK GITHUB DAN NETLIFY
+JORAN MINDA V34 — PROJEK TERKINI
+14 Oktober 2026
 
-Ini ialah pakej BANYAK FAIL dan FOLDER.
+AUDIO
+Kesemua 609 teks dalam katalog mempunyai fail audio, termasuk 81 teks
+tambahan daripada lima fail TTSMaker yang dihantar. Semua 20 rakaman cerita
+Guru dikekalkan. Pengguna telah mengesahkan bahawa semua audio sudah disemak
+sebelum penerbitan. Tidak perlu menjana audio tersebut semula.
 
-1. Klik kanan JORAN-MINDA-PROJEK-GITHUB.zip > Extract All / Ekstrak Semua.
-2. Buka folder joran-minda. Pilih SEMUA kandungan di dalam folder itu.
-3. GitHub: Add file > Upload files. Seret semua fail dan folder yang dipilih.
-4. Pastikan package.json, package-lock.json, netlify.toml, public, server,
-   netlify, scripts dan tests berada pada aras utama repositori.
-5. Tekan Commit changes.
-6. Netlify: Add new project > Import an existing project > GitHub.
-7. Pilih repositori dan gunakan tetapan UNTUK PAKEJ INI:
-   Base directory: kosong
-   Build command: npm run build
-   Publish directory: public
-   Functions directory: netlify/functions (sudah dalam netlify.toml)
-8. Tekan Deploy dan buka pautan laman selepas penerbitan selesai.
+MULA MENERBITKAN
+1. Ekstrak ZIP dan buka folder joran-minda.
+2. Gunakan repositori GitHub yang disambungkan kepada laman Netlify asal.
+3. Letakkan kandungan folder joran-minda pada aras projek sedia ada.
+   package.json, netlify.toml, public, scripts, server dan netlify mesti
+   berada pada aras yang sama. Kekalkan susunan subfolder di dalamnya.
+4. Muat naik keseluruhan projek. GitHub Desktop sesuai untuk memindahkan
+   semua fail dalam satu kemas kini. Muat naik melalui laman GitHub
+   dihadkan kepada 100 fail setiap kali dan 25 MiB setiap fail.
+5. Simpan perubahan (commit) dan hantar ke GitHub (push).
+6. Jika penerbitan automatik sudah disambungkan, tunggu penerbitan Netlify
+   selesai. Semak log jika penerbitan gagal.
+7. Buka laman Netlify, kemudian Ruang Guru > Semak sambungan bilik.
+   Sambungan perlu menyatakan versi 34. Cipta bilik baharu untuk soalan baharu.
 
-Mod individu dan berkumpulan disertakan. Pakej lengkap ini turut
-menyertakan fungsi bilik dalam talian untuk penerbitan melalui Netlify.
-Gambar HD, suara arahan Bahasa Melayu dan bunyi Children Yay! disertakan.
-Rakaman bacaan sendiri: buka Guru: Rakam suara dalam permainan.
-Muzik dimatikan secara lalai dan diredakan ketika suara dimainkan.
+TETAPAN PROJEK
+Fail netlify.toml menyediakan arahan binaan, folder public dan fungsi
+netlify/functions serta Node 22. Kekalkan fail itu bersama package.json.
+Jika projek berada dalam subfolder repositori, tetapan direktori asas
+Netlify perlu menunjuk kepada subfolder yang mengandungi kedua-dua fail itu.
+Fail ZIP perlu diekstrak; fail pratonton HTML ialah untuk mencuba pada
+satu peranti dan tidak menyediakan perkhidmatan kod bilik dalam talian.
 
-Gunakan tetapan di atas untuk pakej lengkap ini.
-Panduan lanjut: README.md.
+SEMAKAN SELEPAS TERBIT
+Cuba kod individu dan kod kumpulan daripada pelayar atau peranti lain.
+Semak audio, giliran ahli, rakaman murid, rekod Guru dan sijil.
+Laman GitHub dan Netlify belum dikemas kini oleh pakej muat turun ini.
+Rujuk SEMAKAN-SEBELUM-TERBIT-V34.txt untuk butiran ujian dan batas semakan.

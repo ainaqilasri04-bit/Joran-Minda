@@ -1,46 +1,38 @@
-# Joran Minda — versi 20
+# Kemas kini V33: Studio semua suara
 
-Permainan Bahasa Melayu Tahun 3 berasaskan Baca, Cari, Nilai. Pilih mod individu atau berkumpulan empat ahli. Lengkapkan lima muka surat, jawab bonus peribahasa dan hasilkan buku PDF.
+Pemain audio disatukan dan rakaman Guru boleh dieksport sebagai `public/suara-joran-minda.js` untuk peranti murid. Rujuk `SUARA-MELAYU.txt` untuk rakam, pulihkan dan terbitkan suara. **Kesemua 528 teks katalog kini mempunyai fail audio. Sebanyak 366 klip Melayu baharu melengkapkan 152 klip asal dan 10 klip TTSMaker pengguna.**
 
-## GitHub → Netlify
+# Joran Minda V32
 
-1. Ekstrak ZIP. Buka folder **joran-minda**.
-2. Di GitHub, pilih **Add file → Upload files**. Seret semua kandungan di dalam folder itu. `package.json`, `netlify.toml`, `public`, `server` dan `netlify` mesti berada pada aras utama repositori. Tekan **Commit changes**. Muat naik fail dan folder yang telah diekstrak, bukan ZIP atau fail HTML tunggal.
-3. Di Netlify, pilih **Add new project → Import an existing project → GitHub**. Pilih repositori tersebut dan benarkan akses yang diperlukan.
-4. Semak tetapan berikut, kemudian pilih **Deploy**:
+Permainan Bahasa Melayu Tahun 3 untuk satu PdP 60 minit, Formula BaCaNi dan buku cerita lengkap.
 
-| Tetapan | Nilai |
-| --- | --- |
-| Base directory | Kosong |
-| Build command | `npm run build` |
-| Publish directory | `public` |
-| Functions directory | `netlify/functions` |
-| Node.js | `22`, sudah ditetapkan dalam `netlify.toml` |
+## Pembetulan V32
 
-Netlify memasang kebergantungan melalui `package-lock.json`. Fungsi bilik menggunakan Netlify Blobs melalui persekitaran Netlify; tiada kunci AI diperlukan untuk memainkan suara yang dibekalkan. Pakej ini mengandungi kurang daripada 100 fail, setiap satu di bawah 25 MiB, untuk memudahkan muat naik melalui pelayar GitHub.
+- Panorama tasik baharu memenuhi ruang permainan, dengan ikan pilihan di bawah permukaan air.
+- Tajuk besar Latihan Pemulihan dipaparkan di dalam kotak latihan, bersama nama murid dan semakan awal, pada kedua-dua langkah.
+- Pemulihan menjadi aktiviti suaikan tiga perbuatan dengan tiga nilai, diikuti ayat ringkas. Padanan disimpan bagi setiap murid; backend mengira ketepatan dan potongan mata.
+- Ruang Guru mempunyai jadual dua lajur yang menerangkan keputusan secara terus. Eksport Excel mempunyai satu helaian Rekod Guru, tanpa helaian individu kosong di hadapan. Mata kumpulan dicatat sekali; semakan awal, latihan dan bacaan mengikut ahli.
+- Sijil PDF dengan bingkai emas/hijau, motif daun dan ilustrasi tasik. Syarat semua aktiviti lengkap dikekalkan.
+- Semakan buku boleh disunting seperti V31; aliran individu, kumpulan, rakaman bergilir dan pembersihan sejarah dikekalkan.
 
-Untuk repositori sedia ada, muat naik ke aras yang sama. Fail audio lama yang tidak lagi dirujuk boleh kekal; manifest baharu menggunakan audio versi 20. Setelah repositori dipautkan, commit seterusnya mencetuskan binaan Netlify secara automatik. Pakej ini belum diterbitkan melalui akaun pengguna.
+## Audio tersedia
 
-Dokumentasi rasmi: [GitHub: muat naik fail](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository), [Netlify: import repositori](https://docs.netlify.com/start/quickstarts/deploy-from-repository/), [Netlify: konfigurasi](https://docs.netlify.com/build/configure-builds/file-based-configuration/).
+152 klip asal, Yay dan klik dikekalkan. 10 arahan daripada fail TTSMaker pengguna serta 366 klip ms-MY-YasminNeural disertakan sebagai MP3 berasingan. Semua teks katalog boleh didengar tanpa suara Melayu peranti. Klip baharu diperiksa melalui tempoh, penyahkodan dan padanan metadata teks; semakan manusia terhadap sebutan masih diperlukan. Teks tambahan yang dicipta pengguna mungkin memerlukan rakaman baharu. Bacaan buku cerita Guru kini disertakan untuk semua 20 halaman menggunakan rakaman sebenar yang dimuat naik pengguna. Rakaman terbaharu setiap halaman dipilih dan ditukar kepada MP3 tanpa mengubah bacaan. Baca `SUARA-MELAYU.txt`.
 
-## Suara dan muzik
+`server/voice-autogen-v33.json` menyimpan teks, kategori, tempoh dan checksum setiap klip baharu. `scripts/generate-malay-edge.py` ialah alat penyediaan pilihan dengan edge-tts 7.3.1 dan ffmpeg/ffprobe; ia tidak dijalankan oleh pelayar atau proses build Netlify. Fail audio yang telah disediakan boleh terus diterbitkan.
 
-- Sepuluh skrip arahan umum dijana semula menggunakan suara Yasmin, Bahasa Melayu Malaysia (`ms-MY`), pada tempo hampir semula jadi. Skrip disertakan dalam `SKRIP-ARAHAN.txt`.
-- Audio soalan dan pilihan sedia ada diproses secara tempatan: tempo diselaraskan, kelantangan diseragamkan dan hujung audio dilembutkan. Soalan serta pilihan cerita tidak dihantar semula ke perkhidmatan suara.
-- Terdapat 152 padanan audio. Bacaan perenggan cerita tetap menggunakan rakaman Guru.
-- Muzik **dimatikan secara lalai**. Apabila dihidupkan, tahap awalnya 12% dan maksimum 30%, menggunakan nada latar lembut tanpa melodi loceng berulang. Muzik berhenti ketika suara, sorakan atau rakaman dimainkan.
-- Sorakan awal 40%, maksimum 2.6 saat, dengan pencegahan main bertindih. Sorakan menggunakan fail **Children Yay! Sound Effect.mp3** yang diberikan oleh pengguna: senyap awal dibuang, petikan 2.6 saat digunakan, kelantangan diseragamkan dan penghujung dilembutkan.
-- **Bunyi Yay yang diminta sudah disertakan** dan dimainkan apabila murid menjawab dengan betul atau berjaya memancing. Guru boleh memuat naik MP3/WAV/M4A melalui **Tetapan → Sorakan pilihan Guru**. Pilihan itu disimpan pada pelayar berkenaan. Untuk menggunakannya bagi semua murid, gantikan `public/audio-ms/yeay.mp3` dengan MP3 yang dikehendaki dan commit perubahan.
-- Halaman `public/audio-ms/semak-suara.html` membolehkan Guru mendengar setiap klip. Pengesahan teknikal bukan pengesahan sebutan manusia.
+## Menjalankan dan menerbitkan
 
-## Gambar dan rakaman
+`npm install`, `npm run dev`, `npm run build`, `npm test`.
+Muat naik isi folder `joran-minda` ke akar repositori GitHub sedia ada. Netlify membaca `netlify.toml`, menggunakan folder `public` dan `netlify/functions`.
+Sumber UI disimpan dalam `scripts/lesson-ui.js` dan lapisan V25 hingga V33; build menyegerakkannya ke `public/index.html`.
+Pratonton HTML menyokong satu peranti. Bilik talian dan kamera menggunakan projek penuh.
+Laman Netlify dan GitHub sedia ada belum dikemas kini secara automatik. Pakej mengandungi rakaman Guru sebenar bagi semua 20 halaman. Tiada data ujian murid atau kunci perkhidmatan disertakan.
 
-Gambar penuh menggunakan aset asal: ilustrasi 1536 × 1024, kulit 1024 × 1536, dan ikan 1774 × 887. Gambar cerita dipaparkan mengikut nisbah asal tanpa dipotong; **Besarkan gambar** membuka paparan yang lebih luas. Tiada gambar kecil daripada pratonton chat digunakan dalam pakej ini.
+## Aset visual V32
 
-Untuk merakam cerita, buka **Guru: Rakam suara**, pilih cerita dan halaman, rakam atau muat naik audio, kemudian semak semula. Rakaman perlu sepadan dengan teks cabang cerita. Rakaman suara Guru belum dimasukkan. Mikrofon dan kamera memerlukan kebenaran pelayar; laman Netlify menggunakan HTTPS.
+`public/assets/lake-panorama-v32.png` ialah PNG 2172 × 724 yang dijana dengan alat imagegen, mod suntingan berasaskan `public/assets/lake.webp`. Arahan visual: panorama permainan 3D mesra kanak-kanak di tasik Malaysia; Hana, Iman dan Tok Wan lengkap di jeti, kampung dan gunung merentasi seluruh lebar, air keratan rentas terbuka untuk ikan jawapan, tanpa teks atau ikan tertanam. Imej akhir disertakan dalam projek dan pratonton. Corak serta teks sijil dilukis melalui canvas dalam `scripts/lesson-v32.js`.
 
-## Cuba pada komputer
+## Rakaman Guru siap diterbitkan
 
-`MAIN-JORAN-MINDA.html` membuka permainan pada peranti ini. Mod individu dan kumpulan satu peranti boleh dicuba tanpa bilik dalam talian. Untuk pembangunan tempatan: `npm ci`, `npm test`, `npm run build`, kemudian `npm run dev`.
-
-Muat turun PDF menghasilkan kulit dan lima muka surat. Penerbitan buku ke Heyzine dilakukan melalui akaun sendiri.
+`public/suara-joran-minda.js` mengandungi 20 rakaman terbaharu yang sepadan dengan teks cerita semasa. Fail ini dimuatkan untuk semua pelawat, termasuk pelayar tanpa simpanan lama. Arahan AI kekal dalam `public/audio-ms`. `server/teacher-voice-v33.json` merekodkan pemilihan rakaman, tempoh dan checksum; `scripts/import-teacher-backup.py` ialah alat penyediaan daripada sandaran, bukan sebahagian proses build Netlify. Sandaran asal pengguna tidak diubah. Ketepatan bacaan lisan belum disemak oleh manusia.
