@@ -1,0 +1,63 @@
+/* Final layout rules: keep one prompt and avoid legacy hidden/duplicate controls. */
+#jm19 #jm-shell27 #jm-pdp-panel[data-read35="1"] .jm-pdp-reading,
+#jm19 #jm-shell27 #jm-pdp-panel[data-read35="2"] .jm-pdp-reading{display:block!important}
+#jm19 #jm-shell27 .jm-choice-label37{display:block;min-width:0;flex:1;line-height:1.6;white-space:normal;overflow-wrap:anywhere}
+#jm19 #jm-shell27 .jm-choice-label37 .jm-word{white-space:normal!important;display:inline!important}
+#jm19 #jm-shell27 .jm-focus-audio35,#jm19 #jm-shell27 .jm-audio-pair37{display:flex;flex-direction:row;align-items:center;gap:8px;flex-wrap:nowrap;max-width:none}
+#jm19 #jm-shell27 .jm-focus-audio35>button,#jm19 #jm-shell27 .jm-audio-pair37>button{font-size:16px;white-space:normal;min-height:48px;margin:0!important;flex:1 1 auto}
+#jm19 #jm-shell27 .jm-focus-banner35{display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px}
+#jm19 #jm-shell27 .jm-focus-audio35{grid-column:2;justify-self:start;max-width:380px}
+#jm19 #jm-shell27 .jm-focus-icon35{grid-row:1/3;align-self:start}
+#jm19 #jm-shell27 #jm-written30{max-width:none;font-size:clamp(19px,1.6vw,23px);line-height:1.5}
+#jm19 #jm-shell27 #jm-choice-cards.jm-notes37{display:grid!important;grid-template-columns:1fr;gap:12px;margin:0}
+#jm19 #jm-shell27 .jm-notes37 .jm-choice-card{padding:0;background:none;border:0}
+#jm19 #jm-shell27 .jm-notes37 .jm-pick-note36{min-height:64px;font-size:23px}
+#jm19 #jm-shell27 .jm-notes37 .jm-icon35{width:32px;flex:0 0 32px}
+#jm19 #jm-shell27 #jm-discuss{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:16px;align-items:start}
+#jm19 #jm-shell27 #jm-discuss[hidden]{display:none!important}
+#jm19 #jm-shell27 #jm-discuss .jm-evidence-card{grid-column:1;grid-row:1/4;padding:0;background:transparent;border:0;min-width:0}
+#jm19 #jm-shell27 #jm-discuss .jm-photo35{margin:0}
+#jm19 #jm-shell27 #jm-discuss .jm-photo35 img{width:100%;height:auto;max-height:340px;object-fit:contain}
+#jm19 #jm-shell27 #jm-choice-cards,#jm19 #jm-shell27 .jm-note-audio37,#jm19 #jm-shell27 .jm-notes-form{grid-column:2}
+#jm19 #jm-shell27 .jm-notes-form{margin:0;padding:0;background:none;border:0}
+#jm19 #jm-shell27 #jm-note-summary36{font-size:21px;margin:0 0 10px;padding:14px;line-height:1.6}
+#jm19 #jm-shell27 #jm-note-editor37:not([hidden]){display:block;margin-top:12px}
+#jm19 #jm-shell27 #jm-note-editor37[hidden]{display:none!important}
+#jm19 #jm-shell27 .jm-edit-actions37{display:flex;gap:12px;margin:12px 0;flex-wrap:wrap}
+#jm19 #jm-shell27 #jm-discussion-round,#jm19 #jm-shell27 #jm-discussion-source,#jm19 #jm-shell27 #jm-value-question,#jm19 #jm-shell27 #jm-evidence-text,#jm19 #jm-shell27 #jm-discuss .jm-notes-form>label:first-of-type,#jm19 #jm-shell27 .jm-prompt29,#jm19 #jm-shell27 .jm-hear-check35,#jm19 #jm-shell27 .jm-hear-check35+.jm-stop30,#jm19 #jm-shell27 #jm-cari-help{display:none!important}
+#jm19 #jm-shell27 [data-pdp-explain] .jm-value-buttons36,#jm19 #jm-shell27 [data-pdp-explain] .jm-explain-scene35{display:none!important}
+#jm19 #jm-shell27 [data-pdp-explain]{display:block!important;max-width:1100px;margin:auto}
+#jm19 #jm-shell27 [data-pdp-explain][hidden]{display:none!important}
+#jm19 #jm-shell27 [data-pdp-explain] .jm-proof-cards35{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+#jm19 #jm-shell27 [data-pdp-explain] .jm-proof-cards35 button{min-width:0}
+#jm19 #jm-shell27 [data-pdp-explain] .jm-guided-review36{margin:20px auto;max-width:850px}
+#jm19 #jm-shell27 #jm-pdp-practice[data-clear37]{display:block!important;max-width:1100px;margin:auto}
+#jm19 #jm-shell27 .jm-practice-heading37 h3{font-size:28px;margin:6px 0}
+#jm19 #jm-shell27 .jm-practice-heading37 p{font-size:18px;margin:6px 0 18px}
+#jm19 #jm-shell27 .jm-practice-layout37{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:24px;align-items:start}
+#jm19 #jm-shell27 .jm-practice-layout37 figure{margin:0}
+#jm19 #jm-shell27 .jm-practice-layout37 img{width:100%;height:auto;max-height:340px;object-fit:contain}
+#jm19 #jm-shell27 .jm-practice-options37{display:grid;gap:12px}
+#jm19 #jm-shell27 .jm-choice36{width:100%;box-sizing:border-box;min-width:0;min-height:62px;font-size:22px}
+#jm19 #jm-shell27 #jm-diagnostic29 legend{display:none}
+#jm19[data-home36=true] .jm-home-actions{max-width:380px}
+#jm19[data-home36=true] .jm-home-help37{border-radius:14px;background:#f6fff3e8;color:#174b44;padding:10px 14px;box-sizing:border-box}
+#jm19[data-home36=true] .jm-home-help37 summary{padding:8px;font-size:17px;font-weight:700;cursor:pointer}
+#jm19[data-home36=true] .jm-home-actions>.jm-pdp-notice{display:none}
+#jm19[data-home36=true] .jm-home-small-actions{display:flex;flex-wrap:wrap}
+#jm19 .jm-teacher-tools37{padding:16px;border:1px solid #9db8a9;border-radius:14px;margin:12px 0}
+#jm19 .jm-teacher-tools37>*{margin:8px}
+#jm19 .jm-teacher-tools37 summary{font-weight:700;font-size:20px;cursor:pointer}
+#jm19 #jm-entry-form + #jm-home-code,#jm19 #jm-home-code{font-size:19px;margin:12px 0}
+@media(max-width:800px){
+ #jm19 #jm-shell27 #jm-discuss,#jm19 #jm-shell27 .jm-practice-layout37{grid-template-columns:1fr}
+ #jm19 #jm-shell27 #jm-discuss .jm-evidence-card,#jm19 #jm-shell27 #jm-choice-cards,#jm19 #jm-shell27 .jm-note-audio37,#jm19 #jm-shell27 .jm-notes-form{grid-column:1;grid-row:auto}
+ #jm19 #jm-shell27 #jm-discuss .jm-photo35 img,#jm19 #jm-shell27 .jm-practice-layout37 img{max-height:220px}
+ #jm19 #jm-shell27 [data-pdp-explain] .jm-proof-cards35{grid-template-columns:1fr}
+ #jm19 #jm-shell27 [data-pdp-explain] .jm-proof-cards35 button{display:grid;grid-template-columns:120px 1fr;gap:12px}
+ #jm19 #jm-shell27 .jm-focus-banner35{grid-template-columns:30px minmax(0,1fr)}
+}
+#jm19 #jm-shell27 #jm-fishing>#jm-question{display:none!important}
+#jm19 #jm-shell27 #jm-discuss .jm-evidence-card{display:block}
+#jm19 #jm-shell27 #jm-discuss .jm-photo35 button{display:inline-flex;margin:8px 0}
+#jm19 #jm-shell27 #jm-diagnostic29 fieldset>p{display:none!important}

@@ -1,0 +1,29 @@
+/* Natural image proportions: crop the edges when necessary, never squash faces. */
+#jm19 #jm-shell27 #jm-stage{--jm-water-top:200px!important;height:530px!important;min-height:530px}
+#jm19 #jm-shell27 .jm-sky-panorama40 img,#jm19 #jm-shell27 .jm-water-panorama40 img{width:auto!important;height:200%!important;max-width:none!important;aspect-ratio:3 / 1;object-fit:contain!important;left:50%!important;right:auto;transform:translateX(-50%)}
+#jm19 #jm-shell27 .jm-habitat{top:var(--jm-water-top)!important}
+#jm19 .jm-ni-options>.jm-audio-pair37,#jm19 .jm-evidence-options35>.jm-audio-pair37{grid-column:1 / -1;width:100%;margin:0 0 12px}
+#jm19 .jm-audio-above46{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 14px;grid-column:1 / -1}
+#jm19 .jm-audio-above46>button{flex:1;min-height:48px}
+#jm19 .jm-gallery-tools46{padding:18px;border:2px solid #89b8a3;border-radius:16px;background:#f6fbf4;margin:18px 0}
+#jm19 .jm-gallery-tools46 summary{font-size:22px;font-weight:700;cursor:pointer}
+#jm19 .jm-gallery-tools46 form,#jm19 .jm-share-form46{display:grid;gap:14px}
+#jm19 .jm-gallery-tools46 label,#jm19 .jm-share-form46 label{display:grid;gap:6px}
+#jm19 .jm-gallery-tools46 input{width:100%;box-sizing:border-box}
+#jm19 .jm-gallery-actions46{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+#jm19 .jm-gallery-list46{display:grid;gap:14px;margin-top:16px}
+#jm19 .jm-gallery-list46 article{padding:16px;background:white;border:1px solid #b2cbbd;border-radius:14px;overflow-wrap:anywhere}
+#jm19 .jm-gallery-list46 article p{margin:5px 0}
+#jm19 .jm-gallery-list46 details{margin-top:10px}
+#jm19 .jm-gallery-list46 .jm-delete46{background:#fff0ed;color:#9b2e20;border:2px solid #c66b5d}
+#jm19 #jm-share-dialog46{max-width:680px;width:calc(100% - 40px);max-height:85vh;overflow:auto;border:3px solid #216957;border-radius:22px;padding:24px;background:#fffaf0;color:#163f36}
+#jm19 #jm-share-dialog46::backdrop{background:#123e3699}
+#jm19 .jm-share-summary46{display:flex;gap:18px;align-items:center;background:#eaf4e9;border-radius:14px;padding:14px}
+#jm19 .jm-share-summary46 img{width:135px;height:auto;aspect-ratio:3/2;object-fit:contain;border-radius:10px}
+#jm19 .jm-share-entry46{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+#jm19 .jm-share-form46 p[role=status]{min-height:26px}
+@media(max-width:599px){
+ #jm19 #jm-shell27 #jm-stage{--jm-water-top:150px!important;height:790px!important;min-height:790px}
+ #jm19 .jm-share-summary46{align-items:flex-start;flex-direction:column}
+ #jm19 #jm-share-dialog46{padding:16px}
+}

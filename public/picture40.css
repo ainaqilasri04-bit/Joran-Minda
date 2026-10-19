@@ -1,0 +1,36 @@
+/* Full fish above a separate answer card. The whole unit remains one click/gesture target. */
+#jm19 #jm-shell27 #jm-fishing:not([hidden]){display:block!important;max-width:1120px}
+#jm19 #jm-shell27 #jm-fish-tools27{display:flex!important;justify-content:center;gap:10px;margin-bottom:8px}
+#jm19 #jm-shell27 #jm-stage{--jm-water-top:120px!important;height:440px!important;min-height:440px}
+#jm19 #jm-shell27 .jm-scenery{height:100%!important;mask-image:none!important}
+#jm19 .jm-sky-panorama40,#jm19 .jm-water-panorama40{position:absolute;left:0;right:0;overflow:hidden}
+#jm19 .jm-sky-panorama40{top:0;height:var(--jm-water-top)}
+#jm19 .jm-water-panorama40{top:var(--jm-water-top);bottom:0}
+#jm19 #jm-shell27 .jm-sky-panorama40 img,#jm19 #jm-shell27 .jm-water-panorama40 img{position:absolute;left:0;width:100%!important;height:200%!important;max-width:none;object-fit:fill}
+#jm19 .jm-sky-panorama40 img{top:0}
+#jm19 .jm-water-panorama40 img{top:-100%}
+#jm19 #jm-shell27 #jm-fishing .jm-fish{width:calc((100% - 90px)/3);max-width:300px;height:285px!important;min-width:0;background:transparent;border:0;padding:0;overflow:visible}
+#jm19 #jm-shell27 .jm-fish .jm-fish-art{inset:0 0 auto;height:110px!important;width:100%;object-fit:contain;filter:drop-shadow(0 5px 4px #063c6260)}
+#jm19 #jm-shell27 .jm-fish-label{position:absolute;left:0!important;top:118px!important;width:100%!important;min-height:150px;box-sizing:border-box;display:flex;align-items:center;justify-content:flex-start;gap:8px;padding:8px 10px;font-size:20px!important;line-height:1.35;background:#fffdf0;border:2px solid #e8bf54;border-radius:18px;box-shadow:0 4px 0 #0c557b44;text-align:left}
+#jm19 #jm-shell27 .jm-fish-label .jm-word{white-space:normal;overflow-wrap:anywhere}
+#jm19 #jm-shell27 .jm-fish-answer39{min-width:0;flex:1}
+#jm19 #jm-shell27 .jm-fish-label .jm-choice-image39{width:58px;flex:0 0 58px;margin:0}
+#jm19 #jm-shell27 .jm-fish[aria-pressed=true] .jm-fish-art{filter:drop-shadow(0 0 8px #fff3a4)}
+#jm19 #jm-shell27 .jm-fish[aria-pressed=true] .jm-fish-label{border:3px solid #0b7259;outline:3px solid #ffe385;background:#f4fff5}
+#jm19 #jm-shell27 .jm-fish-check{right:6px;top:87px;z-index:8}
+#jm19 #jm-response28[data-result40=incorrect]{border:3px solid #c77a29;background:#fffaf0}
+#jm19 #jm-response28[data-result40=incorrect] h2{color:#954a0c}
+#jm19 #jm-response28[data-result40=correct]{border:3px solid #2c9671;background:#f7fff8}
+#jm19 .jm-picture-choice38:focus-visible,#jm19 .jm-fish:focus-visible{outline:4px solid #f1bb33;outline-offset:5px}
+#jm19 #jm-pdp-practice[data-task40=pengukuhan] .jm-practice-heading38{border-bottom:3px solid #7ab7e3;padding-bottom:10px}
+#jm19 #jm-pdp-practice[data-task40=pengayaan] .jm-practice-heading38{border-bottom:3px solid #b29bdf;padding-bottom:10px}
+@media(max-width:700px){
+ #jm19 #jm-shell27 .jm-fish-label{font-size:18px!important;padding:7px;gap:6px}
+ #jm19 #jm-shell27 .jm-fish-label .jm-choice-image39{width:42px;flex-basis:42px}
+}
+@media(max-width:599px){
+ #jm19 #jm-shell27 #jm-stage{--jm-water-top:75px!important;height:700px!important;min-height:700px}
+ #jm19 #jm-shell27 #jm-fishing .jm-fish{width:min(270px,82%);max-width:none;height:195px!important}
+ #jm19 #jm-shell27 .jm-fish .jm-fish-art{height:90px!important}
+ #jm19 #jm-shell27 .jm-fish-label{top:96px!important;min-height:90px}
+}

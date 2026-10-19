@@ -1,0 +1,18 @@
+#jm19 .jm-upload-page47{display:grid;grid-template-columns:minmax(180px,.75fr) minmax(280px,1.25fr);gap:24px;align-items:start}
+#jm19 .jm-upload-page47 figure{margin:0;padding:16px;background:#f2f7e7;border-radius:18px;border:2px solid #bbd2a9}
+#jm19 .jm-upload-page47 figure img{display:block;width:100%;max-height:220px;height:auto;object-fit:contain;border-radius:12px}
+#jm19 .jm-upload-page47 figcaption{display:grid;gap:10px;text-align:center;margin-top:12px;font-size:18px;line-height:1.45}
+#jm19 .jm-upload-page47 figcaption strong{font-size:24px;color:#155347}
+#jm19 #jm-upload-form47{display:grid;gap:10px}
+#jm19 #jm-upload-form47 label{display:grid;gap:6px;font-size:20px}
+#jm19 #jm-upload-form47 input{box-sizing:border-box;width:100%;min-width:0}
+#jm19 #jm-upload-form47 p{margin:0;line-height:1.4}
+#jm19 #jm-upload-url47{font-size:15px}
+#jm19 #jm-upload-shared47{padding:14px;background:#edf7ee;border:2px solid #8ebc9c;border-radius:14px}
+#jm19 #jm-upload-shared47 .jm-gallery-actions46{margin:10px 0}
+#jm19 #jm-upload-linktree47{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;min-height:48px;box-sizing:border-box}
+#jm19 #jm-upload-form47 [hidden]{display:none!important}
+@media(max-width:650px){#jm19 .jm-upload-page47{grid-template-columns:1fr;gap:14px}#jm19 .jm-upload-page47 figure{display:flex;align-items:center;gap:14px;padding:10px}#jm19 .jm-upload-page47 figure img{width:110px}#jm19 .jm-upload-page47 figcaption{text-align:left;margin:0;font-size:16px}#jm19 .jm-upload-page47 figcaption strong{font-size:20px}}
+
+#jm19 .jm-pdf-actions48{display:grid;gap:8px;padding:14px;background:#fff3cb;border:2px solid #d5b363;border-radius:14px}
+#jm19 #jm-pdf-status48{font-size:17px}

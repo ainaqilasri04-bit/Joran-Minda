@@ -1,0 +1,10 @@
+/* Keep the editor button in the fixed activity header, above all scrollable story content. */
+#jm19 #jm-shell27 #jm-review-bar52{grid-column:1/-1;display:flex;justify-content:flex-start;margin:8px 0 0}
+#jm19 #jm-shell27 #jm-review-bar52[hidden]{display:none!important}
+#jm19 #jm-shell27 #jm-edit-open31{font-size:20px;min-height:48px;margin:0;padding:10px 20px}
+#jm19 #jm-shell27 .jm-word.jm-punct52{display:inline-block!important;white-space:nowrap!important;overflow-wrap:normal!important;word-break:normal!important}
+#jm19 #jm-shell27 .jm-reading27{line-height:1.6!important;margin-top:8px}
+#jm19 #jm-shell27[data-review52=true] .jm-review27{align-items:start;gap:20px}
+#jm19 #jm-shell27[data-review52=true] .jm-review27>img{height:auto;max-height:390px;object-fit:contain}
+#jm19 #jm-shell27[data-review52=true] .jm-final-title31{margin-top:0}
+#jm19 #jm-drive-page49 figure img{max-height:240px;object-fit:contain}

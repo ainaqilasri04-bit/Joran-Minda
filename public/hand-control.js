@@ -61,7 +61,7 @@ function mount(bridge){
  const save=()=>{try{localStorage.setItem('joran-minda-tangan-v11',JSON.stringify(prefs));}catch{}};
  let active=false,loading=false,token=0,stream=null,worker=null,workerURL=null,raf=0,timer=0,watch=0,busy=false,lastFrame=0,busyAt=0,context='',smooth=null,lastSeen=0,mode='game',practiceDone=false,cancelInit=null;
  const gesture=new Gesture();
- const instructions='Halakan jari telunjuk kepada ikan. Rapatkan ibu jari dan jari telunjuk sehingga ikan dipilih. Kemudian, angkat tangan sedikit untuk menarik ikan. Kamu juga boleh menggunakan butang pancing.';
+ const instructions=global.JoranInclusive36?.directions.camera||'Halakan jari telunjuk kepada ikan. Rapatkan ibu jari dan jari telunjuk sehingga ikan dipilih. Kemudian, angkat tangan sedikit untuk menarik ikan. Kamu juga boleh menggunakan butang pancing.';
  function say(text){if(status.textContent!==text){status.textContent=text;$('#jm-hand-live-status').textContent=text;}}
  function phase(name,state,text){const e=$('[data-camera-phase="'+name+'"]');if(e){e.dataset.state=state;e.textContent=text;}}
  function disposeDetector(){
@@ -71,6 +71,7 @@ function mount(bridge){
   active=false;busy=false;
  }
  function detectorFailed(message){
+  panel.hidden=false;$('#jm-hand-open').setAttribute('aria-expanded','true');
   disposeDetector();loading=false;gesture.reset();clearTargets();cursor.hidden=true;practice.hidden=true;progress(0);drawHand(null);
   stage.classList.remove('jm-hand-active','jm-hand-training');
   phase('detector','error','3. Pengesan tangan: belum tersedia');
@@ -99,7 +100,7 @@ function mount(bridge){
   $('#jm-hand-practise-again').disabled=false;progress(0);if(message)say(message);
   phase('camera','idle','1. Kamera: belum dibuka');phase('video','idle','2. Paparan video: belum tersedia');phase('detector','idle','3. Pengesan tangan: belum dimulakan');
  }
- function toGame(){mode='game';practiceDone=false;practice.hidden=true;stage.classList.remove('jm-hand-training');$('#jm-hand-play').hidden=true;gesture.reset();clearTargets();say('Buka dua jari, kemudian halakan jari telunjuk kepada ikan pilihan kumpulan.');}
+ function toGame(){panel.hidden=true;$('#jm-hand-open').setAttribute('aria-expanded','false');mode='game';practiceDone=false;practice.hidden=true;stage.classList.remove('jm-hand-training');$('#jm-hand-play').hidden=true;gesture.reset();clearTargets();say('Buka dua jari, kemudian halakan jari telunjuk kepada ikan pilihan kamu.');}
  function toPractice(){mode='practice';practiceDone=false;gesture.reset();clearTargets();practice.hidden=false;stage.classList.add('jm-hand-training');$('#jm-hand-play').hidden=false;$('#jm-hand-play').textContent='Langkau latihan';$('#jm-hand-practice-result').textContent='Cuba tangkap ikan latihan. Tiada markah diberikan.';say('Latihan: buka dua jari dan halakan jari telunjuk kepada ikan latihan.');}
  function paths(){
   if(global.JoranHandPaths)return global.JoranHandPaths;
@@ -123,10 +124,10 @@ function mount(bridge){
     stream=camera;stream.getVideoTracks().forEach(t=>t.addEventListener('ended',()=>{if(current===token||stream===camera)stop('Kamera terputus. Buka semula kamera atau gunakan butang pancing.');}));
    }
    phase('camera','ok','1. Kamera: izin diberikan');
-   $('#jm-hand-monitor').hidden=false;$('#jm-hand-layout').classList.add('jm-camera-layout');$('#jm-hand-camera').hidden=false;
+   panel.hidden=true;$('#jm-hand-open').setAttribute('aria-expanded','false');$('#jm-hand-monitor').hidden=false;$('#jm-hand-layout').classList.add('jm-camera-layout');$('#jm-hand-camera').hidden=false;
    video.srcObject=stream;
    video.style.transform=prefs.mirror?'scaleX(-1)':'none';
-   await video.play();if(current!==token)return;
+   let videoTimer;try{await Promise.race([video.play(),new Promise((_,reject)=>{videoTimer=setTimeout(()=>reject(new Error('VideoTimeout')),10000);})]);}finally{clearTimeout(videoTimer);}if(current!==token)return;
    phase('video','ok','2. Paparan video: kamera berfungsi');$('#jm-hand-detected').textContent='Kamera berfungsi · menyediakan pengesan';
    $('#jm-hand-layout').scrollIntoView({block:'start',behavior:'instant'});
   }catch(e){if(current!==token)return;
@@ -139,7 +140,7 @@ function mount(bridge){
    workerURL=URL.createObjectURL(new Blob([workerCode],{type:'text/javascript'}));worker=new Worker(workerURL);
    await new Promise((resolve,reject)=>{
     cancelInit=()=>reject(new DOMException('Cancelled','AbortError'));
-    timer=setTimeout(()=>reject(new Error('DetectorTimeout')),30000);
+    timer=setTimeout(()=>reject(new Error('DetectorTimeout')),20000);
     worker.onmessage=e=>{if(e.data.type==='ready')resolve();else if(e.data.type==='error')reject(Error('DetectorLoadError'));};worker.onerror=()=>reject(Error('DetectorLoadError'));worker.postMessage({type:'init',paths:paths(),inline:global.JoranHandEmbedded||null});
    });
    if(current!==token)return;cancelInit=null;clearTimeout(timer);
@@ -148,7 +149,7 @@ function mount(bridge){
    if(forcePractice||!prefs.trained)toPractice();else toGame();
    worker.onmessage=e=>{if(current!==token)return;if(e.data.type==='result'){busy=false;handle(e.data.landmarks,e.data.time);}else if(e.data.type==='error')detectorFailed('Kamera berfungsi, tetapi pengesan tangan terganggu. Tekan Cuba pengesan tangan semula.');};
    worker.onerror=()=>{if(current===token)detectorFailed('Kamera berfungsi, tetapi pengesan tangan terganggu. Tekan Cuba pengesan tangan semula.');};raf=requestAnimationFrame(frame);
-  }catch(e){if(current!==token)return;cancelInit=null;detectorFailed('Kamera sudah berfungsi. Pengesan tangan belum dapat dimuatkan'+(e.message==='DetectorTimeout'?' dalam masa 30 saat':'')+(global.JoranHandEmbedded?'. Buka fail ini dalam Chrome terkini, kemudian tekan Cuba pengesan tangan semula.':'. Semak sambungan laman, kemudian tekan Cuba pengesan tangan semula.'));}
+  }catch(e){if(current!==token)return;cancelInit=null;detectorFailed('Kamera sudah berfungsi. Pengesan tangan belum dapat dimuatkan'+(e.message==='DetectorTimeout'?' dalam masa 20 saat':'')+(global.JoranHandEmbedded?'. Buka fail ini dalam Chrome terkini, kemudian tekan Cuba pengesan tangan semula.':'. Semak sambungan laman, kemudian tekan Cuba pengesan tangan semula.'));}
  }
  async function frame(now){
   if(!active)return;
@@ -187,7 +188,7 @@ function mount(bridge){
   if(result.state==='lift')say('Angkat tangan sedikit. Jika mahu memilih semula, tekan Pilih semula.');
   if(result.state==='caught'){
    clearTargets();progress(1);
-   if(mode==='practice'){practiceDone=true;prefs.trained=true;save();$('#jm-hand-practice-result').textContent='Tahniah! Kamu sudah berjaya menangkap ikan latihan.';$('#jm-hand-play').textContent='Mula memancing';say('Latihan berjaya! Tekan Mula memancing untuk memilih jawapan kumpulan.');bridge.reward?.();}
+   if(mode==='practice'){practiceDone=true;prefs.trained=true;save();$('#jm-hand-practice-result').textContent='Tahniah! Kamu sudah berjaya menangkap ikan latihan.';$('#jm-hand-play').textContent='Mula memancing';say('Latihan berjaya! Tekan Mula memancing untuk memilih jawapan kamu.');bridge.reward?.();}
    else if(bridge.canUse()&&bridge.selection()===result.index){bridge.cast();stop('Ikan sedang dipancing. Kamera sudah ditutup.');}
    else{gesture.reset();say('Pilihan berubah. Buka dua jari dan pilih semula ikan.');}
   }
@@ -206,7 +207,7 @@ function mount(bridge){
  $('#jm-fishes').addEventListener('pointerdown',manual,true);$('#jm-fishes').addEventListener('keydown',e=>{if(['Enter',' '].includes(e.key))manual();},true);
  $('#jm-cast').addEventListener('click',()=>{if(active||loading||stream)stop('Ikan sedang dipancing. Kamera sudah ditutup.');});
  stop();
- return{stop};
+ return{stop,start,getState:()=>({active,loading,mode,practiceDone,hasStream:!!stream})};
 }
 global.JoranHand={mount,Gesture};
 if(typeof module!=='undefined')module.exports={Gesture};

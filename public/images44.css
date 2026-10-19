@@ -1,0 +1,4 @@
+/* Complete standalone picture, with no neighbouring sprite or cut-off head. */
+#jm19 .jm-picture44 img{position:static!important;width:100%!important;height:100%!important;min-width:0!important;max-width:100%!important;object-fit:contain!important;left:auto!important;top:auto!important}
+#jm19 .jm-picture44{background:#fff8ef}
+#jm19 .jm-photo35>img,#jm19 .jm-pdp-split>img{object-fit:contain!important}

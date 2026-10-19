@@ -1,0 +1,7 @@
+/* One full-width pond. Camera controls and their runtime are no longer mounted. */
+#jm19 #jm-shell27 #jm-fishing:not([hidden]){display:block!important;width:100%;max-width:1120px;margin-inline:auto}
+#jm19 #jm-shell27 #jm-hand-layout{display:block!important;width:100%!important;max-width:none!important;margin:10px 0!important;grid-template-columns:none!important}
+#jm19 #jm-shell27 #jm-stage{width:100%!important;max-width:none!important;min-width:0;box-sizing:border-box}
+#jm19 #jm-shell27 #jm-fish-tools27{display:flex!important;flex-wrap:wrap;justify-content:center;gap:10px;width:100%}
+#jm19 .jm-evidence-options35>.jm-audio-pair37{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:10px;margin:0 0 8px}
+#jm19 #jm-shell27 #jm-main27{overflow-anchor:none}

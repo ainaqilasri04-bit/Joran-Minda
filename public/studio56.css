@@ -1,0 +1,24 @@
+/* Keep the studio's gold button legible in both colour themes and every state. */
+#jm19 .jm-nav button[data-view="voice"],
+#jm19[data-theme="dark"] .jm-nav button[data-view="voice"] {
+  background: #ffe59e !important;
+  color: #173747 !important;
+  border: 2px solid #b38118;
+  font-weight: 700;
+  font-size: calc(17px * var(--jm-text-scale, 1));
+  line-height: 1.35;
+  min-height: 48px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+  text-shadow: none;
+  opacity: 1;
+}
+#jm19 .jm-nav button[data-view="voice"]:hover,
+#jm19[data-theme="dark"] .jm-nav button[data-view="voice"]:hover { background: #ffdc75 !important; }
+#jm19 .jm-nav button[data-view="voice"]:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px #173747;
+}
+#jm19 #jm-export-help56 { color: #173747; background: #fff8dd; padding: 12px; border-radius: 10px; line-height: 1.6; }

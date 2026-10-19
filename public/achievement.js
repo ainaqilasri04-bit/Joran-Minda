@@ -14,8 +14,8 @@
   const tasks=[
    {id:'read',label:'Baca cerita',done:read.size,total:5,points:read.size*2,max:10},
    {id:'proof',label:'Cari bukti tepat',done:proof.size,total:5,points:proof.size*5,max:25},
-   {id:'written',label:'Hantar jawapan bertulis',done:written.size,total:5,points:written.size*5,max:25},
-   {id:'choices',label:'Pancing nilai murni',done:choices.size,total:5,points:choices.size*2,max:10},
+   {id:'written',label:'Simpan jawapan',done:written.size,total:5,points:written.size*5,max:25},
+   {id:'choices',label:'Pancing jawapan',done:choices.size,total:5,points:choices.size*2,max:10},
    {id:'proverb',label:'Catat dan pancing maksud peribahasa',done:Number(bonusNote)+Number(bonus),total:2,points:(bonusNote?5:0)+(bonus?5:0),max:10},
    {id:'review',label:'Semak buku sendiri',done:review.size,total:5,points:review.size*2,max:10},
    {id:'reflection',label:'Hantar refleksi sendiri',done:reflection?1:0,total:1,points:reflection?10:0,max:10}

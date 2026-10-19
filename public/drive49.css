@@ -1,0 +1,17 @@
+#jm19 .jm-drive-settings49{border:3px solid #1e7765;border-radius:18px;padding:20px;margin:0 0 22px;background:#f2faf3;display:grid;gap:12px}
+#jm19 .jm-drive-settings49 h2{margin:0;color:#154d42;font-size:26px}
+#jm19 .jm-drive-settings49 p{margin:0;font-size:17px;line-height:1.5}
+#jm19 .jm-drive-settings49 form,#jm19 #jm-drive-share49{display:grid;gap:10px}
+#jm19 .jm-drive-settings49 label{font-size:20px;font-weight:700}
+#jm19 .jm-drive-settings49 input{box-sizing:border-box;width:100%;min-width:0}
+#jm19 .jm-drive-settings49 summary{font-weight:700;padding:8px 0}
+#jm19 .jm-drive-settings49 li{line-height:1.6;margin-bottom:8px}
+#jm19 .jm-drive-settings49 [hidden]{display:none!important}
+#jm19 .jm-drive-buttons49{display:flex;gap:10px;flex-wrap:wrap}
+#jm19 .jm-drive-steps49{display:grid;gap:16px}
+#jm19 .jm-drive-steps49 h3{margin:0 0 6px;font-size:23px}
+#jm19 .jm-drive-steps49 p{margin:0;font-size:18px;line-height:1.5}
+#jm19 .jm-drive-upload49{display:grid;gap:10px;border:2px solid #a3cbd4;background:#edf8fb;padding:14px;border-radius:14px}
+#jm19 .jm-drive-steps49 button{width:100%;min-height:56px;white-space:normal}
+#jm19 #jm-drive-game49{font-size:16px}
+@media(max-width:650px){#jm19 .jm-drive-settings49{padding:14px}#jm19 .jm-drive-settings49 h2{font-size:22px}#jm19 .jm-drive-buttons49>*{flex:1 1 200px}}

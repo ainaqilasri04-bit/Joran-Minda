@@ -1,0 +1,14 @@
+#jm19 #jm-shell27 #jm-fish-tools27{display:flex!important;flex-wrap:wrap;align-items:center;justify-content:center}
+#jm19 #jm-shell27 #jm-fish-tools27>button{width:auto!important;min-width:130px!important;flex:0 1 auto}
+#jm19 #jm-camera-guide39[data-guide41]{background:#f2fbf7;border:2px solid #97cbb7;padding:12px 16px;margin:10px auto;max-width:1080px;font-size:18px;line-height:1.5}
+#jm19 #jm-camera-guide39 h3{margin:0 0 8px;font-size:22px;color:#175c58}
+#jm19 .jm-camera-steps41{list-style:none;padding:0;margin:0 0 8px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+#jm19 .jm-camera-steps41 li{display:flex;align-items:flex-start;gap:8px;padding:8px;background:white;border-radius:12px}
+#jm19 .jm-camera-steps41 li>b{flex:none;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#156b66;color:#fff}
+#jm19 .jm-preview-camera41{font-size:16px;margin:8px 0 0;color:#425b6a}
+#jm19 #jm-voice-audit41{background:#f5fbfa;border:1px solid #a9cfc2;border-radius:16px;padding:16px;margin:18px 0;overflow-x:auto}
+#jm19 #jm-voice-audit41 table{border-collapse:collapse;width:100%;margin:10px 0;text-align:left}
+#jm19 #jm-voice-audit41 th,#jm19 #jm-voice-audit41 td{border:1px solid #b4c8cb;padding:10px}
+#jm19 #jm-voice-audit41 th{background:#e6f1ed}
+@media(max-width:850px){#jm19 .jm-camera-steps41{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:460px){#jm19 .jm-camera-steps41{grid-template-columns:1fr}}

@@ -1,0 +1,22 @@
+/* Camera instructions occupy a side column; the pond retains its own row. */
+#jm19 #jm-shell27 #jm-fishing:not([hidden]){display:grid!important;grid-template-columns:minmax(0,1fr) 260px;gap:12px;align-items:start;max-width:1400px}
+#jm19 #jm-shell27 #jm-fishing>div,#jm19 #jm-shell27 #jm-fishing>details{grid-column:1;min-width:0}
+#jm19 #jm-shell27 #jm-fish-tools27{grid-row:1}
+#jm19 #jm-shell27 #jm-hand-layout{grid-row:2;width:100%;margin:0}
+#jm19 #jm-shell27 #jm-camera-guide42{grid-column:2;grid-row:1 / span 5;background:#f2fbf7;border:2px solid #97cbb7;border-radius:18px;padding:12px;overflow-wrap:anywhere}
+#jm19 #jm-camera-guide42>summary{font-size:20px;font-weight:800;cursor:pointer;color:#175c58;min-height:44px;display:flex;align-items:center}
+#jm19 #jm-camera-guide42>summary::before{content:'＋';padding-right:8px}
+#jm19 #jm-camera-guide42[open]>summary::before{content:'−'}
+#jm19 #jm-camera-guide42 #jm-camera-guide39{border:0;padding:0;margin:8px 0 0;background:transparent}
+#jm19 #jm-camera-guide42 .jm-camera-steps41{grid-template-columns:1fr;gap:7px}
+#jm19 #jm-camera-guide42 h3{display:none}
+#jm19 #jm-camera-guide42 .jm-audio-pair37{flex-wrap:wrap}
+#jm19 #jm-camera-guide42 .jm-audio-pair37 button{font-size:17px!important;padding:10px!important;min-width:0!important}
+#jm19 .jm-evidence-options35>.jm-audio-pair37{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:10px;margin:0 0 8px}
+#jm19 #jm-shell27 #jm-main27{overflow-anchor:none}
+@media(max-width:1199px){
+ #jm19 #jm-shell27 #jm-fishing:not([hidden]){grid-template-columns:minmax(0,1fr)}
+ #jm19 #jm-shell27 #jm-camera-guide42{grid-column:1;grid-row:3}
+ #jm19 #jm-camera-guide42 .jm-camera-steps41{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:599px){#jm19 #jm-camera-guide42 .jm-camera-steps41{grid-template-columns:1fr}}

@@ -55,7 +55,7 @@ function assess(events=[],story='belang',{version=0,members=[]}={}){
  const currentMember=members.find((m,i)=>!practices[i])||members[0];
  if(personal){route=personalRoutes[currentMember?.id]||null;practice=practices[members.indexOf(currentMember)]||null;}
  const practiced=modern?practices.length>0&&practices.every(Boolean):!!practice&&(route==='pengayaan'?!!practice.text:practice.correct===(route==='pemulihan'?3:2));
- const corrected=modern?(practiced&&practices.every(e=>e.route==='pemulihan'&&e.correct===3)):practice?.route==='pemulihan'&&practiced&&practice.at>=(identification?.at||0);
+ const corrected=modern?(practiced&&practices.every(e=>e.version<38&&e.route==='pemulihan'&&e.correct===3)):practice?.route==='pemulihan'&&practiced&&practice.at>=(identification?.at||0);
  const correct=score(corrected?practice:identification),firstCorrect=score(first),explainedCorrect=explanations.filter((e,i)=>grades[i]?grades[i].correct===true:modern&&e?.guidedCorrect===true).length,graded=explanations.filter((e,i)=>grades[i]||modern&&typeof e?.guidedCorrect==='boolean').length;
  return {version:Math.max(version,personal?29:modern?28:version),checks,diagnostics,personalRoutes,currentMember,members:members.map(m=>({id:m.id,name:m.name})),practices,events:es,puzzle:last('puzzle'),induction,readPages,identification,correct,firstCorrect,explanations,grades,explainedCorrect,graded,ready,explained,route,practice,practiced,complete:ready&&explained&&practiced,
   recommended:firstCorrect<3?'pemulihan':'pengukuhan',
@@ -81,18 +81,19 @@ function validate(story,events,body,coreComplete=false,{version=24,members=[]}={
   if(a.readPages.length!==5)return fail('Baca kelima-lima halaman dahulu.');
   if(![0,1,2].includes(body.index)||![0,1,2].includes(body.answer))return fail('Pilih satu nilai.');
   if(a.checks[body.index])return fail('Jawapan ini telah disimpan. Teruskan ke soalan berikutnya.');
-  const page=globalThis.JoranStory.lessonMake(story,items[body.index].page);
+  const page=globalThis.JoranStory.lessonMake(story,items[body.index].page,version);
   if(!Number.isInteger(body.evidence)||body.evidence<0||body.evidence>=page.sentences.length)return fail('Pilih ayat bukti.');
   event.index=body.index;event.answer=body.answer;event.evidence=body.evidence;event.evidenceCorrect=page.sentences[body.evidence].includes(items[body.index].quote);
  }else if(type==='lesson-values'){
   if(version>=29)return fail('Simpan setiap soalan mengikut giliran penyumbang.');
   if(a.readPages.length!==5)return fail('Baca kelima-lima muka surat dahulu.');
   if(!choices(body.answers,3))return fail('Jawab ketiga-tiga soalan nilai murni.');event.answers=body.answers.slice();
-  if(version>=25){const expected=items.map(x=>globalThis.JoranStory.lessonMake(story,x.page).sentences.findIndex(t=>t.includes(x.quote)));if(!Array.isArray(body.evidence)||body.evidence.length!==3||body.evidence.some((x,i)=>version>=28?(!Number.isInteger(x)||x<0||x>3):x!==expected[i]))return fail('Semak semula ayat perbuatan watak pada langkah Ca.');event.evidence=body.evidence.slice();event.evidenceCorrect=expected.map((x,i)=>x===body.evidence[i]);}
+  if(version>=25){const expected=items.map(x=>globalThis.JoranStory.lessonMake(story,x.page,version).sentences.findIndex(t=>t.includes(x.quote)));if(!Array.isArray(body.evidence)||body.evidence.length!==3||body.evidence.some((x,i)=>version>=28?(!Number.isInteger(x)||x<0||x>3):x!==expected[i]))return fail('Semak semula ayat perbuatan watak pada langkah Ca.');event.evidence=body.evidence.slice();event.evidenceCorrect=expected.map((x,i)=>x===body.evidence[i]);}
  }else if(type==='lesson-explain'){
   if(!a.ready||!coreComplete)return fail('Lengkapkan Aktiviti 1 dan permainan Aktiviti 2 dahulu.');
   if(![0,1].includes(body.index)||!items.some(x=>x.value===body.value)||!text(body.text))return fail('Pilih nilai dan tulis penjelasan kamu.');
   if(a.explanations[1-body.index]?.value===body.value)return fail('Nilai ini sudah digunakan. Pilih satu lagi nilai untuk penjelasan ini.');
+  if(version>=39&&body.value!==items[body.index].value)return fail('Nilai mesti sepadan dengan soalan penerangan.');
   event.index=body.index;event.value=body.value;event.text=text(body.text);
   if(version>=28){if(![0,1,2].includes(body.proofIndex))return fail('Pilih perbuatan watak untuk melengkapkan ayat berpandu.');event.proofIndex=body.proofIndex;event.guidedCorrect=items[body.proofIndex].value===body.value;event.guidedText='Nilai '+body.value.toLowerCase()+' ditunjukkan melalui perbuatan berikut: '+items[body.proofIndex].action;}
  }else if(type==='lesson-diagnostic'&&version>=29){
@@ -110,8 +111,17 @@ function validate(story,events,body,coreComplete=false,{version=24,members=[]}={
  }else if(type==='lesson-practice'){
   if(!a.route||!coreComplete)return fail('Pilih latihan Aktiviti 3 dahulu.');event.route=a.route;
   if(version>=28){const subject=members.find(m=>m.id===body.subjectId);if(!subject||version>=29&&a.currentMember?.id!==subject.id)return fail('Pilih ahli yang sedang menyumbang.');event.subjectId=subject.id;event.subjectName=subject.name;}
-  if(a.route==='pengayaan'){
-   if(!text(body.text)||!text(body.application))return fail('Tulis tindakan watak dan nilai yang ditunjukkan.');event.text=text(body.text);event.application=text(body.application);
+  if(version>=38){
+   if(a.practices.some(e=>e?.subjectId===body.subjectId))return fail('Latihan ini telah disimpan. Teruskan ke tugasan berikutnya.');
+   const qs=(version>=40?g.JoranQuestions40:version>=39?g.JoranPractice39:g.JoranPractice38).forStory(story,a.route),n=qs.length;
+   if(!Array.isArray(body.answers)||body.answers.length!==n||body.answers.some((v,i)=>!Number.isInteger(v)||v<0||v>=qs[i].options.length))return fail('Lengkapkan kesemua '+n+' soalan latihan ini.');
+   if(version>=39&&a.route==='pemulihan'&&new Set(body.answers).size!==n)return fail('Gunakan setiap gambar sekali sahaja.');
+   event.activity=a.route==='pemulihan'?(version>=39?'matching-pictures':'word-picture'):a.route==='pengayaan'?(version>=39?'reasoning':'transfer'):'comprehension';
+   event.answers=body.answers.slice();event.total=n;event.correct=qs.reduce((sum,q,i)=>sum+Number(body.answers[i]===q.answer),0);
+   event.items=qs.map((q,i)=>({question:q.prompt,selected:q.options[body.answers[i]].text,expected:q.options[q.answer].text,correct:body.answers[i]===q.answer}));
+   event.text=event.items.map((x,i)=>(i+1)+'. '+x.selected).join(' ');
+  }else if(a.route==='pengayaan'){
+   if(version>=37){if(!choices(body.answers,2))return fail('Jawab kedua-dua soalan pengayaan.');const qs=g.JoranClear37.enrichment[story].questions;event.activity='scenario';event.answers=body.answers.slice();event.correct=qs.reduce((n,q,i)=>n+Number(q.answer===body.answers[i]),0);event.application=qs[0].options[body.answers[0]];event.text=qs[1].options[body.answers[1]];}else if(!text(body.text)||!text(body.application))return fail('Tulis tindakan watak dan nilai yang ditunjukkan.');if(version<37){event.text=text(body.text);event.application=text(body.application);}
   }else if(a.route==='pemulihan'&&body.activity==='matching'&&version>=29){
    if(!choices(body.matches,3)||new Set(body.matches).size!==3)return fail('Padankan ketiga-tiga perbuatan dengan tiga nilai yang berlainan.');
    if(!text(body.text))return fail('Lengkapkan ayat ringkas dengan bantuan kata kunci.');
@@ -136,7 +146,7 @@ function points(lesson,achievement){
  ];
  if(lesson.version>=28){
   const firstValues=lesson.version>=29?lesson.identification:lesson.events.find(e=>e.type==='lesson-values'),evidenceWrong=firstValues?.evidenceCorrect?.filter(x=>!x).length||0,valueWrong=firstValues?3-lesson.firstCorrect:0;
-  const practiceErrors=lesson.practices.reduce((n,e)=>n+(e&&e.route!=='pengayaan'?Math.max(0,(e.route==='pemulihan'?3:2)-e.correct):0),0);
+  const practiceErrors=lesson.practices.reduce((n,e)=>n+(e&&(e.route!=='pengayaan'||e.version>=37)?Math.max(0,(e.version>=38?e.total:(e.route==='pemulihan'?3:2))-e.correct):0),0);
   rows[3].points=lesson.practices.length?20*lesson.practices.filter(Boolean).length/lesson.practices.length:0;
   const deductions=[0,(evidenceWrong+valueWrong)*2,(achievement?.errors||0)*2+lesson.explanations.filter(e=>e&&e.guidedCorrect===false).length*2,practiceErrors*2,0];
   rows.forEach((r,i)=>{r.earned=r.points;r.deduction=Math.min(r.points,deductions[i]);r.points-=r.deduction;});
