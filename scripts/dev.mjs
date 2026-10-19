@@ -3,19 +3,21 @@ import { readFile } from 'node:fs/promises';
 import { resolve, extname, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHandler } from '../server/room-service.mjs';
+import {createGalleryHandler} from '../server/gallery-service.mjs';
 import { LocalStore } from '../server/local-store.mjs';
 
 const root = resolve(fileURLToPath(new URL('../public/', import.meta.url)));
 const handler = createHandler(new LocalStore(fileURLToPath(new URL('../.local-data/', import.meta.url))));
+const galleryHandler=createGalleryHandler(new LocalStore(fileURLToPath(new URL('../.local-gallery/',import.meta.url))));
 const port = Number(process.env.PORT || 4173);
 const types = { '.html': 'text/html; charset=utf-8', '.webp': 'image/webp', '.png': 'image/png', '.js': 'text/javascript', '.wasm': 'application/wasm', '.mp3': 'audio/mpeg', '.css': 'text/css' };
 createServer(async (req, res) => {
   try {
     const url = new URL(req.url, 'http://' + req.headers.host);
-    if (url.pathname === '/.netlify/functions/kelas') {
+    if (['/.netlify/functions/kelas','/.netlify/functions/galeri'].includes(url.pathname)) {
       const chunks = [];
       for await (const chunk of req) chunks.push(chunk);
-      const response = await handler(new Request(url, { method: req.method, headers: req.headers, body: req.method === 'POST' ? Buffer.concat(chunks) : undefined }));
+      const response = await (url.pathname.endsWith('/galeri')?galleryHandler:handler)(new Request(url, { method: req.method, headers: req.headers, body: req.method === 'POST' ? Buffer.concat(chunks) : undefined }));
       res.writeHead(response.status, Object.fromEntries(response.headers));
       res.end(Buffer.from(await response.arrayBuffer()));
       return;

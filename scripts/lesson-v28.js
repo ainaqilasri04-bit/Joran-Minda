@@ -11,7 +11,15 @@ function splitMalay28(word){
  for(let i=0;i<nuclei.length-1;i++){const left=nuclei[i],right=nuclei[i+1],gap=right-left-1;const cut=gap===0?right:gap===1?left+1:right-1;parts.push(units.slice(start,cut).join(''));start=cut;}
  parts.push(units.slice(start).join(''));return parts.filter(Boolean);
 }
-syl=function(text){if(!$('#jm-syllable').checked)return safe(text);return String(text).split(/([A-Za-z]+(?:-[A-Za-z]+)*)/g).map((word,i)=>i%2?'<span class="jm-word">'+(()=>{let cursor=0,syllable=0;return splitMalay28(word).map(part=>{const piece=word.slice(cursor,cursor+part.length);cursor+=part.length;if(!/[A-Za-z]/.test(piece))return safe(piece);return '<span class="jm-syll-'+(syllable++%2?'b':'a')+'">'+safe(piece)+'</span>';}).join('');})()+'</span>':safe(word)).join('');};
+// Keep closing punctuation in the same unbreakable word as its final syllable.
+syl=function(text){return String(text).replace(/\s+([.,!?;:])/g,'$1').split(/([A-Za-z]+(?:-[A-Za-z]+)*[.,!?;:…’”"\)]*)/g).map((word,i)=>{
+ if(!(i%2))return safe(word);
+ const parts=word.match(/^([A-Za-z]+(?:-[A-Za-z]+)*)(.*)$/),letters=parts[1],punctuation=parts[2];
+ let cursor=0,syllable=0;
+ const body=$('#jm-syllable').checked?splitMalay28(letters).map(part=>{const piece=letters.slice(cursor,cursor+part.length);cursor+=part.length;if(!/[A-Za-z]/.test(piece))return safe(piece);return '<span class="jm-syll-'+(syllable++%2?'b':'a')+'">'+safe(piece)+'</span>';}).join(''):safe(letters);
+ return '<span class="jm-word'+(punctuation?' jm-punct52':'')+'">'+body+safe(punctuation)+'</span>';
+}).join('');};
+
 const takeRender28=renderPupilAudio26;renderPupilAudio26=function(container,page){takeRender28(container,page);if(!modern28())return;const panel=container?.querySelector('.jm-pupil-audio26');if(!panel)return;panel.querySelector('.jm-voice-tabs27')?.remove();panel.querySelectorAll(':scope>article').forEach(a=>a.hidden=false);const member=reader28(page);panel.querySelector('h3').textContent='Pembaca halaman '+(page+1)+': '+(member?.name||'Murid');};
 const originalQuestion28=question24;question24=function(...args){return originalQuestion28(...args).replace(/(> )(Keberanian|Kasih sayang|Kejujuran|Kerjasama|Kesederhanaan|Tanggungjawab|Kerajinan|Baik hati|Kebersihan|Berjimat cermat)(<\/label>)/g,(_,a,w,b)=>a+syl(w)+b);};
 bindChecks25=function(){panel24.querySelectorAll('[data-evidence-check]').forEach(select=>{select.onchange=()=>{const card=select.closest('.jm-bacani-check'),answered=select.value!=='';card.querySelector('.jm-evidence-status').textContent=answered?'Ayat telah dipilih. Sekarang, pilih nilai murni.':'Cari ayat yang menunjukkan perbuatan watak.';card.querySelectorAll('input[type=radio]').forEach(r=>r.disabled=!answered);};});};

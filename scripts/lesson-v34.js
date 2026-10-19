@@ -1,5 +1,5 @@
 // V34: different exercises at each stage; old rooms keep their original keys.
-function currentLessonVersion34(){return roomSession?(roomData?.room.lessonVersion||24):(localRuns.find(r=>r.id===profile?.id)?.lessonVersion||34);}
+function currentLessonVersion34(){return roomSession?(roomData?.room.lessonVersion||24):(localRuns.find(r=>r.id===profile?.id)?.lessonVersion||40);}
 function lessonBank34(key=storyKey,version=currentLessonVersion34()){return L24.bankFor(key,version);}
 const questionBefore34=question24;
 question24=function(item,i,prefix,saved){
@@ -31,7 +31,7 @@ window.addEventListener('online',()=>{if(roomSession)pollRoom();});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden&&roomSession)pollRoom();});
 checkService21.onclick=async()=>{
  checkService21.disabled=true;teacherNotice21.dataset.error='false';teacherNotice21.textContent='Sedang menyemak sambungan bilik…';
- try{const result=await api({action:'ping'},null);if(result.service!=='joran-minda-kelas'||!result.lessonVersions?.includes(34))throw Error('Enjin bilik belum dikemas kini kepada versi 34. Terbitkan keseluruhan projek melalui GitHub supaya fungsi bilik turut dibina.');teacherNotice21.textContent='✓ Sambungan bilik versi 34 tersedia. Cipta bilik baharu untuk menggunakan soalan baharu.';}
+ try{const result=await api({action:'ping'},null);if(result.service!=='joran-minda-kelas'||!result.lessonVersions?.includes(40))throw Error('Enjin bilik belum dikemas kini kepada versi 40. Terbitkan keseluruhan projek melalui GitHub supaya fungsi bilik turut dibina.');teacherNotice21.textContent='✓ Sambungan bilik versi 40 tersedia. Cipta bilik baharu untuk menggunakan soalan baharu.';}
  catch(e){teacherNotice21.dataset.error='true';teacherNotice21.textContent=e.message;}
  finally{checkService21.disabled=false;}
 };
@@ -39,7 +39,7 @@ const apiBefore34=api;
 api=async function(data,session=roomSession){
  if(data.action==='create'){
   const status=await apiBefore34({action:'ping'},null);
-  if(!status.lessonVersions?.includes(34))throw Error('Enjin bilik belum versi 34. Kemas kini keseluruhan projek di GitHub dan tunggu penerbitan Netlify selesai. Kemudian, cipta bilik baharu.');
+  if(!status.lessonVersions?.includes(40))throw Error('Enjin bilik belum versi 40. Kemas kini keseluruhan projek di GitHub dan tunggu penerbitan Netlify selesai. Kemudian, cipta bilik baharu.');
  }
  return apiBefore34(data,session);
 };

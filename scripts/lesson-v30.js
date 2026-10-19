@@ -99,10 +99,7 @@ paint27=function(){
   else q.innerHTML='<span class="jm-evidence-label30">Ayat bukti · Halaman '+(readPage+1)+'</span><p>'+syl(doc.sentences[doc.evidence])+'</p><strong>'+syl(currentLessonVersion34()>=34?doc.question:'Apakah nilai murni yang ditunjukkan oleh perbuatan ini?')+'</strong>';
  }
  pairAudio30();
- const owner=profile?.id+':'+storyKey;if(owner!==historyOwner30){history30=[];lastSnapshot30=null;historyOwner30=owner;}
- const key=[view,aux27,$('#jm-phase27').textContent,$('#jm-title27').textContent,view==='game'?readPage+':'+step:''].join('|');
- if(lastSnapshot30&&lastSnapshot30.key!==key){history30.push(lastSnapshot30.snapshot);if(history30.length>60)history30.shift();}
- lastSnapshot30={key,snapshot:snapshot30()};
+
 };
 // Outside learning screens, the same explicit Back action returns to the menu.
 for(const panel of $$('[data-panel]'))if(!['home','game','book'].includes(panel.dataset.panel)&&!panel.querySelector('[data-back-menu30]')){const b=document.createElement('button');b.type='button';b.className='jm-secondary';b.dataset.backMenu30='';b.textContent='← Kembali';b.onclick=()=>{stopVoice();showView('home');};panel.prepend(b);}

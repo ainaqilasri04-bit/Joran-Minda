@@ -18,7 +18,7 @@ $('.jm-location27').append(schedule31);
 
 function finalBook31(){
  const b=JSON.parse(JSON.stringify(bookState())),edit=roomSession?roomData?.bookEdit:bookState().bookEdit31;
- b.pageTitles=Array.from({length:5},(_,i)=>JoranStory.lessonMake(storyKey,i).title);
+ b.pageTitles=Array.from({length:5},(_,i)=>JoranStory.lessonMake(storyKey,i,currentLessonVersion34()).title);
  if(edit){b.title=edit.title;b.pages=edit.pages.slice();b.pageTitles=edit.pageTitles.slice();}
  return b;
 }
@@ -61,7 +61,7 @@ bookScreen27=function(){
  const b=finalBook31(),area=$('#jm-review-listen27').parentElement;
  area.querySelector('h2').textContent=b.pageTitles[bookPage];area.querySelector('.jm-reading27').innerHTML=syl(b.pages[bookPage]);
  const title=document.createElement('p');title.className='jm-final-title31';title.textContent='Tajuk buku: '+b.title;area.prepend(title);
- const edit=document.createElement('button');edit.type='button';edit.className='jm-primary';edit.id='jm-edit-open31';edit.textContent='Baiki tajuk dan ayat';edit.onclick=openBookEditor31;area.append(edit);
+ const edit=document.createElement('button');edit.type='button';edit.className='jm-primary';edit.id='jm-edit-open31';edit.textContent='Baiki tajuk dan ayat';edit.onclick=openBookEditor31;area.before(edit);
  if(b.pages[bookPage]!==canonicalText23(storyKey,bookPage)){
   const listen=$('#jm-review-listen27');listen.textContent='Dengar cerita asal Guru';
   const details=document.createElement('details');details.className='jm-original31';details.innerHTML='<summary>Teks asal untuk rakaman Guru</summary><p>'+syl(canonicalText23(storyKey,bookPage))+'</p>';listen.before(details);

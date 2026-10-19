@@ -1,0 +1,8 @@
+import {readFile,writeFile} from 'node:fs/promises';import {createHash} from 'node:crypto';import {runInNewContext} from 'node:vm';
+import '../public/questions-v34.js';import '../public/story-engine.js';import '../public/story-v37.js';import '../public/lesson-core.js';import '../public/practice-v38.js';import '../public/practice-v39.js';
+const root=new URL('../',import.meta.url),ctx={window:{}};runInNewContext(await readFile(new URL('public/audio-ms/manifest.js',root),'utf8'),ctx);
+const P=JoranPractice39,all=[P.matching,P.camera,P.cameraShort,P.matched,P.wrongMatch,'Tahniah! Nilai dan perbuatan sepadan.','Jawapan belum tepat. Dua mata ditolak. Kamu boleh teruskan.'];
+for(const routes of Object.values(P.questions))for(const qs of Object.values(routes))for(const q of qs)all.push(P.direction(q),q.word||'',...q.options.map(o=>o.text));
+for(const key of Object.keys(P.proofPrompts)){all.push(...P.proofPrompts[key],...P.proofPrompts[key].map(p=>p+' Pilih satu gambar.'));for(const b of JoranLesson.bankFor(key,39)){all.push(b.action,b.value+': '+b.action);for(const other of JoranLesson.bankFor(key,39))all.push('Nilai '+b.value.toLowerCase()+' ditunjukkan apabila '+other.action.charAt(0).toLowerCase()+other.action.slice(1));}}
+const unique=[...new Set(all.filter(Boolean))],clips=unique.filter(t=>!ctx.window.JoranMalayAudio.clips[t]).map(text=>({id:'v39-'+createHash('sha256').update(text).digest('hex').slice(0,12),text}));
+await writeFile(new URL('server/voice-new-v39.json',root),JSON.stringify({version:39,clips},null,2));await writeFile(new URL('server/voice-required-v39.json',root),JSON.stringify(unique,null,2));console.log({newClips:clips.length,required:unique.length});

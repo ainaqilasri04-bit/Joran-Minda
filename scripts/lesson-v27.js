@@ -6,7 +6,7 @@ shell27.innerHTML='<header class="jm-head27"><strong>JORAN MINDA</strong><span i
 root.append(shell27);
 const inertNodes27=new Set();
 const main27=$('#jm-main27');
-const fishTools27=makeBox23('div','jm-fish-tools27','');fishTools27.append($('#jm-pause'),$('#jm-hand-open'));const fishHear27=document.createElement('button');fishHear27.type='button';fishHear27.className='jm-secondary';fishHear27.textContent='Dengar soalan';fishHear27.onclick=()=>hearQuestion();fishTools27.prepend(fishHear27);$('#jm-hand-layout').before(fishTools27);
+const fishTools27=makeBox23('div','jm-fish-tools27','');fishTools27.append($('#jm-pause'));const fishHear27=document.createElement('button');fishHear27.type='button';fishHear27.className='jm-secondary';fishHear27.textContent='Dengar soalan';fishHear27.onclick=()=>hearQuestion();fishTools27.prepend(fishHear27);$('#jm-hand-layout').before(fishTools27);
 
 for(const panel of [panel24,$('[data-panel="game"]'),$('[data-panel="book"]')])main27.append(panel);
 const extra27=makeBox23('section','jm-extra27','',main27);extra27.className='jm-card27';extra27.hidden=true;
@@ -16,7 +16,7 @@ function active27(){return enabled24()&&['lesson','game','book'].includes(view);
 function queue27(){if(renderQueued27)return;renderQueued27=true;queueMicrotask(()=>{renderQueued27=false;paint27();});}
 function nav27(title,phase,next,action,{disabled=false,status='',back=null}={}){
  $('#jm-title27').textContent=title;$('#jm-phase27').textContent=phase;
- const n=$('#jm-next27');n.textContent=next;n.disabled=disabled||pupilAudio26.busy();n.onclick=async()=>{if(n.disabled)return;stopVoice();await action?.();main27.scrollTop=0;queue27();};
+ const n=$('#jm-next27');n.textContent=next;n.disabled=disabled||pupilAudio26.busy();n.onclick=async()=>{if(n.disabled)return;stopVoice();const fishing=view==='game'&&(step===3||step===4&&bonusReady);await action?.();if(!fishing)main27.scrollTop=0;queue27();};
  const b=$('#jm-back27');b.hidden=!back;b.disabled=pupilAudio26.busy();b.onclick=()=>{stopVoice();back?.();main27.scrollTop=0;queue27();};
  $('#jm-status27').textContent=status;
 }
@@ -58,21 +58,22 @@ function renderExtra27(){const l=lesson24(),p=progress23(who24()),a=p?.achieveme
   nav27(ready?'Pembelajaran selesai':'Lengkapkan dahulu','Sijil penyertaan',ready?'Lihat objektif pembelajaran →':'Sambung tugasan →',()=>{if(ready){aux27='outcomes';queue27();}else jump27(phase24());},{status:ready?'Semua tugasan siap. Syabas!':'Sijil diberikan selepas semua aktiviti siap.',back:()=>{aux27='marks';queue27();}});
  }
 }
-function bookScreen27(){const a=progress23(who24())?.achievement||A23.assess();if(!closeStage27){closeStage27=a.reviewPages.length<5?'review':!a.reflection?'reflection':'done';if(closeStage27==='review')bookPage=Array.from({length:5},(_,p)=>p).find(p=>!a.reviewPages.includes(p));}
+function bookScreen27(){const a=progress23(who24())?.achievement||A23.assess();if(!closeStage27){closeStage27=a.reviewPages.length<5?'review':!a.reflection?'share':'done';if(closeStage27==='review')bookPage=Array.from({length:5},(_,p)=>p).find(p=>!a.reviewPages.includes(p));}
+ if(closeStage27==='share'){shareScreen47();return;}
  if(closeStage27==='done'){aux27='marks';queue27();return;}
  if(closeStage27==='review'||closeStage27==='book'){
   
-  const doc=JoranStory.lessonMake(storyKey,bookPage);
+  const doc=JoranStory.lessonMake(storyKey,bookPage,currentLessonVersion34());
   closing27.innerHTML='<div class="jm-review27"><img src="'+assets[storyKey+'-'+(bookPage+1)]+'" alt="Ilustrasi halaman '+(bookPage+1)+'"><div><p class="jm-pdp-kicker">Buku '+(isSolo()?'saya':'kumpulan')+' · Halaman '+(bookPage+1)+' / 5</p><h2>'+safe(doc.title)+'</h2><p class="jm-reading27">'+syl(canonicalText23(storyKey,bookPage))+'</p><button type="button" class="jm-secondary" id="jm-review-listen27">Dengar suara Guru</button><p id="jm-review-audio27" role="status"></p></div></div>'+(closeStage27==='book'?'<button class="jm-secondary" type="button" id="jm-book-download27">Muat turun buku lengkap (PDF)</button><p id="jm-book-status27" role="status"></p>':'');
   $('#jm-review-listen27').onclick=()=>listenPage(bookPage,$('#jm-review-listen27'),$('#jm-review-audio27'));
   if(closeStage27==='book'){
    $('#jm-book-download27').onclick=async()=>{const b=$('#jm-book-download27');b.disabled=true;await exportBook();$('#jm-book-status27').textContent=$('#jm-publish-status').textContent;b.disabled=false;};
    nav27('Buku cerita lengkap','Hasil pembelajaran',bookPage<4?'Seterusnya: Halaman '+(bookPage+2)+' →':'Kembali ke sijil →',()=>{if(bookPage<4)bookPage++;else aux27='certificate';queue27();},{status:'Cerita dan penerangan bersama terdapat dalam PDF.',back:()=>{if(bookPage>0)bookPage--;else aux27='certificate';queue27();}});
-  }else nav27('Semak buku cerita','Penutup · Langkah 1 / 2',bookPage<4?'Sudah semak · Seterusnya →':'Sudah semak · Ke refleksi →',async()=>{await submitCompletion23('review-page',{page:bookPage});if(progress23(who24()).achievement.reviewPages.includes(bookPage)){if(bookPage<4)bookPage++;else closeStage27='reflection';}queue27();},{disabled:!canLead26()||completionBusy23,status:'Semakan selesai: '+a.reviewPages.length+'/5 halaman',back:bookPage>0?()=>{bookPage--;queue27();}:null});
+  }else nav27('Semak buku cerita','Penutup · Langkah 1 / 3',bookPage<4?'Sudah semak · Seterusnya →':'Sudah semak · Kongsi buku →',async()=>{await submitCompletion23('review-page',{page:bookPage});if(progress23(who24()).achievement.reviewPages.includes(bookPage)){if(bookPage<4)bookPage++;else closeStage27='share';}queue27();},{disabled:!canLead26()||completionBusy23,status:'Semakan selesai: '+a.reviewPages.length+'/5 halaman',back:bookPage>0?()=>{bookPage--;queue27();}:null});
  }else{
   closing27.innerHTML='<p class="jm-pdp-kicker">Satu refleksi '+(collaborative26()?'bersama kumpulan':'saya')+'</p><h2>Apakah nilai yang akan kamu amalkan?</h2><p>Lengkapkan ayat: Saya akan mengamalkan nilai _____ dengan _____.</p><label class="jm-field" for="jm-reflect27">Jawapan '+(collaborative26()?'kumpulan':'saya')+'</label><textarea id="jm-reflect27" class="jm-input" rows="4" maxlength="600" placeholder="Saya akan mengamalkan nilai ...">'+safe(state27().reflection??a.reflection??'')+'</textarea><p>Guru atau rakan boleh membantu menaip idea yang kamu sampaikan.</p><p id="jm-reflect-status27" role="status"></p>';
   const input=$('#jm-reflect27');input.disabled=!canLead26();input.oninput=()=>{state27().reflection=input.value;saveWork();};
-  nav27('Refleksi penutup','Penutup · Langkah 2 / 2','Simpan refleksi · Lihat markah →',async()=>{const text=input.value.trim();if(!text){$('#jm-reflect-status27').textContent='Tulis satu nilai dan cara kamu mengamalkannya.';input.focus();return;}await submitCompletion23('reflection',{text});if(progress23(who24()).achievement.reflection){aux27='marks';closeStage27='done';}queue27();},{disabled:!canLead26()||completionBusy23,status:'Selepas ini: markah, kemudian sijil.',back:()=>{bookPage=4;closeStage27='review';queue27();}});
+  nav27('Refleksi penutup','Penutup · Langkah 3 / 3','Simpan refleksi · Lihat markah →',async()=>{const text=input.value.trim();if(!text){$('#jm-reflect-status27').textContent='Tulis satu nilai dan cara kamu mengamalkannya.';input.focus();return;}await submitCompletion23('reflection',{text});if(progress23(who24()).achievement.reflection){aux27='marks';closeStage27='done';}queue27();},{disabled:!canLead26()||completionBusy23,status:'Selepas ini: markah, kemudian sijil.',back:()=>{closeStage27='share';queue27();}});
  }
 }
 function lessonScreen27(){const l=lesson24(),phase=eligible24(),st=state27();panel24.dataset.phase27=phase;
@@ -91,7 +92,7 @@ function lessonScreen27(){const l=lesson24(),phase=eligible24(),st=state27();pan
   }
  }else if(phase===2&&coreReady24()){
   const index=l.explanations[0]?1:0;panel24.querySelectorAll('[data-pdp-explain]').forEach((f,i)=>f.hidden=i!==index);
-  delegate27('[data-pdp-explain="'+index+'"] button','Simpan penjelasan · Seterusnya →','Aktiviti 2 · Penjelasan '+(index+1)+'/2','Terangkan nilai murni','Jawapan ini dimasukkan ke dalam buku cerita.');
+  delegate27('[data-pdp-explain="'+index+'"] button[type=submit]','Simpan penjelasan · Seterusnya →','Aktiviti 2 · Penjelasan '+(index+1)+'/2','Terangkan nilai murni','Jawapan ini dimasukkan ke dalam buku cerita.');
  }else if(phase===3){
   sub=l.route?'practice':'route';panel24.dataset.sub27=sub;
   if(!l.route)delegate27('#jm-pdp-route button','Pilih latihan · Seterusnya →','Aktiviti 3','Pilih latihan bersama Guru','Lengkapkan satu laluan sahaja.');

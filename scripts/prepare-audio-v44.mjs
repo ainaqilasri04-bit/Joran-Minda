@@ -1,0 +1,13 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {runInNewContext} from 'node:vm';
+const root=new URL('../',import.meta.url),c={window:{}};c.globalThis=c;
+for(const f of ['feedback-v43.js','audio-ms/manifest.js'])runInNewContext(await readFile(new URL('public/'+f,root),'utf8'),c);
+const all=JSON.parse(await readFile(new URL('server/voice-required-v43.json',root),'utf8'));
+for(const key of ['belang','pondok','pokok','sihat'])all.push(...JSON.parse(await readFile(new URL('server/voice-observed41-'+key+'.json',root),'utf8')));
+const unique=[...new Set(all.filter(t=>t&&!c.JoranFeedback43.retiredCamera(t)).map(t=>t.replace(/\s+/g,' ').trim()))];
+const clips=unique.filter(t=>!c.window.JoranMalayAudio.clips[t]).map(text=>({id:'v44-'+createHash('sha256').update(text).digest('hex').slice(0,12),text}));
+await writeFile(new URL('server/voice-new-v44.json',root),JSON.stringify({version:44,clips},null,2));
+await writeFile(new URL('server/voice-required-v44.json',root),JSON.stringify(unique,null,2));
+await writeFile(new URL('public/voice-required41.js',root),'window.JoranRequiredAudio41='+JSON.stringify(unique)+';\n');
+console.log({required:unique.length,missing:clips.length,texts:clips.map(c=>c.text)});

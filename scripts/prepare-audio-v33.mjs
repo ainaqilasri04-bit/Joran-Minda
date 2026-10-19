@@ -9,7 +9,7 @@ const add=(text,category='Maklum balas',story='')=>{text=normal(text);if(text&&!
 const pending=JSON.parse(await read('server/voice-pending-v31.json'));
 for(const c of pending.clips)add(c.text);
 // Current instruction paragraphs are taken verbatim from the UI source.
-for(const f of [28,29,30,31,32,34]){const src=await read('scripts/lesson-v'+f+'.js');for(const m of src.matchAll(/(?='([^'\n]{25,})')/g)){const t=m[1];if(/^[A-Z][A-Za-zÀ-ž ,.!?;:–0-9/—-]+[.!?]$/.test(t)&&!/V2[89]|V3[012]|Audio|audio|suara.*peranti|MP3|ms-MY|Simpanan|Rakaman dipadam|sejarah|Kunci bilik|Indeks|mengikut masa sendiri|panduan ringkas/i.test(t)){add(t,'Arahan');rows.get(normal(t)).category='Arahan';}}}
+for(const f of [28,29,30,31,32,34]){const src=await read('scripts/lesson-v'+f+'.js');for(const m of src.matchAll(/(?='([^'\n]{25,})')/g)){const t=m[1];if(/^[A-Z][A-Za-zÀ-ž ,.!?;:–0-9/—-]+[.!?]$/.test(t)&&!/V2[89]|V3[012]|Audio|audio|suara.*peranti|MP3|ms-MY|Simpanan|Rakaman dipadam|sejarah|Kunci bilik|Indeks|Enjin bilik|mengikut masa sendiri|panduan ringkas/i.test(t)){add(t,'Arahan');rows.get(normal(t)).category='Arahan';}}}
 const src=await read('scripts/lesson-v30.js');runInNewContext(src.slice(src.indexOf('const prompts30='),src.indexOf('const questionBefore30'))+'globalThis.prompts=prompts30;',ctx);
 for(const [key,bank] of Object.entries(ctx.JoranLesson.bank)){
  for(const [i,b]of bank.entries()){
