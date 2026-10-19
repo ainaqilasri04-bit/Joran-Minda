@@ -1,20 +1,25 @@
 {
   "name": "joran-minda-kelas",
-  "version": "34.0.0",
+  "version": "57.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/prepare-audio-v33.mjs && node scripts/sync-lesson.mjs && node scripts/check-build.mjs",
+    "build": "node scripts/prepare-audio-v33.mjs && node scripts/prepare-export-v56.mjs && node scripts/sync-lesson.mjs && node scripts/check-build.mjs",
     "test": "node --test tests/*.test.mjs",
     "dev": "node scripts/dev.mjs",
     "audio:generate": "node scripts/generate-malay-audio.mjs",
     "audio:check": "node scripts/generate-malay-audio.mjs --dry-run",
-    "audio:approve": "node scripts/generate-malay-audio.mjs --approve-reviewed"
+    "audio:approve": "node scripts/generate-malay-audio.mjs --approve-reviewed",
+    "test:ui": "JM_SCENARIO=scenarios40.mjs node tests-ui/check-ui.mjs && JM_SCENARIO=group39.mjs node tests-ui/check-ui.mjs && JM_SCENARIO=styles39.mjs node tests-ui/check-ui.mjs && JM_SCENARIO=audio38.mjs node tests-ui/check-ui.mjs && JM_SCENARIO=focused40.mjs node tests-ui/check-ui.mjs && JM_SCENARIO=focused41.mjs node tests-ui/check-ui.mjs && JM_SCENARIO=focused42.mjs node tests-ui/check-ui.mjs && JM_SCENARIO=focused43.mjs node tests-ui/check-ui.mjs && JM_SCENARIO=focused44.mjs node tests-ui/check-ui.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "11.1.3"
   },
   "engines": {
     "node": ">=22"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.2.6",
+    "jsdom": "^26.1.0"
   }
 }
