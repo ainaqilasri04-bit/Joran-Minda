@@ -1,0 +1,28 @@
+{
+  "version": 35,
+  "method": "Built-in image generation",
+  "reference": "public/assets/belang-1.webp",
+  "sharedPrompt": "New landscape 1536x1024 educational story illustration. Same Hana (purple hijab, turquoise tunic), Iman (glasses, orange shirt), Tok Wan (straw hat, olive shirt). Polished 3D storybook style, uncluttered action, complete heads, no text. Reference is for character identity and style only.",
+  "images": [
+    {
+      "path": "public/assets/focus35/belang-situasi.png",
+      "prompt": "At a safe grassy edge beside a small Malaysian lake jetty, the girl notices a wet shivering striped kitten, points to it and turns her face towards her grandfather to ask for help. The grandfather is close and attentive, approaching the kitten with open hands. The boy looks concerned. Kitten clearly large enough to recognise, fluffy striped kitten not adult cat. No injured animal, no distressing details. Exactly one kitten. Main learning action: girl calls a responsible adult to help.",
+      "use": "Halaman 1, rujukan soalan dan kad perbuatan"
+    },
+    {
+      "path": "public/assets/focus35/pondok-situasi.png",
+      "prompt": "Inside a simple Malaysian village reading hut, a small number of books are scattered on the floor and a thin layer of dust is on a low shelf. The girl volunteers to tidy up, holding a small broom and sweeping a patch of floor. The boy picks up a book to help. Grandfather stands nearby kindly supervising. Keep only 4 or 5 readable objects, blank book covers, no letters. Main learning action: willingly helping tidy a dusty reading area.",
+      "use": "Halaman 1, rujukan soalan dan kad perbuatan"
+    },
+    {
+      "path": "public/assets/focus35/pokok-situasi.png",
+      "prompt": "In a simple Malaysian vegetable garden in warm daylight, two small potted seedlings have clearly drooping leaves and dry soil. The girl speaks to the grandfather and offers her help, one hand open toward the seedlings and holding a small watering can in the other. The boy stands by ready to cooperate. No already lush seedling, no water being poured yet, because this scene shows noticing the problem and offering help. Main learning action: kindness toward neglected seedlings and asking to help.",
+      "use": "Halaman 1, rujukan soalan dan kad perbuatan"
+    },
+    {
+      "path": "public/assets/focus35/sihat-situasi.png",
+      "prompt": "At a low child-height outdoor sink next to a Malaysian village home, the girl thoroughly washes both hands with soap under a tap, visible soft bubbles and clean running water. Behind her, at a separate clean preparation table, the boy and grandfather are preparing fruit and bread in food containers with lids. A clear water bottle sits on the table. Washing hands is the large dominant action. No food touching sink, no knife in children's hands. Main learning action: wash hands before helping prepare food.",
+      "use": "Halaman 1, rujukan soalan dan kad perbuatan"
+    }
+  ]
+}

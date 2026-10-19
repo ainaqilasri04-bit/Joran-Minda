@@ -1,0 +1,13 @@
+{
+  "version": 55,
+  "sourceFile": "ttsmaker-file-2026-10-19-21-13-47.mp3",
+  "sourceSha256": "290abc79bef1fbf16d2d8c499988d790e66cef19370b03f2ec54d263933474a7",
+  "duration": 13.584,
+  "bytes": 77517,
+  "decodedSeconds": 13.538,
+  "nonSilent": true,
+  "path": "audio-ms/drive-confirm-v55.mp3",
+  "text": "Selepas memuat naik buku, tekan Minta Guru semak. Guru akan menyemak buku dalam Google Drive. Selepas Guru mengesahkan penghantaran, tekan Seterusnya untuk membuat refleksi.",
+  "processing": "Original MP3 copied unchanged; pauses, pitch, speed and volume preserved.",
+  "humanPronunciationReviewed": false
+}

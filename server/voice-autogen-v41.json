@@ -1,0 +1,609 @@
+{
+  "version": 41,
+  "provider": "Microsoft Edge online TTS via edge-tts 7.3.1",
+  "voice": "ms-MY-YasminNeural",
+  "rate": "-3%",
+  "includesTeacherStoryNarration": false,
+  "clips": [
+    {
+      "id": "v41-f4a02f517fa7",
+      "text": "Anak kucing itu basah dan menggigil. Siapakah yang dipanggil oleh Hana untuk membantu anak kucing itu? Pilih satu gambar.",
+      "path": "audio-ms/clips/v41-f4a02f517fa7.mp3",
+      "duration": 10.92,
+      "bytes": 65520,
+      "sha256": "ed9e6203fcc0c72f30c25dc5db991c75d6b39f6478c549c62f0624e677f3a631",
+      "boundaryText": "Anak kucing itu basah dan menggigil. Siapakah yang dipanggil oleh Hana untuk membantu anak kucing itu? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-7fb3973594b2",
+      "text": "Bagaimanakah Hana dan Iman menyediakan tempat rehat Belang bersama-sama? Pilih satu gambar.",
+      "path": "audio-ms/clips/v41-7fb3973594b2.mp3",
+      "duration": 7.752,
+      "bytes": 46512,
+      "sha256": "e64ce65dcae6d038ba149fad2bbae3954132ce9a5945dc10d89bfa94e71bfbf9",
+      "boundaryText": "Bagaimanakah Hana dan Iman menyediakan tempat rehat Belang bersama-sama? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-ac3410e06377",
+      "text": "Tekan Guna kamera. Kemudian, tekan Buka kamera dan pilih Benarkan. Tunjukkan seluruh tangan. Halakan jari telunjuk kepada ikan pilihan kamu. Rapatkan ibu jari dan jari telunjuk sehingga ikan dipilih. Angkat tangan sedikit untuk menarik ikan.",
+      "path": "audio-ms/clips/v41-ac3410e06377.mp3",
+      "duration": 22.464,
+      "bytes": 134784,
+      "sha256": "102825e2d188ebf160b9939485312be143810f8826f8ef774d8418ccf6cba283",
+      "boundaryText": "Tekan Guna kamera. Kemudian, tekan Buka kamera dan pilih Benarkan. Tunjukkan seluruh tangan. Halakan jari telunjuk kepada ikan pilihan kamu. Rapatkan ibu jari dan jari telunjuk sehingga ikan dipilih. Angkat tangan sedikit untuk menarik ikan.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-79e442eab96a",
+      "text": "Kamera tersedia dalam projek penuh di Netlify. Dalam pratonton ini, pilih ikan dengan klik atau sentuhan.",
+      "path": "audio-ms/clips/v41-79e442eab96a.mp3",
+      "duration": 9.36,
+      "bytes": 56160,
+      "sha256": "67caacac62a4c1abfbaf84a62bc2acc4cec1de456402bcd49b22370bff0503d0",
+      "boundaryText": "Kamera tersedia dalam projek penuh di Netlify. Dalam pratonton ini, pilih ikan dengan klik atau sentuhan.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-3318dec7a68f",
+      "text": "Dua mata ditolak. Kamu boleh teruskan.",
+      "path": "audio-ms/clips/v41-3318dec7a68f.mp3",
+      "duration": 5.064,
+      "bytes": 30384,
+      "sha256": "5afb2b38daa6c7bb8a00e9b98c820145f0a8c1c73a27f88923498605e12845db",
+      "boundaryText": "Dua mata ditolak. Kamu boleh teruskan.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-d03cd80a4ab4",
+      "text": "Mengapakah Hana memanggil Tok Wan? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-d03cd80a4ab4.mp3",
+      "duration": 13.416,
+      "bytes": 80496,
+      "sha256": "ad809e1b37002df29c4c48b16a09e13965a47fc3f9ee9fea0bb5af905ede2d8c",
+      "boundaryText": "Mengapakah Hana memanggil Tok Wan? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-4b61cddf0d98",
+      "text": "Mengapakah peti Belang dialas dengan kain lembut? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-4b61cddf0d98.mp3",
+      "duration": 14.208,
+      "bytes": 85248,
+      "sha256": "a2fafa6230999a5db19e3a5df48beb44421f5034c8864f23f20cdac35345b527",
+      "boundaryText": "Mengapakah peti Belang dialas dengan kain lembut? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-acf906c09ccf",
+      "text": "Apakah kesan suara Hana yang lembut kepada Belang? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-acf906c09ccf.mp3",
+      "duration": 14.592,
+      "bytes": 87552,
+      "sha256": "978f8c739b70b976a50450db384790d5f014697e1d2614ea9de5f578180531fa",
+      "boundaryText": "Apakah kesan suara Hana yang lembut kepada Belang? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-ba9f3c1e3b15",
+      "text": "Mengapakah Hana dan Iman membahagikan tugas? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-ba9f3c1e3b15.mp3",
+      "duration": 14.544,
+      "bytes": 87264,
+      "sha256": "8617e2f24945096662b2c2294a22d1444235c4fb1ad80380efd57e3d1c725778",
+      "boundaryText": "Mengapakah Hana dan Iman membahagikan tugas? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-72a05bf5c0bd",
+      "text": "Apakah hasil penjagaan Hana dan Iman? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-72a05bf5c0bd.mp3",
+      "duration": 14.28,
+      "bytes": 85680,
+      "sha256": "81a26b7a8c7f2b288f440928443b880284f1f089c363f58ca2ffeffeb0c2758c",
+      "boundaryText": "Apakah hasil penjagaan Hana dan Iman? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-67441bbc8f5f",
+      "text": "Suaikan perkataan membelai dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-67441bbc8f5f.mp3",
+      "duration": 6.336,
+      "bytes": 38016,
+      "sha256": "dfdd9c0ae3bf6f6dbb339649e515a257f9988d9116b6219a11eb108bc808fdc3",
+      "boundaryText": "Suaikan perkataan membelai dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-1e7c8763d772",
+      "text": "Suaikan perkataan memberi air dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-1e7c8763d772.mp3",
+      "duration": 6.408,
+      "bytes": 38448,
+      "sha256": "5a98c5e42c80f5ec66eb99f547c29fc3f98dbb76c04f0e79b92a32cd57158939",
+      "boundaryText": "Suaikan perkataan memberi air dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-68150a20048f",
+      "text": "Suaikan perkataan memberi makanan dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-68150a20048f.mp3",
+      "duration": 6.672,
+      "bytes": 40032,
+      "sha256": "a92733cb83410597068f000ca28d8b97ccdd1192901e564e950312a0011ca6d6",
+      "boundaryText": "Suaikan perkataan memberi makanan dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-bc628eeff1c1",
+      "text": "Suaikan perkataan membersihkan dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-bc628eeff1c1.mp3",
+      "duration": 6.6,
+      "bytes": 39600,
+      "sha256": "d1717b0991c9b2dc1725f70047afeb52e66eaf06d3bd61f7f610b816e0e16fb0",
+      "boundaryText": "Suaikan perkataan membersihkan dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-6d8c2da3e7d1",
+      "text": "Hana melihat pondok yang berdebu. Apakah tindakan Hana untuk mengemas pondok itu? Pilih satu gambar.",
+      "path": "audio-ms/clips/v41-6d8c2da3e7d1.mp3",
+      "duration": 9.744,
+      "bytes": 58464,
+      "sha256": "16d994b7af459fed78412cbc762ba839339c9ad83f2d48df4448ab51d644a389",
+      "boundaryText": "Hana melihat pondok yang berdebu. Apakah tindakan Hana untuk mengemas pondok itu? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-b04a8b627eca",
+      "text": "Bagaimanakah Iman membantu Hana memindahkan buku ke atas meja? Pilih satu gambar.",
+      "path": "audio-ms/clips/v41-b04a8b627eca.mp3",
+      "duration": 7.728,
+      "bytes": 46368,
+      "sha256": "f7e9d2f49f0da75cf67abb1516ef0fc21ca0fc87b8b42364f1f3b45f16416e91",
+      "boundaryText": "Bagaimanakah Iman membantu Hana memindahkan buku ke atas meja? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-d05b46d1d213",
+      "text": "Mengapakah pondok itu perlu dikemas? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-d05b46d1d213.mp3",
+      "duration": 13.776,
+      "bytes": 82656,
+      "sha256": "fbdb5ed67633fa23513351df7a255b25ce8498440b136316b4af3c2d729bd171",
+      "boundaryText": "Mengapakah pondok itu perlu dikemas? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-137d639f01bb",
+      "text": "Mengapakah Tok Wan membaiki rak? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-137d639f01bb.mp3",
+      "duration": 13.608,
+      "bytes": 81648,
+      "sha256": "933b69fd7f5f6cb62df6e433d2d40030c2cf060d32bcef0ff40b62bca00f1014",
+      "boundaryText": "Mengapakah Tok Wan membaiki rak? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-cd0e537e5ff1",
+      "text": "Mengapakah label ditampal pada rak? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-cd0e537e5ff1.mp3",
+      "duration": 13.8,
+      "bytes": 82800,
+      "sha256": "ee455fc0dce0b136d14dac02af27f3b9ad943177b8b461f1f8180556e6ee22af",
+      "boundaryText": "Mengapakah label ditampal pada rak? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-c50dafcb931e",
+      "text": "Apakah kesan membuang sisa kertas ke dalam tong sampah? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-c50dafcb931e.mp3",
+      "duration": 14.64,
+      "bytes": 87840,
+      "sha256": "d9caf31d9913200015cc7f15b0555eeceb6e9d4a2bd73bbff8da109dcb79e656",
+      "boundaryText": "Apakah kesan membuang sisa kertas ke dalam tong sampah? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-f523231f6668",
+      "text": "Apakah faedah memulangkan buku ke rak? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-f523231f6668.mp3",
+      "duration": 14.136,
+      "bytes": 84816,
+      "sha256": "85be75295213823247893d5d34d565bb9371ff83e5c5c984b3b680c7792ee402",
+      "boundaryText": "Apakah faedah memulangkan buku ke rak? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-d87e589df7a1",
+      "text": "Suaikan perkataan menyapu dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-d87e589df7a1.mp3",
+      "duration": 6.312,
+      "bytes": 37872,
+      "sha256": "49a230f91cb853aac62a9cfb4f11afabd2b870a1c5904e0c5ac83111985a367a",
+      "boundaryText": "Suaikan perkataan menyapu dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-741153a4647d",
+      "text": "Suaikan perkataan memulangkan dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-741153a4647d.mp3",
+      "duration": 6.552,
+      "bytes": 39312,
+      "sha256": "def6ecff6a4d92f8b1815af3dc0fcdae583ed64b764b09bb4d62dd8149846306",
+      "boundaryText": "Suaikan perkataan memulangkan dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-44ec9ed182c7",
+      "text": "Suaikan perkataan mengoyakkan dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-44ec9ed182c7.mp3",
+      "duration": 6.432,
+      "bytes": 38592,
+      "sha256": "ec5c7c1501f76f62194525bf1f11fb395e788886bd31fc799a70d69760d4d3e9",
+      "boundaryText": "Suaikan perkataan mengoyakkan dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-bbf587cb6462",
+      "text": "Suaikan perkataan membaiki dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-bbf587cb6462.mp3",
+      "duration": 6.384,
+      "bytes": 38304,
+      "sha256": "665ae337893054ab8e60088b519a346d5858039edbcea8485047556c0515b260",
+      "boundaryText": "Suaikan perkataan membaiki dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-31386f58de43",
+      "text": "Anak pokok itu layu. Apakah bantuan yang ditawarkan oleh Hana? Pilih satu gambar.",
+      "path": "audio-ms/clips/v41-31386f58de43.mp3",
+      "duration": 8.832,
+      "bytes": 52992,
+      "sha256": "380ba54eb2430577d1c8cc55eff90890b7be2073b361bb0a71b522912aad20a5",
+      "boundaryText": "Anak pokok itu layu. Apakah bantuan yang ditawarkan oleh Hana? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-73b2691176b2",
+      "text": "Bagaimanakah Iman membantu Hana memberi air kepada anak pokok? Pilih satu gambar.",
+      "path": "audio-ms/clips/v41-73b2691176b2.mp3",
+      "duration": 7.44,
+      "bytes": 44640,
+      "sha256": "20a179c5e662bd6b3fe795d13dd46e18028b45f65f7ecf5095895251ca42aff5",
+      "boundaryText": "Bagaimanakah Iman membantu Hana memberi air kepada anak pokok? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-e7ea9b99337b",
+      "text": "Mengapakah anak pokok itu layu? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-e7ea9b99337b.mp3",
+      "duration": 13.536,
+      "bytes": 81216,
+      "sha256": "3df8d00aa25ab8c198a51696a286f32b6b605a37201dd24220335707c1d7e2fe",
+      "boundaryText": "Mengapakah anak pokok itu layu? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-83a580bd87c9",
+      "text": "Apakah kesan menyiram pokok dengan air secukupnya? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-83a580bd87c9.mp3",
+      "duration": 14.448,
+      "bytes": 86688,
+      "sha256": "22cb0d72549ed2f0544c23ddec58c9889579e33e4a0c9ad4feefbc4af03c8ba7",
+      "boundaryText": "Apakah kesan menyiram pokok dengan air secukupnya? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-55a88ece70be",
+      "text": "Mengapakah Iman melukis gambar pada kad? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-55a88ece70be.mp3",
+      "duration": 13.992,
+      "bytes": 83952,
+      "sha256": "41a01c40a2fd3484269fdbde7218f4c0287a8670a121c796a3c9c19f0aea1161",
+      "boundaryText": "Mengapakah Iman melukis gambar pada kad? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-8003ea566816",
+      "text": "Mengapakah Hana menyediakan jadual? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-8003ea566816.mp3",
+      "duration": 13.776,
+      "bytes": 82656,
+      "sha256": "bdba7aa979a021f99c73f9dde4dad5403e49562a07886de4ef8b3c1178537f04",
+      "boundaryText": "Mengapakah Hana menyediakan jadual? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-7d650447ddaa",
+      "text": "Apakah hasil penjagaan pokok bersama-sama? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-7d650447ddaa.mp3",
+      "duration": 14.376,
+      "bytes": 86256,
+      "sha256": "23eba0b731f0a5c18e649602b8e181be256cb1bc088f63a4c541834baf2fdbb4",
+      "boundaryText": "Apakah hasil penjagaan pokok bersama-sama? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-892db8f748b2",
+      "text": "Suaikan perkataan menyiram dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-892db8f748b2.mp3",
+      "duration": 6.36,
+      "bytes": 38160,
+      "sha256": "6c9c32664aef20329736c0da99155890842a07aa20b6afa53f6e1a50586b671a",
+      "boundaryText": "Suaikan perkataan menyiram dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-4e4245185cb7",
+      "text": "Suaikan perkataan memetik dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-4e4245185cb7.mp3",
+      "duration": 6.264,
+      "bytes": 37584,
+      "sha256": "bfc8c96d88e6ea072f873073b5b8732e1f21adbbbf68a9e0232f2e341bcdf40c",
+      "boundaryText": "Suaikan perkataan memetik dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-fc7cc346f14a",
+      "text": "Suaikan perkataan memindahkan dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-fc7cc346f14a.mp3",
+      "duration": 6.624,
+      "bytes": 39744,
+      "sha256": "a77e0545f86be1d33337828598daf189cd0b1772934f5088f90b35b20a975e38",
+      "boundaryText": "Suaikan perkataan memindahkan dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-4ee0a2ab1491",
+      "text": "Suaikan perkataan mendengar dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-4ee0a2ab1491.mp3",
+      "duration": 6.288,
+      "bytes": 37728,
+      "sha256": "4a1eb1a410e400fc7ed4200f5ad00f0eae9bdfc98ee28c0d733a0e1001ade5cc",
+      "boundaryText": "Suaikan perkataan mendengar dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-1f15cf3676cf",
+      "text": "Sebelum makan, apakah yang Hana dan Iman lakukan supaya tangan mereka bersih? Pilih satu gambar.",
+      "path": "audio-ms/clips/v41-1f15cf3676cf.mp3",
+      "duration": 8.496,
+      "bytes": 50976,
+      "sha256": "4f01cfe9f0271a4358325e2752283821372eb76f26b43ce37d38b23c3d1aa00a",
+      "boundaryText": "Sebelum makan, apakah yang Hana dan Iman lakukan supaya tangan mereka bersih? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-bd0e83ccffa6",
+      "text": "Sebelum pulang, apakah yang Hana dan Iman kumpulkan untuk membersihkan tempat berkelah? Pilih satu gambar.",
+      "path": "audio-ms/clips/v41-bd0e83ccffa6.mp3",
+      "duration": 8.976,
+      "bytes": 53856,
+      "sha256": "406e85fafcb7445ab3c9a9886b5da4f58634984669fe9e0191319ffa1037f057",
+      "boundaryText": "Sebelum pulang, apakah yang Hana dan Iman kumpulkan untuk membersihkan tempat berkelah? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-b4916ecb57a3",
+      "text": "Mengapakah Hana membasuh tangan sebelum menyediakan bekal? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-b4916ecb57a3.mp3",
+      "duration": 15.0,
+      "bytes": 90000,
+      "sha256": "b657eac9026431c55a56885cfc33b3c6dd6b22cbdc814451abaef19121560078",
+      "boundaryText": "Mengapakah Hana membasuh tangan sebelum menyediakan bekal? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-50363b2adc0f",
+      "text": "Mengapakah tangan mereka kotor? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-50363b2adc0f.mp3",
+      "duration": 13.344,
+      "bytes": 80064,
+      "sha256": "ba4d8ae832258ca09acf0da1307cc281b42b2c4b971b03995e03b0f2cf090a81",
+      "boundaryText": "Mengapakah tangan mereka kotor? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-3adfb38d8262",
+      "text": "Mengapakah Iman menutup bekas makanan? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-3adfb38d8262.mp3",
+      "duration": 13.872,
+      "bytes": 83232,
+      "sha256": "511c15596021e2b9b3526c72d250eecc4a1d0705bae67c18340f77b009df1f97",
+      "boundaryText": "Mengapakah Iman menutup bekas makanan? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-738b412fb7b0",
+      "text": "Apakah kesan mengutip sampah bersama-sama? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-738b412fb7b0.mp3",
+      "duration": 14.184,
+      "bytes": 85104,
+      "sha256": "68c088dee82ff5ba6f8f538964927c26d7f482421d88bdfc756b69e5b905520f",
+      "boundaryText": "Apakah kesan mengutip sampah bersama-sama? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-8a1e4fc88217",
+      "text": "Apakah tujuan poster membasuh tangan? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-8a1e4fc88217.mp3",
+      "duration": 13.872,
+      "bytes": 83232,
+      "sha256": "66ebcbff6d5e87aa7fbfb7f1e04569ec91422ab66abddf850ac8ad83730b4922",
+      "boundaryText": "Apakah tujuan poster membasuh tangan? Pilih ikan, kemudian tekan Pancing ikan ini. Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-fc08557bb2cb",
+      "text": "Suaikan perkataan membasuh dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-fc08557bb2cb.mp3",
+      "duration": 6.336,
+      "bytes": 38016,
+      "sha256": "e98dc786e38cc9876a6e458296f70659069b5e509acc9c7f8d4b23f85ba9fa1c",
+      "boundaryText": "Suaikan perkataan membasuh dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-71027a8e1901",
+      "text": "Suaikan perkataan menutup dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-71027a8e1901.mp3",
+      "duration": 6.216,
+      "bytes": 37296,
+      "sha256": "ca02272f54d3f2ec859f4ee762eaafedbcb7684a9283e02aade40adb0f3e376d",
+      "boundaryText": "Suaikan perkataan menutup dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-9f6b76d55a63",
+      "text": "Suaikan perkataan berkongsi dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-9f6b76d55a63.mp3",
+      "duration": 6.288,
+      "bytes": 37728,
+      "sha256": "1752d3f39820e271fcc1e84cfae5cdcb56b0b3cb29da96a85865c8640abf3f63",
+      "boundaryText": "Suaikan perkataan berkongsi dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-6189ed094ee5",
+      "text": "Suaikan perkataan mengutip dengan gambar. Tekan satu gambar.",
+      "path": "audio-ms/clips/v41-6189ed094ee5.mp3",
+      "duration": 6.264,
+      "bytes": 37584,
+      "sha256": "bb3190455bd2fb57e95803e9261fc15caee3a8015256140b675a7b1458a1da2a",
+      "boundaryText": "Suaikan perkataan mengutip dengan gambar. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-1ac583eb756b",
+      "text": "Anak kucing itu basah dan menggigil. Siapakah yang dipanggil oleh Hana untuk membantu anak kucing itu?",
+      "path": "audio-ms/clips/v41-1ac583eb756b.mp3",
+      "duration": 8.52,
+      "bytes": 51120,
+      "sha256": "373e75e286dda9e20235ab06e6022e243db8ee17b101830b1fd631f617f1c60a",
+      "boundaryText": "Anak kucing itu basah dan menggigil. Siapakah yang dipanggil oleh Hana untuk membantu anak kucing itu?",
+      "textMatched": true
+    },
+    {
+      "id": "v41-3df7a99b49b4",
+      "text": "Bagaimanakah Hana dan Iman menyediakan tempat rehat Belang bersama-sama?",
+      "path": "audio-ms/clips/v41-3df7a99b49b4.mp3",
+      "duration": 5.352,
+      "bytes": 32112,
+      "sha256": "5ba619844c96ef75a900940f64a738f41d2c30e2f80b3b68b00514ff473f08cf",
+      "boundaryText": "Bagaimanakah Hana dan Iman menyediakan tempat rehat Belang bersama-sama?",
+      "textMatched": true
+    },
+    {
+      "id": "v41-00f018f7f364",
+      "text": "Hana melihat pondok yang berdebu. Apakah tindakan Hana untuk mengemas pondok itu?",
+      "path": "audio-ms/clips/v41-00f018f7f364.mp3",
+      "duration": 7.368,
+      "bytes": 44208,
+      "sha256": "262ad2c37fc3ed1666c02d69f80d081234c15c322acda8b7644dac021ba4a8fe",
+      "boundaryText": "Hana melihat pondok yang berdebu. Apakah tindakan Hana untuk mengemas pondok itu?",
+      "textMatched": true
+    },
+    {
+      "id": "v41-e6da659c1a2b",
+      "text": "Bagaimanakah Iman membantu Hana memindahkan buku ke atas meja?",
+      "path": "audio-ms/clips/v41-e6da659c1a2b.mp3",
+      "duration": 5.328,
+      "bytes": 31968,
+      "sha256": "ae7727825c8f22e8d6d6249207195f1144496f06edcc5015a012375a9a5caa95",
+      "boundaryText": "Bagaimanakah Iman membantu Hana memindahkan buku ke atas meja?",
+      "textMatched": true
+    },
+    {
+      "id": "v41-af552dc88913",
+      "text": "Anak pokok itu layu. Apakah bantuan yang ditawarkan oleh Hana?",
+      "path": "audio-ms/clips/v41-af552dc88913.mp3",
+      "duration": 6.456,
+      "bytes": 38736,
+      "sha256": "a60a58215ab4cf0ccf11867632ab017dc495bf74d99aef9590e6d59caa88233e",
+      "boundaryText": "Anak pokok itu layu. Apakah bantuan yang ditawarkan oleh Hana?",
+      "textMatched": true
+    },
+    {
+      "id": "v41-763c9bcf1164",
+      "text": "Bagaimanakah Iman membantu Hana memberi air kepada anak pokok?",
+      "path": "audio-ms/clips/v41-763c9bcf1164.mp3",
+      "duration": 5.04,
+      "bytes": 30240,
+      "sha256": "a8f722710547930339c9eca8218400ffe44ddbbde3c17fb8c9e11b42b85ce5cb",
+      "boundaryText": "Bagaimanakah Iman membantu Hana memberi air kepada anak pokok?",
+      "textMatched": true
+    },
+    {
+      "id": "v41-4cf6e74c55a9",
+      "text": "Sebelum makan, apakah yang Hana dan Iman lakukan supaya tangan mereka bersih?",
+      "path": "audio-ms/clips/v41-4cf6e74c55a9.mp3",
+      "duration": 6.144,
+      "bytes": 36864,
+      "sha256": "340cc0f9d5a8da182cb676314627ed21d87623278eb6ea4317c7c7f6a86e7545",
+      "boundaryText": "Sebelum makan, apakah yang Hana dan Iman lakukan supaya tangan mereka bersih?",
+      "textMatched": true
+    },
+    {
+      "id": "v41-6718775fbd48",
+      "text": "Sebelum pulang, apakah yang Hana dan Iman kumpulkan untuk membersihkan tempat berkelah?",
+      "path": "audio-ms/clips/v41-6718775fbd48.mp3",
+      "duration": 6.576,
+      "bytes": 39456,
+      "sha256": "cfe4f1829428403126d57b51d3e52f134ab7e41fedb85e7147268c5c689cf4bd",
+      "boundaryText": "Sebelum pulang, apakah yang Hana dan Iman kumpulkan untuk membersihkan tempat berkelah?",
+      "textMatched": true
+    },
+    {
+      "id": "v41-8ea89eb8c8ba",
+      "text": "Tekan Guna kamera. Kemudian, tekan Buka kamera dan pilih Benarkan.",
+      "path": "audio-ms/clips/v41-8ea89eb8c8ba.mp3",
+      "duration": 7.224,
+      "bytes": 43344,
+      "sha256": "c42fc90f713b4c332396e0f5454499dde6991f2fe89fe386202f38c5bbf8dbfb",
+      "boundaryText": "Tekan Guna kamera. Kemudian, tekan Buka kamera dan pilih Benarkan.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-5cdf65a190b6",
+      "text": "Tunjukkan seluruh tangan. Halakan jari telunjuk kepada ikan pilihan kamu.",
+      "path": "audio-ms/clips/v41-5cdf65a190b6.mp3",
+      "duration": 6.936,
+      "bytes": 41616,
+      "sha256": "c0ea547bfde45d70df78b35e95d8eee5d196e191f8e09c0a387c26394c6be848",
+      "boundaryText": "Tunjukkan seluruh tangan. Halakan jari telunjuk kepada ikan pilihan kamu.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-254a90ee17c1",
+      "text": "Rapatkan ibu jari dan jari telunjuk sehingga ikan dipilih.",
+      "path": "audio-ms/clips/v41-254a90ee17c1.mp3",
+      "duration": 4.968,
+      "bytes": 29808,
+      "sha256": "aa418e7a13f6ff64873bb9e902dc2f47a1ceb4dd7e0ba54be54639c18728178d",
+      "boundaryText": "Rapatkan ibu jari dan jari telunjuk sehingga ikan dipilih.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-e014f1b7c861",
+      "text": "Angkat tangan sedikit untuk menarik ikan.",
+      "path": "audio-ms/clips/v41-e014f1b7c861.mp3",
+      "duration": 3.672,
+      "bytes": 22032,
+      "sha256": "afe788f8451b7d54dea008a218726934eb359fc05101fee89178b58cf18522a9",
+      "boundaryText": "Angkat tangan sedikit untuk menarik ikan.",
+      "textMatched": true
+    },
+    {
+      "id": "v41-5f5c888e5ef6",
+      "text": "Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "path": "audio-ms/clips/v41-5f5c888e5ef6.mp3",
+      "duration": 6.048,
+      "bytes": 36288,
+      "sha256": "9c9a5163a33ac806f180be67132cc3f00698db817f06994ce8ca1d26e060dccd",
+      "boundaryText": "Kamu juga boleh menggunakan kamera. Ikut panduan di bawah.",
+      "textMatched": true
+    }
+  ]
+}

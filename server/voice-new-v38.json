@@ -1,0 +1,761 @@
+{
+  "version": 38,
+  "clips": [
+    {
+      "id": "v38-3be84576168b",
+      "text": "Selamat datang ke Joran Minda. Tekan Mula bermain untuk memulakan pengembaraan. Tekan Cara bermain untuk mendengar panduan. Kamu boleh menukar tema, saiz tulisan dan bunyi dalam Tetapan."
+    },
+    {
+      "id": "v38-41dcc58f743d",
+      "text": "Pilih tema cerah atau gelap. Besarkan tulisan jika perlu. Kamu boleh memperlahankan suara arahan, melaraskan muzik dan mengubah kekuatan sorakan. Arahan automatik boleh dihidupkan atau dimatikan. Bacaan cerita menggunakan rakaman cikgu."
+    },
+    {
+      "id": "v38-962cb690fee7",
+      "text": "Tetapkan empat peranan. Pembaca membaca cerita. Pencari memilih ayat bukti. Pencatat menulis pilihan dan satu sebab. Pemancing menangkap ikan yang dipersetujui. Nama orang yang mendapat giliran akan dipaparkan."
+    },
+    {
+      "id": "v38-8818024c1f80",
+      "text": "Dalam latihan sendiri, kamu membaca, mencari bukti, mencatat pilihan dan memancing sendiri. Tidak perlu mengisi nama empat orang. Pilih satu kisah dan mula bermain."
+    },
+    {
+      "id": "v38-98489765e4d8",
+      "text": "Pilih satu tindakan watak. Tulis pilihan kamu dan satu sebab. Kata kunci juga boleh. Selepas selesai, tekan Simpan untuk meneruskan giliran pemancing."
+    },
+    {
+      "id": "v38-460994243385",
+      "text": "Fikirkan maksud peribahasa. Tulis jawapan ringkas dalam ruangan catatan. Kemudian, tekan Simpan dan pancing ikan yang membawa maksud yang tepat."
+    },
+    {
+      "id": "v38-bf8c64420010",
+      "text": "Ruang guru digunakan untuk mencipta bilik dalam talian dan melihat rekod murid. Pilih mod kumpulan atau latihan kendiri. Selepas bilik dicipta, kongsi kod bilik dengan murid. Jangan kongsikan kunci guru."
+    },
+    {
+      "id": "v38-f63d83d0e712",
+      "text": "Pilih cerita dan muka surat. Baca teks yang dipaparkan. Tekan Rakam bacaan, kemudian benarkan mikrofon. Selepas membaca, tekan Henti dan simpan. Dengar semula rakaman. Kamu juga boleh memuat naik rakaman telefon. Untuk murid di rumah, kongsi bacaan dengan bilik aktif."
+    },
+    {
+      "id": "v38-60ef47c39f09",
+      "text": "Rakaman bacaan cikgu belum dimasukkan untuk halaman ini. Minta cikgu merakam bacaan atau membantu kamu membaca cerita."
+    },
+    {
+      "id": "v38-c46d1a591a6f",
+      "text": "Belum tepat. Cuba lagi. Tiada mata ditolak."
+    },
+    {
+      "id": "v38-767c213cbf06",
+      "text": "Yeay! Jawapan kamu tepat!"
+    },
+    {
+      "id": "v38-b3aeb03a4873",
+      "text": "Yeay! Ikan berjaya dipancing!"
+    },
+    {
+      "id": "v38-9918f6f319ef",
+      "text": "Yeay! Kamu mendapat lima mata bonus!"
+    },
+    {
+      "id": "v38-e7cc4f28362c",
+      "text": "Yeay! Tahniah! Buku cerita kamu sudah siap!"
+    },
+    {
+      "id": "v38-c0786ed87b92",
+      "text": "Tekan Dengar pilihan untuk mendengar jawapan pada ikan. Pilih satu ikan, kemudian tekan Pancing ikan ini. Pilihan cerita kamu akan menentukan sambungan cerita."
+    },
+    {
+      "id": "v38-b09a1bc0071f",
+      "text": "Sekarang giliran pembaca. Baca cerita atau dengar rakaman cikgu. Kemudian, tekan Selesai baca."
+    },
+    {
+      "id": "v38-532db393a2ef",
+      "text": "Sekarang giliran pencari bukti. Dengar soalan. Pilih ayat bukti yang sepadan dengan petunjuk."
+    },
+    {
+      "id": "v38-73803ceaa7a6",
+      "text": "Sekarang giliran pencatat. Dengar pendapat ahli kumpulan. Catat satu pilihan dan satu sebab."
+    },
+    {
+      "id": "v38-1d97c9886dc2",
+      "text": "Sekarang giliran pemancing. Dengar tiga pilihan. Pancing ikan yang telah dipersetujui oleh kumpulan."
+    },
+    {
+      "id": "v38-ae6bfea8e232",
+      "text": "Semua ahli menyemak buku. Kamu boleh menyunting tajuk dan ayat. Tekan Simpan sebelum memuat turun buku."
+    },
+    {
+      "id": "v38-23b947dcb5bb",
+      "text": "Pilih Individu untuk belajar sendiri, atau Kumpulan untuk belajar bersama rakan. Masukkan nama kamu. Kemudian, pilih cerita dan tekan Mula."
+    },
+    {
+      "id": "v38-07c12de2ac2c",
+      "text": "Tahniah! Jawapan kamu betul."
+    },
+    {
+      "id": "v38-2d2b6a436053",
+      "text": "Belum tepat. Lihat jawapan yang betul. Kamu boleh teruskan."
+    },
+    {
+      "id": "v38-22ae8e8c1a4f",
+      "text": "Tahniah! Kamu berjaya memadankan perkataan dengan gambar."
+    },
+    {
+      "id": "v38-9618dfeea3e7",
+      "text": "Latihan selesai. Semua jawapan kamu telah disimpan."
+    },
+    {
+      "id": "v38-c31610c93d00",
+      "text": "Tahniah! Kamu berjaya mengenal pasti nilai murni."
+    },
+    {
+      "id": "v38-0594a71bd442",
+      "text": "Tahniah! Kamu berjaya memancing jawapan yang tepat."
+    },
+    {
+      "id": "v38-166a3fc9be44",
+      "text": "Tahniah! Gambar sudah lengkap."
+    },
+    {
+      "id": "v38-292968388d39",
+      "text": "Padankan perkataan kasih sayang dengan gambar yang sesuai. Tekan satu gambar."
+    },
+    {
+      "id": "v38-5b82ec1cf933",
+      "text": "Menjerit ke arah kucing."
+    },
+    {
+      "id": "v38-1597d6fc60fe",
+      "text": "Membelai kucing dengan lembut."
+    },
+    {
+      "id": "v38-7b6dd2be7f00",
+      "text": "Mengoyakkan halaman buku."
+    },
+    {
+      "id": "v38-ee5d927dcd9c",
+      "text": "Padankan perkataan kerjasama dengan gambar yang sesuai. Tekan satu gambar."
+    },
+    {
+      "id": "v38-f393c0c64e41",
+      "text": "Menyediakan tempat tidur bersama-sama."
+    },
+    {
+      "id": "v38-f961a25a06ec",
+      "text": "Membiarkan buku berselerak."
+    },
+    {
+      "id": "v38-8d6004d97432",
+      "text": "Padankan perkataan tanggungjawab dengan gambar yang sesuai. Tekan satu gambar."
+    },
+    {
+      "id": "v38-fa960fb59860",
+      "text": "Menyemak jadual penjagaan kucing."
+    },
+    {
+      "id": "v38-0ed16d194bef",
+      "text": "Padankan perkataan kebersihan dengan gambar yang sesuai. Tekan satu gambar."
+    },
+    {
+      "id": "v38-d40ef04f4afe",
+      "text": "Membersihkan tempat tidur kucing."
+    },
+    {
+      "id": "v38-2e4e61b9f586",
+      "text": "Meninggalkan sampah di tempat berkelah."
+    },
+    {
+      "id": "v38-98d98655d48e",
+      "text": "Belang basah dan menggigil. Apakah yang Hana lakukan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-6a57d3f2d892",
+      "text": "Meminta bantuan Guru."
+    },
+    {
+      "id": "v38-5ae3312ac219",
+      "text": "Apakah gambar yang menunjukkan Hana dan Iman bekerjasama menyediakan tempat rehat Belang? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-aaacfe32aade",
+      "text": "Belang berasa takut. Apakah tindakan yang dapat menenangkannya? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-0e413d6d9737",
+      "text": "Memetik daun pokok."
+    },
+    {
+      "id": "v38-f4aad3de8c61",
+      "text": "Iman bertugas menukar air minuman Belang. Pilih gambar tugas itu. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-ca39c3cfcbcb",
+      "text": "Memberi air bersih kepada kucing."
+    },
+    {
+      "id": "v38-72054b18a36c",
+      "text": "Memberi makanan kepada kucing."
+    },
+    {
+      "id": "v38-14ed26bd062f",
+      "text": "Menyusun buku di rak."
+    },
+    {
+      "id": "v38-e0da3bf66b5b",
+      "text": "Apakah hasil penjagaan Hana dan Iman? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-0362eedfe963",
+      "text": "Kucing berehat di tempat yang selesa."
+    },
+    {
+      "id": "v38-ca13ce4c6d4d",
+      "text": "Pokok layu di dalam tanah yang kering."
+    },
+    {
+      "id": "v38-8ee1d1816740",
+      "text": "Kamu akan bercuti. Pilih rancangan supaya kucing tetap dijaga. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-746d57819e07",
+      "text": "Menyemak jadual penjagaan dengan penjaga."
+    },
+    {
+      "id": "v38-5f5a056880f6",
+      "text": "Menjerit supaya kucing menjaga dirinya."
+    },
+    {
+      "id": "v38-3ad775a7de6d",
+      "text": "Membiarkan semua tugas tanpa rancangan."
+    },
+    {
+      "id": "v38-e082dd57166d",
+      "text": "Rakan mahu menarik perhatian kucing dengan menjerit. Pilih cara yang lebih baik. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-d3f004e965fc",
+      "text": "Kucing di sekolah cedera. Kamu tidak tahu merawatnya. Pilih langkah yang selamat. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-6194db9ec192",
+      "text": "Tempat tidur kucing sudah kotor. Pilih tindakan yang menyelesaikan masalah itu. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-81c15b9b6cdd",
+      "text": "Kucing berasa selesa selepas dijaga. Pilih gambar yang menunjukkan kesan baik itu. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-fc5daac639e9",
+      "text": "Kamu dan rakan mahu menyiapkan tempat tidur kucing dengan cepat. Pilih cara bekerjasama. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-fd0e239fe0ca",
+      "text": "Padankan perkataan kerajinan dengan gambar yang sesuai. Tekan satu gambar."
+    },
+    {
+      "id": "v38-2b1400eb18c8",
+      "text": "Mengangkat buku bersama-sama."
+    },
+    {
+      "id": "v38-c4926f650572",
+      "text": "Menyerahkan buku yang ditemukan kepada Guru."
+    },
+    {
+      "id": "v38-d7c0ba2c50d3",
+      "text": "Padankan perkataan baik hati dengan gambar yang sesuai. Tekan satu gambar."
+    },
+    {
+      "id": "v38-33aac55315de",
+      "text": "Berkongsi kertas berwarna."
+    },
+    {
+      "id": "v38-7277c2dd2ed2",
+      "text": "Pilih gambar yang menunjukkan tugas Hana mengemas buku. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-61bd56e7692a",
+      "text": "Apakah gambar yang menunjukkan dua orang bekerjasama mengangkat buku? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-13d740137c8b",
+      "text": "Mendengar penerangan dengan teliti."
+    },
+    {
+      "id": "v38-7d3d8a90c251",
+      "text": "Iman memerlukan kertas berwarna. Apakah tindakan baik Hana? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-1aa833c637af",
+      "text": "Sisa kertas bertaburan di lantai. Apakah tindakan yang menjaga kebersihan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-af8c2c6b654a",
+      "text": "Menyapu sisa kertas."
+    },
+    {
+      "id": "v38-89b945244ca5",
+      "text": "Buku sudah selesai dibaca. Di manakah buku patut diletakkan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-39ace2a02662",
+      "text": "Kamu menemukan buku orang lain di koridor. Pilih tindakan yang jujur. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-d2d4f50f7836",
+      "text": "Sebuah halaman terkoyak sedikit. Pilih cara menjaga buku supaya boleh dibaca semula. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-538d75b4c38b",
+      "text": "Membaiki halaman buku yang koyak."
+    },
+    {
+      "id": "v38-38c29f5962dc",
+      "text": "Rakan tidak cukup kertas untuk membuat penanda buku. Pilih bantuan yang sesuai. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-e3d1b9f8dee2",
+      "text": "Buku sukar dicari kerana berselerak. Pilih penyelesaian masalah itu. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-763c88412352",
+      "text": "Seorang rakan sukar membawa banyak buku. Pilih tindakan yang meringankan bebannya. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-4fcd2aef436a",
+      "text": "Pameran buku sudah tamat. Lantai dipenuhi sisa kertas. Pilih tindakan sebelum pulang. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-d229e433d4ee",
+      "text": "Menyiram pokok dengan air secukupnya."
+    },
+    {
+      "id": "v38-d683035a9a16",
+      "text": "Menyiram pokok sehingga air melimpah."
+    },
+    {
+      "id": "v38-4aa6054ba61b",
+      "text": "Membawa bekas air bersama-sama."
+    },
+    {
+      "id": "v38-cc59a329bf8f",
+      "text": "Merancang jadual penjagaan bersama Guru."
+    },
+    {
+      "id": "v38-e0fda245c370",
+      "text": "Padankan perkataan hormat dengan gambar yang sesuai. Tekan satu gambar."
+    },
+    {
+      "id": "v38-a504de0d6f2d",
+      "text": "Hormat"
+    },
+    {
+      "id": "v38-43042c1c0fec",
+      "text": "Mendengar nasihat Tok Wan."
+    },
+    {
+      "id": "v38-222324381fa5",
+      "text": "Apakah gambar yang menunjukkan anak pokok sebelum dijaga? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-14fb03489c21",
+      "text": "Pokok tumbuh segar."
+    },
+    {
+      "id": "v38-0a6818f78736",
+      "text": "Pilih cara menyiram yang cermat. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-62ce049fcad8",
+      "text": "Tok Wan sedang memberi penerangan. Apakah tindakan yang menunjukkan rasa hormat? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-ec0477f2b522",
+      "text": "Hana mahu mereka ingat akan tugas menjaga pokok. Apakah yang perlu disediakan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-7a51aa3f1a8f",
+      "text": "Apakah perubahan pokok setelah dijaga? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-c438f41953fc",
+      "text": "Kelas akan bercuti beberapa hari. Pilih rancangan supaya pokok tetap dijaga. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-e1217c97056d",
+      "text": "Air melimpah apabila rakan menyiram pokok. Pilih cara yang lebih cermat. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-096f32473f9c",
+      "text": "Hujan lebat akan turun. Pasu kecil berada di tempat terbuka. Pilih cara melindunginya. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-6fa146147536",
+      "text": "Memindahkan pasu ke tempat yang terlindung."
+    },
+    {
+      "id": "v38-b05483ac5b12",
+      "text": "Bekas air terlalu berat untuk seorang murid. Pilih cara membawa bersama-sama. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-94d1df796699",
+      "text": "Pokok mendapat air secukupnya setiap hari. Pilih kesan yang dijangka. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-e7ccec0d1752",
+      "text": "Kamu belum tahu menjaga pokok baharu. Pilih cara belajar daripada orang yang tahu. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-1411e0aa101d",
+      "text": "Membasuh tangan dengan sabun."
+    },
+    {
+      "id": "v38-ec5dfc0a37e2",
+      "text": "Membuang makanan yang masih elok."
+    },
+    {
+      "id": "v38-893be1dd280b",
+      "text": "Mengutip sampah bersama-sama."
+    },
+    {
+      "id": "v38-0e6811e8fac8",
+      "text": "Padankan perkataan berjimat cermat dengan gambar yang sesuai. Tekan satu gambar."
+    },
+    {
+      "id": "v38-1d2df723c0b5",
+      "text": "Menyimpan baki bekal yang masih elok."
+    },
+    {
+      "id": "v38-7d40956a888f",
+      "text": "Berkongsi makanan dengan rakan."
+    },
+    {
+      "id": "v38-baa7d952f8ef",
+      "text": "Sebelum menyediakan bekal, apakah yang Hana lakukan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-548f023e49d9",
+      "text": "Iman mahu melindungi makanan daripada kotoran. Apakah tindakannya? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-e1e55155793c",
+      "text": "Menutup bekas makanan."
+    },
+    {
+      "id": "v38-91f12a079715",
+      "text": "Mereka sudah kenyang. Apakah tindakan yang mengelakkan pembaziran bekal? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-268e0eab2a41",
+      "text": "Apakah gambar yang menunjukkan Hana dan Iman bekerjasama mengemas tempat berkelah? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-7c46b0d4a940",
+      "text": "Apakah gambar amalan kebersihan yang sesuai untuk poster mereka? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-58cceda33724",
+      "text": "Rakan terlupa membawa bekal. Kamu mempunyai makanan yang lebih. Pilih tindakan baik. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-c42a463055c8",
+      "text": "Kamu mahu makan sebiji epal yang belum dibasuh. Pilih tindakan sebelum memakannya. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-94557aa7c152",
+      "text": "Membasuh buah sebelum dimakan."
+    },
+    {
+      "id": "v38-965ce63552db",
+      "text": "Kamu hendak bersin ketika duduk di meja makan. Pilih tindakan yang menjaga kebersihan. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-db9cf1f86db2",
+      "text": "Menutup hidung dan mulut dengan tisu ketika bersin."
+    },
+    {
+      "id": "v38-a7ec9325702e",
+      "text": "Makanan di meja belum dimakan. Lalat mula datang. Pilih cara melindungi makanan. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-e1c28b2e36a5",
+      "text": "Jamuan kelas sudah tamat. Pilih rancangan yang menjimatkan makanan yang masih elok. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-b8ae9b7990a5",
+      "text": "Lantai kelas dipenuhi pembungkus selepas jamuan. Pilih cara menyiapkannya bersama-sama. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v38-69bd396b4a06",
+      "text": "Pada pagi Sabtu, Hana dan Iman berjalan di tepi tasik bersama Tok Wan."
+    },
+    {
+      "id": "v38-60b2de3d54fc",
+      "text": "Mereka terdengar bunyi anak kucing di tepi jeti."
+    },
+    {
+      "id": "v38-3bd8d1c0783e",
+      "text": "Anak kucing itu basah dan menggigil."
+    },
+    {
+      "id": "v38-0a03babe98e7",
+      "text": "Tok Wan membawa anak kucing itu pulang."
+    },
+    {
+      "id": "v38-bcb53c048015",
+      "text": "Tok Wan mengeringkan bulu anak kucing itu."
+    },
+    {
+      "id": "v38-d45440355a9a",
+      "text": "Mereka menamakan anak kucing itu Belang."
+    },
+    {
+      "id": "v38-92640837c26b",
+      "text": "Belang masih berasa takut."
+    },
+    {
+      "id": "v38-324aa759f62a",
+      "text": "Hana bercakap dengan Belang menggunakan suara yang lembut."
+    },
+    {
+      "id": "v38-a2b2f5ed8dd6",
+      "text": "Tidak lama kemudian, Belang menjadi tenang."
+    },
+    {
+      "id": "v38-edcd68f32a74",
+      "text": "Ayat bukti: Iman pula meletakkan semangkuk air bersih berhampiran Belang. Teruskan menentukan nilai murni."
+    },
+    {
+      "id": "v38-18e46f71373b",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Iman pula meletakkan semangkuk air bersih berhampiran Belang.."
+    },
+    {
+      "id": "v38-717e0788a76e",
+      "text": "Jawapan yang tepat: Iman pula meletakkan semangkuk air bersih berhampiran Belang. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v38-48a0d1bdf9a8",
+      "text": "Jawapan yang tepat ialah Iman pula meletakkan semangkuk air bersih berhampiran Belang.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v38-7d8a7e6a9f3b",
+      "text": "Pada keesokan hari, Hana dan Iman membahagikan tugas."
+    },
+    {
+      "id": "v38-91d374b394b5",
+      "text": "Hana menyediakan makanan untuk Belang."
+    },
+    {
+      "id": "v38-3733486c436f",
+      "text": "Iman menukar air minuman dan membersihkan peti Belang."
+    },
+    {
+      "id": "v38-e91b07117fb4",
+      "text": "Beberapa hari kemudian, Belang semakin sihat."
+    },
+    {
+      "id": "v38-af7e478f240e",
+      "text": "Belang bermain bersama Hana dan Iman di beranda."
+    },
+    {
+      "id": "v38-6534fedc3db3",
+      "text": "Hana dan Iman gembira dapat menjaga Belang."
+    },
+    {
+      "id": "v38-2ab9fcf39aee",
+      "text": "Kamu berjaya memadankan maksud peribahasa: Saling membantu."
+    },
+    {
+      "id": "v38-597a1f9c32a4",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Saling membantu."
+    },
+    {
+      "id": "v38-a4aac76e9297",
+      "text": "Jawapan yang tepat ialah Saling membantu. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v38-adb80577490b",
+      "text": "Jawapan yang tepat ialah Saling membantu. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v38-2a0baede9dd6",
+      "text": "Pada hari Ahad, Hana dan Iman pergi ke pondok bacaan bersama Tok Wan."
+    },
+    {
+      "id": "v38-9aab05ce1db6",
+      "text": "Iman turut membantu mengutip buku di atas lantai."
+    },
+    {
+      "id": "v38-37f0fe18e692",
+      "text": "Hana mengutip buku, manakala Iman mengelap meja."
+    },
+    {
+      "id": "v38-cde9a4074620",
+      "text": "Tok Wan pula membaiki rak buku yang senget."
+    },
+    {
+      "id": "v38-03225da106dc",
+      "text": "Selepas rak dibaiki, mereka menyusun buku di rak."
+    },
+    {
+      "id": "v38-5cdede239476",
+      "text": "Mereka juga menampal label supaya buku mudah dicari."
+    },
+    {
+      "id": "v38-2d857516f86b",
+      "text": "Mereka menggantung hiasan di dalam pondok."
+    },
+    {
+      "id": "v38-483e6452ad43",
+      "text": "Kini, pondok itu bersih dan ceria."
+    },
+    {
+      "id": "v38-03656de3d4ee",
+      "text": "Pada petang itu, mereka mengajak rakan membaca di pondok."
+    },
+    {
+      "id": "v38-6efd9cce1e16",
+      "text": "Tok Wan memuji Hana yang ringan tulang kerana rajin membantu."
+    },
+    {
+      "id": "v38-88596aca196f",
+      "text": "Ayat bukti: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Teruskan menentukan nilai murni."
+    },
+    {
+      "id": "v38-1eb974b82962",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Semua pembaca memulangkan buku ke rak setelah selesai membaca.."
+    },
+    {
+      "id": "v38-5170a896fd08",
+      "text": "Jawapan yang tepat: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v38-4d8c1962aea7",
+      "text": "Jawapan yang tepat ialah Semua pembaca memulangkan buku ke rak setelah selesai membaca.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v38-ee33dd144270",
+      "text": "Kamu berjaya memadankan maksud peribahasa: Rajin membantu."
+    },
+    {
+      "id": "v38-ae77014ed699",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Rajin membantu."
+    },
+    {
+      "id": "v38-06702dde27a0",
+      "text": "Jawapan yang tepat ialah Rajin membantu. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v38-236800529a84",
+      "text": "Jawapan yang tepat ialah Rajin membantu. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v38-d07a3304bfe3",
+      "text": "Pada suatu pagi, Hana dan Iman pergi ke kebun Tok Wan."
+    },
+    {
+      "id": "v38-9e940a082e44",
+      "text": "Anak pokok di dalam pasu layu kerana cuaca panas."
+    },
+    {
+      "id": "v38-fd1d558d15ae",
+      "text": "Tok Wan mengisi baldi dengan air."
+    },
+    {
+      "id": "v38-18420da530a9",
+      "text": "Kemudian, mereka mengutip daun kering di sekitar pasu."
+    },
+    {
+      "id": "v38-74eaffeb31bc",
+      "text": "Selepas itu, Tok Wan menerangkan cara menjaga pokok."
+    },
+    {
+      "id": "v38-11fd82703df0",
+      "text": "Iman melukis gambar pada kad supaya pesanan itu mudah diingati."
+    },
+    {
+      "id": "v38-18f85db0ae16",
+      "text": "Mereka meletakkan label di sebelah pasu."
+    },
+    {
+      "id": "v38-988cf34c2379",
+      "text": "Hana menyediakan jadual supaya mereka ingat akan tugas masing-masing."
+    },
+    {
+      "id": "v38-d0d25c8ee928",
+      "text": "Beberapa hari kemudian, anak pokok itu kembali segar."
+    },
+    {
+      "id": "v38-075bd41a967b",
+      "text": "Hana dan Iman mencatat perubahan pokok di dalam buku."
+    },
+    {
+      "id": "v38-4ec5dd73509a",
+      "text": "Pada pagi Sabtu, Hana dan Iman menyediakan bekal bersama Tok Wan."
+    },
+    {
+      "id": "v38-02a6de2be6f2",
+      "text": "Mereka membawa buah, roti dan air kosong untuk berkelah."
+    },
+    {
+      "id": "v38-b0a8938d40f6",
+      "text": "Di tepi tasik, Hana dan Iman bermain sehingga tangan mereka kotor."
+    },
+    {
+      "id": "v38-b947e4c2761e",
+      "text": "Mereka pun membasuh tangan secara bergilir-gilir."
+    },
+    {
+      "id": "v38-5434efc60083",
+      "text": "Selepas membasuh tangan, mereka berkongsi bekal di atas tikar."
+    },
+    {
+      "id": "v38-43b7380831a0",
+      "text": "Iman menutup bekas makanan supaya makanan kekal bersih."
+    },
+    {
+      "id": "v38-079841196b02",
+      "text": "Ayat bukti: Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang. Teruskan menentukan nilai murni."
+    },
+    {
+      "id": "v38-3b1ab91849e4",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.."
+    },
+    {
+      "id": "v38-dde3eb96a0c9",
+      "text": "Jawapan yang tepat: Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v38-51898e6b5008",
+      "text": "Jawapan yang tepat ialah Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v38-cbf638b51f68",
+      "text": "Sebelum pulang, Tok Wan melipat tikar."
+    },
+    {
+      "id": "v38-664221855dc9",
+      "text": "Mereka membuang sampah ke dalam tong sampah."
+    },
+    {
+      "id": "v38-a08b63ff6fef",
+      "text": "Dalam perjalanan pulang, Hana dan Iman berbual tentang kebersihan."
+    },
+    {
+      "id": "v38-88e1e18e3317",
+      "text": "Mereka mahu membuat poster tentang amalan membasuh tangan."
+    },
+    {
+      "id": "v38-f780e185369c",
+      "text": "Kamu berjaya memadankan maksud peribahasa: Mencegah penyakit."
+    },
+    {
+      "id": "v38-5ff082ed3bb4",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Mencegah penyakit."
+    },
+    {
+      "id": "v38-9d3f6619179b",
+      "text": "Jawapan yang tepat ialah Mencegah penyakit. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v38-ef8b8cb096f0",
+      "text": "Jawapan yang tepat ialah Mencegah penyakit. Dua mata ditolak. Teruskan permainan."
+    }
+  ]
+}

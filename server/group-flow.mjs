@@ -1,5 +1,9 @@
 import '../public/questions-v34.js';
 import '../public/story-engine.js';
+import '../public/story-v37.js';
+import '../public/practice-v38.js';
+import '../public/practice-v39.js';
+import '../public/questions-v40.js';
 export const roleOrder=['pembaca','pencari','pencatat','pemancing'];
 export function groupState(actions=[],{rotate=false}={}){
  const ordered=actions.slice().sort((a,b)=>a.sequence-b.sequence),choices=[],notes=[];let sequence=0,bonusNotes='';

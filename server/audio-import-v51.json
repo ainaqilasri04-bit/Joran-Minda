@@ -1,0 +1,33 @@
+{
+  "version": 51,
+  "sourceFile": "ttsmaker-file-2026-10-19-18-47-14.mp3",
+  "sourceSha256": "c8368a575ec7c8d38bd6483ecea8b4d392f283bb70c5b1ccd666bf56b5a02466",
+  "sourceDuration": 24.24,
+  "splitSilence": {
+    "start": 14.0283,
+    "end": 16.2032
+  },
+  "processing": "Split inside the two-second pause; preserve speed, pitch and volume. MP3 mono 24 kHz, LAME quality 2.",
+  "humanPronunciationReviewed": false,
+  "includesTeacherNarration": false,
+  "clips": [
+    {
+      "text": "Tekan Muat turun buku (PDF). Kemudian, tekan Buka folder Google Drive. Dalam folder itu, pilih Baharu, kemudian Muat naik fail, dan pilih PDF buku kamu.",
+      "path": "audio-ms/drive-share-v51.mp3",
+      "sourceStart": 0,
+      "sourceEnd": 14.3,
+      "duration": 14.352,
+      "bytes": 91317,
+      "sha256": "3ca881794a710b1d58fed10235c8e4fa4f9edb9670825fa83f1db0ed5dafe57a"
+    },
+    {
+      "text": "Lihat pencapaian Objektif 1 dan Objektif 2. Kemudian, tekan Baca cerita rakan di Google Drive.",
+      "path": "audio-ms/drive-outcomes-v51.mp3",
+      "sourceStart": 16.0,
+      "sourceEnd": null,
+      "duration": 8.256,
+      "bytes": 64125,
+      "sha256": "e5b5c55159b31aee98ee274b13a4fb7f5a4baa79cd5e6f98e91263d0656fa11e"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "version": 44,
+  "provider": "Microsoft Edge online TTS via edge-tts 7.3.1",
+  "voice": "ms-MY-YasminNeural",
+  "rate": "-3%",
+  "includesTeacherStoryNarration": false,
+  "clips": []
+}

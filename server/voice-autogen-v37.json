@@ -1,0 +1,2549 @@
+{
+  "version": 37,
+  "provider": "Microsoft Edge online TTS via edge-tts 7.3.1",
+  "voice": "ms-MY-YasminNeural",
+  "rate": "-3%",
+  "includesTeacherStoryNarration": false,
+  "clips": [
+    {
+      "id": "v37-05cddab1411a",
+      "text": "Baca ayat pilihan kamu. Tekan Simpan penjelasan.",
+      "path": "audio-ms/clips/v37-05cddab1411a.mp3",
+      "duration": 5.904,
+      "bytes": 35424,
+      "sha256": "99af087c3e0858c5ff80433348aa2acbe589ca838377f6aee1a81715034e70c4",
+      "boundaryText": "Baca ayat pilihan kamu. Tekan Simpan penjelasan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-1fc9732b24e5",
+      "text": "Tahniah! Semua jawapan tepat.",
+      "path": "audio-ms/clips/v37-1fc9732b24e5.mp3",
+      "duration": 4.584,
+      "bytes": 27504,
+      "sha256": "2d0df26757afbaa396bdc5ea370cb6c974e733608e7f760e80506860e07ce8e4",
+      "boundaryText": "Tahniah! Semua jawapan tepat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-a4b847928ce4",
+      "text": "Ada jawapan yang belum tepat. Mari semak.",
+      "path": "audio-ms/clips/v37-a4b847928ce4.mp3",
+      "duration": 5.208,
+      "bytes": 31248,
+      "sha256": "46fded552179eec0a36dda53d97bf77a065bef1ab53ea00a7b6abb346587f200",
+      "boundaryText": "Ada jawapan yang belum tepat. Mari semak.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-a5ccb7bcdd69",
+      "text": "Jawapan yang betul:",
+      "path": "audio-ms/clips/v37-a5ccb7bcdd69.mp3",
+      "duration": 2.64,
+      "bytes": 15840,
+      "sha256": "b66e49022881aed9823376daebae79e7836737d83cc0662934b1ead3885cc2fe",
+      "boundaryText": "Jawapan yang betul:",
+      "textMatched": true
+    },
+    {
+      "id": "v37-fe94426c7482",
+      "text": "Apakah yang Hana lakukan untuk membantu anak kucing? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-fe94426c7482.mp3",
+      "duration": 6.576,
+      "bytes": 39456,
+      "sha256": "99e9641c42c486652b2424a284d69f7c73371c4c755c0d86a1c142a2d4accf30",
+      "boundaryText": "Apakah yang Hana lakukan untuk membantu anak kucing? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e6efff92057d",
+      "text": "Hana memanggil Tok Wan untuk membantu anak kucing. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-e6efff92057d.mp3",
+      "duration": 10.008,
+      "bytes": 60048,
+      "sha256": "e95fc75ea5ea57ec97e4898ba8e4464c32396a0e489a8f704774b4faec77e894",
+      "boundaryText": "Hana memanggil Tok Wan untuk membantu anak kucing. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-98dbd16e5f01",
+      "text": "Hana memanggil Tok Wan untuk membantu anak kucing. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-98dbd16e5f01.mp3",
+      "duration": 9.768,
+      "bytes": 58608,
+      "sha256": "775b7c51bffab77434541a77155c70d969d746cb30553e327cf84aff7f03a2aa",
+      "boundaryText": "Hana memanggil Tok Wan untuk membantu anak kucing. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c21e5a08cf44",
+      "text": "Hana memanggil Tok Wan untuk membantu anak kucing. Nilainya ialah kasih sayang.",
+      "path": "audio-ms/clips/v37-c21e5a08cf44.mp3",
+      "duration": 7.32,
+      "bytes": 43920,
+      "sha256": "58b2975a152328052feaa120b07f98b7465adb98f1380c997e0155e36d9ecfb9",
+      "boundaryText": "Hana memanggil Tok Wan untuk membantu anak kucing. Nilainya ialah kasih sayang.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e2cea8a7be32",
+      "text": "Kasih sayang",
+      "path": "audio-ms/clips/v37-e2cea8a7be32.mp3",
+      "duration": 2.424,
+      "bytes": 14544,
+      "sha256": "24b920c555351f95131bbb143d5cd58cb153b86a4d63dc099aae23e610ddaaab",
+      "boundaryText": "Kasih sayang",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2d6cfa15228e",
+      "text": "Perbuatan manakah yang menunjukkan nilai kasih sayang? Pilih satu gambar.",
+      "path": "audio-ms/clips/v37-2d6cfa15228e.mp3",
+      "duration": 6.744,
+      "bytes": 40464,
+      "sha256": "4d75cc5a07511ae3b0117fe8ff3dce60841b83c43acaa6dd6c0c94b029eb0a82",
+      "boundaryText": "Perbuatan manakah yang menunjukkan nilai kasih sayang? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-b41eaef2d89f",
+      "text": "Apakah barang yang disediakan oleh Hana dan Iman? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-b41eaef2d89f.mp3",
+      "duration": 6.504,
+      "bytes": 39024,
+      "sha256": "b97dab7b6e2f72305c134dc8197a4b994ecd796a8eb77b036a66a5aeacfd940c",
+      "boundaryText": "Apakah barang yang disediakan oleh Hana dan Iman? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-92e359c109f4",
+      "text": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-92e359c109f4.mp3",
+      "duration": 11.52,
+      "bytes": 69120,
+      "sha256": "c2b022109cb6a9f7666d918bb201cef870107fccbfbaebd5fb94b649c3ddb3ec",
+      "boundaryText": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-be5a38fdab83",
+      "text": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-be5a38fdab83.mp3",
+      "duration": 11.28,
+      "bytes": 67680,
+      "sha256": "4b30f65cef8cfec5d610cfc4c32154c28535904384f75ae40fc48733222e7120",
+      "boundaryText": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-48a238ee034b",
+      "text": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Nilainya ialah kerjasama.",
+      "path": "audio-ms/clips/v37-48a238ee034b.mp3",
+      "duration": 8.736,
+      "bytes": 52416,
+      "sha256": "afaaf3fd7636f9e8a02793a375902e46659121dd1c027dffe05e82e6848a5de0",
+      "boundaryText": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Nilainya ialah kerjasama.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ec77dc7ded47",
+      "text": "Kerjasama",
+      "path": "audio-ms/clips/v37-ec77dc7ded47.mp3",
+      "duration": 2.376,
+      "bytes": 14256,
+      "sha256": "9297f0eeca2f2b2ee85b57d20c394e89c8310d7a9f4aaecafa63d06911cb8491",
+      "boundaryText": "Kerjasama",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ab00c8580ea4",
+      "text": "Perbuatan manakah yang menunjukkan nilai kerjasama? Pilih satu gambar.",
+      "path": "audio-ms/clips/v37-ab00c8580ea4.mp3",
+      "duration": 6.648,
+      "bytes": 39888,
+      "sha256": "d536d499f8a35fe84330d13e2fc97f1bcf611a2dfa4206eae0983390e352ca39",
+      "boundaryText": "Perbuatan manakah yang menunjukkan nilai kerjasama? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-44cb002f3d79",
+      "text": "Apakah yang Hana dan Iman lakukan setiap hari? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-44cb002f3d79.mp3",
+      "duration": 6.504,
+      "bytes": 39024,
+      "sha256": "81542bce74bcea18567466dba42996191ed0d1bb85e31d6976529ca788977cdf",
+      "boundaryText": "Apakah yang Hana dan Iman lakukan setiap hari? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-154cb75376c3",
+      "text": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-154cb75376c3.mp3",
+      "duration": 11.04,
+      "bytes": 66240,
+      "sha256": "2316a21709df990692891003ab818398b0e87d28205b37b4c05e9b75da8e66f0",
+      "boundaryText": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-a76bba283419",
+      "text": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-a76bba283419.mp3",
+      "duration": 10.776,
+      "bytes": 64656,
+      "sha256": "ce2bcb1b5f1cbf9222899dc7e52bc02b365c6b978ed5c455862a1f0743502276",
+      "boundaryText": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-9f9cccc8f69b",
+      "text": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Nilainya ialah tanggungjawab.",
+      "path": "audio-ms/clips/v37-9f9cccc8f69b.mp3",
+      "duration": 8.136,
+      "bytes": 48816,
+      "sha256": "fbcdbd4b4710e125e822edb87be61635c11ed22e9d775e51dbba3cbd58ad7cc2",
+      "boundaryText": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Nilainya ialah tanggungjawab.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-5f46921d0849",
+      "text": "Tanggungjawab",
+      "path": "audio-ms/clips/v37-5f46921d0849.mp3",
+      "duration": 2.136,
+      "bytes": 12816,
+      "sha256": "02156e708106f0a2c1de2198f05137a8b991d25f4128927ed6f8e79511a056b7",
+      "boundaryText": "Tanggungjawab",
+      "textMatched": true
+    },
+    {
+      "id": "v37-fa441b5cfb45",
+      "text": "Siapakah yang dipanggil oleh Hana untuk membantu anak kucing? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-fa441b5cfb45.mp3",
+      "duration": 7.056,
+      "bytes": 42336,
+      "sha256": "dc0cddb44d633044304b0cbb651613a1b6c8f087873468d1902abb37d95b7158",
+      "boundaryText": "Siapakah yang dipanggil oleh Hana untuk membantu anak kucing? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-5b62857f1dff",
+      "text": "Hana meminta bantuan untuk Belang. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-5b62857f1dff.mp3",
+      "duration": 9.12,
+      "bytes": 54720,
+      "sha256": "6e4d925705b320178552136772ccf2604d68d1ed695c6ed41c53bc1e574b36cd",
+      "boundaryText": "Hana meminta bantuan untuk Belang. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-3b516e7d1668",
+      "text": "Hana meminta bantuan untuk Belang. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-3b516e7d1668.mp3",
+      "duration": 10.944,
+      "bytes": 65664,
+      "sha256": "592a10fba56932653053a0f858b21970d0d3da35dfd66aa9453d6a7556394f40",
+      "boundaryText": "Hana meminta bantuan untuk Belang. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-9496b3e1c0b8",
+      "text": "Saya memilih nilai kasih sayang. Hana segera memanggil Tok Wan untuk membantu anak kucing itu.",
+      "path": "audio-ms/clips/v37-9496b3e1c0b8.mp3",
+      "duration": 8.16,
+      "bytes": 48960,
+      "sha256": "23528b921ef5802719f6b00ff501e650305b036b436a31c91c59656bd7072436",
+      "boundaryText": "Saya memilih nilai kasih sayang. Hana segera memanggil Tok Wan untuk membantu anak kucing itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-1593c61673ff",
+      "text": "Saya memilih nilai berjimat cermat. Hana segera memanggil Tok Wan untuk membantu anak kucing itu.",
+      "path": "audio-ms/clips/v37-1593c61673ff.mp3",
+      "duration": 8.208,
+      "bytes": 49248,
+      "sha256": "24eb987b6a509350a4fceb91509de892e4d181720ca65377516a17f7ae21d007",
+      "boundaryText": "Saya memilih nilai berjimat cermat. Hana segera memanggil Tok Wan untuk membantu anak kucing itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-48b014710fa3",
+      "text": "Saya memilih nilai kejujuran. Hana segera memanggil Tok Wan untuk membantu anak kucing itu.",
+      "path": "audio-ms/clips/v37-48b014710fa3.mp3",
+      "duration": 8.04,
+      "bytes": 48240,
+      "sha256": "292b67e67c60af01dfc3c0ccf58ed83324ab8569ecbe8c6764a43e7c05351b2a",
+      "boundaryText": "Saya memilih nilai kejujuran. Hana segera memanggil Tok Wan untuk membantu anak kucing itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-0abe2e7dfb5f",
+      "text": "Hana dan Iman membahagikan tugas. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-0abe2e7dfb5f.mp3",
+      "duration": 9.384,
+      "bytes": 56304,
+      "sha256": "d4aa8f1ea930df77bb8424774d9bf5530cb216e2d038865928d0ab31c51d499a",
+      "boundaryText": "Hana dan Iman membahagikan tugas. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-00a7d46dea99",
+      "text": "Hana dan Iman membahagikan tugas. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-00a7d46dea99.mp3",
+      "duration": 11.232,
+      "bytes": 67392,
+      "sha256": "f01d2c07b035f3007d43c40b682993cb3fae3634cf4c29d3ba775d1354eabf0e",
+      "boundaryText": "Hana dan Iman membahagikan tugas. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2f5d2d403aec",
+      "text": "Saya memilih nilai keberanian. Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut.",
+      "path": "audio-ms/clips/v37-2f5d2d403aec.mp3",
+      "duration": 9.72,
+      "bytes": 58320,
+      "sha256": "5073b47f13791e9c17c381ac53f6baade709164c8c21fd618b4aec3718f0d38f",
+      "boundaryText": "Saya memilih nilai keberanian. Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-3b76b8e3e4c3",
+      "text": "Saya memilih nilai hormat-menghormati. Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut.",
+      "path": "audio-ms/clips/v37-3b76b8e3e4c3.mp3",
+      "duration": 10.176,
+      "bytes": 61056,
+      "sha256": "4ea378214153b2a7968588e1bc71d941d2ca7a628e6266eeb2268fb725cc2709",
+      "boundaryText": "Saya memilih nilai hormat-menghormati. Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-edf1a98ef4b9",
+      "text": "Saya memilih nilai kerjasama. Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut.",
+      "path": "audio-ms/clips/v37-edf1a98ef4b9.mp3",
+      "duration": 9.648,
+      "bytes": 57888,
+      "sha256": "707896839a7f3910243a32449dce853988d2e9bbee41a08ebb59253d55cc3033",
+      "boundaryText": "Saya memilih nilai kerjasama. Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c3588e9c76a9",
+      "text": "Apakah minuman yang disediakan oleh Iman untuk Belang? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-c3588e9c76a9.mp3",
+      "duration": 6.744,
+      "bytes": 40464,
+      "sha256": "9ce7d27af615b955fffe3a5a9574911581739c8e0474fb515c78bec6cdf59f39",
+      "boundaryText": "Apakah minuman yang disediakan oleh Iman untuk Belang? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-293b2399ccc6",
+      "text": "Iman menyediakan air untuk Belang. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-293b2399ccc6.mp3",
+      "duration": 9.096,
+      "bytes": 54576,
+      "sha256": "d728b2a952bab28ac288cf2fafddd3aa123408a41b917ef4d3ecd016a0e7f0fd",
+      "boundaryText": "Iman menyediakan air untuk Belang. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-4642e9b04741",
+      "text": "Iman menyediakan air untuk Belang. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-4642e9b04741.mp3",
+      "duration": 10.944,
+      "bytes": 65664,
+      "sha256": "34d97599c6bbd52112ca2d5e360fd078af7a6176cc1fd7b163e58fb32ebbbc08",
+      "boundaryText": "Iman menyediakan air untuk Belang. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2335a87e495a",
+      "text": "Saya memilih nilai kesederhanaan. Iman pula meletakkan semangkuk air bersih berhampiran Belang.",
+      "path": "audio-ms/clips/v37-2335a87e495a.mp3",
+      "duration": 8.424,
+      "bytes": 50544,
+      "sha256": "27e324469342a88d109c13dd85c84a6199ca7375ccedfbb79ffef99b49cd4eb5",
+      "boundaryText": "Saya memilih nilai kesederhanaan. Iman pula meletakkan semangkuk air bersih berhampiran Belang.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-bcf4c611c64d",
+      "text": "Saya memilih nilai baik hati. Iman pula meletakkan semangkuk air bersih berhampiran Belang.",
+      "path": "audio-ms/clips/v37-bcf4c611c64d.mp3",
+      "duration": 8.112,
+      "bytes": 48672,
+      "sha256": "e7a969d41898d620f4e4bd1f8c8561e7898b1c258118456ffa09e3127a2e0ac1",
+      "boundaryText": "Saya memilih nilai baik hati. Iman pula meletakkan semangkuk air bersih berhampiran Belang.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-47175a573306",
+      "text": "Saya memilih nilai kejujuran. Iman pula meletakkan semangkuk air bersih berhampiran Belang.",
+      "path": "audio-ms/clips/v37-47175a573306.mp3",
+      "duration": 8.136,
+      "bytes": 48816,
+      "sha256": "33daa5d3303d9bb9cc0425006d481c328fd25d9f4865b1eef808d912f5400a53",
+      "boundaryText": "Saya memilih nilai kejujuran. Iman pula meletakkan semangkuk air bersih berhampiran Belang.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c9885c3a8e13",
+      "text": "Apakah yang dilakukan oleh Hana dan Iman setiap hari? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-c9885c3a8e13.mp3",
+      "duration": 6.96,
+      "bytes": 41760,
+      "sha256": "fab49f10598ad42edaf2ea68211e1906e37f56ae915ab1be38f0fdda9634c84d",
+      "boundaryText": "Apakah yang dilakukan oleh Hana dan Iman setiap hari? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-34fbad6cc1c9",
+      "text": "Mereka menjaga Belang setiap hari. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-34fbad6cc1c9.mp3",
+      "duration": 9.192,
+      "bytes": 55152,
+      "sha256": "375ccdc562e91761cd4f3ebb5d6675f69ff54d11524109440e075fa04362a54f",
+      "boundaryText": "Mereka menjaga Belang setiap hari. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-b036e2ca71d1",
+      "text": "Mereka menjaga Belang setiap hari. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-b036e2ca71d1.mp3",
+      "duration": 11.04,
+      "bytes": 66240,
+      "sha256": "cb8cf06fa971daeed4b9477584220394137cf15752997a8ef11b59691f2c6d90",
+      "boundaryText": "Mereka menjaga Belang setiap hari. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c8f821ff9e50",
+      "text": "Saya memilih nilai tanggungjawab. Mereka melaksanakan tugas masing-masing setiap hari.",
+      "path": "audio-ms/clips/v37-c8f821ff9e50.mp3",
+      "duration": 7.968,
+      "bytes": 47808,
+      "sha256": "7a35f01739b9b3c4acc47105e71dcee59ad8243ba81d6e4fbb073f21bda09525",
+      "boundaryText": "Saya memilih nilai tanggungjawab. Mereka melaksanakan tugas masing-masing setiap hari.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-d24ae42d5a3a",
+      "text": "Saya memilih nilai keberanian. Mereka melaksanakan tugas masing-masing setiap hari.",
+      "path": "audio-ms/clips/v37-d24ae42d5a3a.mp3",
+      "duration": 8.016,
+      "bytes": 48096,
+      "sha256": "c0bcd8607fdca0510e651b3d8312a99428a0a147f49e89efcb80171fa96cd55e",
+      "boundaryText": "Saya memilih nilai keberanian. Mereka melaksanakan tugas masing-masing setiap hari.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ef9690342fc0",
+      "text": "Saya memilih nilai berjimat cermat. Mereka melaksanakan tugas masing-masing setiap hari.",
+      "path": "audio-ms/clips/v37-ef9690342fc0.mp3",
+      "duration": 8.112,
+      "bytes": 48672,
+      "sha256": "aa744e08f8b079e3d56d2eb3c0d79462cb91b0931da138817c689d51cafe42b4",
+      "boundaryText": "Saya memilih nilai berjimat cermat. Mereka melaksanakan tugas masing-masing setiap hari.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-af729e6d26bc",
+      "text": "Bagaimanakah Tok Wan menghargai usaha Hana dan Iman? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-af729e6d26bc.mp3",
+      "duration": 6.912,
+      "bytes": 41472,
+      "sha256": "bea0114647673d2dd615d28ee777d99718a8cb8873848154e1b291ea8edd0267",
+      "boundaryText": "Bagaimanakah Tok Wan menghargai usaha Hana dan Iman? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-cbcd082974dd",
+      "text": "Tok Wan memuji usaha mereka. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-cbcd082974dd.mp3",
+      "duration": 8.952,
+      "bytes": 53712,
+      "sha256": "e440d9b18d5e0737577fccf3a8f8821a88a054014f4ca3115492247eb085932b",
+      "boundaryText": "Tok Wan memuji usaha mereka. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-61b3f1a4c56f",
+      "text": "Tok Wan memuji usaha mereka. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-61b3f1a4c56f.mp3",
+      "duration": 10.752,
+      "bytes": 64512,
+      "sha256": "fda27ad53da4b5fc1e5e8da530a07e643ce619d5690dc53c80ee5bda8a2bd57e",
+      "boundaryText": "Tok Wan memuji usaha mereka. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f4f774f830dc",
+      "text": "Saya memilih nilai kesederhanaan. Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing.",
+      "path": "audio-ms/clips/v37-f4f774f830dc.mp3",
+      "duration": 8.664,
+      "bytes": 51984,
+      "sha256": "1b3fb3f42becf77e3ed073a3f0a274750b7a2ab1832b802cbef72230eac988b5",
+      "boundaryText": "Saya memilih nilai kesederhanaan. Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-bdbae1280c44",
+      "text": "Saya memilih nilai kebersihan. Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing.",
+      "path": "audio-ms/clips/v37-bdbae1280c44.mp3",
+      "duration": 8.448,
+      "bytes": 50688,
+      "sha256": "16c49e13760e7e56bfa870dd689b36142f26adc7870e348b7521a6d2205f4b89",
+      "boundaryText": "Saya memilih nilai kebersihan. Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-893fd79ffbc4",
+      "text": "Saya memilih nilai menghargai jasa. Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing.",
+      "path": "audio-ms/clips/v37-893fd79ffbc4.mp3",
+      "duration": 8.784,
+      "bytes": 52704,
+      "sha256": "340cb94b2a03de2ea2080e4c7b6b974c75ea5fb4c2edc87d8bbfd3b85b7a98d3",
+      "boundaryText": "Saya memilih nilai menghargai jasa. Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-27002c941604",
+      "text": "Apakah maksud peribahasa Bagai aur dengan tebing? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-27002c941604.mp3",
+      "duration": 6.648,
+      "bytes": 39888,
+      "sha256": "49de7fd61339427ae2e4def2c80de5a0341b28b8328377404d2f31e2e22962f6",
+      "boundaryText": "Apakah maksud peribahasa Bagai aur dengan tebing? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c3d2e3e09691",
+      "text": "Apakah maksud peribahasa Bagai aur dengan tebing? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-c3d2e3e09691.mp3",
+      "duration": 8.448,
+      "bytes": 50688,
+      "sha256": "ea8aa1d8b897a3f19a81e777659d917662e5d4ce671309f3ffc24d7f53f1fdae",
+      "boundaryText": "Apakah maksud peribahasa Bagai aur dengan tebing? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f37448a79321",
+      "text": "Jawab sendiri dahulu. Belang kelihatan dahaga. Tindakan manakah menunjukkan kasih sayang? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-f37448a79321.mp3",
+      "duration": 11.76,
+      "bytes": 70560,
+      "sha256": "914c4cc85b4def49a52021725f9dbdf08e4254c47c92ff640e91b96c19b71ff6",
+      "boundaryText": "Jawab sendiri dahulu. Belang kelihatan dahaga. Tindakan manakah menunjukkan kasih sayang? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-a62a2c6234e6",
+      "text": "Jawab sendiri dahulu. Mengapakah Hana dan Iman membahagikan tugas menjaga Belang? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-a62a2c6234e6.mp3",
+      "duration": 10.008,
+      "bytes": 60048,
+      "sha256": "584ddc3c228c8605990c58cb342936c1fdf4c4421460f212c11d01b6861141ea",
+      "boundaryText": "Jawab sendiri dahulu. Mengapakah Hana dan Iman membahagikan tugas menjaga Belang? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-db654aa43985",
+      "text": "Jawab sendiri dahulu. Hari ini giliran kamu membersihkan tempat rehat Belang. Apakah tindakan yang bertanggungjawab? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-db654aa43985.mp3",
+      "duration": 13.08,
+      "bytes": 78480,
+      "sha256": "9e2c306d0d23605cc2623e34e22b0c3bf3586847cc21328137bc485ee8a0cc74",
+      "boundaryText": "Jawab sendiri dahulu. Hari ini giliran kamu membersihkan tempat rehat Belang. Apakah tindakan yang bertanggungjawab? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-8219958258ea",
+      "text": "Hana menjaga Belang hanya apabila mahu bermain dengannya. Apakah yang patut diperbaik? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-8219958258ea.mp3",
+      "duration": 10.152,
+      "bytes": 60912,
+      "sha256": "625e3098ab2552e9cbf0f1c1620cab99fcdccba111db2d21a150756f2e7359e6",
+      "boundaryText": "Hana menjaga Belang hanya apabila mahu bermain dengannya. Apakah yang patut diperbaik? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-d16bc8db20f1",
+      "text": "Memberi Belang lebih banyak mainan",
+      "path": "audio-ms/clips/v37-d16bc8db20f1.mp3",
+      "duration": 3.192,
+      "bytes": 19152,
+      "sha256": "2437bb108f10c715f3d8e8eac7cfa6e48fd4fe9ea3b31b4082a70a0af74aa9d9",
+      "boundaryText": "Memberi Belang lebih banyak mainan",
+      "textMatched": true
+    },
+    {
+      "id": "v37-508b61988ed5",
+      "text": "Menjaga keperluan Belang setiap hari",
+      "path": "audio-ms/clips/v37-508b61988ed5.mp3",
+      "duration": 3.648,
+      "bytes": 21888,
+      "sha256": "af0866e41693994b8e328f4595186bd4fe53411f90e7dc75466a3b163ec07327",
+      "boundaryText": "Menjaga keperluan Belang setiap hari",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e87d8f673548",
+      "text": "Menyuruh Belang mencari makanan sendiri",
+      "path": "audio-ms/clips/v37-e87d8f673548.mp3",
+      "duration": 3.576,
+      "bytes": 21456,
+      "sha256": "66425bcd1b9ed25b5fa91c2418717956511ffbc4c07629ab1352c4549deea48c",
+      "boundaryText": "Menyuruh Belang mencari makanan sendiri",
+      "textMatched": true
+    },
+    {
+      "id": "v37-216172470f44",
+      "text": "Hana menyediakan makanan, manakala Iman menukar air Belang. Mengapakah ini contoh kerjasama? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-216172470f44.mp3",
+      "duration": 11.232,
+      "bytes": 67392,
+      "sha256": "008148a408c064bb2078c7cd02e63cf9d9e8209fcff160b2adc5ae62cd7cbee1",
+      "boundaryText": "Hana menyediakan makanan, manakala Iman menukar air Belang. Mengapakah ini contoh kerjasama? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-b11617e50bcd",
+      "text": "Mereka melakukan semua tugas seorang diri",
+      "path": "audio-ms/clips/v37-b11617e50bcd.mp3",
+      "duration": 4.008,
+      "bytes": 24048,
+      "sha256": "8b79118fbde604272231bc373b54cfb39c60999335e9f426d57dd7d162eed29d",
+      "boundaryText": "Mereka melakukan semua tugas seorang diri",
+      "textMatched": true
+    },
+    {
+      "id": "v37-1063ba9d9640",
+      "text": "Mereka menunggu Tok Wan membuat kerja",
+      "path": "audio-ms/clips/v37-1063ba9d9640.mp3",
+      "duration": 3.432,
+      "bytes": 20592,
+      "sha256": "5f5f8c503e10f718c6d3347b8bb4383bf9d8006bea0f2fe6386d3a5343ecd9f0",
+      "boundaryText": "Mereka menunggu Tok Wan membuat kerja",
+      "textMatched": true
+    },
+    {
+      "id": "v37-8ce74c743f31",
+      "text": "Mereka membahagikan tugas dan saling membantu",
+      "path": "audio-ms/clips/v37-8ce74c743f31.mp3",
+      "duration": 4.344,
+      "bytes": 26064,
+      "sha256": "8e1ef468422a28a72c0c522e091dfabbf838d2048aa1379aceb84750ff2fa8b6",
+      "boundaryText": "Mereka membahagikan tugas dan saling membantu",
+      "textMatched": true
+    },
+    {
+      "id": "v37-9edc33c589c1",
+      "text": "Di sekolah, kamu melihat seekor anak kucing yang cedera. Siapakah yang patut kamu minta bantuan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-9edc33c589c1.mp3",
+      "duration": 11.352,
+      "bytes": 68112,
+      "sha256": "f9f0349fcf271c98fb9fec28fa2c94454ef249c7e6a92653b615c68f739a80bb",
+      "boundaryText": "Di sekolah, kamu melihat seekor anak kucing yang cedera. Siapakah yang patut kamu minta bantuan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-fef708e88f7b",
+      "text": "Guru yang berada berhampiran.",
+      "path": "audio-ms/clips/v37-fef708e88f7b.mp3",
+      "duration": 3.12,
+      "bytes": 18720,
+      "sha256": "d1635cbfb0e2581bcfc613c102a5c086d8f50531c37127a9ae2511b011490bef",
+      "boundaryText": "Guru yang berada berhampiran.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-469cf3cd4e65",
+      "text": "Rakan yang sedang bergaduh.",
+      "path": "audio-ms/clips/v37-469cf3cd4e65.mp3",
+      "duration": 3.0,
+      "bytes": 18000,
+      "sha256": "49a70d2a66b99c9dc0078c54191a6db64b66f36c56890dce1abc9f79ddd4d063",
+      "boundaryText": "Rakan yang sedang bergaduh.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-dcb485e77f49",
+      "text": "Murid yang sedang tidur.",
+      "path": "audio-ms/clips/v37-dcb485e77f49.mp3",
+      "duration": 2.832,
+      "bytes": 16992,
+      "sha256": "496044b76f750acb523ca49c06d4760665db4d335b6e3beff3fa614d06d26083",
+      "boundaryText": "Murid yang sedang tidur.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ccc589df596f",
+      "text": "Di sekolah, kamu melihat seekor anak kucing yang cedera. Mengapakah anak kucing itu perlu dibantu? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-ccc589df596f.mp3",
+      "duration": 11.4,
+      "bytes": 68400,
+      "sha256": "94ae9aaf94905dcb611d9098312ff4674097c861811dcc51d7f421e2b7645182",
+      "boundaryText": "Di sekolah, kamu melihat seekor anak kucing yang cedera. Mengapakah anak kucing itu perlu dibantu? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-4825de8a9057",
+      "text": "Supaya anak kucing itu terus lapar.",
+      "path": "audio-ms/clips/v37-4825de8a9057.mp3",
+      "duration": 3.48,
+      "bytes": 20880,
+      "sha256": "97db0ba541225f08404a03f7844859c045c10892c34196e5459395890dc8fa73",
+      "boundaryText": "Supaya anak kucing itu terus lapar.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e1ea5449e695",
+      "text": "Supaya anak kucing itu mendapat rawatan.",
+      "path": "audio-ms/clips/v37-e1ea5449e695.mp3",
+      "duration": 3.816,
+      "bytes": 22896,
+      "sha256": "73232e4b29bee315a69456b99cfc67d4efd2b0d1ea55ef8fd66a80ca9704d071",
+      "boundaryText": "Supaya anak kucing itu mendapat rawatan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-859037f64c81",
+      "text": "Supaya anak kucing itu ketakutan.",
+      "path": "audio-ms/clips/v37-859037f64c81.mp3",
+      "duration": 3.48,
+      "bytes": 20880,
+      "sha256": "02908be87031aebee2109d100baba0b6ed3f6e9b5b1b37293be9baf3fb717450",
+      "boundaryText": "Supaya anak kucing itu ketakutan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-8299fb721702",
+      "text": "Apakah yang Hana mahu lakukan di pondok? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-8299fb721702.mp3",
+      "duration": 5.952,
+      "bytes": 35712,
+      "sha256": "01efd056d18f0b789335bca8f3dcab5322dc3db45073df1f68475a27a2c68c9d",
+      "boundaryText": "Apakah yang Hana mahu lakukan di pondok? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-eb0662861908",
+      "text": "Hana menawarkan diri untuk mengemas pondok yang berdebu. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-eb0662861908.mp3",
+      "duration": 10.488,
+      "bytes": 62928,
+      "sha256": "bb3d41ba35982141162d12c06f83d34badc8d33d4dba24cc3bba779546bd3049",
+      "boundaryText": "Hana menawarkan diri untuk mengemas pondok yang berdebu. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f7b96fde7fa1",
+      "text": "Hana menawarkan diri untuk mengemas pondok yang berdebu. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-f7b96fde7fa1.mp3",
+      "duration": 10.248,
+      "bytes": 61488,
+      "sha256": "9cf5796f7de1d1610452dcaaeb3f239bad7ef4f4230243a3a4fd4052c6d0aec1",
+      "boundaryText": "Hana menawarkan diri untuk mengemas pondok yang berdebu. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-65237de3c3d6",
+      "text": "Hana menawarkan diri untuk mengemas pondok yang berdebu. Nilainya ialah kerajinan.",
+      "path": "audio-ms/clips/v37-65237de3c3d6.mp3",
+      "duration": 7.68,
+      "bytes": 46080,
+      "sha256": "13e75ad21014a0946368c7bd91d42c74d9362cd50097af6a0affdbb088b44c57",
+      "boundaryText": "Hana menawarkan diri untuk mengemas pondok yang berdebu. Nilainya ialah kerajinan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e72849b8ee0e",
+      "text": "Kerajinan",
+      "path": "audio-ms/clips/v37-e72849b8ee0e.mp3",
+      "duration": 2.184,
+      "bytes": 13104,
+      "sha256": "ae3eab7cd90ea48e65da107a17230c61ad6db95f8f87c573da7d19f805ea8ffc",
+      "boundaryText": "Kerajinan",
+      "textMatched": true
+    },
+    {
+      "id": "v37-d18ba46b5e5b",
+      "text": "Perbuatan manakah yang menunjukkan nilai kerajinan? Pilih satu gambar.",
+      "path": "audio-ms/clips/v37-d18ba46b5e5b.mp3",
+      "duration": 6.624,
+      "bytes": 39744,
+      "sha256": "d02f2465a0593a1317c1e3a4340de47bd40988fedaf68480d06333ebf0ac0a74",
+      "boundaryText": "Perbuatan manakah yang menunjukkan nilai kerajinan? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-daae2ed679b7",
+      "text": "Bagaimanakah Iman membantu Hana menyusun buku? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-daae2ed679b7.mp3",
+      "duration": 6.552,
+      "bytes": 39312,
+      "sha256": "86ac20cf30bdfbb908eb022b25f690737f554eaa465fe7ddd30869ce6b889e1f",
+      "boundaryText": "Bagaimanakah Iman membantu Hana menyusun buku? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c5de239a6954",
+      "text": "Iman membantu Hana meletakkan buku di atas meja yang bersih. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-c5de239a6954.mp3",
+      "duration": 11.064,
+      "bytes": 66384,
+      "sha256": "443cad38a69242dc3250fcbb934ecf32c5c7258c45792c5f2c51c38afe26a9bf",
+      "boundaryText": "Iman membantu Hana meletakkan buku di atas meja yang bersih. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-0bf0f94a4161",
+      "text": "Iman membantu Hana meletakkan buku di atas meja yang bersih. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-0bf0f94a4161.mp3",
+      "duration": 10.824,
+      "bytes": 64944,
+      "sha256": "c41b52d188b960160c0bee727ebd781cfd50a7d37b5508c3972539a7ec9a2bf8",
+      "boundaryText": "Iman membantu Hana meletakkan buku di atas meja yang bersih. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ef7d263ee3b0",
+      "text": "Iman membantu Hana meletakkan buku di atas meja yang bersih. Nilainya ialah kerjasama.",
+      "path": "audio-ms/clips/v37-ef7d263ee3b0.mp3",
+      "duration": 8.304,
+      "bytes": 49824,
+      "sha256": "e78b02ee1d44ab9bb6922bbc6e99396233d80948ddc5b372f86b4487ebe28520",
+      "boundaryText": "Iman membantu Hana meletakkan buku di atas meja yang bersih. Nilainya ialah kerjasama.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-eb5c02206752",
+      "text": "Apakah yang pembaca lakukan selepas membaca? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-eb5c02206752.mp3",
+      "duration": 6.408,
+      "bytes": 38448,
+      "sha256": "afdff975344ea7e2616dbc5b88e10171924c0ddfb328ce19cab2864283f16a9c",
+      "boundaryText": "Apakah yang pembaca lakukan selepas membaca? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-87b24327d8bb",
+      "text": "Semua pembaca memulangkan buku ke rak setelah selesai membaca. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-87b24327d8bb.mp3",
+      "duration": 11.232,
+      "bytes": 67392,
+      "sha256": "9da1c8bb9dadae5ef0400a95d7ecb1323825d3aaedccff67447f4c88fa75ce79",
+      "boundaryText": "Semua pembaca memulangkan buku ke rak setelah selesai membaca. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-bebc1e07fa88",
+      "text": "Semua pembaca memulangkan buku ke rak setelah selesai membaca. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-bebc1e07fa88.mp3",
+      "duration": 10.992,
+      "bytes": 65952,
+      "sha256": "f36384bba504599271cb06584dba8eec402373a3cced8af9c33ed2daf849aeb9",
+      "boundaryText": "Semua pembaca memulangkan buku ke rak setelah selesai membaca. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-41208f41dbb2",
+      "text": "Semua pembaca memulangkan buku ke rak setelah selesai membaca. Nilainya ialah tanggungjawab.",
+      "path": "audio-ms/clips/v37-41208f41dbb2.mp3",
+      "duration": 8.352,
+      "bytes": 50112,
+      "sha256": "576dc2a119c8c0f1736a6daeb83b20985da0ac17b529cbd7d189eced5a2209cb",
+      "boundaryText": "Semua pembaca memulangkan buku ke rak setelah selesai membaca. Nilainya ialah tanggungjawab.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-9c0797b9e0f8",
+      "text": "Hana mahu mengemas pondok. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-9c0797b9e0f8.mp3",
+      "duration": 8.664,
+      "bytes": 51984,
+      "sha256": "648b4d51233598f03f2e42facfba9b0c6bb6ac659f1fe4972a5a24b107547dfa",
+      "boundaryText": "Hana mahu mengemas pondok. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-99a2ebd7e4f0",
+      "text": "Hana mahu mengemas pondok. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-99a2ebd7e4f0.mp3",
+      "duration": 10.536,
+      "bytes": 63216,
+      "sha256": "ccb3667f0661294a57ef67b375f3e3bc934f6852fe6203fecb341f023a033919",
+      "boundaryText": "Hana mahu mengemas pondok. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f0db530da201",
+      "text": "Saya memilih nilai keberanian. Hana menawarkan diri untuk mengemas pondok yang berdebu itu.",
+      "path": "audio-ms/clips/v37-f0db530da201.mp3",
+      "duration": 8.304,
+      "bytes": 49824,
+      "sha256": "6fb9d9a70708df40d7a1d1ea4f7a858a989c9295083f0f7b70b12fd9ad0e94a8",
+      "boundaryText": "Saya memilih nilai keberanian. Hana menawarkan diri untuk mengemas pondok yang berdebu itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-1645820396fd",
+      "text": "Saya memilih nilai kerajinan. Hana menawarkan diri untuk mengemas pondok yang berdebu itu.",
+      "path": "audio-ms/clips/v37-1645820396fd.mp3",
+      "duration": 8.208,
+      "bytes": 49248,
+      "sha256": "584533ce2247f82f714d37fdb438c67015fcf410218d7d42c4d945f38e4e43a5",
+      "boundaryText": "Saya memilih nilai kerajinan. Hana menawarkan diri untuk mengemas pondok yang berdebu itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e74ff53d81b4",
+      "text": "Saya memilih nilai berjimat cermat. Hana menawarkan diri untuk mengemas pondok yang berdebu itu.",
+      "path": "audio-ms/clips/v37-e74ff53d81b4.mp3",
+      "duration": 8.424,
+      "bytes": 50544,
+      "sha256": "ba83cadb27b7c163c5e2d9976a9a2fc9629c9835af67efce6289070f51da8616",
+      "boundaryText": "Saya memilih nilai berjimat cermat. Hana menawarkan diri untuk mengemas pondok yang berdebu itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-72c5a673d17d",
+      "text": "Bagaimanakah Iman membantu Hana menguruskan buku? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-72c5a673d17d.mp3",
+      "duration": 6.72,
+      "bytes": 40320,
+      "sha256": "1a9dd244f4f4304fb83ea6bdcfb1912f6bc1f84b4f93e9f4a99145fca98a6bc5",
+      "boundaryText": "Bagaimanakah Iman membantu Hana menguruskan buku? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ce002214e9ea",
+      "text": "Iman membantu Hana menyusun buku. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-ce002214e9ea.mp3",
+      "duration": 9.36,
+      "bytes": 56160,
+      "sha256": "1fb11e362938ca2a64aa595cf39275c2aa7a86485d7e78e71f6cf0d8f8252b76",
+      "boundaryText": "Iman membantu Hana menyusun buku. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-105e47cf73c9",
+      "text": "Iman membantu Hana menyusun buku. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-105e47cf73c9.mp3",
+      "duration": 11.208,
+      "bytes": 67248,
+      "sha256": "3358b561a1e9320aacc7706791067bd9988229f7ceb9cb55857f9f7afc1725b6",
+      "boundaryText": "Iman membantu Hana menyusun buku. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-0334c0532301",
+      "text": "Saya memilih nilai kerjasama. Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih.",
+      "path": "audio-ms/clips/v37-0334c0532301.mp3",
+      "duration": 9.456,
+      "bytes": 56736,
+      "sha256": "f442c26f3e612ca0e3c36dc3aa8bbde7b587fda63ff74f1625c80470e2b8704e",
+      "boundaryText": "Saya memilih nilai kerjasama. Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-bd1a9e9ac7ee",
+      "text": "Saya memilih nilai kejujuran. Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih.",
+      "path": "audio-ms/clips/v37-bd1a9e9ac7ee.mp3",
+      "duration": 9.432,
+      "bytes": 56592,
+      "sha256": "63d94593060b71db31ead95e060175ec2d2676b69a6d34480fbe2b755cef8297",
+      "boundaryText": "Saya memilih nilai kejujuran. Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-20b9fe559ca2",
+      "text": "Saya memilih nilai kesederhanaan. Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih.",
+      "path": "audio-ms/clips/v37-20b9fe559ca2.mp3",
+      "duration": 9.72,
+      "bytes": 58320,
+      "sha256": "4c4a3e90145fe56170f225953b804a00394e57a452e35483e9319d09cad57c55",
+      "boundaryText": "Saya memilih nilai kesederhanaan. Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-b135b049b693",
+      "text": "Apakah bahan yang dikongsi oleh Hana dengan Iman? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-b135b049b693.mp3",
+      "duration": 6.408,
+      "bytes": 38448,
+      "sha256": "d5ed37881603d5c9a14ffc37f6d15618e7c16e71cc5b857ace191da9d84e455e",
+      "boundaryText": "Apakah bahan yang dikongsi oleh Hana dengan Iman? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-94d26e9590a3",
+      "text": "Hana berkongsi kertas dengan Iman. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-94d26e9590a3.mp3",
+      "duration": 9.216,
+      "bytes": 55296,
+      "sha256": "12102338648a97043daad7985065b4873e731173ab525814ad585ac2995a1f6e",
+      "boundaryText": "Hana berkongsi kertas dengan Iman. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-afb98941331e",
+      "text": "Hana berkongsi kertas dengan Iman. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-afb98941331e.mp3",
+      "duration": 11.04,
+      "bytes": 66240,
+      "sha256": "6df0bf077bd5861fb77fbfb4eaaefb7f4bdaab34d32eba49da8efefae630214f",
+      "boundaryText": "Hana berkongsi kertas dengan Iman. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-dc752305dae4",
+      "text": "Saya memilih nilai hormat-menghormati. Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku.",
+      "path": "audio-ms/clips/v37-dc752305dae4.mp3",
+      "duration": 9.888,
+      "bytes": 59328,
+      "sha256": "90aac6eead14c22cd7e58a59f40feb1e46083ffd6eb6ab57a4d8d838eda92d8e",
+      "boundaryText": "Saya memilih nilai hormat-menghormati. Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-755ff969bc81",
+      "text": "Saya memilih nilai keberanian. Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku.",
+      "path": "audio-ms/clips/v37-755ff969bc81.mp3",
+      "duration": 9.384,
+      "bytes": 56304,
+      "sha256": "58a77db3d1832e682fd58e07fd10d1366beb38b7911b4273bf596d420dcfb667",
+      "boundaryText": "Saya memilih nilai keberanian. Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-5ed8a33cb665",
+      "text": "Saya memilih nilai baik hati. Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku.",
+      "path": "audio-ms/clips/v37-5ed8a33cb665.mp3",
+      "duration": 9.336,
+      "bytes": 56016,
+      "sha256": "393c37c40f5498d34d2abaa7f94e5c37bedf74b6f0166b6e0369d0ac1a3217ed",
+      "boundaryText": "Saya memilih nilai baik hati. Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-7b96a90f485a",
+      "text": "Apakah yang Iman lakukan dengan sisa kertas? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-7b96a90f485a.mp3",
+      "duration": 6.312,
+      "bytes": 37872,
+      "sha256": "8ec62457dbb5b1921c76cd4d75f94506da5075f53633bf0e190b88c2bb1a6097",
+      "boundaryText": "Apakah yang Iman lakukan dengan sisa kertas? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-7b0ec1636d8c",
+      "text": "Iman membuang sisa kertas ke dalam tong sampah. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-7b0ec1636d8c.mp3",
+      "duration": 9.744,
+      "bytes": 58464,
+      "sha256": "4ac670aa9966d867cd511ef85e3239f4134aaad5b369497f04e653e1e9dae644",
+      "boundaryText": "Iman membuang sisa kertas ke dalam tong sampah. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-00a19c2f3ebc",
+      "text": "Iman membuang sisa kertas ke dalam tong sampah. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-00a19c2f3ebc.mp3",
+      "duration": 11.592,
+      "bytes": 69552,
+      "sha256": "2b56efde625d42ea7f43f0cf2d10b83a3dff0e1af20f32a724c6f3028013ab4b",
+      "boundaryText": "Iman membuang sisa kertas ke dalam tong sampah. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-410f3bdcaf4a",
+      "text": "Saya memilih nilai berjimat cermat. Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah.",
+      "path": "audio-ms/clips/v37-410f3bdcaf4a.mp3",
+      "duration": 8.424,
+      "bytes": 50544,
+      "sha256": "5b7ae44445ccda407475e07e2c52e6e6ffdd712cbce7545ec25f101fa62104b6",
+      "boundaryText": "Saya memilih nilai berjimat cermat. Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-cbb3885dc0a5",
+      "text": "Saya memilih nilai kebersihan. Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah.",
+      "path": "audio-ms/clips/v37-cbb3885dc0a5.mp3",
+      "duration": 8.328,
+      "bytes": 49968,
+      "sha256": "586bad6eb58d9ba913f8ddd7683ab759a44894ad62143b039f1a23931af1fe3f",
+      "boundaryText": "Saya memilih nilai kebersihan. Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-6accc6f37e37",
+      "text": "Saya memilih nilai kejujuran. Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah.",
+      "path": "audio-ms/clips/v37-6accc6f37e37.mp3",
+      "duration": 8.256,
+      "bytes": 49536,
+      "sha256": "d02b5f4af6ee95b0c28ffafc6a7e87db685ada4ab63dd4bb49241dfc6d1edcc5",
+      "boundaryText": "Saya memilih nilai kejujuran. Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-fb089c2ea0a4",
+      "text": "Pembaca memulangkan buku ke rak. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-fb089c2ea0a4.mp3",
+      "duration": 9.048,
+      "bytes": 54288,
+      "sha256": "3e258ae8ac17f7c419587db4f5eed08fc6b724f3f65d4469dabbd8f9600b1a21",
+      "boundaryText": "Pembaca memulangkan buku ke rak. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-762a636dcc48",
+      "text": "Pembaca memulangkan buku ke rak. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-762a636dcc48.mp3",
+      "duration": 10.872,
+      "bytes": 65232,
+      "sha256": "b877c41e81a202eea0e01512e66fe8de9ebebd40994e64d8dac17e3062b01c72",
+      "boundaryText": "Pembaca memulangkan buku ke rak. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-328e9f729013",
+      "text": "Saya memilih nilai kesederhanaan. Semua pembaca memulangkan buku ke rak setelah selesai membaca.",
+      "path": "audio-ms/clips/v37-328e9f729013.mp3",
+      "duration": 8.928,
+      "bytes": 53568,
+      "sha256": "c7247c1112cb4974b848d34e7ff62146048b8b31f51c36d1c626fa97b7357472",
+      "boundaryText": "Saya memilih nilai kesederhanaan. Semua pembaca memulangkan buku ke rak setelah selesai membaca.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f4181fb2ecbf",
+      "text": "Saya memilih nilai keberanian. Semua pembaca memulangkan buku ke rak setelah selesai membaca.",
+      "path": "audio-ms/clips/v37-f4181fb2ecbf.mp3",
+      "duration": 8.712,
+      "bytes": 52272,
+      "sha256": "1f92692b47232f9928abab5be3ca8a26e5da0ec12c78260e2c9fc8b27155ea49",
+      "boundaryText": "Saya memilih nilai keberanian. Semua pembaca memulangkan buku ke rak setelah selesai membaca.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-908fca904ded",
+      "text": "Apakah maksud peribahasa Ringan tulang? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-908fca904ded.mp3",
+      "duration": 6.24,
+      "bytes": 37440,
+      "sha256": "7a13b0c59acee68b985287a665aaea2484333d9abd12345f70f43911e8bf9790",
+      "boundaryText": "Apakah maksud peribahasa Ringan tulang? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f4e1f54e331d",
+      "text": "Apakah maksud peribahasa Ringan tulang? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-f4e1f54e331d.mp3",
+      "duration": 8.04,
+      "bytes": 48240,
+      "sha256": "60305269ac160508a6fe46de21802061894a320113a3eaac09a9e684e8e32b1a",
+      "boundaryText": "Apakah maksud peribahasa Ringan tulang? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-d99537684b3c",
+      "text": "Jawab sendiri dahulu. Rakan kamu sedang menyusun buku yang banyak. Apakah cara bekerjasama dengannya? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-d99537684b3c.mp3",
+      "duration": 12.6,
+      "bytes": 75600,
+      "sha256": "3ce4faa02109bb3491314b3d7a8de37b264b16cde7da4daefc02678403417faa",
+      "boundaryText": "Jawab sendiri dahulu. Rakan kamu sedang menyusun buku yang banyak. Apakah cara bekerjasama dengannya? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-4c8bde742141",
+      "text": "Jawab sendiri dahulu. Kamu sudah selesai membaca sebuah buku. Tindakan manakah menunjukkan tanggungjawab? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-4c8bde742141.mp3",
+      "duration": 12.864,
+      "bytes": 77184,
+      "sha256": "af89ad7c76934da3bda1ed9c5697d4f51aa44e1a013f1d37f58a555a4893ebdd",
+      "boundaryText": "Jawab sendiri dahulu. Kamu sudah selesai membaca sebuah buku. Tindakan manakah menunjukkan tanggungjawab? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-246e5f70a29c",
+      "text": "Jawab sendiri dahulu. Mengapakah sikap Hana yang suka membantu mengemas pondok patut dicontohi? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-246e5f70a29c.mp3",
+      "duration": 10.704,
+      "bytes": 64224,
+      "sha256": "1194fafb7815ab708e94465012517fc5088b880b01f452d958553afbd65a8044",
+      "boundaryText": "Jawab sendiri dahulu. Mengapakah sikap Hana yang suka membantu mengemas pondok patut dicontohi? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-6983c683159e",
+      "text": "Iman mahu berkongsi penanda buku dengan rakannya. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-6983c683159e.mp3",
+      "duration": 10.032,
+      "bytes": 60192,
+      "sha256": "abf01c706dbe7d162c3c033a6511c892814f55246d453a8bf2ed8e446286df66",
+      "boundaryText": "Iman mahu berkongsi penanda buku dengan rakannya. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2683c4c2b643",
+      "text": "Keberanian",
+      "path": "audio-ms/clips/v37-2683c4c2b643.mp3",
+      "duration": 2.4,
+      "bytes": 14400,
+      "sha256": "28da0e9bf7d7f6e44ea8576838065ddb4ebf1ad4f80b07bdd868fcd6129dca6f",
+      "boundaryText": "Keberanian",
+      "textMatched": true
+    },
+    {
+      "id": "v37-304e29507d38",
+      "text": "Berjimat cermat",
+      "path": "audio-ms/clips/v37-304e29507d38.mp3",
+      "duration": 2.304,
+      "bytes": 13824,
+      "sha256": "c30aef298bf7e3963a74ace98294095d4e5b9f76b97c6229210ce8fc9eb13c1b",
+      "boundaryText": "Berjimat cermat",
+      "textMatched": true
+    },
+    {
+      "id": "v37-332945e56a69",
+      "text": "Baik hati",
+      "path": "audio-ms/clips/v37-332945e56a69.mp3",
+      "duration": 2.112,
+      "bytes": 12672,
+      "sha256": "449614986e24e018be302d7995d04fdd498a4fe8a7581ef2e36a89d6284985a5",
+      "boundaryText": "Baik hati",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2f3742fb069b",
+      "text": "Mengapakah buku perlu dipulangkan ke rak selepas dibaca? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-2f3742fb069b.mp3",
+      "duration": 7.056,
+      "bytes": 42336,
+      "sha256": "acbe7fbf9c5a39d563647a58840ca78e805346ad623604918ff93c62c86f3aee",
+      "boundaryText": "Mengapakah buku perlu dipulangkan ke rak selepas dibaca? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-509cacfef680",
+      "text": "Supaya pembaca lain mudah mencarinya",
+      "path": "audio-ms/clips/v37-509cacfef680.mp3",
+      "duration": 3.792,
+      "bytes": 22752,
+      "sha256": "98ad9304425a31f6c9a8b303187863f4871d129313a50af58fdc73130774b8de",
+      "boundaryText": "Supaya pembaca lain mudah mencarinya",
+      "textMatched": true
+    },
+    {
+      "id": "v37-254a9600c097",
+      "text": "Supaya rak menjadi berselerak",
+      "path": "audio-ms/clips/v37-254a9600c097.mp3",
+      "duration": 3.144,
+      "bytes": 18864,
+      "sha256": "1e1af3ceb85360aa621b68ac669e06eabd8af5e91aa0104f9991a086c06f2a31",
+      "boundaryText": "Supaya rak menjadi berselerak",
+      "textMatched": true
+    },
+    {
+      "id": "v37-b6d11b8d9c19",
+      "text": "Supaya buku tidak boleh dibaca lagi",
+      "path": "audio-ms/clips/v37-b6d11b8d9c19.mp3",
+      "duration": 3.456,
+      "bytes": 20736,
+      "sha256": "333730a6cf1e2db09a1cca25f531815caef6c9e460fcf09e660603c28036b926",
+      "boundaryText": "Supaya buku tidak boleh dibaca lagi",
+      "textMatched": true
+    },
+    {
+      "id": "v37-cdd7e31e56fe",
+      "text": "Selepas membaca di kelas, kamu melihat buku berselerak di atas lantai. Apakah tindakan kamu? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-cdd7e31e56fe.mp3",
+      "duration": 11.184,
+      "bytes": 67104,
+      "sha256": "65e7fa336410c14b9a99d876eb378827f4e3aafe3922dfd7f386e2df72d03684",
+      "boundaryText": "Selepas membaca di kelas, kamu melihat buku berselerak di atas lantai. Apakah tindakan kamu? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-48d077ecd9e7",
+      "text": "Saya membiarkan buku itu.",
+      "path": "audio-ms/clips/v37-48d077ecd9e7.mp3",
+      "duration": 3.168,
+      "bytes": 19008,
+      "sha256": "11ccf8c13d1a7e8652e31fe81e4ba9597005663a37ab9c22a1a198d9729139d4",
+      "boundaryText": "Saya membiarkan buku itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-a5707d987923",
+      "text": "Saya memijak buku itu.",
+      "path": "audio-ms/clips/v37-a5707d987923.mp3",
+      "duration": 2.952,
+      "bytes": 17712,
+      "sha256": "efe5474bb1eb51ef30f97995fb2d61cf04886555535c0465f5b9587949c8573c",
+      "boundaryText": "Saya memijak buku itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-7f1cd22fdd51",
+      "text": "Saya menyusun buku di rak.",
+      "path": "audio-ms/clips/v37-7f1cd22fdd51.mp3",
+      "duration": 2.952,
+      "bytes": 17712,
+      "sha256": "205fb746dab91bad9ab49162af49b9470349c29f1e8f781e9dbceceac52bd20e",
+      "boundaryText": "Saya menyusun buku di rak.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e5d74e0701fb",
+      "text": "Selepas membaca di kelas, kamu melihat buku berselerak di atas lantai. Mengapakah buku perlu disusun di rak? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-e5d74e0701fb.mp3",
+      "duration": 11.976,
+      "bytes": 71856,
+      "sha256": "92d43c4283d379ed93aead4f0cb93cba04fe9e89f0d0d5696c737c0aacce6690",
+      "boundaryText": "Selepas membaca di kelas, kamu melihat buku berselerak di atas lantai. Mengapakah buku perlu disusun di rak? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-33fbd7d0d589",
+      "text": "Supaya buku mudah dicari.",
+      "path": "audio-ms/clips/v37-33fbd7d0d589.mp3",
+      "duration": 3.096,
+      "bytes": 18576,
+      "sha256": "1afecec31a68ecf747072f37d5d39635a1961eb4356a8133286bd1615e503a12",
+      "boundaryText": "Supaya buku mudah dicari.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-8223f5047ce5",
+      "text": "Supaya buku menjadi kotor.",
+      "path": "audio-ms/clips/v37-8223f5047ce5.mp3",
+      "duration": 3.048,
+      "bytes": 18288,
+      "sha256": "050a945d38164584c5451f0abaf072fb01e295a42cd0197fb493725608df50c1",
+      "boundaryText": "Supaya buku menjadi kotor.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-d6de725b5e1a",
+      "text": "Supaya buku cepat rosak.",
+      "path": "audio-ms/clips/v37-d6de725b5e1a.mp3",
+      "duration": 2.976,
+      "bytes": 17856,
+      "sha256": "5dccfa3aaee4e5824211683aa4adfcb6bebd39a1c0d0a235bee1f31708a271eb",
+      "boundaryText": "Supaya buku cepat rosak.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-7e550bf7d191",
+      "text": "Apakah yang Hana lakukan apabila melihat anak pokok layu? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-7e550bf7d191.mp3",
+      "duration": 6.96,
+      "bytes": 41760,
+      "sha256": "b1e504515c83f6bd0f3bb0c75c526135558b692a13180fbb26a3cf2676a3a137",
+      "boundaryText": "Apakah yang Hana lakukan apabila melihat anak pokok layu? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-4d68f07db257",
+      "text": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-4d68f07db257.mp3",
+      "duration": 10.776,
+      "bytes": 64656,
+      "sha256": "c76396ec3be374a402549e16e311ab354a07d3cf13b5f83bdcb915ab333f1c43",
+      "boundaryText": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-77458f638630",
+      "text": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-77458f638630.mp3",
+      "duration": 10.56,
+      "bytes": 63360,
+      "sha256": "a455071cdde5c6dd4d391b2d76e4f886c479966ffbacf62745237cbb9460ae4e",
+      "boundaryText": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-7ae570f88a28",
+      "text": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Nilainya ialah baik hati.",
+      "path": "audio-ms/clips/v37-7ae570f88a28.mp3",
+      "duration": 7.92,
+      "bytes": 47520,
+      "sha256": "654b828ea04b737dd10c0394572011746daad73d8f7f47d7a9c04ca47655c903",
+      "boundaryText": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Nilainya ialah baik hati.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2c5c4575c321",
+      "text": "Perbuatan manakah yang menunjukkan nilai baik hati? Pilih satu gambar.",
+      "path": "audio-ms/clips/v37-2c5c4575c321.mp3",
+      "duration": 6.672,
+      "bytes": 40032,
+      "sha256": "09c268e13b75f5d6d572f0e2a4acce21c9e6829d3123c70c9f90c3ff2b0e0912",
+      "boundaryText": "Perbuatan manakah yang menunjukkan nilai baik hati? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2469ed4f02e6",
+      "text": "Bagaimanakah Iman membantu Hana menjaga anak pokok? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-2469ed4f02e6.mp3",
+      "duration": 6.816,
+      "bytes": 40896,
+      "sha256": "2684615ea25efa511d8671b97bf047d5449e130f74c13d32f451fada54ce204f",
+      "boundaryText": "Bagaimanakah Iman membantu Hana menjaga anak pokok? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ebe422544f86",
+      "text": "Iman membantu Hana menyiram anak pokok dengan cermat. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-ebe422544f86.mp3",
+      "duration": 10.248,
+      "bytes": 61488,
+      "sha256": "a0fc082d6d0b536ca344313665a24033256ef9023f984bb46c0f4b9fb5fbe343",
+      "boundaryText": "Iman membantu Hana menyiram anak pokok dengan cermat. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f3fa17f8bd72",
+      "text": "Iman membantu Hana menyiram anak pokok dengan cermat. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-f3fa17f8bd72.mp3",
+      "duration": 10.008,
+      "bytes": 60048,
+      "sha256": "a62e82a3fc912ebb13a0b31701a1c582ff093cb2856cd0895cb758528d7e41b5",
+      "boundaryText": "Iman membantu Hana menyiram anak pokok dengan cermat. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f87412d1bebe",
+      "text": "Iman membantu Hana menyiram anak pokok dengan cermat. Nilainya ialah kerjasama.",
+      "path": "audio-ms/clips/v37-f87412d1bebe.mp3",
+      "duration": 7.464,
+      "bytes": 44784,
+      "sha256": "72eeca9e5640ed6d426241b754452f634da8f1b8b458344c463a8fb2ebfb8691",
+      "boundaryText": "Iman membantu Hana menyiram anak pokok dengan cermat. Nilainya ialah kerjasama.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-0d23aec3d0d1",
+      "text": "Apakah janji Iman kepada Tok Wan? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-0d23aec3d0d1.mp3",
+      "duration": 5.568,
+      "bytes": 33408,
+      "sha256": "331b3ac8dff926467ead72a7048ee17c78f50cac5f34a6c81302fef3232abb30",
+      "boundaryText": "Apakah janji Iman kepada Tok Wan? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c1a04fa844e2",
+      "text": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-c1a04fa844e2.mp3",
+      "duration": 11.088,
+      "bytes": 66528,
+      "sha256": "63490eda37531a801737bfc67b5b308c3f88e3c1fa88f8d58a1f4661b283d9a4",
+      "boundaryText": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-bb06c540fe40",
+      "text": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-bb06c540fe40.mp3",
+      "duration": 10.848,
+      "bytes": 65088,
+      "sha256": "6a3018b49cceff60f285b4db8d89d5d77d207f5fe1842fc3a8abdf3b50946422",
+      "boundaryText": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-431ed8e3af2c",
+      "text": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Nilainya ialah tanggungjawab.",
+      "path": "audio-ms/clips/v37-431ed8e3af2c.mp3",
+      "duration": 8.208,
+      "bytes": 49248,
+      "sha256": "0c1b7a9173ab33fa22a6ec33b3d7cd6d4d63f6ef71bbb50e9ba76a89c2ebb564",
+      "boundaryText": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Nilainya ialah tanggungjawab.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e18b6f243b8c",
+      "text": "Apakah yang Hana mahu lakukan untuk anak pokok? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-e18b6f243b8c.mp3",
+      "duration": 6.384,
+      "bytes": 38304,
+      "sha256": "1a868ec66697362e3594bd078cf449ad6ccd3cbb1b05085087030196aadd2d77",
+      "boundaryText": "Apakah yang Hana mahu lakukan untuk anak pokok? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-67b8db9e53ae",
+      "text": "Hana mahu membantu menjaga pokok. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-67b8db9e53ae.mp3",
+      "duration": 9.168,
+      "bytes": 55008,
+      "sha256": "5a381e249e6dc1dd098466fb619ab7ef8e213a84c7e27c1df3a03df80ec89537",
+      "boundaryText": "Hana mahu membantu menjaga pokok. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-5bc0d3f227f0",
+      "text": "Hana mahu membantu menjaga pokok. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-5bc0d3f227f0.mp3",
+      "duration": 11.016,
+      "bytes": 66096,
+      "sha256": "085a618aa815319470ff3565e148ec5cc66917d5c77b83f3f9c06318224a3d4e",
+      "boundaryText": "Hana mahu membantu menjaga pokok. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-357a2da7ff2f",
+      "text": "Saya memilih nilai kejujuran. Hana segera menawarkan bantuan untuk menjaga anak pokok itu.",
+      "path": "audio-ms/clips/v37-357a2da7ff2f.mp3",
+      "duration": 8.256,
+      "bytes": 49536,
+      "sha256": "327585d281dbbc72505482778ceb4bee94fc187d92252fcad6a33e12859ddfc2",
+      "boundaryText": "Saya memilih nilai kejujuran. Hana segera menawarkan bantuan untuk menjaga anak pokok itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-15bea950c6d1",
+      "text": "Saya memilih nilai kesederhanaan. Hana segera menawarkan bantuan untuk menjaga anak pokok itu.",
+      "path": "audio-ms/clips/v37-15bea950c6d1.mp3",
+      "duration": 8.52,
+      "bytes": 51120,
+      "sha256": "95bc37a0d68de6ec7ac629828b3c1f1fc4028d6ef018b16d3895fd1c24d1b700",
+      "boundaryText": "Saya memilih nilai kesederhanaan. Hana segera menawarkan bantuan untuk menjaga anak pokok itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ef527d1948fd",
+      "text": "Saya memilih nilai baik hati. Hana segera menawarkan bantuan untuk menjaga anak pokok itu.",
+      "path": "audio-ms/clips/v37-ef527d1948fd.mp3",
+      "duration": 8.232,
+      "bytes": 49392,
+      "sha256": "27cc52ffc960d52477df78823c3084e411acf155d8cb4d1eb679ccb896b57e67",
+      "boundaryText": "Saya memilih nilai baik hati. Hana segera menawarkan bantuan untuk menjaga anak pokok itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-fc0946ff2ffb",
+      "text": "Iman membantu Hana menyiram pokok. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-fc0946ff2ffb.mp3",
+      "duration": 9.288,
+      "bytes": 55728,
+      "sha256": "dd8b81e20a82fd9a97568df113f64dfbf8eb8b6129a4122ce02f5329526a52be",
+      "boundaryText": "Iman membantu Hana menyiram pokok. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-7e0691818e98",
+      "text": "Iman membantu Hana menyiram pokok. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-7e0691818e98.mp3",
+      "duration": 11.112,
+      "bytes": 66672,
+      "sha256": "fc64a9cf2364cd52a573c9d2d0c32d53d56778ea4b8d2a13f51200ad859425d8",
+      "boundaryText": "Iman membantu Hana menyiram pokok. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f9aeb9d26da1",
+      "text": "Saya memilih nilai berjimat cermat. Iman membantu Hana menyiram anak pokok dengan cermat.",
+      "path": "audio-ms/clips/v37-f9aeb9d26da1.mp3",
+      "duration": 7.872,
+      "bytes": 47232,
+      "sha256": "05199cece1eea50f20400450039da619613665689d178acbdeffb1931bafaac9",
+      "boundaryText": "Saya memilih nilai berjimat cermat. Iman membantu Hana menyiram anak pokok dengan cermat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-8be16d057a9c",
+      "text": "Saya memilih nilai keberanian. Iman membantu Hana menyiram anak pokok dengan cermat.",
+      "path": "audio-ms/clips/v37-8be16d057a9c.mp3",
+      "duration": 7.752,
+      "bytes": 46512,
+      "sha256": "14acbe26d76908ec24d25197e9a1e89f2ca379e68fb3373e753db88e886e48f9",
+      "boundaryText": "Saya memilih nilai keberanian. Iman membantu Hana menyiram anak pokok dengan cermat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-31ab68f6278d",
+      "text": "Bagaimanakah Hana mendengar penerangan Tok Wan? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-31ab68f6278d.mp3",
+      "duration": 6.144,
+      "bytes": 36864,
+      "sha256": "22672794d449ea0dcb4beeff0d1413f07c41f48e69877aa6be5e35d960682374",
+      "boundaryText": "Bagaimanakah Hana mendengar penerangan Tok Wan? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-d0476e623177",
+      "text": "Hana mendengar penerangan Tok Wan dengan teliti. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-d0476e623177.mp3",
+      "duration": 9.72,
+      "bytes": 58320,
+      "sha256": "05d27f4643b6555ebfb608e83882950edf3631e9989574a8d347e7e4b85be457",
+      "boundaryText": "Hana mendengar penerangan Tok Wan dengan teliti. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-729fd0c3dd3a",
+      "text": "Hana mendengar penerangan Tok Wan dengan teliti. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-729fd0c3dd3a.mp3",
+      "duration": 11.544,
+      "bytes": 69264,
+      "sha256": "e6e537f0ede4eff4c4f3497c74d94045fd7e1a39db99bb4f6f3433ea37e4b164",
+      "boundaryText": "Hana mendengar penerangan Tok Wan dengan teliti. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-71c7af628872",
+      "text": "Saya memilih nilai kebersihan. Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan.",
+      "path": "audio-ms/clips/v37-71c7af628872.mp3",
+      "duration": 9.24,
+      "bytes": 55440,
+      "sha256": "1431a2cb1e2cc34eccde4a89de6c7d3a973a65642a3e06a464719ed4febe6d76",
+      "boundaryText": "Saya memilih nilai kebersihan. Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-8e5ded32ee1d",
+      "text": "Saya memilih nilai hormat-menghormati. Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan.",
+      "path": "audio-ms/clips/v37-8e5ded32ee1d.mp3",
+      "duration": 9.72,
+      "bytes": 58320,
+      "sha256": "c435b93f722f44eef8e2215d5fe7ff7bbc0490125cc970394a79fb01fe1b9f03",
+      "boundaryText": "Saya memilih nilai hormat-menghormati. Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-3fdb0038a72b",
+      "text": "Saya memilih nilai kejujuran. Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan.",
+      "path": "audio-ms/clips/v37-3fdb0038a72b.mp3",
+      "duration": 9.192,
+      "bytes": 55152,
+      "sha256": "37382e4157c7f87c1cd9b1fdfe2d932c6ddfe494af67623fe935d4db2510dd1f",
+      "boundaryText": "Saya memilih nilai kejujuran. Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-be4d6136fb8b",
+      "text": "Iman berjanji untuk menjaga kebun. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-be4d6136fb8b.mp3",
+      "duration": 9.24,
+      "bytes": 55440,
+      "sha256": "f8b5405af267f41b4d3407d55ea517da46d14c8a5cd2c0d8e8e9e60279ae902e",
+      "boundaryText": "Iman berjanji untuk menjaga kebun. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f1f61314d8ef",
+      "text": "Iman berjanji untuk menjaga kebun. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-f1f61314d8ef.mp3",
+      "duration": 11.064,
+      "bytes": 66384,
+      "sha256": "e057784f0ff0eaaff50ac3c31a288546191c9c04f41bce9e9a6c004ee99a5c58",
+      "boundaryText": "Iman berjanji untuk menjaga kebun. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-db4151f0da66",
+      "text": "Saya memilih nilai kesederhanaan. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu.",
+      "path": "audio-ms/clips/v37-db4151f0da66.mp3",
+      "duration": 8.832,
+      "bytes": 52992,
+      "sha256": "55e5831a4eb96b61e0448b990e87f0fe3616d62ac884a08d3e9bb1c867b2b5f4",
+      "boundaryText": "Saya memilih nilai kesederhanaan. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-3c87b001dbe9",
+      "text": "Saya memilih nilai keberanian. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu.",
+      "path": "audio-ms/clips/v37-3c87b001dbe9.mp3",
+      "duration": 8.616,
+      "bytes": 51696,
+      "sha256": "90803ef542b851d129bcaf1a9ca92fefbbe856f9329f23a330c111eb8b6db6fe",
+      "boundaryText": "Saya memilih nilai keberanian. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-9acf5c1791d4",
+      "text": "Apakah peribahasa yang disebut oleh Tok Wan? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-9acf5c1791d4.mp3",
+      "duration": 6.264,
+      "bytes": 37584,
+      "sha256": "26e64f73ab985c3f1e6569c407851f148da7ed67f365b2c011d1dc429d13956c",
+      "boundaryText": "Apakah peribahasa yang disebut oleh Tok Wan? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-fe98d4830ed7",
+      "text": "Hana dan Iman saling membantu. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-fe98d4830ed7.mp3",
+      "duration": 9.024,
+      "bytes": 54144,
+      "sha256": "757b4db127d47e917efe6caf3275fef53ea922d96d7036994a8287fbdd444bfa",
+      "boundaryText": "Hana dan Iman saling membantu. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-0567370b2872",
+      "text": "Hana dan Iman saling membantu. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-0567370b2872.mp3",
+      "duration": 10.872,
+      "bytes": 65232,
+      "sha256": "40c4a67c8f2ac0eb0c97cb0ae68028ddff749f7b8439d374dafba84d215358d5",
+      "boundaryText": "Hana dan Iman saling membantu. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-0a9380570d0f",
+      "text": "Saya memilih nilai kerjasama. Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing.",
+      "path": "audio-ms/clips/v37-0a9380570d0f.mp3",
+      "duration": 8.328,
+      "bytes": 49968,
+      "sha256": "248e23fc63d13b3d320e2304a86a38281d7fc797c5c651129fff3a8bbf976bee",
+      "boundaryText": "Saya memilih nilai kerjasama. Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-fe4890bfe239",
+      "text": "Saya memilih nilai kejujuran. Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing.",
+      "path": "audio-ms/clips/v37-fe4890bfe239.mp3",
+      "duration": 8.328,
+      "bytes": 49968,
+      "sha256": "30dda723e7e20dbc9bc66e7e3db7294352144eb474255f97fba257a3932e2569",
+      "boundaryText": "Saya memilih nilai kejujuran. Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-66e01f620619",
+      "text": "Saya memilih nilai berjimat cermat. Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing.",
+      "path": "audio-ms/clips/v37-66e01f620619.mp3",
+      "duration": 8.496,
+      "bytes": 50976,
+      "sha256": "74e2e2f2b673dc0e01e989d63ccf3156fb5cb0a31f80dbb80b99aac62ffe4a33",
+      "boundaryText": "Saya memilih nilai berjimat cermat. Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ec50f540b029",
+      "text": "Jawab sendiri dahulu. Anak pokok di kelas kelihatan layu. Apakah tindakan baik yang boleh kamu lakukan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-ec50f540b029.mp3",
+      "duration": 12.384,
+      "bytes": 74304,
+      "sha256": "5de06147e8878406de942a2ca548fece11921a7251b70c07a42969a1d8eb4ac3",
+      "boundaryText": "Jawab sendiri dahulu. Anak pokok di kelas kelihatan layu. Apakah tindakan baik yang boleh kamu lakukan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-4292c256e13b",
+      "text": "Jawab sendiri dahulu. Kamu sudah berjanji untuk menjaga pokok pada hari Selasa. Apakah yang patut kamu lakukan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-4292c256e13b.mp3",
+      "duration": 13.104,
+      "bytes": 78624,
+      "sha256": "585551491f7a4bbc14492cd85ef2b3a1324e004bc89f5ed27bd369666496fbef",
+      "boundaryText": "Jawab sendiri dahulu. Kamu sudah berjanji untuk menjaga pokok pada hari Selasa. Apakah yang patut kamu lakukan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-511786396988",
+      "text": "Jawab sendiri dahulu. Rakan kamu membawa bekas air yang berat untuk menyiram pokok. Apakah tindakan yang menunjukkan kerjasama? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-511786396988.mp3",
+      "duration": 14.136,
+      "bytes": 84816,
+      "sha256": "fd6b621babd44e139c1aa785134fea7128b5a44435e7830af924b086ee7f4037",
+      "boundaryText": "Jawab sendiri dahulu. Rakan kamu membawa bekas air yang berat untuk menyiram pokok. Apakah tindakan yang menunjukkan kerjasama? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2417139ad758",
+      "text": "Tok Wan sedang menerangkan cara menyiram pokok. Bagaimanakah kamu menunjukkan rasa hormat? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-2417139ad758.mp3",
+      "duration": 10.344,
+      "bytes": 62064,
+      "sha256": "7557c4b1d484275d00b685785e62bc34856c0e9f22c5207bd82a8902a3be5d11",
+      "boundaryText": "Tok Wan sedang menerangkan cara menyiram pokok. Bagaimanakah kamu menunjukkan rasa hormat? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-0f8d6419e142",
+      "text": "Bercakap kuat dengan rakan",
+      "path": "audio-ms/clips/v37-0f8d6419e142.mp3",
+      "duration": 3.048,
+      "bytes": 18288,
+      "sha256": "7f7233888a8c80ba1ad15f8efb0b5e7503b97f7bf0609c5f4350dc0b7831b39e",
+      "boundaryText": "Bercakap kuat dengan rakan",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e24cbcacb2ab",
+      "text": "Mendengar penerangannya dengan teliti",
+      "path": "audio-ms/clips/v37-e24cbcacb2ab.mp3",
+      "duration": 3.48,
+      "bytes": 20880,
+      "sha256": "c2a0ef15f09da1c872cab736a91f669217f97f6f509d1c3464bcaecc1fa6c54e",
+      "boundaryText": "Mendengar penerangannya dengan teliti",
+      "textMatched": true
+    },
+    {
+      "id": "v37-a398f19ab1df",
+      "text": "Meninggalkannya sebelum selesai",
+      "path": "audio-ms/clips/v37-a398f19ab1df.mp3",
+      "duration": 3.48,
+      "bytes": 20880,
+      "sha256": "10169e2d47b2e2c56eeeeeaa6959a82d797d9040c6da51290f15cdb5c5fe2d48",
+      "boundaryText": "Meninggalkannya sebelum selesai",
+      "textMatched": true
+    },
+    {
+      "id": "v37-db75f9060c43",
+      "text": "Rakan terlupa jadual menjaga pokok. Apakah bantuan yang sesuai? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-db75f9060c43.mp3",
+      "duration": 9.312,
+      "bytes": 55872,
+      "sha256": "6155d1ba3ebb84bb603a050bf100434415b89f8a45aa92b03a93e19c58a20f66",
+      "boundaryText": "Rakan terlupa jadual menjaga pokok. Apakah bantuan yang sesuai? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c5e760cb1fee",
+      "text": "Mengingatkannya dan membantu menyemak jadual",
+      "path": "audio-ms/clips/v37-c5e760cb1fee.mp3",
+      "duration": 4.032,
+      "bytes": 24192,
+      "sha256": "e5786702adf5c6144313df99e980968ca994748af129c5dfe58bfbf66744f900",
+      "boundaryText": "Mengingatkannya dan membantu menyemak jadual",
+      "textMatched": true
+    },
+    {
+      "id": "v37-0829f00d9427",
+      "text": "Memadamkan namanya tanpa berbincang",
+      "path": "audio-ms/clips/v37-0829f00d9427.mp3",
+      "duration": 3.624,
+      "bytes": 21744,
+      "sha256": "1d32754513f203bf1fba41725f95f5418aa7dc69541d1974de6e47585f8180d8",
+      "boundaryText": "Memadamkan namanya tanpa berbincang",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e00a0b325d82",
+      "text": "Membiarkan pokok itu layu",
+      "path": "audio-ms/clips/v37-e00a0b325d82.mp3",
+      "duration": 3.096,
+      "bytes": 18576,
+      "sha256": "a219c65cfd4cd7356051bfe3a234bbb6b5e27ae911947c364a1a97c1ab8e3997",
+      "boundaryText": "Membiarkan pokok itu layu",
+      "textMatched": true
+    },
+    {
+      "id": "v37-437c0d06cc6b",
+      "text": "Kamu bertugas menjaga pokok kelas. Tanah di dalam pasu sudah kering. Apakah tindakan kamu? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-437c0d06cc6b.mp3",
+      "duration": 11.952,
+      "bytes": 71712,
+      "sha256": "b02792ad43775ab4afbf69623f3c6a3ada527b54bae560ededf9a6c4eee6476a",
+      "boundaryText": "Kamu bertugas menjaga pokok kelas. Tanah di dalam pasu sudah kering. Apakah tindakan kamu? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e3ff2268f4fc",
+      "text": "Saya mencabut daun pokok.",
+      "path": "audio-ms/clips/v37-e3ff2268f4fc.mp3",
+      "duration": 3.144,
+      "bytes": 18864,
+      "sha256": "ef0a9a4a14fb1860628d3ccbfc11f8c4e156998fccb4b6204d64ed9d4ba39861",
+      "boundaryText": "Saya mencabut daun pokok.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-22e9d2eb78d0",
+      "text": "Saya menyiram pokok dengan air secukupnya.",
+      "path": "audio-ms/clips/v37-22e9d2eb78d0.mp3",
+      "duration": 3.888,
+      "bytes": 23328,
+      "sha256": "7d39711eafe43e39874f97bdc6a914fbd36d6165ea8675ddf6c558040278ee4e",
+      "boundaryText": "Saya menyiram pokok dengan air secukupnya.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-30d65da72098",
+      "text": "Saya membiarkan tanah itu kering.",
+      "path": "audio-ms/clips/v37-30d65da72098.mp3",
+      "duration": 3.48,
+      "bytes": 20880,
+      "sha256": "f9498d4cec8aff96338d6b67c08f5ee31507cdecab4bd0f99129805ee718ae79",
+      "boundaryText": "Saya membiarkan tanah itu kering.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-fb8a24feecc3",
+      "text": "Kamu bertugas menjaga pokok kelas. Tanah di dalam pasu sudah kering. Mengapakah pokok perlu disiram? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-fb8a24feecc3.mp3",
+      "duration": 12.288,
+      "bytes": 73728,
+      "sha256": "4fb724395b92e6e1de5dfa779c893d54b631b06c2c5a1679703ff1c58e7691fb",
+      "boundaryText": "Kamu bertugas menjaga pokok kelas. Tanah di dalam pasu sudah kering. Mengapakah pokok perlu disiram? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-b0c6c0bebbda",
+      "text": "Supaya tanah menjadi lebih kering.",
+      "path": "audio-ms/clips/v37-b0c6c0bebbda.mp3",
+      "duration": 3.408,
+      "bytes": 20448,
+      "sha256": "eb2ac7e80b54c72f0d385f8060981a96d6efab1aad031a5fd1e5e3b66046cf3f",
+      "boundaryText": "Supaya tanah menjadi lebih kering.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-6ec6479e422d",
+      "text": "Supaya daun cepat gugur.",
+      "path": "audio-ms/clips/v37-6ec6479e422d.mp3",
+      "duration": 3.0,
+      "bytes": 18000,
+      "sha256": "a037b562d6541c7f981583ff282dcf136454eca5803195b61c4dcf13a5a6660d",
+      "boundaryText": "Supaya daun cepat gugur.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-10366c1283fe",
+      "text": "Supaya pokok dapat tumbuh dengan sihat.",
+      "path": "audio-ms/clips/v37-10366c1283fe.mp3",
+      "duration": 3.408,
+      "bytes": 20448,
+      "sha256": "fe489d9c7414dde9c94582f3dc7b94c1f93a85dad70ab5e6aff70106103956f3",
+      "boundaryText": "Supaya pokok dapat tumbuh dengan sihat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2a84163bf3a1",
+      "text": "Apakah yang Hana dan Iman lakukan sebelum makan? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-2a84163bf3a1.mp3",
+      "duration": 6.528,
+      "bytes": 39168,
+      "sha256": "81b6a430d4e2866469e21b5ad978815cad92fb74178d3add21d872f4e6106041",
+      "boundaryText": "Apakah yang Hana dan Iman lakukan sebelum makan? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-b45be014791c",
+      "text": "Hana dan Iman membasuh tangan dengan sabun sebelum makan. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-b45be014791c.mp3",
+      "duration": 10.488,
+      "bytes": 62928,
+      "sha256": "8cc1c0b94824353ab140803d9fc2452a67c0bb6119898c505d8c919ca71cfcd1",
+      "boundaryText": "Hana dan Iman membasuh tangan dengan sabun sebelum makan. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-387373b8c3ab",
+      "text": "Hana dan Iman membasuh tangan dengan sabun sebelum makan. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-387373b8c3ab.mp3",
+      "duration": 10.272,
+      "bytes": 61632,
+      "sha256": "a2d23264c54b7f8b03a5406481893241c16397961ac2a1d57b84cd0a5979f69d",
+      "boundaryText": "Hana dan Iman membasuh tangan dengan sabun sebelum makan. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-62f056bb89f5",
+      "text": "Hana dan Iman membasuh tangan dengan sabun sebelum makan. Nilainya ialah kebersihan.",
+      "path": "audio-ms/clips/v37-62f056bb89f5.mp3",
+      "duration": 7.752,
+      "bytes": 46512,
+      "sha256": "2694964d039b9d7dbbfe202c424610e5290db36e27adc085bc73e934c18eee8b",
+      "boundaryText": "Hana dan Iman membasuh tangan dengan sabun sebelum makan. Nilainya ialah kebersihan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c8f2815a89ea",
+      "text": "Kebersihan",
+      "path": "audio-ms/clips/v37-c8f2815a89ea.mp3",
+      "duration": 2.376,
+      "bytes": 14256,
+      "sha256": "bf3e9725bac06f42725ec5842560ff499fd8d6d7bafaa8bdda89d3201bdb8778",
+      "boundaryText": "Kebersihan",
+      "textMatched": true
+    },
+    {
+      "id": "v37-1fab9d2cbb6b",
+      "text": "Perbuatan manakah yang menunjukkan nilai kebersihan? Pilih satu gambar.",
+      "path": "audio-ms/clips/v37-1fab9d2cbb6b.mp3",
+      "duration": 6.696,
+      "bytes": 40176,
+      "sha256": "9691811fff1c60631adf8111ab4749967e720da023d1c8917001137ae59f342c",
+      "boundaryText": "Perbuatan manakah yang menunjukkan nilai kebersihan? Pilih satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-98d0b0c2b221",
+      "text": "Apakah ajakan Hana kepada Iman sebelum pulang? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-98d0b0c2b221.mp3",
+      "duration": 6.384,
+      "bytes": 38304,
+      "sha256": "81c5ab6cb25a38628f962825f161969ab8e21a1d29abb532968ab0d64c2e525e",
+      "boundaryText": "Apakah ajakan Hana kepada Iman sebelum pulang? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-75f9ff1f4fe8",
+      "text": "Hana mengajak Iman mengumpulkan sampah sebelum pulang. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-75f9ff1f4fe8.mp3",
+      "duration": 10.224,
+      "bytes": 61344,
+      "sha256": "7d0cb2bd16a4445c53c6a51a8f279d349bf7835184eb22edae2a87271d7629d5",
+      "boundaryText": "Hana mengajak Iman mengumpulkan sampah sebelum pulang. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-17f9263c4a5f",
+      "text": "Hana mengajak Iman mengumpulkan sampah sebelum pulang. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-17f9263c4a5f.mp3",
+      "duration": 9.984,
+      "bytes": 59904,
+      "sha256": "e3d09845d39eccd00e98aaea8c3e0140e673b018aab4367b8a7efdff1d1d93cb",
+      "boundaryText": "Hana mengajak Iman mengumpulkan sampah sebelum pulang. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2f5fdebf08c5",
+      "text": "Hana mengajak Iman mengumpulkan sampah sebelum pulang. Nilainya ialah kerjasama.",
+      "path": "audio-ms/clips/v37-2f5fdebf08c5.mp3",
+      "duration": 7.44,
+      "bytes": 44640,
+      "sha256": "924bf1e860356b7515ad959566e4e460574aeff186f13bc72a11e9287e0d6b3c",
+      "boundaryText": "Hana mengajak Iman mengumpulkan sampah sebelum pulang. Nilainya ialah kerjasama.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2dfec3511263",
+      "text": "Apakah yang mereka lakukan dengan baki bekal? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-2dfec3511263.mp3",
+      "duration": 6.12,
+      "bytes": 36720,
+      "sha256": "1c406c0deaa22f8fdb15fb15214c3586e7213c69264df4d58cb2cd124b80fe44",
+      "boundaryText": "Apakah yang mereka lakukan dengan baki bekal? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-de52f19db47a",
+      "text": "Mereka menyimpan baki bekal untuk dibawa pulang. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-de52f19db47a.mp3",
+      "duration": 9.768,
+      "bytes": 58608,
+      "sha256": "e44c362ec64fe9ee5ae1680e35b4616539d0b7f29746025e824279e6ec32f4f8",
+      "boundaryText": "Mereka menyimpan baki bekal untuk dibawa pulang. Apakah nilai yang ditunjukkan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2695fb612ed6",
+      "text": "Mereka menyimpan baki bekal untuk dibawa pulang. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-2695fb612ed6.mp3",
+      "duration": 9.552,
+      "bytes": 57312,
+      "sha256": "dd87f132be9a1ae49c6f41fc53f9a9aa0c7e8a65ff7d43450aa6c6282c2094e0",
+      "boundaryText": "Mereka menyimpan baki bekal untuk dibawa pulang. Apakah nilai yang sepadan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-15de5885c8ce",
+      "text": "Mereka menyimpan baki bekal untuk dibawa pulang. Nilainya ialah berjimat cermat.",
+      "path": "audio-ms/clips/v37-15de5885c8ce.mp3",
+      "duration": 7.056,
+      "bytes": 42336,
+      "sha256": "1f1d89b7e7a0383cff1488533a4d8546b5d2ce5bc668e9032a4321eb7bad06bd",
+      "boundaryText": "Mereka menyimpan baki bekal untuk dibawa pulang. Nilainya ialah berjimat cermat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-569f29d56eb8",
+      "text": "Apakah yang Hana lakukan sebelum menyediakan makanan? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-569f29d56eb8.mp3",
+      "duration": 6.744,
+      "bytes": 40464,
+      "sha256": "23c3de18024266556002d7537eca08ef6f4a48e78fcf356f55edd322932bf2ea",
+      "boundaryText": "Apakah yang Hana lakukan sebelum menyediakan makanan? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f31d33dc6fbc",
+      "text": "Hana membasuh tangan sebelum menyediakan makanan. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-f31d33dc6fbc.mp3",
+      "duration": 10.056,
+      "bytes": 60336,
+      "sha256": "33123b543ce6cb7c0c020f974f0065354f7df92b62d55ad1483b5cd5e148b604",
+      "boundaryText": "Hana membasuh tangan sebelum menyediakan makanan. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-1634fcf95d69",
+      "text": "Hana membasuh tangan sebelum menyediakan makanan. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-1634fcf95d69.mp3",
+      "duration": 11.928,
+      "bytes": 71568,
+      "sha256": "0bfead06e88430f7f995f9e1f19ae6652c71510737139d2ebd654f4c4d6bae03",
+      "boundaryText": "Hana membasuh tangan sebelum menyediakan makanan. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c34a2f74d65a",
+      "text": "Saya memilih nilai kesederhanaan. Hana membasuh tangan sebelum membantu menyediakan makanan.",
+      "path": "audio-ms/clips/v37-c34a2f74d65a.mp3",
+      "duration": 8.448,
+      "bytes": 50688,
+      "sha256": "2069ab04d261b784e64017100c3a9b37d6668287f50c4a2b7939e4be74ebb4f8",
+      "boundaryText": "Saya memilih nilai kesederhanaan. Hana membasuh tangan sebelum membantu menyediakan makanan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-a10b0685b021",
+      "text": "Saya memilih nilai kebersihan. Hana membasuh tangan sebelum membantu menyediakan makanan.",
+      "path": "audio-ms/clips/v37-a10b0685b021.mp3",
+      "duration": 8.184,
+      "bytes": 49104,
+      "sha256": "a4dd96c1c38ff4b888abc9235db04473d362dc25406575836c25b66d40ed5050",
+      "boundaryText": "Saya memilih nilai kebersihan. Hana membasuh tangan sebelum membantu menyediakan makanan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-60df4588c268",
+      "text": "Saya memilih nilai keberanian. Hana membasuh tangan sebelum membantu menyediakan makanan.",
+      "path": "audio-ms/clips/v37-60df4588c268.mp3",
+      "duration": 8.184,
+      "bytes": 49104,
+      "sha256": "c3baebc87f0c75c30658dd0d6406d7eaefa5b5409fe78dcf17a27f64be87e961",
+      "boundaryText": "Saya memilih nilai keberanian. Hana membasuh tangan sebelum membantu menyediakan makanan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-30f992c61849",
+      "text": "Apakah pesanan Tok Wan sebelum mereka makan? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-30f992c61849.mp3",
+      "duration": 6.144,
+      "bytes": 36864,
+      "sha256": "14338d9706689a0f9abdc07f048b98a555b495d51b58c458b9205ba2e3f9c23d",
+      "boundaryText": "Apakah pesanan Tok Wan sebelum mereka makan? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ad52b22c0ca8",
+      "text": "Tok Wan mengingatkan mereka supaya membasuh tangan. Apakah amalan yang diutamakan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-ad52b22c0ca8.mp3",
+      "duration": 9.888,
+      "bytes": 59328,
+      "sha256": "219cc0963cf5c624e2c25e5aeb78f4c4996f1af89dcd49a781804ac71a3320e7",
+      "boundaryText": "Tok Wan mengingatkan mereka supaya membasuh tangan. Apakah amalan yang diutamakan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-4484735e420f",
+      "text": "Tok Wan mengingatkan mereka supaya membasuh tangan. Apakah amalan yang diutamakan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-4484735e420f.mp3",
+      "duration": 11.76,
+      "bytes": 70560,
+      "sha256": "8d39c8d9549052a73833b55bf91a8814ee6ca1e17a7adb5f3d363d0d9a530052",
+      "boundaryText": "Tok Wan mengingatkan mereka supaya membasuh tangan. Apakah amalan yang diutamakan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-bac200819d20",
+      "text": "Saya memilih nilai kejujuran. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan.",
+      "path": "audio-ms/clips/v37-bac200819d20.mp3",
+      "duration": 8.808,
+      "bytes": 52848,
+      "sha256": "892ca86bff40ac26c97eae7939d01fec00d69d68c3ae0d91b32ef5f8705fd51a",
+      "boundaryText": "Saya memilih nilai kejujuran. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-89867f311d40",
+      "text": "Saya memilih nilai berjimat cermat. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan.",
+      "path": "audio-ms/clips/v37-89867f311d40.mp3",
+      "duration": 9.0,
+      "bytes": 54000,
+      "sha256": "7678298147acf9c2a7c10bd582e94426b8216d538564495e9130b22697340261",
+      "boundaryText": "Saya memilih nilai berjimat cermat. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-3b4993d52339",
+      "text": "Saya memilih nilai kebersihan. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan.",
+      "path": "audio-ms/clips/v37-3b4993d52339.mp3",
+      "duration": 8.904,
+      "bytes": 53424,
+      "sha256": "28454c9034a69553a02982f778f369a1b51be6ad7dd7b0fda6e92732f676e841",
+      "boundaryText": "Saya memilih nilai kebersihan. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-7f6e5cd28336",
+      "text": "Mereka menyimpan baki bekal. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-7f6e5cd28336.mp3",
+      "duration": 8.832,
+      "bytes": 52992,
+      "sha256": "4ac7c44b1a835f75bda9c385a48d9018ce3bcafdec09f1b8ff7c3817fcc68405",
+      "boundaryText": "Mereka menyimpan baki bekal. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-139f8d638954",
+      "text": "Mereka menyimpan baki bekal. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-139f8d638954.mp3",
+      "duration": 10.68,
+      "bytes": 64080,
+      "sha256": "fc95c5a5db948073c9eaf5e606cc74bd58aee05409f13344ea470ca4e623e556",
+      "boundaryText": "Mereka menyimpan baki bekal. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-8733173805a2",
+      "text": "Saya memilih nilai berjimat cermat. Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.",
+      "path": "audio-ms/clips/v37-8733173805a2.mp3",
+      "duration": 9.048,
+      "bytes": 54288,
+      "sha256": "79ccf679467e2d049efaa23a7008b1d8af62adfb729571d17dd32c4affcf4281",
+      "boundaryText": "Saya memilih nilai berjimat cermat. Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-a1f992360421",
+      "text": "Saya memilih nilai keberanian. Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.",
+      "path": "audio-ms/clips/v37-a1f992360421.mp3",
+      "duration": 8.952,
+      "bytes": 53712,
+      "sha256": "612f4dc47671fc95bcd49b08c2ddcd2fb0621c437c77eed05e9c9288763d4704",
+      "boundaryText": "Saya memilih nilai keberanian. Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-58a36ea20909",
+      "text": "Saya memilih nilai hormat-menghormati. Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.",
+      "path": "audio-ms/clips/v37-58a36ea20909.mp3",
+      "duration": 9.408,
+      "bytes": 56448,
+      "sha256": "168b0598c6c902e005682f661ef1dae586cbdeee4dbcab480894d48a283947c5",
+      "boundaryText": "Saya memilih nilai hormat-menghormati. Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ef953b966481",
+      "text": "Hana dan Iman mengutip sampah bersama. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-ef953b966481.mp3",
+      "duration": 9.384,
+      "bytes": 56304,
+      "sha256": "bf4b23bef6e936c9e812f7eaf53efe4d2b5da5654ff7fa41f8938fb6013d4a32",
+      "boundaryText": "Hana dan Iman mengutip sampah bersama. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-4ad7f5635f97",
+      "text": "Hana dan Iman mengutip sampah bersama. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-4ad7f5635f97.mp3",
+      "duration": 11.232,
+      "bytes": 67392,
+      "sha256": "6b1aa3d36aa20263eaeaf216d0b1c42dc4b42a53152b147395fc8eb46b3681db",
+      "boundaryText": "Hana dan Iman mengutip sampah bersama. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-3700773bd3ad",
+      "text": "Saya memilih nilai kejujuran. Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih.",
+      "path": "audio-ms/clips/v37-3700773bd3ad.mp3",
+      "duration": 9.0,
+      "bytes": 54000,
+      "sha256": "c56042ada7a215b920e4c24adf4fc07a7238c85a7c28e429326a020cbf0eb0b6",
+      "boundaryText": "Saya memilih nilai kejujuran. Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c95073c50338",
+      "text": "Saya memilih nilai kerjasama. Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih.",
+      "path": "audio-ms/clips/v37-c95073c50338.mp3",
+      "duration": 8.976,
+      "bytes": 53856,
+      "sha256": "7d7dab61e894a90e160c800a38e0da74a279345480500b6e479805c8d98d2513",
+      "boundaryText": "Saya memilih nilai kerjasama. Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-6bcb643e8a5a",
+      "text": "Saya memilih nilai kesederhanaan. Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih.",
+      "path": "audio-ms/clips/v37-6bcb643e8a5a.mp3",
+      "duration": 9.288,
+      "bytes": 55728,
+      "sha256": "bf961a96e351065c8b1ec02bf637cb35b87ce37387cf9bb8a4f363029f0c847d",
+      "boundaryText": "Saya memilih nilai kesederhanaan. Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-ad391d63d867",
+      "text": "Apakah pesanan Tok Wan tentang mencegah penyakit? Pilih satu ayat.",
+      "path": "audio-ms/clips/v37-ad391d63d867.mp3",
+      "duration": 6.264,
+      "bytes": 37584,
+      "sha256": "41ca3d805efe035d1eb156f59824083f52c86d3235b98652412afe2226062db3",
+      "boundaryText": "Apakah pesanan Tok Wan tentang mencegah penyakit? Pilih satu ayat.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-44b8eccee907",
+      "text": "Tok Wan menasihati mereka supaya mencegah penyakit. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "path": "audio-ms/clips/v37-44b8eccee907.mp3",
+      "duration": 9.984,
+      "bytes": 59904,
+      "sha256": "ac4d86a061d671e302421e9533a0164040fd30af23f40f7191e43c9be8db6d61",
+      "boundaryText": "Tok Wan menasihati mereka supaya mencegah penyakit. Apakah nilai yang ditunjukkan? Pilih satu nilai.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-cdba395669d3",
+      "text": "Tok Wan menasihati mereka supaya mencegah penyakit. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-cdba395669d3.mp3",
+      "duration": 11.784,
+      "bytes": 70704,
+      "sha256": "db4b8f1f5e808523a45c56059b84722ebd7b1b488d1ad2f224b70bb4a28d88ca",
+      "boundaryText": "Tok Wan menasihati mereka supaya mencegah penyakit. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-63504b65a06f",
+      "text": "Saya memilih nilai kebersihan. Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati.",
+      "path": "audio-ms/clips/v37-63504b65a06f.mp3",
+      "duration": 8.4,
+      "bytes": 50400,
+      "sha256": "08226acc1d483c21a6e04a37da7962951bffe39c0e5571c96efe679032cad51a",
+      "boundaryText": "Saya memilih nilai kebersihan. Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-795ded235f26",
+      "text": "Saya memilih nilai keberanian. Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati.",
+      "path": "audio-ms/clips/v37-795ded235f26.mp3",
+      "duration": 8.376,
+      "bytes": 50256,
+      "sha256": "8eaff8a1a41d3d10c36704332de98ea319f5852a5c20d15dc949ce6e03a315ae",
+      "boundaryText": "Saya memilih nilai keberanian. Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-af078587fee5",
+      "text": "Saya memilih nilai kebijaksanaan. Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati.",
+      "path": "audio-ms/clips/v37-af078587fee5.mp3",
+      "duration": 8.688,
+      "bytes": 52128,
+      "sha256": "46707ad24329468e4acd2c063ffb8997317ec4a5a22afda1ce9d009574b88de7",
+      "boundaryText": "Saya memilih nilai kebijaksanaan. Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e124567554cb",
+      "text": "Apakah maksud peribahasa Mencegah lebih baik daripada mengubati? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-e124567554cb.mp3",
+      "duration": 7.752,
+      "bytes": 46512,
+      "sha256": "2d9d83805c06671e11384ad55c53c38ff2acafaaaff9b270cd86721f4ba203bd",
+      "boundaryText": "Apakah maksud peribahasa Mencegah lebih baik daripada mengubati? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-a5997711dba3",
+      "text": "Apakah maksud peribahasa Mencegah lebih baik daripada mengubati? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "path": "audio-ms/clips/v37-a5997711dba3.mp3",
+      "duration": 9.528,
+      "bytes": 57168,
+      "sha256": "6f9ced98a3012d4d8d3285c47b89ad31139c22b618865b498e6c12ebb99438ed",
+      "boundaryText": "Apakah maksud peribahasa Mencegah lebih baik daripada mengubati? Pilih ikan, kemudian tekan Pancing ikan ini.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c23d5a71f615",
+      "text": "Jawab sendiri dahulu. Tangan kamu terkena tanah sebelum makan. Apakah tindakan yang menjaga kebersihan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-c23d5a71f615.mp3",
+      "duration": 12.648,
+      "bytes": 75888,
+      "sha256": "69237d80ccfee15dd4b06c007704bad8595815e839d36a06fdef84e20e873f86",
+      "boundaryText": "Jawab sendiri dahulu. Tangan kamu terkena tanah sebelum makan. Apakah tindakan yang menjaga kebersihan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-598dcccb3f07",
+      "text": "Jawab sendiri dahulu. Masih ada bekal yang elok selepas kamu kenyang. Bagaimanakah kamu mengelakkan pembaziran? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-598dcccb3f07.mp3",
+      "duration": 13.176,
+      "bytes": 79056,
+      "sha256": "c1d97ffa1424b007e475bcba02a6f2d5986b47d0626f51c17b61c438aaa75d94",
+      "boundaryText": "Jawab sendiri dahulu. Masih ada bekal yang elok selepas kamu kenyang. Bagaimanakah kamu mengelakkan pembaziran? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-21d6656ef5bc",
+      "text": "Jawab sendiri dahulu. Apakah cara bekerjasama semasa mengemas tempat berkelah? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-21d6656ef5bc.mp3",
+      "duration": 10.032,
+      "bytes": 60192,
+      "sha256": "52700f0e6dea90692d12504af0232cb1d5182e4ae759f3c1ba45c8d2a1402bfb",
+      "boundaryText": "Jawab sendiri dahulu. Apakah cara bekerjasama semasa mengemas tempat berkelah? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-1709ab18bf19",
+      "text": "Iman menutup bekas makanan selepas mengambil roti. Mengapakah tindakan itu baik? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-1709ab18bf19.mp3",
+      "duration": 10.056,
+      "bytes": 60336,
+      "sha256": "42e43bade32b2f5de60ea6473fd462620606015e616c93dc51d359d8cdbdc4ee",
+      "boundaryText": "Iman menutup bekas makanan selepas mengambil roti. Mengapakah tindakan itu baik? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-2cc2b676bf22",
+      "text": "Supaya makanan menjadi kotor",
+      "path": "audio-ms/clips/v37-2cc2b676bf22.mp3",
+      "duration": 3.216,
+      "bytes": 19296,
+      "sha256": "36adb5044df8c7bf5c52b3b82165c110233fe5a43e03a48927a09439d9d5aa6c",
+      "boundaryText": "Supaya makanan menjadi kotor",
+      "textMatched": true
+    },
+    {
+      "id": "v37-e1457748e602",
+      "text": "Supaya bekas sukar ditemukan",
+      "path": "audio-ms/clips/v37-e1457748e602.mp3",
+      "duration": 3.456,
+      "bytes": 20736,
+      "sha256": "49437ff27877c074c589d99aadd5b776469dd16cf70d3f3ae55c7343d9bd2a40",
+      "boundaryText": "Supaya bekas sukar ditemukan",
+      "textMatched": true
+    },
+    {
+      "id": "v37-90053587381e",
+      "text": "Supaya makanan kekal bersih",
+      "path": "audio-ms/clips/v37-90053587381e.mp3",
+      "duration": 3.168,
+      "bytes": 19008,
+      "sha256": "e21c96bfc40255f20a2397f8be8ea7de1a3030f97f4cf53b1bb91f7dc53053f1",
+      "boundaryText": "Supaya makanan kekal bersih",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c0c71da996aa",
+      "text": "Rakan kamu mahu pulang ketika sampah masih bertaburan. Apakah ajakan yang sesuai? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-c0c71da996aa.mp3",
+      "duration": 10.584,
+      "bytes": 63504,
+      "sha256": "1646b2cc351a79d9723ffa6ae5f810ab7c30e9fdfec9b892136e44b6351ce75d",
+      "boundaryText": "Rakan kamu mahu pulang ketika sampah masih bertaburan. Apakah ajakan yang sesuai? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-b60a53273919",
+      "text": "Mari kita tinggalkan sampah ini",
+      "path": "audio-ms/clips/v37-b60a53273919.mp3",
+      "duration": 3.432,
+      "bytes": 20592,
+      "sha256": "ccdbaed4227cb8970a25887f7aa353f2ad4f2adfd7507e722cc028a78e225e9e",
+      "boundaryText": "Mari kita tinggalkan sampah ini",
+      "textMatched": true
+    },
+    {
+      "id": "v37-73fe9a45ff21",
+      "text": "Mari kita kutip sampah bersama-sama",
+      "path": "audio-ms/clips/v37-73fe9a45ff21.mp3",
+      "duration": 3.648,
+      "bytes": 21888,
+      "sha256": "063c7e3e88428e68ebc5e87a76c36c1d3b2150323019cd5a5b95e18559aaa2ed",
+      "boundaryText": "Mari kita kutip sampah bersama-sama",
+      "textMatched": true
+    },
+    {
+      "id": "v37-9f7758199bf4",
+      "text": "Mari kita sembunyikan sampah di bawah tikar",
+      "path": "audio-ms/clips/v37-9f7758199bf4.mp3",
+      "duration": 4.08,
+      "bytes": 24480,
+      "sha256": "6a55d1fec6aae05b71c1f256296dafcc74eb559ef0f8997230eee2d120407d24",
+      "boundaryText": "Mari kita sembunyikan sampah di bawah tikar",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f72cb5032b2b",
+      "text": "Tangan kamu kotor selepas bermain. Sekarang, kamu mahu makan. Apakah yang perlu kamu lakukan dahulu? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-f72cb5032b2b.mp3",
+      "duration": 12.888,
+      "bytes": 77328,
+      "sha256": "d1433e82a83152afbfde8341b59b62ec2841e5f27c9b9b686b58f98cf8adc7c7",
+      "boundaryText": "Tangan kamu kotor selepas bermain. Sekarang, kamu mahu makan. Apakah yang perlu kamu lakukan dahulu? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-c783a67ebb8a",
+      "text": "Saya membasuh tangan dengan sabun.",
+      "path": "audio-ms/clips/v37-c783a67ebb8a.mp3",
+      "duration": 3.432,
+      "bytes": 20592,
+      "sha256": "ec53f01fc231cf847c978921cbfcc80f1d1deaba848d17a639cfb851882b9ef9",
+      "boundaryText": "Saya membasuh tangan dengan sabun.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-1da08a75b905",
+      "text": "Saya terus memegang makanan.",
+      "path": "audio-ms/clips/v37-1da08a75b905.mp3",
+      "duration": 3.192,
+      "bytes": 19152,
+      "sha256": "f96d25ee8eafdf7ab832b8f34ab7ca8a58d09f479b049bedee602076ff61da62",
+      "boundaryText": "Saya terus memegang makanan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-cf9b61efb219",
+      "text": "Saya mengelap tangan pada kasut.",
+      "path": "audio-ms/clips/v37-cf9b61efb219.mp3",
+      "duration": 3.168,
+      "bytes": 19008,
+      "sha256": "f05b232f8c45bba603166bd4432286ea55005d7390f4f1066c5215ebf99c29c3",
+      "boundaryText": "Saya mengelap tangan pada kasut.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-f8fdd7ca0341",
+      "text": "Tangan kamu kotor selepas bermain. Sekarang, kamu mahu makan. Mengapakah tangan perlu dibasuh sebelum makan? Pilih satu jawapan.",
+      "path": "audio-ms/clips/v37-f8fdd7ca0341.mp3",
+      "duration": 13.152,
+      "bytes": 78912,
+      "sha256": "672dee503f234b043ab39013bd012e295c9d28fa9324acd537d7e20b7308e1a6",
+      "boundaryText": "Tangan kamu kotor selepas bermain. Sekarang, kamu mahu makan. Mengapakah tangan perlu dibasuh sebelum makan? Pilih satu jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-fa78b399f1fe",
+      "text": "Supaya makanan cepat habis.",
+      "path": "audio-ms/clips/v37-fa78b399f1fe.mp3",
+      "duration": 3.24,
+      "bytes": 19440,
+      "sha256": "075aba044e374d113262ce2465e5158d73498d0fcf35becd80e3e9d3405cc2e4",
+      "boundaryText": "Supaya makanan cepat habis.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-bf53f6d5be20",
+      "text": "Supaya kotoran pada tangan dapat dibersihkan.",
+      "path": "audio-ms/clips/v37-bf53f6d5be20.mp3",
+      "duration": 4.032,
+      "bytes": 24192,
+      "sha256": "b1fd4e158a88c3a72c7ace4e78f79ece27aa402c59735e7b72083385e6136329",
+      "boundaryText": "Supaya kotoran pada tangan dapat dibersihkan.",
+      "textMatched": true
+    },
+    {
+      "id": "v37-93c7e731b26c",
+      "text": "Supaya tangan menjadi lebih kotor.",
+      "path": "audio-ms/clips/v37-93c7e731b26c.mp3",
+      "duration": 3.456,
+      "bytes": 20736,
+      "sha256": "2a3ae2297b4ddffb4d648d977cef56072a7d0bf0eef900a2148eaecfd0ad60fb",
+      "boundaryText": "Supaya tangan menjadi lebih kotor.",
+      "textMatched": true
+    }
+  ]
+}

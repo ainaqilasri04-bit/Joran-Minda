@@ -1,0 +1,1021 @@
+{
+  "version": 37,
+  "clips": [
+    {
+      "id": "v37-05cddab1411a",
+      "text": "Baca ayat pilihan kamu. Tekan Simpan penjelasan."
+    },
+    {
+      "id": "v37-1fc9732b24e5",
+      "text": "Tahniah! Semua jawapan tepat."
+    },
+    {
+      "id": "v37-a4b847928ce4",
+      "text": "Ada jawapan yang belum tepat. Mari semak."
+    },
+    {
+      "id": "v37-a5ccb7bcdd69",
+      "text": "Jawapan yang betul:"
+    },
+    {
+      "id": "v37-fe94426c7482",
+      "text": "Apakah yang Hana lakukan untuk membantu anak kucing? Pilih satu ayat."
+    },
+    {
+      "id": "v37-e6efff92057d",
+      "text": "Hana memanggil Tok Wan untuk membantu anak kucing. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-98dbd16e5f01",
+      "text": "Hana memanggil Tok Wan untuk membantu anak kucing. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-c21e5a08cf44",
+      "text": "Hana memanggil Tok Wan untuk membantu anak kucing. Nilainya ialah kasih sayang."
+    },
+    {
+      "id": "v37-e2cea8a7be32",
+      "text": "Kasih sayang"
+    },
+    {
+      "id": "v37-2d6cfa15228e",
+      "text": "Perbuatan manakah yang menunjukkan nilai kasih sayang? Pilih satu gambar."
+    },
+    {
+      "id": "v37-b41eaef2d89f",
+      "text": "Apakah barang yang disediakan oleh Hana dan Iman? Pilih satu ayat."
+    },
+    {
+      "id": "v37-92e359c109f4",
+      "text": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-be5a38fdab83",
+      "text": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-48a238ee034b",
+      "text": "Hana mengambil tuala, manakala Iman menyediakan tempat rehat Belang. Nilainya ialah kerjasama."
+    },
+    {
+      "id": "v37-ec77dc7ded47",
+      "text": "Kerjasama"
+    },
+    {
+      "id": "v37-ab00c8580ea4",
+      "text": "Perbuatan manakah yang menunjukkan nilai kerjasama? Pilih satu gambar."
+    },
+    {
+      "id": "v37-44cb002f3d79",
+      "text": "Apakah yang Hana dan Iman lakukan setiap hari? Pilih satu ayat."
+    },
+    {
+      "id": "v37-154cb75376c3",
+      "text": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-a76bba283419",
+      "text": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-9f9cccc8f69b",
+      "text": "Hana dan Iman melaksanakan tugas menjaga Belang setiap hari. Nilainya ialah tanggungjawab."
+    },
+    {
+      "id": "v37-5f46921d0849",
+      "text": "Tanggungjawab"
+    },
+    {
+      "id": "v37-fa441b5cfb45",
+      "text": "Siapakah yang dipanggil oleh Hana untuk membantu anak kucing? Pilih satu ayat."
+    },
+    {
+      "id": "v37-5b62857f1dff",
+      "text": "Hana meminta bantuan untuk Belang. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-3b516e7d1668",
+      "text": "Hana meminta bantuan untuk Belang. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-9496b3e1c0b8",
+      "text": "Saya memilih nilai kasih sayang. Hana segera memanggil Tok Wan untuk membantu anak kucing itu."
+    },
+    {
+      "id": "v37-1593c61673ff",
+      "text": "Saya memilih nilai berjimat cermat. Hana segera memanggil Tok Wan untuk membantu anak kucing itu."
+    },
+    {
+      "id": "v37-48b014710fa3",
+      "text": "Saya memilih nilai kejujuran. Hana segera memanggil Tok Wan untuk membantu anak kucing itu."
+    },
+    {
+      "id": "v37-0abe2e7dfb5f",
+      "text": "Hana dan Iman membahagikan tugas. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-00a7d46dea99",
+      "text": "Hana dan Iman membahagikan tugas. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-2f5d2d403aec",
+      "text": "Saya memilih nilai keberanian. Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut."
+    },
+    {
+      "id": "v37-3b76b8e3e4c3",
+      "text": "Saya memilih nilai hormat-menghormati. Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut."
+    },
+    {
+      "id": "v37-edf1a98ef4b9",
+      "text": "Saya memilih nilai kerjasama. Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut."
+    },
+    {
+      "id": "v37-c3588e9c76a9",
+      "text": "Apakah minuman yang disediakan oleh Iman untuk Belang? Pilih satu ayat."
+    },
+    {
+      "id": "v37-293b2399ccc6",
+      "text": "Iman menyediakan air untuk Belang. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-4642e9b04741",
+      "text": "Iman menyediakan air untuk Belang. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-2335a87e495a",
+      "text": "Saya memilih nilai kesederhanaan. Iman pula meletakkan semangkuk air bersih berhampiran Belang."
+    },
+    {
+      "id": "v37-bcf4c611c64d",
+      "text": "Saya memilih nilai baik hati. Iman pula meletakkan semangkuk air bersih berhampiran Belang."
+    },
+    {
+      "id": "v37-47175a573306",
+      "text": "Saya memilih nilai kejujuran. Iman pula meletakkan semangkuk air bersih berhampiran Belang."
+    },
+    {
+      "id": "v37-c9885c3a8e13",
+      "text": "Apakah yang dilakukan oleh Hana dan Iman setiap hari? Pilih satu ayat."
+    },
+    {
+      "id": "v37-34fbad6cc1c9",
+      "text": "Mereka menjaga Belang setiap hari. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-b036e2ca71d1",
+      "text": "Mereka menjaga Belang setiap hari. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-c8f821ff9e50",
+      "text": "Saya memilih nilai tanggungjawab. Mereka melaksanakan tugas masing-masing setiap hari."
+    },
+    {
+      "id": "v37-d24ae42d5a3a",
+      "text": "Saya memilih nilai keberanian. Mereka melaksanakan tugas masing-masing setiap hari."
+    },
+    {
+      "id": "v37-ef9690342fc0",
+      "text": "Saya memilih nilai berjimat cermat. Mereka melaksanakan tugas masing-masing setiap hari."
+    },
+    {
+      "id": "v37-af729e6d26bc",
+      "text": "Bagaimanakah Tok Wan menghargai usaha Hana dan Iman? Pilih satu ayat."
+    },
+    {
+      "id": "v37-cbcd082974dd",
+      "text": "Tok Wan memuji usaha mereka. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-61b3f1a4c56f",
+      "text": "Tok Wan memuji usaha mereka. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-f4f774f830dc",
+      "text": "Saya memilih nilai kesederhanaan. Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing."
+    },
+    {
+      "id": "v37-bdbae1280c44",
+      "text": "Saya memilih nilai kebersihan. Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing."
+    },
+    {
+      "id": "v37-893fd79ffbc4",
+      "text": "Saya memilih nilai menghargai jasa. Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing."
+    },
+    {
+      "id": "v37-27002c941604",
+      "text": "Apakah maksud peribahasa Bagai aur dengan tebing? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-c3d2e3e09691",
+      "text": "Apakah maksud peribahasa Bagai aur dengan tebing? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-f37448a79321",
+      "text": "Jawab sendiri dahulu. Belang kelihatan dahaga. Tindakan manakah menunjukkan kasih sayang? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-a62a2c6234e6",
+      "text": "Jawab sendiri dahulu. Mengapakah Hana dan Iman membahagikan tugas menjaga Belang? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-db654aa43985",
+      "text": "Jawab sendiri dahulu. Hari ini giliran kamu membersihkan tempat rehat Belang. Apakah tindakan yang bertanggungjawab? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-8219958258ea",
+      "text": "Hana menjaga Belang hanya apabila mahu bermain dengannya. Apakah yang patut diperbaik? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-d16bc8db20f1",
+      "text": "Memberi Belang lebih banyak mainan"
+    },
+    {
+      "id": "v37-508b61988ed5",
+      "text": "Menjaga keperluan Belang setiap hari"
+    },
+    {
+      "id": "v37-e87d8f673548",
+      "text": "Menyuruh Belang mencari makanan sendiri"
+    },
+    {
+      "id": "v37-216172470f44",
+      "text": "Hana menyediakan makanan, manakala Iman menukar air Belang. Mengapakah ini contoh kerjasama? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-b11617e50bcd",
+      "text": "Mereka melakukan semua tugas seorang diri"
+    },
+    {
+      "id": "v37-1063ba9d9640",
+      "text": "Mereka menunggu Tok Wan membuat kerja"
+    },
+    {
+      "id": "v37-8ce74c743f31",
+      "text": "Mereka membahagikan tugas dan saling membantu"
+    },
+    {
+      "id": "v37-9edc33c589c1",
+      "text": "Di sekolah, kamu melihat seekor anak kucing yang cedera. Siapakah yang patut kamu minta bantuan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-fef708e88f7b",
+      "text": "Guru yang berada berhampiran."
+    },
+    {
+      "id": "v37-469cf3cd4e65",
+      "text": "Rakan yang sedang bergaduh."
+    },
+    {
+      "id": "v37-dcb485e77f49",
+      "text": "Murid yang sedang tidur."
+    },
+    {
+      "id": "v37-ccc589df596f",
+      "text": "Di sekolah, kamu melihat seekor anak kucing yang cedera. Mengapakah anak kucing itu perlu dibantu? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-4825de8a9057",
+      "text": "Supaya anak kucing itu terus lapar."
+    },
+    {
+      "id": "v37-e1ea5449e695",
+      "text": "Supaya anak kucing itu mendapat rawatan."
+    },
+    {
+      "id": "v37-859037f64c81",
+      "text": "Supaya anak kucing itu ketakutan."
+    },
+    {
+      "id": "v37-8299fb721702",
+      "text": "Apakah yang Hana mahu lakukan di pondok? Pilih satu ayat."
+    },
+    {
+      "id": "v37-eb0662861908",
+      "text": "Hana menawarkan diri untuk mengemas pondok yang berdebu. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-f7b96fde7fa1",
+      "text": "Hana menawarkan diri untuk mengemas pondok yang berdebu. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-65237de3c3d6",
+      "text": "Hana menawarkan diri untuk mengemas pondok yang berdebu. Nilainya ialah kerajinan."
+    },
+    {
+      "id": "v37-e72849b8ee0e",
+      "text": "Kerajinan"
+    },
+    {
+      "id": "v37-d18ba46b5e5b",
+      "text": "Perbuatan manakah yang menunjukkan nilai kerajinan? Pilih satu gambar."
+    },
+    {
+      "id": "v37-daae2ed679b7",
+      "text": "Bagaimanakah Iman membantu Hana menyusun buku? Pilih satu ayat."
+    },
+    {
+      "id": "v37-c5de239a6954",
+      "text": "Iman membantu Hana meletakkan buku di atas meja yang bersih. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-0bf0f94a4161",
+      "text": "Iman membantu Hana meletakkan buku di atas meja yang bersih. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-ef7d263ee3b0",
+      "text": "Iman membantu Hana meletakkan buku di atas meja yang bersih. Nilainya ialah kerjasama."
+    },
+    {
+      "id": "v37-eb5c02206752",
+      "text": "Apakah yang pembaca lakukan selepas membaca? Pilih satu ayat."
+    },
+    {
+      "id": "v37-87b24327d8bb",
+      "text": "Semua pembaca memulangkan buku ke rak setelah selesai membaca. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-bebc1e07fa88",
+      "text": "Semua pembaca memulangkan buku ke rak setelah selesai membaca. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-41208f41dbb2",
+      "text": "Semua pembaca memulangkan buku ke rak setelah selesai membaca. Nilainya ialah tanggungjawab."
+    },
+    {
+      "id": "v37-9c0797b9e0f8",
+      "text": "Hana mahu mengemas pondok. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-99a2ebd7e4f0",
+      "text": "Hana mahu mengemas pondok. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-f0db530da201",
+      "text": "Saya memilih nilai keberanian. Hana menawarkan diri untuk mengemas pondok yang berdebu itu."
+    },
+    {
+      "id": "v37-1645820396fd",
+      "text": "Saya memilih nilai kerajinan. Hana menawarkan diri untuk mengemas pondok yang berdebu itu."
+    },
+    {
+      "id": "v37-e74ff53d81b4",
+      "text": "Saya memilih nilai berjimat cermat. Hana menawarkan diri untuk mengemas pondok yang berdebu itu."
+    },
+    {
+      "id": "v37-72c5a673d17d",
+      "text": "Bagaimanakah Iman membantu Hana menguruskan buku? Pilih satu ayat."
+    },
+    {
+      "id": "v37-ce002214e9ea",
+      "text": "Iman membantu Hana menyusun buku. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-105e47cf73c9",
+      "text": "Iman membantu Hana menyusun buku. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-0334c0532301",
+      "text": "Saya memilih nilai kerjasama. Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih."
+    },
+    {
+      "id": "v37-bd1a9e9ac7ee",
+      "text": "Saya memilih nilai kejujuran. Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih."
+    },
+    {
+      "id": "v37-20b9fe559ca2",
+      "text": "Saya memilih nilai kesederhanaan. Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih."
+    },
+    {
+      "id": "v37-b135b049b693",
+      "text": "Apakah bahan yang dikongsi oleh Hana dengan Iman? Pilih satu ayat."
+    },
+    {
+      "id": "v37-94d26e9590a3",
+      "text": "Hana berkongsi kertas dengan Iman. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-afb98941331e",
+      "text": "Hana berkongsi kertas dengan Iman. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-dc752305dae4",
+      "text": "Saya memilih nilai hormat-menghormati. Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku."
+    },
+    {
+      "id": "v37-755ff969bc81",
+      "text": "Saya memilih nilai keberanian. Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku."
+    },
+    {
+      "id": "v37-5ed8a33cb665",
+      "text": "Saya memilih nilai baik hati. Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku."
+    },
+    {
+      "id": "v37-7b96a90f485a",
+      "text": "Apakah yang Iman lakukan dengan sisa kertas? Pilih satu ayat."
+    },
+    {
+      "id": "v37-7b0ec1636d8c",
+      "text": "Iman membuang sisa kertas ke dalam tong sampah. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-00a19c2f3ebc",
+      "text": "Iman membuang sisa kertas ke dalam tong sampah. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-410f3bdcaf4a",
+      "text": "Saya memilih nilai berjimat cermat. Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah."
+    },
+    {
+      "id": "v37-cbb3885dc0a5",
+      "text": "Saya memilih nilai kebersihan. Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah."
+    },
+    {
+      "id": "v37-6accc6f37e37",
+      "text": "Saya memilih nilai kejujuran. Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah."
+    },
+    {
+      "id": "v37-fb089c2ea0a4",
+      "text": "Pembaca memulangkan buku ke rak. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-762a636dcc48",
+      "text": "Pembaca memulangkan buku ke rak. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-328e9f729013",
+      "text": "Saya memilih nilai kesederhanaan. Semua pembaca memulangkan buku ke rak setelah selesai membaca."
+    },
+    {
+      "id": "v37-f4181fb2ecbf",
+      "text": "Saya memilih nilai keberanian. Semua pembaca memulangkan buku ke rak setelah selesai membaca."
+    },
+    {
+      "id": "v37-908fca904ded",
+      "text": "Apakah maksud peribahasa Ringan tulang? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-f4e1f54e331d",
+      "text": "Apakah maksud peribahasa Ringan tulang? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-d99537684b3c",
+      "text": "Jawab sendiri dahulu. Rakan kamu sedang menyusun buku yang banyak. Apakah cara bekerjasama dengannya? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-4c8bde742141",
+      "text": "Jawab sendiri dahulu. Kamu sudah selesai membaca sebuah buku. Tindakan manakah menunjukkan tanggungjawab? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-246e5f70a29c",
+      "text": "Jawab sendiri dahulu. Mengapakah sikap Hana yang suka membantu mengemas pondok patut dicontohi? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-6983c683159e",
+      "text": "Iman mahu berkongsi penanda buku dengan rakannya. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-2683c4c2b643",
+      "text": "Keberanian"
+    },
+    {
+      "id": "v37-304e29507d38",
+      "text": "Berjimat cermat"
+    },
+    {
+      "id": "v37-332945e56a69",
+      "text": "Baik hati"
+    },
+    {
+      "id": "v37-2f3742fb069b",
+      "text": "Mengapakah buku perlu dipulangkan ke rak selepas dibaca? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-509cacfef680",
+      "text": "Supaya pembaca lain mudah mencarinya"
+    },
+    {
+      "id": "v37-254a9600c097",
+      "text": "Supaya rak menjadi berselerak"
+    },
+    {
+      "id": "v37-b6d11b8d9c19",
+      "text": "Supaya buku tidak boleh dibaca lagi"
+    },
+    {
+      "id": "v37-cdd7e31e56fe",
+      "text": "Selepas membaca di kelas, kamu melihat buku berselerak di atas lantai. Apakah tindakan kamu? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-48d077ecd9e7",
+      "text": "Saya membiarkan buku itu."
+    },
+    {
+      "id": "v37-a5707d987923",
+      "text": "Saya memijak buku itu."
+    },
+    {
+      "id": "v37-7f1cd22fdd51",
+      "text": "Saya menyusun buku di rak."
+    },
+    {
+      "id": "v37-e5d74e0701fb",
+      "text": "Selepas membaca di kelas, kamu melihat buku berselerak di atas lantai. Mengapakah buku perlu disusun di rak? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-33fbd7d0d589",
+      "text": "Supaya buku mudah dicari."
+    },
+    {
+      "id": "v37-8223f5047ce5",
+      "text": "Supaya buku menjadi kotor."
+    },
+    {
+      "id": "v37-d6de725b5e1a",
+      "text": "Supaya buku cepat rosak."
+    },
+    {
+      "id": "v37-7e550bf7d191",
+      "text": "Apakah yang Hana lakukan apabila melihat anak pokok layu? Pilih satu ayat."
+    },
+    {
+      "id": "v37-4d68f07db257",
+      "text": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-77458f638630",
+      "text": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-7ae570f88a28",
+      "text": "Hana menawarkan bantuan untuk menjaga anak pokok yang layu. Nilainya ialah baik hati."
+    },
+    {
+      "id": "v37-2c5c4575c321",
+      "text": "Perbuatan manakah yang menunjukkan nilai baik hati? Pilih satu gambar."
+    },
+    {
+      "id": "v37-2469ed4f02e6",
+      "text": "Bagaimanakah Iman membantu Hana menjaga anak pokok? Pilih satu ayat."
+    },
+    {
+      "id": "v37-ebe422544f86",
+      "text": "Iman membantu Hana menyiram anak pokok dengan cermat. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-f3fa17f8bd72",
+      "text": "Iman membantu Hana menyiram anak pokok dengan cermat. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-f87412d1bebe",
+      "text": "Iman membantu Hana menyiram anak pokok dengan cermat. Nilainya ialah kerjasama."
+    },
+    {
+      "id": "v37-0d23aec3d0d1",
+      "text": "Apakah janji Iman kepada Tok Wan? Pilih satu ayat."
+    },
+    {
+      "id": "v37-c1a04fa844e2",
+      "text": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-bb06c540fe40",
+      "text": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-431ed8e3af2c",
+      "text": "Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Nilainya ialah tanggungjawab."
+    },
+    {
+      "id": "v37-e18b6f243b8c",
+      "text": "Apakah yang Hana mahu lakukan untuk anak pokok? Pilih satu ayat."
+    },
+    {
+      "id": "v37-67b8db9e53ae",
+      "text": "Hana mahu membantu menjaga pokok. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-5bc0d3f227f0",
+      "text": "Hana mahu membantu menjaga pokok. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-357a2da7ff2f",
+      "text": "Saya memilih nilai kejujuran. Hana segera menawarkan bantuan untuk menjaga anak pokok itu."
+    },
+    {
+      "id": "v37-15bea950c6d1",
+      "text": "Saya memilih nilai kesederhanaan. Hana segera menawarkan bantuan untuk menjaga anak pokok itu."
+    },
+    {
+      "id": "v37-ef527d1948fd",
+      "text": "Saya memilih nilai baik hati. Hana segera menawarkan bantuan untuk menjaga anak pokok itu."
+    },
+    {
+      "id": "v37-fc0946ff2ffb",
+      "text": "Iman membantu Hana menyiram pokok. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-7e0691818e98",
+      "text": "Iman membantu Hana menyiram pokok. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-f9aeb9d26da1",
+      "text": "Saya memilih nilai berjimat cermat. Iman membantu Hana menyiram anak pokok dengan cermat."
+    },
+    {
+      "id": "v37-8be16d057a9c",
+      "text": "Saya memilih nilai keberanian. Iman membantu Hana menyiram anak pokok dengan cermat."
+    },
+    {
+      "id": "v37-31ab68f6278d",
+      "text": "Bagaimanakah Hana mendengar penerangan Tok Wan? Pilih satu ayat."
+    },
+    {
+      "id": "v37-d0476e623177",
+      "text": "Hana mendengar penerangan Tok Wan dengan teliti. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-729fd0c3dd3a",
+      "text": "Hana mendengar penerangan Tok Wan dengan teliti. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-71c7af628872",
+      "text": "Saya memilih nilai kebersihan. Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan."
+    },
+    {
+      "id": "v37-8e5ded32ee1d",
+      "text": "Saya memilih nilai hormat-menghormati. Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan."
+    },
+    {
+      "id": "v37-3fdb0038a72b",
+      "text": "Saya memilih nilai kejujuran. Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan."
+    },
+    {
+      "id": "v37-be4d6136fb8b",
+      "text": "Iman berjanji untuk menjaga kebun. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-f1f61314d8ef",
+      "text": "Iman berjanji untuk menjaga kebun. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-db4151f0da66",
+      "text": "Saya memilih nilai kesederhanaan. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu."
+    },
+    {
+      "id": "v37-3c87b001dbe9",
+      "text": "Saya memilih nilai keberanian. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu."
+    },
+    {
+      "id": "v37-9acf5c1791d4",
+      "text": "Apakah peribahasa yang disebut oleh Tok Wan? Pilih satu ayat."
+    },
+    {
+      "id": "v37-fe98d4830ed7",
+      "text": "Hana dan Iman saling membantu. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-0567370b2872",
+      "text": "Hana dan Iman saling membantu. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-0a9380570d0f",
+      "text": "Saya memilih nilai kerjasama. Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing."
+    },
+    {
+      "id": "v37-fe4890bfe239",
+      "text": "Saya memilih nilai kejujuran. Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing."
+    },
+    {
+      "id": "v37-66e01f620619",
+      "text": "Saya memilih nilai berjimat cermat. Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing."
+    },
+    {
+      "id": "v37-ec50f540b029",
+      "text": "Jawab sendiri dahulu. Anak pokok di kelas kelihatan layu. Apakah tindakan baik yang boleh kamu lakukan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-4292c256e13b",
+      "text": "Jawab sendiri dahulu. Kamu sudah berjanji untuk menjaga pokok pada hari Selasa. Apakah yang patut kamu lakukan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-511786396988",
+      "text": "Jawab sendiri dahulu. Rakan kamu membawa bekas air yang berat untuk menyiram pokok. Apakah tindakan yang menunjukkan kerjasama? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-2417139ad758",
+      "text": "Tok Wan sedang menerangkan cara menyiram pokok. Bagaimanakah kamu menunjukkan rasa hormat? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-0f8d6419e142",
+      "text": "Bercakap kuat dengan rakan"
+    },
+    {
+      "id": "v37-e24cbcacb2ab",
+      "text": "Mendengar penerangannya dengan teliti"
+    },
+    {
+      "id": "v37-a398f19ab1df",
+      "text": "Meninggalkannya sebelum selesai"
+    },
+    {
+      "id": "v37-db75f9060c43",
+      "text": "Rakan terlupa jadual menjaga pokok. Apakah bantuan yang sesuai? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-c5e760cb1fee",
+      "text": "Mengingatkannya dan membantu menyemak jadual"
+    },
+    {
+      "id": "v37-0829f00d9427",
+      "text": "Memadamkan namanya tanpa berbincang"
+    },
+    {
+      "id": "v37-e00a0b325d82",
+      "text": "Membiarkan pokok itu layu"
+    },
+    {
+      "id": "v37-437c0d06cc6b",
+      "text": "Kamu bertugas menjaga pokok kelas. Tanah di dalam pasu sudah kering. Apakah tindakan kamu? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-e3ff2268f4fc",
+      "text": "Saya mencabut daun pokok."
+    },
+    {
+      "id": "v37-22e9d2eb78d0",
+      "text": "Saya menyiram pokok dengan air secukupnya."
+    },
+    {
+      "id": "v37-30d65da72098",
+      "text": "Saya membiarkan tanah itu kering."
+    },
+    {
+      "id": "v37-fb8a24feecc3",
+      "text": "Kamu bertugas menjaga pokok kelas. Tanah di dalam pasu sudah kering. Mengapakah pokok perlu disiram? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-b0c6c0bebbda",
+      "text": "Supaya tanah menjadi lebih kering."
+    },
+    {
+      "id": "v37-6ec6479e422d",
+      "text": "Supaya daun cepat gugur."
+    },
+    {
+      "id": "v37-10366c1283fe",
+      "text": "Supaya pokok dapat tumbuh dengan sihat."
+    },
+    {
+      "id": "v37-2a84163bf3a1",
+      "text": "Apakah yang Hana dan Iman lakukan sebelum makan? Pilih satu ayat."
+    },
+    {
+      "id": "v37-b45be014791c",
+      "text": "Hana dan Iman membasuh tangan dengan sabun sebelum makan. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-387373b8c3ab",
+      "text": "Hana dan Iman membasuh tangan dengan sabun sebelum makan. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-62f056bb89f5",
+      "text": "Hana dan Iman membasuh tangan dengan sabun sebelum makan. Nilainya ialah kebersihan."
+    },
+    {
+      "id": "v37-c8f2815a89ea",
+      "text": "Kebersihan"
+    },
+    {
+      "id": "v37-1fab9d2cbb6b",
+      "text": "Perbuatan manakah yang menunjukkan nilai kebersihan? Pilih satu gambar."
+    },
+    {
+      "id": "v37-98d0b0c2b221",
+      "text": "Apakah ajakan Hana kepada Iman sebelum pulang? Pilih satu ayat."
+    },
+    {
+      "id": "v37-75f9ff1f4fe8",
+      "text": "Hana mengajak Iman mengumpulkan sampah sebelum pulang. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-17f9263c4a5f",
+      "text": "Hana mengajak Iman mengumpulkan sampah sebelum pulang. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-2f5fdebf08c5",
+      "text": "Hana mengajak Iman mengumpulkan sampah sebelum pulang. Nilainya ialah kerjasama."
+    },
+    {
+      "id": "v37-2dfec3511263",
+      "text": "Apakah yang mereka lakukan dengan baki bekal? Pilih satu ayat."
+    },
+    {
+      "id": "v37-de52f19db47a",
+      "text": "Mereka menyimpan baki bekal untuk dibawa pulang. Apakah nilai yang ditunjukkan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-2695fb612ed6",
+      "text": "Mereka menyimpan baki bekal untuk dibawa pulang. Apakah nilai yang sepadan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-15de5885c8ce",
+      "text": "Mereka menyimpan baki bekal untuk dibawa pulang. Nilainya ialah berjimat cermat."
+    },
+    {
+      "id": "v37-569f29d56eb8",
+      "text": "Apakah yang Hana lakukan sebelum menyediakan makanan? Pilih satu ayat."
+    },
+    {
+      "id": "v37-f31d33dc6fbc",
+      "text": "Hana membasuh tangan sebelum menyediakan makanan. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-1634fcf95d69",
+      "text": "Hana membasuh tangan sebelum menyediakan makanan. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-c34a2f74d65a",
+      "text": "Saya memilih nilai kesederhanaan. Hana membasuh tangan sebelum membantu menyediakan makanan."
+    },
+    {
+      "id": "v37-a10b0685b021",
+      "text": "Saya memilih nilai kebersihan. Hana membasuh tangan sebelum membantu menyediakan makanan."
+    },
+    {
+      "id": "v37-60df4588c268",
+      "text": "Saya memilih nilai keberanian. Hana membasuh tangan sebelum membantu menyediakan makanan."
+    },
+    {
+      "id": "v37-30f992c61849",
+      "text": "Apakah pesanan Tok Wan sebelum mereka makan? Pilih satu ayat."
+    },
+    {
+      "id": "v37-ad52b22c0ca8",
+      "text": "Tok Wan mengingatkan mereka supaya membasuh tangan. Apakah amalan yang diutamakan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-4484735e420f",
+      "text": "Tok Wan mengingatkan mereka supaya membasuh tangan. Apakah amalan yang diutamakan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-bac200819d20",
+      "text": "Saya memilih nilai kejujuran. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan."
+    },
+    {
+      "id": "v37-89867f311d40",
+      "text": "Saya memilih nilai berjimat cermat. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan."
+    },
+    {
+      "id": "v37-3b4993d52339",
+      "text": "Saya memilih nilai kebersihan. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan."
+    },
+    {
+      "id": "v37-7f6e5cd28336",
+      "text": "Mereka menyimpan baki bekal. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-139f8d638954",
+      "text": "Mereka menyimpan baki bekal. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-8733173805a2",
+      "text": "Saya memilih nilai berjimat cermat. Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang."
+    },
+    {
+      "id": "v37-a1f992360421",
+      "text": "Saya memilih nilai keberanian. Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang."
+    },
+    {
+      "id": "v37-58a36ea20909",
+      "text": "Saya memilih nilai hormat-menghormati. Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang."
+    },
+    {
+      "id": "v37-ef953b966481",
+      "text": "Hana dan Iman mengutip sampah bersama. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-4ad7f5635f97",
+      "text": "Hana dan Iman mengutip sampah bersama. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-3700773bd3ad",
+      "text": "Saya memilih nilai kejujuran. Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih."
+    },
+    {
+      "id": "v37-c95073c50338",
+      "text": "Saya memilih nilai kerjasama. Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih."
+    },
+    {
+      "id": "v37-6bcb643e8a5a",
+      "text": "Saya memilih nilai kesederhanaan. Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih."
+    },
+    {
+      "id": "v37-ad391d63d867",
+      "text": "Apakah pesanan Tok Wan tentang mencegah penyakit? Pilih satu ayat."
+    },
+    {
+      "id": "v37-44b8eccee907",
+      "text": "Tok Wan menasihati mereka supaya mencegah penyakit. Apakah nilai yang ditunjukkan? Pilih satu nilai."
+    },
+    {
+      "id": "v37-cdba395669d3",
+      "text": "Tok Wan menasihati mereka supaya mencegah penyakit. Apakah nilai yang ditunjukkan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-63504b65a06f",
+      "text": "Saya memilih nilai kebersihan. Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati."
+    },
+    {
+      "id": "v37-795ded235f26",
+      "text": "Saya memilih nilai keberanian. Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati."
+    },
+    {
+      "id": "v37-af078587fee5",
+      "text": "Saya memilih nilai kebijaksanaan. Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati."
+    },
+    {
+      "id": "v37-e124567554cb",
+      "text": "Apakah maksud peribahasa Mencegah lebih baik daripada mengubati? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-a5997711dba3",
+      "text": "Apakah maksud peribahasa Mencegah lebih baik daripada mengubati? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v37-c23d5a71f615",
+      "text": "Jawab sendiri dahulu. Tangan kamu terkena tanah sebelum makan. Apakah tindakan yang menjaga kebersihan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-598dcccb3f07",
+      "text": "Jawab sendiri dahulu. Masih ada bekal yang elok selepas kamu kenyang. Bagaimanakah kamu mengelakkan pembaziran? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-21d6656ef5bc",
+      "text": "Jawab sendiri dahulu. Apakah cara bekerjasama semasa mengemas tempat berkelah? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-1709ab18bf19",
+      "text": "Iman menutup bekas makanan selepas mengambil roti. Mengapakah tindakan itu baik? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-2cc2b676bf22",
+      "text": "Supaya makanan menjadi kotor"
+    },
+    {
+      "id": "v37-e1457748e602",
+      "text": "Supaya bekas sukar ditemukan"
+    },
+    {
+      "id": "v37-90053587381e",
+      "text": "Supaya makanan kekal bersih"
+    },
+    {
+      "id": "v37-c0c71da996aa",
+      "text": "Rakan kamu mahu pulang ketika sampah masih bertaburan. Apakah ajakan yang sesuai? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-b60a53273919",
+      "text": "Mari kita tinggalkan sampah ini"
+    },
+    {
+      "id": "v37-73fe9a45ff21",
+      "text": "Mari kita kutip sampah bersama-sama"
+    },
+    {
+      "id": "v37-9f7758199bf4",
+      "text": "Mari kita sembunyikan sampah di bawah tikar"
+    },
+    {
+      "id": "v37-f72cb5032b2b",
+      "text": "Tangan kamu kotor selepas bermain. Sekarang, kamu mahu makan. Apakah yang perlu kamu lakukan dahulu? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-c783a67ebb8a",
+      "text": "Saya membasuh tangan dengan sabun."
+    },
+    {
+      "id": "v37-1da08a75b905",
+      "text": "Saya terus memegang makanan."
+    },
+    {
+      "id": "v37-cf9b61efb219",
+      "text": "Saya mengelap tangan pada kasut."
+    },
+    {
+      "id": "v37-f8fdd7ca0341",
+      "text": "Tangan kamu kotor selepas bermain. Sekarang, kamu mahu makan. Mengapakah tangan perlu dibasuh sebelum makan? Pilih satu jawapan."
+    },
+    {
+      "id": "v37-fa78b399f1fe",
+      "text": "Supaya makanan cepat habis."
+    },
+    {
+      "id": "v37-bf53f6d5be20",
+      "text": "Supaya kotoran pada tangan dapat dibersihkan."
+    },
+    {
+      "id": "v37-93c7e731b26c",
+      "text": "Supaya tangan menjadi lebih kotor."
+    }
+  ]
+}

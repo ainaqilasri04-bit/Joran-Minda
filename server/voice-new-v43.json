@@ -1,0 +1,29 @@
+{
+  "version": 43,
+  "clips": [
+    {
+      "id": "v43-049ead164fe8",
+      "text": "Nilai murni yang kamu pilih tepat."
+    },
+    {
+      "id": "v43-0a3eea9f4448",
+      "text": "Nilai murni yang kamu pilih belum tepat."
+    },
+    {
+      "id": "v43-4584e18f9328",
+      "text": "Ayat bukti kamu juga tepat."
+    },
+    {
+      "id": "v43-44088bae93fc",
+      "text": "Ayat bukti pada langkah Cari belum tepat. Dua mata ditolak untuk ayat bukti sahaja."
+    },
+    {
+      "id": "v43-22d24317440a",
+      "text": "Ayat bukti kamu tepat. Dua mata ditolak untuk pilihan nilai sahaja."
+    },
+    {
+      "id": "v43-10ff0692efea",
+      "text": "Ayat bukti dan pilihan nilai belum tepat. Empat mata ditolak."
+    }
+  ]
+}

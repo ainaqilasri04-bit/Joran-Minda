@@ -35,7 +35,7 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
    const raw=await req.text();if(raw.length>4000000)error(413,'Maklumat terlalu panjang.');let b;try{b=JSON.parse(raw);}catch{error(400,'Maklumat tidak sah.');}if(!b||typeof b!=='object')error(400,'Maklumat tidak sah.');if(raw.length>18000&&!['audio-save','pupil-audio-save'].includes(b.action))error(413,'Maklumat terlalu panjang.');
    if(b.action==='ping'){
      await get('system/healthcheck-v1');
-     return json({ok:true,service:'joran-minda-kelas',version:34,lessonVersions:[24,25,26,28,29,34]});
+     return json({ok:true,service:'joran-minda-kelas',version:40,lessonVersions:[24,25,26,28,29,34,37,38,39,40]});
    }
    if(b.action==='room-info'){
      const code=roomCode(b.code);
@@ -51,7 +51,7 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
      const token=randomBytes(32).toString('hex'),created=now();
      for(let attempt=0;attempt<8;attempt++){
       const code=makeCode();if(!/^\d{6}$/.test(code))throw Error('Invalid room code generator');
-      const room={code,name,kelas,story,meet,version:23,lesson:b.lesson===true,lessonVersion:b.lesson===true&&[25,26,28,29,34].includes(b.lessonVersion)?b.lessonVersion:24,leaderRole:roleOrder.includes(b.leaderRole)?b.leaderRole:'pembaca',mode:b.mode==='kendiri'?'kendiri':'kumpulan',sessionAt:clean(b.sessionAt,40),created,expires:created+30*86400000};
+      const room={code,name,kelas,story,meet,requireUpload52:false,version:23,lesson:b.lesson===true,lessonVersion:b.lesson===true&&[25,26,28,29,34,37,38,39,40].includes(b.lessonVersion)?b.lessonVersion:24,leaderRole:roleOrder.includes(b.leaderRole)?b.leaderRole:'pembaca',mode:b.mode==='kendiri'?'kendiri':'kumpulan',sessionAt:clean(b.sessionAt,40),created,expires:created+30*86400000};
       const written=await store.setJSON('rooms/'+code,room,{onlyIfNew:true});
       if(written.modified){
        try{await store.setJSON('auth/'+hash(token),{kind:'teacher',code});}
@@ -79,7 +79,7 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
      }
      return json({room,member,token},201);
    }
-   const {user,room}=await auth(req,b),code=room.code;
+   const authenticated=await auth(req,b),user=authenticated.user,room={...authenticated.room,requireUpload52:false},code=room.code;
    const collaborative=room.lessonVersion>=26&&room.mode!=='kendiri';
    const pupilResult=await pupilAudioAction({b,user,room,store,get,entries,now});if(pupilResult)return json(pupilResult);
    const readingRows=room.lessonVersion>=26?await entries(`room/${code}/pupil-meta/`,Number.MAX_SAFE_INTEGER):[];
@@ -87,12 +87,18 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
    const requiredMembers=id=>room.mode==='kendiri'?lessonMembers.filter(m=>m.id===id):lessonMembers.slice().sort((a,b)=>roleOrder.indexOf(a.role)-roleOrder.indexOf(b.role));
    const readerFor=(page,id)=>requiredMembers(id)[page%requiredMembers(id).length];
    const lessonFor=(id,events)=>globalThis.JoranLesson.assess(events.filter(e=>e.memberId===id),room.story,{version:room.lessonVersion,members:requiredMembers(id)});
+   const bookEditFor31=async id=>(await entries(`room/${code}/book-edits/${room.mode==='kendiri'?id:'group'}/`,200)).sort((a,b)=>b.revision-a.revision)[0]||null;
+   const [receiptRows52,allEdits52]=await Promise.all([entries(`room/${code}/book-upload52/`,80),entries(`room/${code}/book-edits/`,16000)]),edits52=new Map();
+   for(const m of lessonMembers){const candidates=room.mode==='kendiri'?allEdits52.filter(e=>e.memberId===m.id):allEdits52;edits52.set(m.id,candidates.reduce((best,e)=>!best||e.revision>best.revision?e:best,null));}
+   const receiptFor52=id=>receiptRows52.find(r=>r.owner===(room.mode==='kendiri'?id:'group'))||null;
+   const uploaded52=id=>{const receipt=receiptFor52(id);return !!receipt&&receipt.verifiedBy==='teacher'&&receipt.revision===(edits52.get(id)?.revision||0);};
    const resultFor=(m,events,members)=>{
      const r=globalThis.JoranAchievement.reportMember(m,events,members,room.mode);
      if(room.lesson){r.lesson=lessonFor(m.id,events);r.lessonPoints=globalThis.JoranLesson.points(r.lesson,r.achievement);r.certificateEligible=r.certificateEligible&&r.lesson.complete&&(room.mode==='kendiri'||members.every(x=>lessonFor(x.id,events).complete));}
-     r.groupShared26=collaborative;r.readingPages=readingPages(readingRows,m.id,room.story);
-     if(room.lessonVersion>=28)r.certificateEligible=r.certificateEligible&&Array.from({length:5},(_,page)=>readingPages(readingRows,readerFor(page,m.id)?.id,room.story).includes(page)).every(Boolean);
-     else if(room.lessonVersion>=26)r.certificateEligible=r.certificateEligible&&(room.mode==='kendiri'?r.readingPages.length===5:members.length===4&&members.every(x=>readingPages(readingRows,x.id,room.story).length===5));
+     r.uploadReceipt52=receiptFor52(m.id);r.uploadConfirmed52=uploaded52(m.id);r.uploadConfirmationRequired=false;
+     r.groupShared26=collaborative;r.readingPages=readingPages(readingRows,m.id,room.story,room.lessonVersion);
+     if(room.lessonVersion>=28)r.certificateEligible=r.certificateEligible&&Array.from({length:5},(_,page)=>readingPages(readingRows,readerFor(page,m.id)?.id,room.story,room.lessonVersion).includes(page)).every(Boolean);
+     else if(room.lessonVersion>=26)r.certificateEligible=r.certificateEligible&&(room.mode==='kendiri'?r.readingPages.length===5:members.length===4&&members.every(x=>readingPages(readingRows,x.id,room.story,room.lessonVersion).length===5));
      return r;
    };
    const flowFor=actions=>{const flow=groupState(actions,{rotate:room.version>=23});return collaborative&&room.lessonVersion<29?{...flow,role:room.leaderRole}:flow;};
@@ -100,7 +106,7 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
    const audioSlot=guides.includes(b.guide)?'guide-'+b.guide:Number.isInteger(b.page)&&b.page>=1&&b.page<=5?'page'+b.page:null;
    if(b.action==='audio-read'){if(!audioSlot)error(400,'Rakaman tidak sah.');const text=clean(b.text,450),variant=text?await get(`room/${code}/audio/${audioSlot}/${hash(text)}`):null,legacy=variant||await get(`room/${code}/audio/${audioSlot}`);return json({record:legacy&&(!text||legacy.text===text)?legacy:null});}
    if(b.action==='audio-save'){if(user.kind!=='teacher')error(403,'Hanya guru boleh berkongsi rakaman.');if(!audioSlot||typeof b.audio!=='string'||b.audio.length>3500000||!/^data:audio\/(webm|mp4|mpeg|wav|ogg|x-wav)(;[^,]*)?;base64,[A-Za-z0-9+/=]+$/.test(b.audio)||!clean(b.text,450))error(400,'Rakaman tidak sah atau terlalu besar. Gunakan rakaman pendek (maksimum 2.5 MB).');const record={audio:b.audio,text:clean(b.text,450)};await store.setJSON(`room/${code}/audio/${audioSlot}/${hash(record.text)}`,record);await store.setJSON(`room/${code}/audio/${audioSlot}`,record);return json({ok:true});}
-   const bookEditFor31=async id=>(await entries(`room/${code}/book-edits/${room.mode==='kendiri'?id:'group'}/`,200)).sort((a,b)=>b.revision-a.revision)[0]||null;
+
    if(b.action==='state'){
      if(user.kind==='student')await store.setJSON(`room/${code}/presence/${user.id}`,{id:user.id,at:now()});
      const solo=room.mode==='kendiri'&&user.kind==='student';
@@ -109,7 +115,20 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
      const actions=await entries(actionsPrefix,30),flow=flowFor(actions);
      const all=solo&&room.version>=23?await entries(`room/${code}/events/${user.id}-`,Number.MAX_SAFE_INTEGER):await allEvents(code),visible=solo?all.filter(e=>e.memberId===user.id):all,merged=[...actions,...visible].map(globalThis.JoranAchievement.normalize);
      const progress=members.map(m=>({id:m.id,name:m.name,...resultFor(m,merged,members),mode:room.mode,group:room.name,sessionId:room.code,lessonVersion:room.lessonVersion}));
-     return json({progress,room,bookEdit:await bookEditFor31(user.id),self:user.kind==='student'?allMembers.find(m=>m.id===user.id):null,members:members.map(({id,name,role})=>({id,name,role,online:presence.some(p=>p.id===id&&now()-p.at<35000)})),messages:solo?allMessages.filter(m=>m.memberId===user.id||m.memberId==='teacher'):allMessages,drafts:solo?allDrafts.filter(d=>d.memberId===user.id):allDrafts,flow});
+     return json({progress,room,uploadReceipt52:receiptFor52(user.id),bookEdit:await bookEditFor31(user.id),self:user.kind==='student'?allMembers.find(m=>m.id===user.id):null,members:members.map(({id,name,role})=>({id,name,role,online:presence.some(p=>p.id===id&&now()-p.at<35000)})),messages:solo?allMessages.filter(m=>m.memberId===user.id||m.memberId==='teacher'):allMessages,drafts:solo?allDrafts.filter(d=>d.memberId===user.id):allDrafts,flow});
+   }
+   if(b.action==='book-upload-confirm'){
+     if(user.kind!=='teacher')error(403,'Hanya Guru boleh mengesahkan penghantaran.');
+     const m=lessonMembers.find(m=>m.id===b.memberId);if(!m||b.checked!==true)error(400,'Semak PDF murid dalam folder Google Drive dahulu.');
+     let folder;try{folder=new URL(b.folder);if(folder.protocol!=='https:'||folder.hostname!=='drive.google.com'||folder.username||folder.password||folder.port||!/^\/drive\/folders\/[A-Za-z0-9_-]+$/.test(folder.pathname))throw 0;}catch{error(400,'Pautan folder Google Drive tidak sah.');}
+     let content;try{content=JSON.parse(b.fingerprint);if(!Array.isArray(content)||content.length!==4||content[0]!==folder.href||typeof content[1]!=='string'||!content[1].trim()||content[1].length>70||![content[2],content[3]].every(list=>Array.isArray(list)&&list.length===5&&list.every(t=>typeof t==='string'&&t.trim()&&t.length<=450)))throw 0;}catch{error(400,'Maklumat buku tidak lengkap.');}
+     const edit=edits52.get(m.id),revision=edit?.revision||0;if(b.revision!==revision)error(409,'Buku telah berubah. Hantar versi terkini dahulu.');
+     if(edit&&JSON.stringify(content.slice(1))!==JSON.stringify([edit.title,edit.pageTitles,edit.pages]))error(409,'Buku tidak sepadan dengan versi terkini.');
+     if(!edit&&JSON.stringify(content[3])!==JSON.stringify(Array.from({length:5},(_,i)=>globalThis.JoranStory.lessonText(room.story,i,room.lessonVersion))))error(409,'Ayat buku tidak sepadan.');
+     const es=await allEvents(code),actions=await entries(`room/${code}/actions/`,2400),merged=[...es,...actions].map(globalThis.JoranAchievement.normalize),result=resultFor(m,merged,lessonMembers);
+     if(result.achievement.reviewPages.length!==5)error(409,'Semak kelima-lima halaman dahulu.');
+     const receipt={owner:room.mode==='kendiri'?m.id:'group',story:room.story,verifiedBy:'teacher',at:now(),folder:folder.href,fingerprint:b.fingerprint,revision};
+     await store.setJSON(`room/${code}/book-upload52/${receipt.owner}`,receipt);return json({ok:true,receipt});
    }
    if(b.action==='story-state'){if(user.kind!=='teacher')error(403,'Hanya guru boleh memuatkan cerita bilik.');let prefix=`room/${code}/actions/`;if(room.mode==='kendiri'){const id=clean(b.memberId,50),m=await get(`room/${code}/members/${id}`);if(!m)error(400,'Pilih murid dalam bilik ini.');prefix+=id+'/';}return json({flow:flowFor(await entries(prefix,30))});}
    if(b.action==='report-hide'){
@@ -130,7 +149,7 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
      const {blobs}=await store.list({prefix:`room/${code}/`});
      for(const {key} of blobs){
        const relative=key.slice(`room/${code}/`.length);if(relative.startsWith('audio/')||relative.startsWith('purged/'))continue;
-       const record=await get(key),owned=room.mode!=='kendiri'||ids.includes(record?.memberId)||ids.includes(record?.id)||ids.some(id=>relative.startsWith('actions/'+id+'/'));
+       const record=await get(key),owned=room.mode!=='kendiri'||ids.includes(record?.memberId)||ids.includes(record?.id)||ids.includes(record?.owner)||ids.some(id=>relative.startsWith('actions/'+id+'/'));
        if(owned)await store.delete(key);
      }
      const authKeys=await store.list({prefix:'auth/'});
@@ -161,7 +180,7 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
    if(b.action==='lesson-save'){
      if(collaborative&&room.lessonVersion<29&&member.role!==room.leaderRole)error(403,'Ketua menghantar jawapan yang dipersetujui bersama.');
      if(collaborative&&(await entries(`room/${code}/members/`,80)).length!==4)error(409,'Tunggu keempat-empat ahli menyertai kumpulan.');
-     if(room.lessonVersion>=26&&b.type==='lesson-read'){const required=room.lessonVersion>=28?[readerFor(b.page,member.id)]:collaborative?await entries(`room/${code}/members/`,80):[member];if(required.some(m=>!readingPages(readingRows,m.id,room.story).includes(b.page)))error(409,'Simpan rakaman pembaca yang ditetapkan untuk halaman ini dahulu.');}
+     if(room.lessonVersion>=26&&b.type==='lesson-read'){const required=room.lessonVersion>=28?[readerFor(b.page,member.id)]:collaborative?await entries(`room/${code}/members/`,80):[member];if(required.some(m=>!readingPages(readingRows,m.id,room.story,room.lessonVersion).includes(b.page)))error(409,'Simpan rakaman pembaca yang ditetapkan untuk halaman ini dahulu.');}
      if(!room.lesson)error(400,'Bilik ini menggunakan aliran permainan terdahulu. Cipta bilik PdP baharu.');
      const events=await allEvents(code),actions=await entries(actionsPrefix,30),core=flowFor(actions);
      if(collaborative&&room.lessonVersion>=29){const l=lessonFor(member.id,events),ms=requiredMembers(member.id);const index=b.type==='lesson-read'?b.page:b.type==='lesson-check'?b.index:b.type==='lesson-explain'?b.index:0;const expected=['lesson-diagnostic','lesson-practice'].includes(b.type)?l.currentMember:ms[index%ms.length];if(expected?.id!==member.id)error(403,'Sekarang giliran '+(expected?.name||'rakan')+'. Penyumbang menekan sendiri.');}
@@ -229,7 +248,7 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
      if(!title||!pageTitle||!text||b.title.length>70||b.pageTitle.length>70||b.text.length>450)error(400,'Isi tajuk dan ayat dalam had aksara.');
      const before=await bookEditFor31(member.id);
      if((before?.revision||0)!==b.baseRevision)error(409,'Buku telah dikemas kini oleh ahli lain. Salin ayat kamu, kembali ke buku, kemudian buka semula ruang suntingan.');
-     const bookEdit={title,pages:before?.pages?.slice()||Array.from({length:5},(_,i)=>globalThis.JoranStory.lessonText(room.story,i)),pageTitles:before?.pageTitles?.slice()||Array.from({length:5},(_,i)=>globalThis.JoranStory.lessonMake(room.story,i).title),revision:b.baseRevision+1,memberId:member.id,at:now()};
+     const bookEdit={title,pages:before?.pages?.slice()||Array.from({length:5},(_,i)=>globalThis.JoranStory.lessonText(room.story,i,room.lessonVersion)),pageTitles:before?.pageTitles?.slice()||Array.from({length:5},(_,i)=>globalThis.JoranStory.lessonMake(room.story,i,room.lessonVersion).title),revision:b.baseRevision+1,memberId:member.id,at:now()};
      bookEdit.pages[b.page]=text;bookEdit.pageTitles[b.page]=pageTitle;
      const saved=await store.setJSON(`room/${code}/book-edits/${room.mode==='kendiri'?member.id:'group'}/${String(bookEdit.revision).padStart(4,'0')}`,bookEdit,{onlyIfNew:true});
      if(!saved.modified)error(409,'Ahli lain baru menyimpan buku. Salin ayat kamu dan buka semula ruang suntingan.');

@@ -1,0 +1,1899 @@
+{
+  "version": 38,
+  "provider": "Microsoft Edge online TTS via edge-tts 7.3.1",
+  "voice": "ms-MY-YasminNeural",
+  "rate": "-3%",
+  "includesTeacherStoryNarration": false,
+  "clips": [
+    {
+      "id": "v38-3be84576168b",
+      "text": "Selamat datang ke Joran Minda. Tekan Mula bermain untuk memulakan pengembaraan. Tekan Cara bermain untuk mendengar panduan. Kamu boleh menukar tema, saiz tulisan dan bunyi dalam Tetapan.",
+      "path": "audio-ms/clips/v38-3be84576168b.mp3",
+      "duration": 16.584,
+      "bytes": 99504,
+      "sha256": "09c732f8ec4d83d0f850a4f4edef03378664c375014476f4f5324476c95c6e6b",
+      "boundaryText": "Selamat datang ke Joran Minda. Tekan Mula bermain untuk memulakan pengembaraan. Tekan Cara bermain untuk mendengar panduan. Kamu boleh menukar tema, saiz tulisan dan bunyi dalam Tetapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-41dcc58f743d",
+      "text": "Pilih tema cerah atau gelap. Besarkan tulisan jika perlu. Kamu boleh memperlahankan suara arahan, melaraskan muzik dan mengubah kekuatan sorakan. Arahan automatik boleh dihidupkan atau dimatikan. Bacaan cerita menggunakan rakaman cikgu.",
+      "path": "audio-ms/clips/v38-41dcc58f743d.mp3",
+      "duration": 21.552,
+      "bytes": 129312,
+      "sha256": "295480db60c84fb0f3194af79a093aaecd36c6d3871ebc116f1fea7492717563",
+      "boundaryText": "Pilih tema cerah atau gelap. Besarkan tulisan jika perlu. Kamu boleh memperlahankan suara arahan, melaraskan muzik dan mengubah kekuatan sorakan. Arahan automatik boleh dihidupkan atau dimatikan. Bacaan cerita menggunakan rakaman cikgu.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-962cb690fee7",
+      "text": "Tetapkan empat peranan. Pembaca membaca cerita. Pencari memilih ayat bukti. Pencatat menulis pilihan dan satu sebab. Pemancing menangkap ikan yang dipersetujui. Nama orang yang mendapat giliran akan dipaparkan.",
+      "path": "audio-ms/clips/v38-962cb690fee7.mp3",
+      "duration": 20.448,
+      "bytes": 122688,
+      "sha256": "5fc8b4d4e619900e63f107009461812c0eba15e42c3718e5c699256dbdcc584c",
+      "boundaryText": "Tetapkan empat peranan. Pembaca membaca cerita. Pencari memilih ayat bukti. Pencatat menulis pilihan dan satu sebab. Pemancing menangkap ikan yang dipersetujui. Nama orang yang mendapat giliran akan dipaparkan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-8818024c1f80",
+      "text": "Dalam latihan sendiri, kamu membaca, mencari bukti, mencatat pilihan dan memancing sendiri. Tidak perlu mengisi nama empat orang. Pilih satu kisah dan mula bermain.",
+      "path": "audio-ms/clips/v38-8818024c1f80.mp3",
+      "duration": 15.072,
+      "bytes": 90432,
+      "sha256": "98e898c084f4cb98be2c1437be22f9c41df5cafb60eeccc45c0d33b2df4467e0",
+      "boundaryText": "Dalam latihan sendiri, kamu membaca, mencari bukti, mencatat pilihan dan memancing sendiri. Tidak perlu mengisi nama empat orang. Pilih satu kisah dan mula bermain.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-98489765e4d8",
+      "text": "Pilih satu tindakan watak. Tulis pilihan kamu dan satu sebab. Kata kunci juga boleh. Selepas selesai, tekan Simpan untuk meneruskan giliran pemancing.",
+      "path": "audio-ms/clips/v38-98489765e4d8.mp3",
+      "duration": 14.664,
+      "bytes": 87984,
+      "sha256": "18c96028d57d17ac72feb69915778bb725d3b1b2e191d452066eb6dcfe4fc941",
+      "boundaryText": "Pilih satu tindakan watak. Tulis pilihan kamu dan satu sebab. Kata kunci juga boleh. Selepas selesai, tekan Simpan untuk meneruskan giliran pemancing.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-460994243385",
+      "text": "Fikirkan maksud peribahasa. Tulis jawapan ringkas dalam ruangan catatan. Kemudian, tekan Simpan dan pancing ikan yang membawa maksud yang tepat.",
+      "path": "audio-ms/clips/v38-460994243385.mp3",
+      "duration": 13.248,
+      "bytes": 79488,
+      "sha256": "aa3dccf76644f02ed902fc24b3a426c7b7b8241ae78c8e2a03c84c87ce7fafa0",
+      "boundaryText": "Fikirkan maksud peribahasa. Tulis jawapan ringkas dalam ruangan catatan. Kemudian, tekan Simpan dan pancing ikan yang membawa maksud yang tepat.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-bf8c64420010",
+      "text": "Ruang guru digunakan untuk mencipta bilik dalam talian dan melihat rekod murid. Pilih mod kumpulan atau latihan kendiri. Selepas bilik dicipta, kongsi kod bilik dengan murid. Jangan kongsikan kunci guru.",
+      "path": "audio-ms/clips/v38-bf8c64420010.mp3",
+      "duration": 16.968,
+      "bytes": 101808,
+      "sha256": "8490d1564b70e684b6036e871b8bc3f3265ecf1e346de19851b1e0875b8a6560",
+      "boundaryText": "Ruang guru digunakan untuk mencipta bilik dalam talian dan melihat rekod murid. Pilih mod kumpulan atau latihan kendiri. Selepas bilik dicipta, kongsi kod bilik dengan murid. Jangan kongsikan kunci guru.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-f63d83d0e712",
+      "text": "Pilih cerita dan muka surat. Baca teks yang dipaparkan. Tekan Rakam bacaan, kemudian benarkan mikrofon. Selepas membaca, tekan Henti dan simpan. Dengar semula rakaman. Kamu juga boleh memuat naik rakaman telefon. Untuk murid di rumah, kongsi bacaan dengan bilik aktif.",
+      "path": "audio-ms/clips/v38-f63d83d0e712.mp3",
+      "duration": 26.928,
+      "bytes": 161568,
+      "sha256": "5d55372bc3aedd645c980028775924457b9bab8cfcdbd80a03f827f19be6e494",
+      "boundaryText": "Pilih cerita dan muka surat. Baca teks yang dipaparkan. Tekan Rakam bacaan, kemudian benarkan mikrofon. Selepas membaca, tekan Henti dan simpan. Dengar semula rakaman. Kamu juga boleh memuat naik rakaman telefon. Untuk murid di rumah, kongsi bacaan dengan bilik aktif.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-60ef47c39f09",
+      "text": "Rakaman bacaan cikgu belum dimasukkan untuk halaman ini. Minta cikgu merakam bacaan atau membantu kamu membaca cerita.",
+      "path": "audio-ms/clips/v38-60ef47c39f09.mp3",
+      "duration": 9.84,
+      "bytes": 59040,
+      "sha256": "3e47146471fb9218cd99f1e5136ac604ed9627559d1cce0b7115c9232614e4ae",
+      "boundaryText": "Rakaman bacaan cikgu belum dimasukkan untuk halaman ini. Minta cikgu merakam bacaan atau membantu kamu membaca cerita.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-c46d1a591a6f",
+      "text": "Belum tepat. Cuba lagi. Tiada mata ditolak.",
+      "path": "audio-ms/clips/v38-c46d1a591a6f.mp3",
+      "duration": 6.552,
+      "bytes": 39312,
+      "sha256": "fa5fbe5b894375068b38737a2b075af94298d5022d04de142cfa2f685b569387",
+      "boundaryText": "Belum tepat. Cuba lagi. Tiada mata ditolak.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-767c213cbf06",
+      "text": "Yeay! Jawapan kamu tepat!",
+      "path": "audio-ms/clips/v38-767c213cbf06.mp3",
+      "duration": 4.344,
+      "bytes": 26064,
+      "sha256": "a8903428b6718a952177fcc86a7b3d2cdfa74e72ccebb01835d71ade34930eff",
+      "boundaryText": "Yeay! Jawapan kamu tepat!",
+      "textMatched": true
+    },
+    {
+      "id": "v38-b3aeb03a4873",
+      "text": "Yeay! Ikan berjaya dipancing!",
+      "path": "audio-ms/clips/v38-b3aeb03a4873.mp3",
+      "duration": 4.656,
+      "bytes": 27936,
+      "sha256": "50caac971509b2c4a0aae35cf7a650c07d64dd140ce5200356c7a3aa75a90e74",
+      "boundaryText": "Yeay! Ikan berjaya dipancing!",
+      "textMatched": true
+    },
+    {
+      "id": "v38-9918f6f319ef",
+      "text": "Yeay! Kamu mendapat lima mata bonus!",
+      "path": "audio-ms/clips/v38-9918f6f319ef.mp3",
+      "duration": 5.112,
+      "bytes": 30672,
+      "sha256": "989caa063a6a5e8b3d32220c27eda478c1dddeffab1d66bfc6c1df0e40a425f3",
+      "boundaryText": "Yeay! Kamu mendapat lima mata bonus!",
+      "textMatched": true
+    },
+    {
+      "id": "v38-e7cc4f28362c",
+      "text": "Yeay! Tahniah! Buku cerita kamu sudah siap!",
+      "path": "audio-ms/clips/v38-e7cc4f28362c.mp3",
+      "duration": 6.984,
+      "bytes": 41904,
+      "sha256": "45eade33f3303fb6774e7cc262bdabe233dd3592b5c8a54c3b8a1a6ff19b5079",
+      "boundaryText": "Yeay! Tahniah! Buku cerita kamu sudah siap!",
+      "textMatched": true
+    },
+    {
+      "id": "v38-c0786ed87b92",
+      "text": "Tekan Dengar pilihan untuk mendengar jawapan pada ikan. Pilih satu ikan, kemudian tekan Pancing ikan ini. Pilihan cerita kamu akan menentukan sambungan cerita.",
+      "path": "audio-ms/clips/v38-c0786ed87b92.mp3",
+      "duration": 13.656,
+      "bytes": 81936,
+      "sha256": "629bada57195d7d075d32685d85cb55e483b9fbbd4941da54941a8f761c0d6b1",
+      "boundaryText": "Tekan Dengar pilihan untuk mendengar jawapan pada ikan. Pilih satu ikan, kemudian tekan Pancing ikan ini. Pilihan cerita kamu akan menentukan sambungan cerita.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-b09a1bc0071f",
+      "text": "Sekarang giliran pembaca. Baca cerita atau dengar rakaman cikgu. Kemudian, tekan Selesai baca.",
+      "path": "audio-ms/clips/v38-b09a1bc0071f.mp3",
+      "duration": 10.32,
+      "bytes": 61920,
+      "sha256": "b853acc210718689f8fb202eabfc0a519eaa96bb1add775ae49cd3030a2a2850",
+      "boundaryText": "Sekarang giliran pembaca. Baca cerita atau dengar rakaman cikgu. Kemudian, tekan Selesai baca.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-532db393a2ef",
+      "text": "Sekarang giliran pencari bukti. Dengar soalan. Pilih ayat bukti yang sepadan dengan petunjuk.",
+      "path": "audio-ms/clips/v38-532db393a2ef.mp3",
+      "duration": 9.576,
+      "bytes": 57456,
+      "sha256": "29ac2aef31c79b2d967054839e9be7cb8c6c4ac382ef67f17e6bf079a7533092",
+      "boundaryText": "Sekarang giliran pencari bukti. Dengar soalan. Pilih ayat bukti yang sepadan dengan petunjuk.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-73803ceaa7a6",
+      "text": "Sekarang giliran pencatat. Dengar pendapat ahli kumpulan. Catat satu pilihan dan satu sebab.",
+      "path": "audio-ms/clips/v38-73803ceaa7a6.mp3",
+      "duration": 9.36,
+      "bytes": 56160,
+      "sha256": "7f62f9302b5ff02ebf9a91df5cc0e6615e777825bfd39782a99345d3638d66f9",
+      "boundaryText": "Sekarang giliran pencatat. Dengar pendapat ahli kumpulan. Catat satu pilihan dan satu sebab.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-1d97c9886dc2",
+      "text": "Sekarang giliran pemancing. Dengar tiga pilihan. Pancing ikan yang telah dipersetujui oleh kumpulan.",
+      "path": "audio-ms/clips/v38-1d97c9886dc2.mp3",
+      "duration": 10.008,
+      "bytes": 60048,
+      "sha256": "5155c32f0264194e25a06b6d78a30b970e05b54654be582b614bc5cb5c4ff11d",
+      "boundaryText": "Sekarang giliran pemancing. Dengar tiga pilihan. Pancing ikan yang telah dipersetujui oleh kumpulan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-ae6bfea8e232",
+      "text": "Semua ahli menyemak buku. Kamu boleh menyunting tajuk dan ayat. Tekan Simpan sebelum memuat turun buku.",
+      "path": "audio-ms/clips/v38-ae6bfea8e232.mp3",
+      "duration": 10.296,
+      "bytes": 61776,
+      "sha256": "3fdf3b776839ad40137c9f8b08efb3c502dc8a84780b6a5ebe0ac3f5380db455",
+      "boundaryText": "Semua ahli menyemak buku. Kamu boleh menyunting tajuk dan ayat. Tekan Simpan sebelum memuat turun buku.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-23b947dcb5bb",
+      "text": "Pilih Individu untuk belajar sendiri, atau Kumpulan untuk belajar bersama rakan. Masukkan nama kamu. Kemudian, pilih cerita dan tekan Mula.",
+      "path": "audio-ms/clips/v38-23b947dcb5bb.mp3",
+      "duration": 13.104,
+      "bytes": 78624,
+      "sha256": "01a36e61511171bae28dbdb6bf12eb66ddced9a7fd3a45a89d3cd365afccdfe8",
+      "boundaryText": "Pilih Individu untuk belajar sendiri, atau Kumpulan untuk belajar bersama rakan. Masukkan nama kamu. Kemudian, pilih cerita dan tekan Mula.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-07c12de2ac2c",
+      "text": "Tahniah! Jawapan kamu betul.",
+      "path": "audio-ms/clips/v38-07c12de2ac2c.mp3",
+      "duration": 4.68,
+      "bytes": 28080,
+      "sha256": "31ab956180f7929876b19b945c28e56340f563bb999eb78e43cbc8d2c8bbe963",
+      "boundaryText": "Tahniah! Jawapan kamu betul.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-2d2b6a436053",
+      "text": "Belum tepat. Lihat jawapan yang betul. Kamu boleh teruskan.",
+      "path": "audio-ms/clips/v38-2d2b6a436053.mp3",
+      "duration": 7.68,
+      "bytes": 46080,
+      "sha256": "cca62ca08a4bbe22061d773e0a491ee2df05cb1f63ea6dcb46b9c12677e5517e",
+      "boundaryText": "Belum tepat. Lihat jawapan yang betul. Kamu boleh teruskan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-22ae8e8c1a4f",
+      "text": "Tahniah! Kamu berjaya memadankan perkataan dengan gambar.",
+      "path": "audio-ms/clips/v38-22ae8e8c1a4f.mp3",
+      "duration": 6.408,
+      "bytes": 38448,
+      "sha256": "35af15d1b3830150bc7a99f1bb84f4d3bdc9146edf4c769f6c9f69846f19e71b",
+      "boundaryText": "Tahniah! Kamu berjaya memadankan perkataan dengan gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-9618dfeea3e7",
+      "text": "Latihan selesai. Semua jawapan kamu telah disimpan.",
+      "path": "audio-ms/clips/v38-9618dfeea3e7.mp3",
+      "duration": 6.0,
+      "bytes": 36000,
+      "sha256": "c5f6516ace51158297b9cc6d49631ff4d7c480e27274e40c368c1c961c43965a",
+      "boundaryText": "Latihan selesai. Semua jawapan kamu telah disimpan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-c31610c93d00",
+      "text": "Tahniah! Kamu berjaya mengenal pasti nilai murni.",
+      "path": "audio-ms/clips/v38-c31610c93d00.mp3",
+      "duration": 5.832,
+      "bytes": 34992,
+      "sha256": "b8b4c44a63a6fd801f7be54b9ba66a86177a07a5d2cc888d85fbb1962484f3b7",
+      "boundaryText": "Tahniah! Kamu berjaya mengenal pasti nilai murni.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-0594a71bd442",
+      "text": "Tahniah! Kamu berjaya memancing jawapan yang tepat.",
+      "path": "audio-ms/clips/v38-0594a71bd442.mp3",
+      "duration": 5.976,
+      "bytes": 35856,
+      "sha256": "7c78496d5fdcbf7c0d285fefd4fd105e9241b14863d1ba523ef9a006dfe7d602",
+      "boundaryText": "Tahniah! Kamu berjaya memancing jawapan yang tepat.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-166a3fc9be44",
+      "text": "Tahniah! Gambar sudah lengkap.",
+      "path": "audio-ms/clips/v38-166a3fc9be44.mp3",
+      "duration": 4.536,
+      "bytes": 27216,
+      "sha256": "48e6c6bf980286511232be66e5983710654b909171ebcf84890086f04607a45d",
+      "boundaryText": "Tahniah! Gambar sudah lengkap.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-292968388d39",
+      "text": "Padankan perkataan kasih sayang dengan gambar yang sesuai. Tekan satu gambar.",
+      "path": "audio-ms/clips/v38-292968388d39.mp3",
+      "duration": 7.104,
+      "bytes": 42624,
+      "sha256": "e7307dd63c9a47a67d7bd24abf79c1ab4b7ea36ea821aea79c0334196085c301",
+      "boundaryText": "Padankan perkataan kasih sayang dengan gambar yang sesuai. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-5b82ec1cf933",
+      "text": "Menjerit ke arah kucing.",
+      "path": "audio-ms/clips/v38-5b82ec1cf933.mp3",
+      "duration": 2.832,
+      "bytes": 16992,
+      "sha256": "15d9a6ed993126eaf59301c0bef71ff3afe2ebbff34e95d9fb160c9c29fd773c",
+      "boundaryText": "Menjerit ke arah kucing.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-1597d6fc60fe",
+      "text": "Membelai kucing dengan lembut.",
+      "path": "audio-ms/clips/v38-1597d6fc60fe.mp3",
+      "duration": 2.856,
+      "bytes": 17136,
+      "sha256": "7f35561bf0f7b90e294b089111233286fd29b65ca6f25c235b7da457377c0cdc",
+      "boundaryText": "Membelai kucing dengan lembut.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-7b6dd2be7f00",
+      "text": "Mengoyakkan halaman buku.",
+      "path": "audio-ms/clips/v38-7b6dd2be7f00.mp3",
+      "duration": 3.048,
+      "bytes": 18288,
+      "sha256": "60fe01c0aeb2bcce2c8f56f90aedb192c48aa35bd66d23e6fd000d3e02538539",
+      "boundaryText": "Mengoyakkan halaman buku.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-ee5d927dcd9c",
+      "text": "Padankan perkataan kerjasama dengan gambar yang sesuai. Tekan satu gambar.",
+      "path": "audio-ms/clips/v38-ee5d927dcd9c.mp3",
+      "duration": 7.056,
+      "bytes": 42336,
+      "sha256": "6394841b8b80e4d31b866ee667ba2a83fea0efc330eef46694cac3c6ee00d549",
+      "boundaryText": "Padankan perkataan kerjasama dengan gambar yang sesuai. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-f393c0c64e41",
+      "text": "Menyediakan tempat tidur bersama-sama.",
+      "path": "audio-ms/clips/v38-f393c0c64e41.mp3",
+      "duration": 3.504,
+      "bytes": 21024,
+      "sha256": "7a7a5058ef0e8ad578efe7d60213f29c17d9d53c04f64817ad90ad848508238f",
+      "boundaryText": "Menyediakan tempat tidur bersama-sama.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-f961a25a06ec",
+      "text": "Membiarkan buku berselerak.",
+      "path": "audio-ms/clips/v38-f961a25a06ec.mp3",
+      "duration": 3.072,
+      "bytes": 18432,
+      "sha256": "f0b2a4e6925baba72904859477203a953da59d6b58b5ab61a17c4df749cc3fda",
+      "boundaryText": "Membiarkan buku berselerak.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-8d6004d97432",
+      "text": "Padankan perkataan tanggungjawab dengan gambar yang sesuai. Tekan satu gambar.",
+      "path": "audio-ms/clips/v38-8d6004d97432.mp3",
+      "duration": 7.056,
+      "bytes": 42336,
+      "sha256": "8cfc0faf16e8b9d4ef580b6ff012874479de7952c7ff011b7ab4191399715013",
+      "boundaryText": "Padankan perkataan tanggungjawab dengan gambar yang sesuai. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-fa960fb59860",
+      "text": "Menyemak jadual penjagaan kucing.",
+      "path": "audio-ms/clips/v38-fa960fb59860.mp3",
+      "duration": 3.384,
+      "bytes": 20304,
+      "sha256": "4571039b98fbd71e4e586157876d229a290d12bbe4d7210cb6853a518768558a",
+      "boundaryText": "Menyemak jadual penjagaan kucing.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-0ed16d194bef",
+      "text": "Padankan perkataan kebersihan dengan gambar yang sesuai. Tekan satu gambar.",
+      "path": "audio-ms/clips/v38-0ed16d194bef.mp3",
+      "duration": 7.032,
+      "bytes": 42192,
+      "sha256": "5b1908e680cc0e1576b7de41141036e54c474d3e6ca2c76ebb4a5b8c1358f114",
+      "boundaryText": "Padankan perkataan kebersihan dengan gambar yang sesuai. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-d40ef04f4afe",
+      "text": "Membersihkan tempat tidur kucing.",
+      "path": "audio-ms/clips/v38-d40ef04f4afe.mp3",
+      "duration": 3.216,
+      "bytes": 19296,
+      "sha256": "3dc1da0316a53c339ea75ad1837bfb99ddf9d4641e48101919daf49e4b3e0efa",
+      "boundaryText": "Membersihkan tempat tidur kucing.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-2e4e61b9f586",
+      "text": "Meninggalkan sampah di tempat berkelah.",
+      "path": "audio-ms/clips/v38-2e4e61b9f586.mp3",
+      "duration": 3.6,
+      "bytes": 21600,
+      "sha256": "26d30815ca15484550a8d291bad15898db0d4637253ef8e624c5755a0a4a62cd",
+      "boundaryText": "Meninggalkan sampah di tempat berkelah.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-98d98655d48e",
+      "text": "Belang basah dan menggigil. Apakah yang Hana lakukan? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-98d98655d48e.mp3",
+      "duration": 8.904,
+      "bytes": 53424,
+      "sha256": "2c094c514efdff27f89d5dccdc694e4032dd8ec3f05126b328bd49dac9c91f9d",
+      "boundaryText": "Belang basah dan menggigil. Apakah yang Hana lakukan? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-6a57d3f2d892",
+      "text": "Meminta bantuan Guru.",
+      "path": "audio-ms/clips/v38-6a57d3f2d892.mp3",
+      "duration": 2.784,
+      "bytes": 16704,
+      "sha256": "7d5bebfcdf8ee67c577bdd2414771036dbb798c8605bd57f32abdf540773e46a",
+      "boundaryText": "Meminta bantuan Guru.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-5ae3312ac219",
+      "text": "Apakah gambar yang menunjukkan Hana dan Iman bekerjasama menyediakan tempat rehat Belang? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-5ae3312ac219.mp3",
+      "duration": 9.504,
+      "bytes": 57024,
+      "sha256": "348d6f08cb5e66c0f9f9af2c518b9b06b906e6a4f1ae6418fd9960f83490d8cd",
+      "boundaryText": "Apakah gambar yang menunjukkan Hana dan Iman bekerjasama menyediakan tempat rehat Belang? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-aaacfe32aade",
+      "text": "Belang berasa takut. Apakah tindakan yang dapat menenangkannya? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-aaacfe32aade.mp3",
+      "duration": 9.192,
+      "bytes": 55152,
+      "sha256": "b9616ebf66050a571cae2f9ad5905c42380bc597e7c450dff033e2b1b51db914",
+      "boundaryText": "Belang berasa takut. Apakah tindakan yang dapat menenangkannya? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-0e413d6d9737",
+      "text": "Memetik daun pokok.",
+      "path": "audio-ms/clips/v38-0e413d6d9737.mp3",
+      "duration": 2.64,
+      "bytes": 15840,
+      "sha256": "aecb1a626a6bc1f9469b3660be9349fd852c05ec5f50de36e223361fa5dc4ecc",
+      "boundaryText": "Memetik daun pokok.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-f4aad3de8c61",
+      "text": "Iman bertugas menukar air minuman Belang. Pilih gambar tugas itu. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-f4aad3de8c61.mp3",
+      "duration": 9.528,
+      "bytes": 57168,
+      "sha256": "713b2c04df861aa296340b272407e46969445e0e34d1ffab671a2ed021af143a",
+      "boundaryText": "Iman bertugas menukar air minuman Belang. Pilih gambar tugas itu. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-ca39c3cfcbcb",
+      "text": "Memberi air bersih kepada kucing.",
+      "path": "audio-ms/clips/v38-ca39c3cfcbcb.mp3",
+      "duration": 3.264,
+      "bytes": 19584,
+      "sha256": "f963b50615ae8a3ada2a27f88528a81e46f0c69bc5926cc82662aee760197c58",
+      "boundaryText": "Memberi air bersih kepada kucing.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-72054b18a36c",
+      "text": "Memberi makanan kepada kucing.",
+      "path": "audio-ms/clips/v38-72054b18a36c.mp3",
+      "duration": 3.168,
+      "bytes": 19008,
+      "sha256": "a7db81c130ed049a8bca88636718170566217988577a3d3bc24d1b388741504b",
+      "boundaryText": "Memberi makanan kepada kucing.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-14ed26bd062f",
+      "text": "Menyusun buku di rak.",
+      "path": "audio-ms/clips/v38-14ed26bd062f.mp3",
+      "duration": 2.64,
+      "bytes": 15840,
+      "sha256": "a6319545e11a6c37b0ab3eeb4fa7dae5dcf8ba3f764f8465d5f3844c65b06516",
+      "boundaryText": "Menyusun buku di rak.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-e0da3bf66b5b",
+      "text": "Apakah hasil penjagaan Hana dan Iman? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-e0da3bf66b5b.mp3",
+      "duration": 6.936,
+      "bytes": 41616,
+      "sha256": "b77dfe4ea4f4b594224034cf8ff043c301532c4f0e65ce24a0f6cf6794cc998e",
+      "boundaryText": "Apakah hasil penjagaan Hana dan Iman? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-0362eedfe963",
+      "text": "Kucing berehat di tempat yang selesa.",
+      "path": "audio-ms/clips/v38-0362eedfe963.mp3",
+      "duration": 3.456,
+      "bytes": 20736,
+      "sha256": "d4e45f9641977fc213ed9a607a4e4f9569176c87eab96c2b82f53d9f933d88aa",
+      "boundaryText": "Kucing berehat di tempat yang selesa.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-ca13ce4c6d4d",
+      "text": "Pokok layu di dalam tanah yang kering.",
+      "path": "audio-ms/clips/v38-ca13ce4c6d4d.mp3",
+      "duration": 3.432,
+      "bytes": 20592,
+      "sha256": "1d112c67343cc3f3416ce6b1fbb60bb92763ce0120ea5f9298a909b2241375cd",
+      "boundaryText": "Pokok layu di dalam tanah yang kering.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-8ee1d1816740",
+      "text": "Kamu akan bercuti. Pilih rancangan supaya kucing tetap dijaga. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-8ee1d1816740.mp3",
+      "duration": 9.504,
+      "bytes": 57024,
+      "sha256": "fcf13f59f3d293726c37af92c878166263980ade0e8068264d85b01c8c031d7b",
+      "boundaryText": "Kamu akan bercuti. Pilih rancangan supaya kucing tetap dijaga. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-746d57819e07",
+      "text": "Menyemak jadual penjagaan dengan penjaga.",
+      "path": "audio-ms/clips/v38-746d57819e07.mp3",
+      "duration": 3.768,
+      "bytes": 22608,
+      "sha256": "fd17dd182e712cdf165b8d86aaa5fb862424e3be1e555eb1ef7a8895a9c75716",
+      "boundaryText": "Menyemak jadual penjagaan dengan penjaga.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-5f5a056880f6",
+      "text": "Menjerit supaya kucing menjaga dirinya.",
+      "path": "audio-ms/clips/v38-5f5a056880f6.mp3",
+      "duration": 3.768,
+      "bytes": 22608,
+      "sha256": "63cc7384c69af209f7dae73c6c225d00f8d19fffb508d8b6092523e21b541c67",
+      "boundaryText": "Menjerit supaya kucing menjaga dirinya.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-3ad775a7de6d",
+      "text": "Membiarkan semua tugas tanpa rancangan.",
+      "path": "audio-ms/clips/v38-3ad775a7de6d.mp3",
+      "duration": 3.912,
+      "bytes": 23472,
+      "sha256": "6cb63ed1c38eb73a7805665b685ea15711c9f78a2d2ae42a6a066747fc507ebb",
+      "boundaryText": "Membiarkan semua tugas tanpa rancangan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-e082dd57166d",
+      "text": "Rakan mahu menarik perhatian kucing dengan menjerit. Pilih cara yang lebih baik. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-e082dd57166d.mp3",
+      "duration": 10.128,
+      "bytes": 60768,
+      "sha256": "950d7e7c55698a953c327e885277da3d28881f7fd1d3cae4611df6f61c62ca00",
+      "boundaryText": "Rakan mahu menarik perhatian kucing dengan menjerit. Pilih cara yang lebih baik. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-d3f004e965fc",
+      "text": "Kucing di sekolah cedera. Kamu tidak tahu merawatnya. Pilih langkah yang selamat. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-d3f004e965fc.mp3",
+      "duration": 11.448,
+      "bytes": 68688,
+      "sha256": "52688a22a56de9f7dc85dd09b50c06b4f1d3a436cfa13dc710847c0d1c4e172f",
+      "boundaryText": "Kucing di sekolah cedera. Kamu tidak tahu merawatnya. Pilih langkah yang selamat. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-6194db9ec192",
+      "text": "Tempat tidur kucing sudah kotor. Pilih tindakan yang menyelesaikan masalah itu. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-6194db9ec192.mp3",
+      "duration": 10.2,
+      "bytes": 61200,
+      "sha256": "21526515a0360cd981f5a4368c3b5a8a2f3609d4ca74cfebf8fea98f204ebc62",
+      "boundaryText": "Tempat tidur kucing sudah kotor. Pilih tindakan yang menyelesaikan masalah itu. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-81c15b9b6cdd",
+      "text": "Kucing berasa selesa selepas dijaga. Pilih gambar yang menunjukkan kesan baik itu. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-81c15b9b6cdd.mp3",
+      "duration": 10.776,
+      "bytes": 64656,
+      "sha256": "95030cfde7bdd1883b018e178dfe8a9929ac394b52ce74b7b93926f9265d7fc9",
+      "boundaryText": "Kucing berasa selesa selepas dijaga. Pilih gambar yang menunjukkan kesan baik itu. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-fc5daac639e9",
+      "text": "Kamu dan rakan mahu menyiapkan tempat tidur kucing dengan cepat. Pilih cara bekerjasama. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-fc5daac639e9.mp3",
+      "duration": 10.608,
+      "bytes": 63648,
+      "sha256": "868e96857bea615439ca1bb983dab6fdb2a832c85158517377074a4e04bc0098",
+      "boundaryText": "Kamu dan rakan mahu menyiapkan tempat tidur kucing dengan cepat. Pilih cara bekerjasama. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-fd0e239fe0ca",
+      "text": "Padankan perkataan kerajinan dengan gambar yang sesuai. Tekan satu gambar.",
+      "path": "audio-ms/clips/v38-fd0e239fe0ca.mp3",
+      "duration": 6.912,
+      "bytes": 41472,
+      "sha256": "50a2fa8bba23643cd2b6bf3ded08669b57f9852c5350bccf77730dfec24c832c",
+      "boundaryText": "Padankan perkataan kerajinan dengan gambar yang sesuai. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-2b1400eb18c8",
+      "text": "Mengangkat buku bersama-sama.",
+      "path": "audio-ms/clips/v38-2b1400eb18c8.mp3",
+      "duration": 3.12,
+      "bytes": 18720,
+      "sha256": "d7be5d79bfbea2f2bcf6905a4c686ca40301f1a03c6c0c95201fb4623915ae4f",
+      "boundaryText": "Mengangkat buku bersama-sama.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-c4926f650572",
+      "text": "Menyerahkan buku yang ditemukan kepada Guru.",
+      "path": "audio-ms/clips/v38-c4926f650572.mp3",
+      "duration": 4.104,
+      "bytes": 24624,
+      "sha256": "cd782e5e78231a74255040a3309196f8cb33b9a6b982b598cf9fbf0800b63cc1",
+      "boundaryText": "Menyerahkan buku yang ditemukan kepada Guru.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-d7c0ba2c50d3",
+      "text": "Padankan perkataan baik hati dengan gambar yang sesuai. Tekan satu gambar.",
+      "path": "audio-ms/clips/v38-d7c0ba2c50d3.mp3",
+      "duration": 6.912,
+      "bytes": 41472,
+      "sha256": "4cb65179422d57377176270439b9a0df127be63c0b62cb16f2133e53c9e37881",
+      "boundaryText": "Padankan perkataan baik hati dengan gambar yang sesuai. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-33aac55315de",
+      "text": "Berkongsi kertas berwarna.",
+      "path": "audio-ms/clips/v38-33aac55315de.mp3",
+      "duration": 3.048,
+      "bytes": 18288,
+      "sha256": "49dfbe223bd20003af61e1814547124430b638b35bdf79cb1bfaa4b66960b5ea",
+      "boundaryText": "Berkongsi kertas berwarna.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-7277c2dd2ed2",
+      "text": "Pilih gambar yang menunjukkan tugas Hana mengemas buku. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-7277c2dd2ed2.mp3",
+      "duration": 7.728,
+      "bytes": 46368,
+      "sha256": "b8e9c46281c26662e1255a96b8c653c8598912753ab4dd49fc3cceac3197585b",
+      "boundaryText": "Pilih gambar yang menunjukkan tugas Hana mengemas buku. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-61bd56e7692a",
+      "text": "Apakah gambar yang menunjukkan dua orang bekerjasama mengangkat buku? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-61bd56e7692a.mp3",
+      "duration": 8.28,
+      "bytes": 49680,
+      "sha256": "d2fb7d889a3f668e4392cb547adeb4e3c0bc34bc9a081aa6d2b514f7a9ab8c0c",
+      "boundaryText": "Apakah gambar yang menunjukkan dua orang bekerjasama mengangkat buku? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-13d740137c8b",
+      "text": "Mendengar penerangan dengan teliti.",
+      "path": "audio-ms/clips/v38-13d740137c8b.mp3",
+      "duration": 3.264,
+      "bytes": 19584,
+      "sha256": "126b8b6f209073bbc40484a10dddb12debe6618da5ae4b813656c365cf888f58",
+      "boundaryText": "Mendengar penerangan dengan teliti.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-7d3d8a90c251",
+      "text": "Iman memerlukan kertas berwarna. Apakah tindakan baik Hana? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-7d3d8a90c251.mp3",
+      "duration": 9.264,
+      "bytes": 55584,
+      "sha256": "1b5ad38e568463d3b5f49a945b9d1a9a91982742d96e293c1a558c706659546e",
+      "boundaryText": "Iman memerlukan kertas berwarna. Apakah tindakan baik Hana? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-1aa833c637af",
+      "text": "Sisa kertas bertaburan di lantai. Apakah tindakan yang menjaga kebersihan? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-1aa833c637af.mp3",
+      "duration": 10.224,
+      "bytes": 61344,
+      "sha256": "aad0457cb934bc00339ff74680335519e99ea80cd1ed28dea6a7a8481730d710",
+      "boundaryText": "Sisa kertas bertaburan di lantai. Apakah tindakan yang menjaga kebersihan? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-af8c2c6b654a",
+      "text": "Menyapu sisa kertas.",
+      "path": "audio-ms/clips/v38-af8c2c6b654a.mp3",
+      "duration": 2.856,
+      "bytes": 17136,
+      "sha256": "146a822ca1c662b7a7098a88bb84096af19cbe3ef7f94b51cab8f6657949ad28",
+      "boundaryText": "Menyapu sisa kertas.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-89b945244ca5",
+      "text": "Buku sudah selesai dibaca. Di manakah buku patut diletakkan? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-89b945244ca5.mp3",
+      "duration": 9.36,
+      "bytes": 56160,
+      "sha256": "649ad72d12d5c5f7b3696db7e13d6a059a4526cae30c0677dd512bd25b6fbe1e",
+      "boundaryText": "Buku sudah selesai dibaca. Di manakah buku patut diletakkan? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-39ace2a02662",
+      "text": "Kamu menemukan buku orang lain di koridor. Pilih tindakan yang jujur. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-39ace2a02662.mp3",
+      "duration": 9.936,
+      "bytes": 59616,
+      "sha256": "4b206865ab0f37b1fa96c69d220488de5c1cf46276502b3f28e48fbb66b877b7",
+      "boundaryText": "Kamu menemukan buku orang lain di koridor. Pilih tindakan yang jujur. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-d2d4f50f7836",
+      "text": "Sebuah halaman terkoyak sedikit. Pilih cara menjaga buku supaya boleh dibaca semula. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-d2d4f50f7836.mp3",
+      "duration": 10.44,
+      "bytes": 62640,
+      "sha256": "ca6cd9971e7c5ad1d6390645548c8ba6b4b54070ff9007b8878ac0d34565e971",
+      "boundaryText": "Sebuah halaman terkoyak sedikit. Pilih cara menjaga buku supaya boleh dibaca semula. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-538d75b4c38b",
+      "text": "Membaiki halaman buku yang koyak.",
+      "path": "audio-ms/clips/v38-538d75b4c38b.mp3",
+      "duration": 3.6,
+      "bytes": 21600,
+      "sha256": "8c7ab627bd6892d09209e91a2221ea634b3b682cec6f115c0c504a475a6ecd13",
+      "boundaryText": "Membaiki halaman buku yang koyak.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-38c29f5962dc",
+      "text": "Rakan tidak cukup kertas untuk membuat penanda buku. Pilih bantuan yang sesuai. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-38c29f5962dc.mp3",
+      "duration": 10.296,
+      "bytes": 61776,
+      "sha256": "a1c9f783a66ef25958447141680c57bc33319f27ed94e3b22184971608b012d8",
+      "boundaryText": "Rakan tidak cukup kertas untuk membuat penanda buku. Pilih bantuan yang sesuai. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-e3d1b9f8dee2",
+      "text": "Buku sukar dicari kerana berselerak. Pilih penyelesaian masalah itu. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-e3d1b9f8dee2.mp3",
+      "duration": 9.936,
+      "bytes": 59616,
+      "sha256": "588c27d6c60f81ce6e80e7f37eb3f27d4f2cc755b1a749d9eeda522717107147",
+      "boundaryText": "Buku sukar dicari kerana berselerak. Pilih penyelesaian masalah itu. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-763c88412352",
+      "text": "Seorang rakan sukar membawa banyak buku. Pilih tindakan yang meringankan bebannya. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-763c88412352.mp3",
+      "duration": 10.512,
+      "bytes": 63072,
+      "sha256": "129f3f6ea84f4f989656178eb10cd3fd63244d62b6f9a602488c431a76677c5f",
+      "boundaryText": "Seorang rakan sukar membawa banyak buku. Pilih tindakan yang meringankan bebannya. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-4fcd2aef436a",
+      "text": "Pameran buku sudah tamat. Lantai dipenuhi sisa kertas. Pilih tindakan sebelum pulang. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-4fcd2aef436a.mp3",
+      "duration": 12.024,
+      "bytes": 72144,
+      "sha256": "a9828b18d45c208a8c213e5512200c87c3a454d1473942bfacb792af67d0c733",
+      "boundaryText": "Pameran buku sudah tamat. Lantai dipenuhi sisa kertas. Pilih tindakan sebelum pulang. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-d229e433d4ee",
+      "text": "Menyiram pokok dengan air secukupnya.",
+      "path": "audio-ms/clips/v38-d229e433d4ee.mp3",
+      "duration": 3.48,
+      "bytes": 20880,
+      "sha256": "7a6829df7a4ae3caae5e9947e668a43541496b02e6711a0a5182b7cbdbd44d3e",
+      "boundaryText": "Menyiram pokok dengan air secukupnya.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-d683035a9a16",
+      "text": "Menyiram pokok sehingga air melimpah.",
+      "path": "audio-ms/clips/v38-d683035a9a16.mp3",
+      "duration": 3.528,
+      "bytes": 21168,
+      "sha256": "ed274bdb53b8af61b47ce42d46997a66db15d4461e81c2f8e3063a1f1a87cae5",
+      "boundaryText": "Menyiram pokok sehingga air melimpah.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-4aa6054ba61b",
+      "text": "Membawa bekas air bersama-sama.",
+      "path": "audio-ms/clips/v38-4aa6054ba61b.mp3",
+      "duration": 3.336,
+      "bytes": 20016,
+      "sha256": "4817d65b324a7cd220bb33da11939ee38fb6957e6560024e27639b405b4b061e",
+      "boundaryText": "Membawa bekas air bersama-sama.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-cc59a329bf8f",
+      "text": "Merancang jadual penjagaan bersama Guru.",
+      "path": "audio-ms/clips/v38-cc59a329bf8f.mp3",
+      "duration": 3.744,
+      "bytes": 22464,
+      "sha256": "87c0283f12050518c2efc3f878737fe4de605494ba8ba599ce942d3d27ccc484",
+      "boundaryText": "Merancang jadual penjagaan bersama Guru.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-e0fda245c370",
+      "text": "Padankan perkataan hormat dengan gambar yang sesuai. Tekan satu gambar.",
+      "path": "audio-ms/clips/v38-e0fda245c370.mp3",
+      "duration": 6.888,
+      "bytes": 41328,
+      "sha256": "75497fffe0fe5dafd6626dd78229cbc575cb5410ea06955ec41301bcee795e18",
+      "boundaryText": "Padankan perkataan hormat dengan gambar yang sesuai. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-a504de0d6f2d",
+      "text": "Hormat",
+      "path": "audio-ms/clips/v38-a504de0d6f2d.mp3",
+      "duration": 1.92,
+      "bytes": 11520,
+      "sha256": "697f0e53372213aa696bd00f52d270af9f1ed2d57770b023316d303f002641b5",
+      "boundaryText": "Hormat",
+      "textMatched": true
+    },
+    {
+      "id": "v38-43042c1c0fec",
+      "text": "Mendengar nasihat Tok Wan.",
+      "path": "audio-ms/clips/v38-43042c1c0fec.mp3",
+      "duration": 2.88,
+      "bytes": 17280,
+      "sha256": "1b80a357a37966123a3c4a8e2cb13b1819d155fa96116947e86c9a874687d742",
+      "boundaryText": "Mendengar nasihat Tok Wan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-222324381fa5",
+      "text": "Apakah gambar yang menunjukkan anak pokok sebelum dijaga? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-222324381fa5.mp3",
+      "duration": 7.704,
+      "bytes": 46224,
+      "sha256": "eedba09180cdb04b44d1b384ac3e366374386a8bd9b67cbe361ac52ade238128",
+      "boundaryText": "Apakah gambar yang menunjukkan anak pokok sebelum dijaga? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-14fb03489c21",
+      "text": "Pokok tumbuh segar.",
+      "path": "audio-ms/clips/v38-14fb03489c21.mp3",
+      "duration": 2.472,
+      "bytes": 14832,
+      "sha256": "4198154dc09a2656c20f7f152ed22bdcd05fe63100d12731ffb83271c85d1952",
+      "boundaryText": "Pokok tumbuh segar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-0a6818f78736",
+      "text": "Pilih cara menyiram yang cermat. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-0a6818f78736.mp3",
+      "duration": 6.168,
+      "bytes": 37008,
+      "sha256": "3e51f8e4a56d1ae65257f623f4f0d46fbf042a6553d6e05a8c272083f9b9a5bb",
+      "boundaryText": "Pilih cara menyiram yang cermat. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-62ce049fcad8",
+      "text": "Tok Wan sedang memberi penerangan. Apakah tindakan yang menunjukkan rasa hormat? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-62ce049fcad8.mp3",
+      "duration": 10.176,
+      "bytes": 61056,
+      "sha256": "a972feb0f6b6f69853254eba1335e96097edfa20f6a73cca8c8507782de5c065",
+      "boundaryText": "Tok Wan sedang memberi penerangan. Apakah tindakan yang menunjukkan rasa hormat? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-ec0477f2b522",
+      "text": "Hana mahu mereka ingat akan tugas menjaga pokok. Apakah yang perlu disediakan? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-ec0477f2b522.mp3",
+      "duration": 10.272,
+      "bytes": 61632,
+      "sha256": "b364dc5be1d90b8df84bd984fa54f693219dc5e45b821cee95bdd176c2017d39",
+      "boundaryText": "Hana mahu mereka ingat akan tugas menjaga pokok. Apakah yang perlu disediakan? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-7a51aa3f1a8f",
+      "text": "Apakah perubahan pokok setelah dijaga? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-7a51aa3f1a8f.mp3",
+      "duration": 6.624,
+      "bytes": 39744,
+      "sha256": "99b0106aea3ca8601e5ba7a40d8c536edbb9973f5ae289bd192e0596cef1e03f",
+      "boundaryText": "Apakah perubahan pokok setelah dijaga? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-c438f41953fc",
+      "text": "Kelas akan bercuti beberapa hari. Pilih rancangan supaya pokok tetap dijaga. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-c438f41953fc.mp3",
+      "duration": 10.176,
+      "bytes": 61056,
+      "sha256": "fea895f16cebca4c3fa937417c20cb01ac03e236c2b23ec0503e79df5d675fba",
+      "boundaryText": "Kelas akan bercuti beberapa hari. Pilih rancangan supaya pokok tetap dijaga. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-e1217c97056d",
+      "text": "Air melimpah apabila rakan menyiram pokok. Pilih cara yang lebih cermat. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-e1217c97056d.mp3",
+      "duration": 9.912,
+      "bytes": 59472,
+      "sha256": "8419b1bd82a314f565ec86ba8c5ef204c75aed2bd8bcc6f16a5ea7724dee0f51",
+      "boundaryText": "Air melimpah apabila rakan menyiram pokok. Pilih cara yang lebih cermat. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-096f32473f9c",
+      "text": "Hujan lebat akan turun. Pasu kecil berada di tempat terbuka. Pilih cara melindunginya. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-096f32473f9c.mp3",
+      "duration": 12.096,
+      "bytes": 72576,
+      "sha256": "43e92bd3f1d9337c9b1777c5699eeeca1b4795d25fd251876d2854b7ca61beed",
+      "boundaryText": "Hujan lebat akan turun. Pasu kecil berada di tempat terbuka. Pilih cara melindunginya. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-6fa146147536",
+      "text": "Memindahkan pasu ke tempat yang terlindung.",
+      "path": "audio-ms/clips/v38-6fa146147536.mp3",
+      "duration": 3.768,
+      "bytes": 22608,
+      "sha256": "3948ca4d4c55fa264507e8d9d91f7dd2229bae4e5808869aff286dc3c6f664dc",
+      "boundaryText": "Memindahkan pasu ke tempat yang terlindung.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-b05483ac5b12",
+      "text": "Bekas air terlalu berat untuk seorang murid. Pilih cara membawa bersama-sama. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-b05483ac5b12.mp3",
+      "duration": 9.888,
+      "bytes": 59328,
+      "sha256": "a5d330193f8fbd4aa867ad1a03311297fffb7509e126d77bedbfe6676fbe8ac7",
+      "boundaryText": "Bekas air terlalu berat untuk seorang murid. Pilih cara membawa bersama-sama. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-94d1df796699",
+      "text": "Pokok mendapat air secukupnya setiap hari. Pilih kesan yang dijangka. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-94d1df796699.mp3",
+      "duration": 10.008,
+      "bytes": 60048,
+      "sha256": "a29ab7ab06cb443d936c0d6a132e12a7edd1a25cff7584e885396df21479e452",
+      "boundaryText": "Pokok mendapat air secukupnya setiap hari. Pilih kesan yang dijangka. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-e7ccec0d1752",
+      "text": "Kamu belum tahu menjaga pokok baharu. Pilih cara belajar daripada orang yang tahu. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-e7ccec0d1752.mp3",
+      "duration": 10.272,
+      "bytes": 61632,
+      "sha256": "404bee2228787b8d85c5419082c942fffb70299851993161c151f38571f4e89b",
+      "boundaryText": "Kamu belum tahu menjaga pokok baharu. Pilih cara belajar daripada orang yang tahu. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-1411e0aa101d",
+      "text": "Membasuh tangan dengan sabun.",
+      "path": "audio-ms/clips/v38-1411e0aa101d.mp3",
+      "duration": 3.072,
+      "bytes": 18432,
+      "sha256": "ee95cee0ed6ce39509967ce8b313b213cf55c446297c1f87bb6298a3e6004d5c",
+      "boundaryText": "Membasuh tangan dengan sabun.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-ec5dfc0a37e2",
+      "text": "Membuang makanan yang masih elok.",
+      "path": "audio-ms/clips/v38-ec5dfc0a37e2.mp3",
+      "duration": 3.384,
+      "bytes": 20304,
+      "sha256": "6dd1542999920186c290eda02e0576b9fd130daee7fdfb223c53914127b64d9e",
+      "boundaryText": "Membuang makanan yang masih elok.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-893be1dd280b",
+      "text": "Mengutip sampah bersama-sama.",
+      "path": "audio-ms/clips/v38-893be1dd280b.mp3",
+      "duration": 3.192,
+      "bytes": 19152,
+      "sha256": "e0efa6be8f5b75670068389f9100d5e12f4d546d152b576e516075138a680f16",
+      "boundaryText": "Mengutip sampah bersama-sama.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-0e6811e8fac8",
+      "text": "Padankan perkataan berjimat cermat dengan gambar yang sesuai. Tekan satu gambar.",
+      "path": "audio-ms/clips/v38-0e6811e8fac8.mp3",
+      "duration": 7.32,
+      "bytes": 43920,
+      "sha256": "3c2c69549a27811e0bf01be71b008548f51ee0e00920a306bd15b74297b96fb9",
+      "boundaryText": "Padankan perkataan berjimat cermat dengan gambar yang sesuai. Tekan satu gambar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-1d2df723c0b5",
+      "text": "Menyimpan baki bekal yang masih elok.",
+      "path": "audio-ms/clips/v38-1d2df723c0b5.mp3",
+      "duration": 3.792,
+      "bytes": 22752,
+      "sha256": "520524f93b445bf4d14ddeaa75b7e82e9b4cc7dda214780061a106f638b500d3",
+      "boundaryText": "Menyimpan baki bekal yang masih elok.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-7d40956a888f",
+      "text": "Berkongsi makanan dengan rakan.",
+      "path": "audio-ms/clips/v38-7d40956a888f.mp3",
+      "duration": 3.312,
+      "bytes": 19872,
+      "sha256": "f7b523b406c1bd226ef005500f5fc3b81d7ac12c9de67c85e2d0994d71dba70b",
+      "boundaryText": "Berkongsi makanan dengan rakan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-baa7d952f8ef",
+      "text": "Sebelum menyediakan bekal, apakah yang Hana lakukan? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-baa7d952f8ef.mp3",
+      "duration": 7.8,
+      "bytes": 46800,
+      "sha256": "2377a54d3623f598433520d6a12c0a41a3eadf6155e58885816f40292cd66ff4",
+      "boundaryText": "Sebelum menyediakan bekal, apakah yang Hana lakukan? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-548f023e49d9",
+      "text": "Iman mahu melindungi makanan daripada kotoran. Apakah tindakannya? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-548f023e49d9.mp3",
+      "duration": 9.48,
+      "bytes": 56880,
+      "sha256": "746a4842f97c8ff59d0e515f3103c06284e526715cba8bc72a62d300d2255711",
+      "boundaryText": "Iman mahu melindungi makanan daripada kotoran. Apakah tindakannya? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-e1e55155793c",
+      "text": "Menutup bekas makanan.",
+      "path": "audio-ms/clips/v38-e1e55155793c.mp3",
+      "duration": 2.808,
+      "bytes": 16848,
+      "sha256": "d1ec10bfeddba90b504240e0eff9ffc6ba1520bff01a16de9b32106398d18856",
+      "boundaryText": "Menutup bekas makanan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-91f12a079715",
+      "text": "Mereka sudah kenyang. Apakah tindakan yang mengelakkan pembaziran bekal? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-91f12a079715.mp3",
+      "duration": 9.6,
+      "bytes": 57600,
+      "sha256": "8a15476e746cb72e0b3a3ce3c33d32c467bc435db423c5025adfca0f8e55d20b",
+      "boundaryText": "Mereka sudah kenyang. Apakah tindakan yang mengelakkan pembaziran bekal? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-268e0eab2a41",
+      "text": "Apakah gambar yang menunjukkan Hana dan Iman bekerjasama mengemas tempat berkelah? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-268e0eab2a41.mp3",
+      "duration": 9.072,
+      "bytes": 54432,
+      "sha256": "3ed4a1a9623e511d9ee79d2f7072d55be2120ff5901347179ac0ba8070096a44",
+      "boundaryText": "Apakah gambar yang menunjukkan Hana dan Iman bekerjasama mengemas tempat berkelah? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-7c46b0d4a940",
+      "text": "Apakah gambar amalan kebersihan yang sesuai untuk poster mereka? Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-7c46b0d4a940.mp3",
+      "duration": 8.088,
+      "bytes": 48528,
+      "sha256": "cfd28febb5819546e53fb08fccb5fac25030f6cda858fa06b773ef13b30c7e64",
+      "boundaryText": "Apakah gambar amalan kebersihan yang sesuai untuk poster mereka? Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-58cceda33724",
+      "text": "Rakan terlupa membawa bekal. Kamu mempunyai makanan yang lebih. Pilih tindakan baik. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-58cceda33724.mp3",
+      "duration": 12.144,
+      "bytes": 72864,
+      "sha256": "09eb91eb13f754208f97008f4b3300d449003a2579a37e4b356644d162a775aa",
+      "boundaryText": "Rakan terlupa membawa bekal. Kamu mempunyai makanan yang lebih. Pilih tindakan baik. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-c42a463055c8",
+      "text": "Kamu mahu makan sebiji epal yang belum dibasuh. Pilih tindakan sebelum memakannya. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-c42a463055c8.mp3",
+      "duration": 10.752,
+      "bytes": 64512,
+      "sha256": "7aae12f9b7471c1da2e94ffb8d5340530d633dd418d08c0f53f5f04ac27dc1c3",
+      "boundaryText": "Kamu mahu makan sebiji epal yang belum dibasuh. Pilih tindakan sebelum memakannya. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-94557aa7c152",
+      "text": "Membasuh buah sebelum dimakan.",
+      "path": "audio-ms/clips/v38-94557aa7c152.mp3",
+      "duration": 3.168,
+      "bytes": 19008,
+      "sha256": "80599316df0f1f5b92890544a888cc11493c871c9dbb99632628d670d76b6fe7",
+      "boundaryText": "Membasuh buah sebelum dimakan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-965ce63552db",
+      "text": "Kamu hendak bersin ketika duduk di meja makan. Pilih tindakan yang menjaga kebersihan. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-965ce63552db.mp3",
+      "duration": 10.776,
+      "bytes": 64656,
+      "sha256": "e68149d6731a63cc2634e1e272b99eba897eec463d7e6150c746c9269d3c3246",
+      "boundaryText": "Kamu hendak bersin ketika duduk di meja makan. Pilih tindakan yang menjaga kebersihan. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-db9cf1f86db2",
+      "text": "Menutup hidung dan mulut dengan tisu ketika bersin.",
+      "path": "audio-ms/clips/v38-db9cf1f86db2.mp3",
+      "duration": 4.392,
+      "bytes": 26352,
+      "sha256": "9a780ab2233bd14708c25e3291db6e39c706464ff04cf70b9691f4d6b3ee5e2f",
+      "boundaryText": "Menutup hidung dan mulut dengan tisu ketika bersin.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-a7ec9325702e",
+      "text": "Makanan di meja belum dimakan. Lalat mula datang. Pilih cara melindungi makanan. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-a7ec9325702e.mp3",
+      "duration": 11.808,
+      "bytes": 70848,
+      "sha256": "cce821a3c40c8b5b445e0adbd726dddf2c8ee233dde980d0a2990bd9d6203190",
+      "boundaryText": "Makanan di meja belum dimakan. Lalat mula datang. Pilih cara melindungi makanan. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-e1c28b2e36a5",
+      "text": "Jamuan kelas sudah tamat. Pilih rancangan yang menjimatkan makanan yang masih elok. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-e1c28b2e36a5.mp3",
+      "duration": 10.704,
+      "bytes": 64224,
+      "sha256": "19373979205f1cc33f9278860436f4e7fca9496eda3f769aff053c01eb324d9f",
+      "boundaryText": "Jamuan kelas sudah tamat. Pilih rancangan yang menjimatkan makanan yang masih elok. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-b8ae9b7990a5",
+      "text": "Lantai kelas dipenuhi pembungkus selepas jamuan. Pilih cara menyiapkannya bersama-sama. Pilih satu gambar jawapan.",
+      "path": "audio-ms/clips/v38-b8ae9b7990a5.mp3",
+      "duration": 11.016,
+      "bytes": 66096,
+      "sha256": "8c6ef80ff2c7de9557cc7a0d38efc1071a6138c4ca8e72ac519dceb28eac7f08",
+      "boundaryText": "Lantai kelas dipenuhi pembungkus selepas jamuan. Pilih cara menyiapkannya bersama-sama. Pilih satu gambar jawapan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-69bd396b4a06",
+      "text": "Pada pagi Sabtu, Hana dan Iman berjalan di tepi tasik bersama Tok Wan.",
+      "path": "audio-ms/clips/v38-69bd396b4a06.mp3",
+      "duration": 5.664,
+      "bytes": 33984,
+      "sha256": "aa6f44b405cdcb713c7c7c4040f18128e5eee0eadf6a5491acafad6b041e8475",
+      "boundaryText": "Pada pagi Sabtu, Hana dan Iman berjalan di tepi tasik bersama Tok Wan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-60b2de3d54fc",
+      "text": "Mereka terdengar bunyi anak kucing di tepi jeti.",
+      "path": "audio-ms/clips/v38-60b2de3d54fc.mp3",
+      "duration": 4.104,
+      "bytes": 24624,
+      "sha256": "2444db86ecf9479537ffdb2ceec46c4908d3fab19a41d9234411070fb3f22df2",
+      "boundaryText": "Mereka terdengar bunyi anak kucing di tepi jeti.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-3bd8d1c0783e",
+      "text": "Anak kucing itu basah dan menggigil.",
+      "path": "audio-ms/clips/v38-3bd8d1c0783e.mp3",
+      "duration": 3.552,
+      "bytes": 21312,
+      "sha256": "5130dd00c9b0a405e7c3005732a3e31e7262fe1e4c1218631550c7b9a3da316d",
+      "boundaryText": "Anak kucing itu basah dan menggigil.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-0a03babe98e7",
+      "text": "Tok Wan membawa anak kucing itu pulang.",
+      "path": "audio-ms/clips/v38-0a03babe98e7.mp3",
+      "duration": 3.456,
+      "bytes": 20736,
+      "sha256": "0cd4303ef2250a4cc99e5837b54f6307a2729198e53972282a667a98821eba25",
+      "boundaryText": "Tok Wan membawa anak kucing itu pulang.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-bcb53c048015",
+      "text": "Tok Wan mengeringkan bulu anak kucing itu.",
+      "path": "audio-ms/clips/v38-bcb53c048015.mp3",
+      "duration": 3.672,
+      "bytes": 22032,
+      "sha256": "af304fc14d31031099e5e9a2a8e7669417dcf902ee3e58a1681d7348612d1411",
+      "boundaryText": "Tok Wan mengeringkan bulu anak kucing itu.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-d45440355a9a",
+      "text": "Mereka menamakan anak kucing itu Belang.",
+      "path": "audio-ms/clips/v38-d45440355a9a.mp3",
+      "duration": 3.648,
+      "bytes": 21888,
+      "sha256": "47368656f7caa6e2ecc910583c2e2c842c6496d69c3c457591028b515b9a6562",
+      "boundaryText": "Mereka menamakan anak kucing itu Belang.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-92640837c26b",
+      "text": "Belang masih berasa takut.",
+      "path": "audio-ms/clips/v38-92640837c26b.mp3",
+      "duration": 2.904,
+      "bytes": 17424,
+      "sha256": "42902ad7137d385a8148e82ccb453f0026d54867185a174b42bba37a4746b97c",
+      "boundaryText": "Belang masih berasa takut.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-324aa759f62a",
+      "text": "Hana bercakap dengan Belang menggunakan suara yang lembut.",
+      "path": "audio-ms/clips/v38-324aa759f62a.mp3",
+      "duration": 4.536,
+      "bytes": 27216,
+      "sha256": "59a4861f77b24d7da4e94245915e226071cc94075ded2c93201ba1cfc8152173",
+      "boundaryText": "Hana bercakap dengan Belang menggunakan suara yang lembut.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-a2b2f5ed8dd6",
+      "text": "Tidak lama kemudian, Belang menjadi tenang.",
+      "path": "audio-ms/clips/v38-a2b2f5ed8dd6.mp3",
+      "duration": 4.176,
+      "bytes": 25056,
+      "sha256": "24675d250057ee7deba927d972e8dd3c4c3452f11fda48910643b759c105acfa",
+      "boundaryText": "Tidak lama kemudian, Belang menjadi tenang.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-edcd68f32a74",
+      "text": "Ayat bukti: Iman pula meletakkan semangkuk air bersih berhampiran Belang. Teruskan menentukan nilai murni.",
+      "path": "audio-ms/clips/v38-edcd68f32a74.mp3",
+      "duration": 9.336,
+      "bytes": 56016,
+      "sha256": "edd6323416b5b5380f9224510f27f65f07adc3e32ec152b12d5c0e17f9bf1bf7",
+      "boundaryText": "Ayat bukti: Iman pula meletakkan semangkuk air bersih berhampiran Belang. Teruskan menentukan nilai murni.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-18e46f71373b",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Iman pula meletakkan semangkuk air bersih berhampiran Belang..",
+      "path": "audio-ms/clips/v38-18e46f71373b.mp3",
+      "duration": 7.752,
+      "bytes": 46512,
+      "sha256": "956137352fdaac8c6925d34ee4c64ae10998b91b2bbd7af5e3bd47b323e93956",
+      "boundaryText": "Kamu berjaya memilih jawapan yang tepat: Iman pula meletakkan semangkuk air bersih berhampiran Belang..",
+      "textMatched": true
+    },
+    {
+      "id": "v38-717e0788a76e",
+      "text": "Jawapan yang tepat: Iman pula meletakkan semangkuk air bersih berhampiran Belang. Dua mata ditolak. Kamu boleh meneruskan.",
+      "path": "audio-ms/clips/v38-717e0788a76e.mp3",
+      "duration": 11.376,
+      "bytes": 68256,
+      "sha256": "eb2af66fe60be9e5ac62e45388db40c79495f6d50358d5448c73458352881bb4",
+      "boundaryText": "Jawapan yang tepat: Iman pula meletakkan semangkuk air bersih berhampiran Belang. Dua mata ditolak. Kamu boleh meneruskan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-48a0d1bdf9a8",
+      "text": "Jawapan yang tepat ialah Iman pula meletakkan semangkuk air bersih berhampiran Belang.. Dua mata ditolak. Teruskan permainan.",
+      "path": "audio-ms/clips/v38-48a0d1bdf9a8.mp3",
+      "duration": 11.28,
+      "bytes": 67680,
+      "sha256": "fe684ddbdd5c8e2f3ea906212cc8085c08150ec2d959534bf3551e8be049ba40",
+      "boundaryText": "Jawapan yang tepat ialah Iman pula meletakkan semangkuk air bersih berhampiran Belang.. Dua mata ditolak. Teruskan permainan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-7d8a7e6a9f3b",
+      "text": "Pada keesokan hari, Hana dan Iman membahagikan tugas.",
+      "path": "audio-ms/clips/v38-7d8a7e6a9f3b.mp3",
+      "duration": 5.328,
+      "bytes": 31968,
+      "sha256": "61469cc8526e4f25d1ae3df32978c1ee4d99c7746e8678a837e561035f536a6b",
+      "boundaryText": "Pada keesokan hari, Hana dan Iman membahagikan tugas.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-91d374b394b5",
+      "text": "Hana menyediakan makanan untuk Belang.",
+      "path": "audio-ms/clips/v38-91d374b394b5.mp3",
+      "duration": 3.576,
+      "bytes": 21456,
+      "sha256": "4d43d3a7766bea6803b364b87908e619f7f50ebe84fa179751eca0a60f93226b",
+      "boundaryText": "Hana menyediakan makanan untuk Belang.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-3733486c436f",
+      "text": "Iman menukar air minuman dan membersihkan peti Belang.",
+      "path": "audio-ms/clips/v38-3733486c436f.mp3",
+      "duration": 4.608,
+      "bytes": 27648,
+      "sha256": "e76cfba8f7ba6cfcc2b78d3d1919213982e99a5cb88af9cb04ba36a4dfd42dbc",
+      "boundaryText": "Iman menukar air minuman dan membersihkan peti Belang.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-e91b07117fb4",
+      "text": "Beberapa hari kemudian, Belang semakin sihat.",
+      "path": "audio-ms/clips/v38-e91b07117fb4.mp3",
+      "duration": 4.44,
+      "bytes": 26640,
+      "sha256": "6c097b18b60755e4d1c1fcda369c8062786c82d9c311f665243cd646a25095d4",
+      "boundaryText": "Beberapa hari kemudian, Belang semakin sihat.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-af7e478f240e",
+      "text": "Belang bermain bersama Hana dan Iman di beranda.",
+      "path": "audio-ms/clips/v38-af7e478f240e.mp3",
+      "duration": 4.32,
+      "bytes": 25920,
+      "sha256": "3163edacd88906ae311e90f6a8432c37960f7ace2d2e198e40cb49361b6b4d9b",
+      "boundaryText": "Belang bermain bersama Hana dan Iman di beranda.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-6534fedc3db3",
+      "text": "Hana dan Iman gembira dapat menjaga Belang.",
+      "path": "audio-ms/clips/v38-6534fedc3db3.mp3",
+      "duration": 3.912,
+      "bytes": 23472,
+      "sha256": "898cbc81df72b645c4b082536aeac22c0c43dc20668087666f4730c1c8a6d380",
+      "boundaryText": "Hana dan Iman gembira dapat menjaga Belang.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-2ab9fcf39aee",
+      "text": "Kamu berjaya memadankan maksud peribahasa: Saling membantu.",
+      "path": "audio-ms/clips/v38-2ab9fcf39aee.mp3",
+      "duration": 5.664,
+      "bytes": 33984,
+      "sha256": "8c93cadc2ff1c10d5d8cb54254832880ef11bc6646380b377243edb63fe1192f",
+      "boundaryText": "Kamu berjaya memadankan maksud peribahasa: Saling membantu.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-597a1f9c32a4",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Saling membantu.",
+      "path": "audio-ms/clips/v38-597a1f9c32a4.mp3",
+      "duration": 5.4,
+      "bytes": 32400,
+      "sha256": "457a6289bd275701c80b37b0b2933588223fc17c0d521c8392946dcad6085497",
+      "boundaryText": "Kamu berjaya memilih jawapan yang tepat: Saling membantu.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-a4aac76e9297",
+      "text": "Jawapan yang tepat ialah Saling membantu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "path": "audio-ms/clips/v38-a4aac76e9297.mp3",
+      "duration": 8.928,
+      "bytes": 53568,
+      "sha256": "6c4f15b75318fd4a6e39c78b829e33ac6c7d327ea4956b16e6f30867503ea9fd",
+      "boundaryText": "Jawapan yang tepat ialah Saling membantu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-adb80577490b",
+      "text": "Jawapan yang tepat ialah Saling membantu. Dua mata ditolak. Teruskan permainan.",
+      "path": "audio-ms/clips/v38-adb80577490b.mp3",
+      "duration": 8.616,
+      "bytes": 51696,
+      "sha256": "6156650970ca32a732f75ec4d4526e890b3786c99770c4c661127b17d5bdf149",
+      "boundaryText": "Jawapan yang tepat ialah Saling membantu. Dua mata ditolak. Teruskan permainan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-2a0baede9dd6",
+      "text": "Pada hari Ahad, Hana dan Iman pergi ke pondok bacaan bersama Tok Wan.",
+      "path": "audio-ms/clips/v38-2a0baede9dd6.mp3",
+      "duration": 5.736,
+      "bytes": 34416,
+      "sha256": "7613c031778dc1e9b9d160a8f80838b5b9925df8c4584fcd4cb1033ff4ab0505",
+      "boundaryText": "Pada hari Ahad, Hana dan Iman pergi ke pondok bacaan bersama Tok Wan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-9aab05ce1db6",
+      "text": "Iman turut membantu mengutip buku di atas lantai.",
+      "path": "audio-ms/clips/v38-9aab05ce1db6.mp3",
+      "duration": 4.296,
+      "bytes": 25776,
+      "sha256": "748b2336b2c69f73510ad4a3953cbb729daed30d440f205664ef88a8a1ebb41c",
+      "boundaryText": "Iman turut membantu mengutip buku di atas lantai.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-37f0fe18e692",
+      "text": "Hana mengutip buku, manakala Iman mengelap meja.",
+      "path": "audio-ms/clips/v38-37f0fe18e692.mp3",
+      "duration": 4.824,
+      "bytes": 28944,
+      "sha256": "6b0c5c79c83caf7eabeb161fdcd7085ade2f5c58a3cf8b1649c0a2179f7f2c7d",
+      "boundaryText": "Hana mengutip buku, manakala Iman mengelap meja.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-cde9a4074620",
+      "text": "Tok Wan pula membaiki rak buku yang senget.",
+      "path": "audio-ms/clips/v38-cde9a4074620.mp3",
+      "duration": 3.84,
+      "bytes": 23040,
+      "sha256": "ca4a981b0d4bd772f2cc6bdaff0e156d79a665567e52196b412c01e1c90804e2",
+      "boundaryText": "Tok Wan pula membaiki rak buku yang senget.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-03225da106dc",
+      "text": "Selepas rak dibaiki, mereka menyusun buku di rak.",
+      "path": "audio-ms/clips/v38-03225da106dc.mp3",
+      "duration": 4.728,
+      "bytes": 28368,
+      "sha256": "2722318745da22a4234a9f7e4eaf1166a083f41b9078ed4ba76bfb2208d78876",
+      "boundaryText": "Selepas rak dibaiki, mereka menyusun buku di rak.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-5cdede239476",
+      "text": "Mereka juga menampal label supaya buku mudah dicari.",
+      "path": "audio-ms/clips/v38-5cdede239476.mp3",
+      "duration": 4.488,
+      "bytes": 26928,
+      "sha256": "1c30d3c6f61ee50316602293f242cea9d0bd2a1a480837dd39fd905c46860f4f",
+      "boundaryText": "Mereka juga menampal label supaya buku mudah dicari.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-2d857516f86b",
+      "text": "Mereka menggantung hiasan di dalam pondok.",
+      "path": "audio-ms/clips/v38-2d857516f86b.mp3",
+      "duration": 3.792,
+      "bytes": 22752,
+      "sha256": "e6d5dee3889b49bd3e7d3120535d1e9acc8697481bfb461dcafd4b57a6466c73",
+      "boundaryText": "Mereka menggantung hiasan di dalam pondok.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-483e6452ad43",
+      "text": "Kini, pondok itu bersih dan ceria.",
+      "path": "audio-ms/clips/v38-483e6452ad43.mp3",
+      "duration": 4.008,
+      "bytes": 24048,
+      "sha256": "1011e03d3a28cdc3baab16d225df2a3b79afb9619cd15c6aa984c440d157b26e",
+      "boundaryText": "Kini, pondok itu bersih dan ceria.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-03656de3d4ee",
+      "text": "Pada petang itu, mereka mengajak rakan membaca di pondok.",
+      "path": "audio-ms/clips/v38-03656de3d4ee.mp3",
+      "duration": 4.968,
+      "bytes": 29808,
+      "sha256": "04eb378d2c50ed6f177d3a70d894e540144556091715fb49e918088b87b999da",
+      "boundaryText": "Pada petang itu, mereka mengajak rakan membaca di pondok.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-6efd9cce1e16",
+      "text": "Tok Wan memuji Hana yang ringan tulang kerana rajin membantu.",
+      "path": "audio-ms/clips/v38-6efd9cce1e16.mp3",
+      "duration": 4.872,
+      "bytes": 29232,
+      "sha256": "984e0f8b40d231566e35e7151dc69b447f03fbb016f3e5d15f9967fb653eed6a",
+      "boundaryText": "Tok Wan memuji Hana yang ringan tulang kerana rajin membantu.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-88596aca196f",
+      "text": "Ayat bukti: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Teruskan menentukan nilai murni.",
+      "path": "audio-ms/clips/v38-88596aca196f.mp3",
+      "duration": 9.888,
+      "bytes": 59328,
+      "sha256": "843bc7bc268d5c5ae6a61ec43a1f6c218614fa3604c0126a043c136887553194",
+      "boundaryText": "Ayat bukti: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Teruskan menentukan nilai murni.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-1eb974b82962",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Semua pembaca memulangkan buku ke rak setelah selesai membaca..",
+      "path": "audio-ms/clips/v38-1eb974b82962.mp3",
+      "duration": 8.376,
+      "bytes": 50256,
+      "sha256": "6099d755516770a649817b60e2ccb0eb666fb94ae091f8da505aaa55a489ffe7",
+      "boundaryText": "Kamu berjaya memilih jawapan yang tepat: Semua pembaca memulangkan buku ke rak setelah selesai membaca..",
+      "textMatched": true
+    },
+    {
+      "id": "v38-5170a896fd08",
+      "text": "Jawapan yang tepat: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Dua mata ditolak. Kamu boleh meneruskan.",
+      "path": "audio-ms/clips/v38-5170a896fd08.mp3",
+      "duration": 11.976,
+      "bytes": 71856,
+      "sha256": "883497f6b5b1e7da2b608c91b9bc7e2c2daa1ac69e52d43dc6eadb92be934d49",
+      "boundaryText": "Jawapan yang tepat: Semua pembaca memulangkan buku ke rak setelah selesai membaca. Dua mata ditolak. Kamu boleh meneruskan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-4d8c1962aea7",
+      "text": "Jawapan yang tepat ialah Semua pembaca memulangkan buku ke rak setelah selesai membaca.. Dua mata ditolak. Teruskan permainan.",
+      "path": "audio-ms/clips/v38-4d8c1962aea7.mp3",
+      "duration": 11.88,
+      "bytes": 71280,
+      "sha256": "e0441ee54939f5fbe5b0111cfeeb0d832ecffd1c56e32b5585d0772fc418c902",
+      "boundaryText": "Jawapan yang tepat ialah Semua pembaca memulangkan buku ke rak setelah selesai membaca.. Dua mata ditolak. Teruskan permainan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-ee33dd144270",
+      "text": "Kamu berjaya memadankan maksud peribahasa: Rajin membantu.",
+      "path": "audio-ms/clips/v38-ee33dd144270.mp3",
+      "duration": 5.616,
+      "bytes": 33696,
+      "sha256": "1edb6992d7d5acfb8e10f5895b8553753d573c6783aad36d0a37dec0b942e9c0",
+      "boundaryText": "Kamu berjaya memadankan maksud peribahasa: Rajin membantu.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-ae77014ed699",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Rajin membantu.",
+      "path": "audio-ms/clips/v38-ae77014ed699.mp3",
+      "duration": 5.352,
+      "bytes": 32112,
+      "sha256": "b912c7920955f1ddcb3589c3b01682034e21f9a0093588331d69c80c0a49977b",
+      "boundaryText": "Kamu berjaya memilih jawapan yang tepat: Rajin membantu.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-06702dde27a0",
+      "text": "Jawapan yang tepat ialah Rajin membantu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "path": "audio-ms/clips/v38-06702dde27a0.mp3",
+      "duration": 8.952,
+      "bytes": 53712,
+      "sha256": "d107b52efc242ed634280a8e18cf62b69be6d90d10c40eba71749a5ddce3a399",
+      "boundaryText": "Jawapan yang tepat ialah Rajin membantu. Dua mata ditolak. Kamu boleh meneruskan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-236800529a84",
+      "text": "Jawapan yang tepat ialah Rajin membantu. Dua mata ditolak. Teruskan permainan.",
+      "path": "audio-ms/clips/v38-236800529a84.mp3",
+      "duration": 8.64,
+      "bytes": 51840,
+      "sha256": "a4e659df4f0dfc5d487a1075347e2acf91afc2f815f59e18f007c39e6b65af33",
+      "boundaryText": "Jawapan yang tepat ialah Rajin membantu. Dua mata ditolak. Teruskan permainan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-d07a3304bfe3",
+      "text": "Pada suatu pagi, Hana dan Iman pergi ke kebun Tok Wan.",
+      "path": "audio-ms/clips/v38-d07a3304bfe3.mp3",
+      "duration": 4.992,
+      "bytes": 29952,
+      "sha256": "2ac95b040095a6e336a42a67b90659b7d6d02a887c620185d7d4109c825a8f6e",
+      "boundaryText": "Pada suatu pagi, Hana dan Iman pergi ke kebun Tok Wan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-9e940a082e44",
+      "text": "Anak pokok di dalam pasu layu kerana cuaca panas.",
+      "path": "audio-ms/clips/v38-9e940a082e44.mp3",
+      "duration": 4.296,
+      "bytes": 25776,
+      "sha256": "1a94da38166f16f58828b990510d21b74c1094608c806cfbf39d9b0297f09733",
+      "boundaryText": "Anak pokok di dalam pasu layu kerana cuaca panas.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-fd1d558d15ae",
+      "text": "Tok Wan mengisi baldi dengan air.",
+      "path": "audio-ms/clips/v38-fd1d558d15ae.mp3",
+      "duration": 3.24,
+      "bytes": 19440,
+      "sha256": "733c2991fbda2fe3e88908b0b022ae294fe62ad0644b0fc26b2206533ca793c3",
+      "boundaryText": "Tok Wan mengisi baldi dengan air.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-18420da530a9",
+      "text": "Kemudian, mereka mengutip daun kering di sekitar pasu.",
+      "path": "audio-ms/clips/v38-18420da530a9.mp3",
+      "duration": 5.04,
+      "bytes": 30240,
+      "sha256": "c91578c5cad6ce730dc51e58e3ebe484165e1a3a7fa67b945365e41c35a6421e",
+      "boundaryText": "Kemudian, mereka mengutip daun kering di sekitar pasu.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-74eaffeb31bc",
+      "text": "Selepas itu, Tok Wan menerangkan cara menjaga pokok.",
+      "path": "audio-ms/clips/v38-74eaffeb31bc.mp3",
+      "duration": 4.8,
+      "bytes": 28800,
+      "sha256": "ec160b2fe40bd1127c7a2b879b87cb8c50be3feec5b5b646b76d14ddbd9630f3",
+      "boundaryText": "Selepas itu, Tok Wan menerangkan cara menjaga pokok.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-11fd82703df0",
+      "text": "Iman melukis gambar pada kad supaya pesanan itu mudah diingati.",
+      "path": "audio-ms/clips/v38-11fd82703df0.mp3",
+      "duration": 5.232,
+      "bytes": 31392,
+      "sha256": "f497781f78609c341d929ffc202732b523f38f2e952b15d7ce940d5ab53455ec",
+      "boundaryText": "Iman melukis gambar pada kad supaya pesanan itu mudah diingati.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-18f85db0ae16",
+      "text": "Mereka meletakkan label di sebelah pasu.",
+      "path": "audio-ms/clips/v38-18f85db0ae16.mp3",
+      "duration": 3.624,
+      "bytes": 21744,
+      "sha256": "e3ca9e3ca91634011f0f92397946cce1c1a7825ee7678bcb497e2db8dc3a5abb",
+      "boundaryText": "Mereka meletakkan label di sebelah pasu.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-988cf34c2379",
+      "text": "Hana menyediakan jadual supaya mereka ingat akan tugas masing-masing.",
+      "path": "audio-ms/clips/v38-988cf34c2379.mp3",
+      "duration": 5.424,
+      "bytes": 32544,
+      "sha256": "aacc2abd9e74a780148a1bebcf9496c962ca05c504ba5621e8643e0fb1132d29",
+      "boundaryText": "Hana menyediakan jadual supaya mereka ingat akan tugas masing-masing.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-d0d25c8ee928",
+      "text": "Beberapa hari kemudian, anak pokok itu kembali segar.",
+      "path": "audio-ms/clips/v38-d0d25c8ee928.mp3",
+      "duration": 4.848,
+      "bytes": 29088,
+      "sha256": "4ba60433adcd08003e6074b8614a9a44ab13d29c31b93089d2f0036e5dd5160e",
+      "boundaryText": "Beberapa hari kemudian, anak pokok itu kembali segar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-075bd41a967b",
+      "text": "Hana dan Iman mencatat perubahan pokok di dalam buku.",
+      "path": "audio-ms/clips/v38-075bd41a967b.mp3",
+      "duration": 4.56,
+      "bytes": 27360,
+      "sha256": "b858d6a2de000c6de44434b36d9436099429a0f2fe0d91bdd103ab626fca7382",
+      "boundaryText": "Hana dan Iman mencatat perubahan pokok di dalam buku.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-4ec5dd73509a",
+      "text": "Pada pagi Sabtu, Hana dan Iman menyediakan bekal bersama Tok Wan.",
+      "path": "audio-ms/clips/v38-4ec5dd73509a.mp3",
+      "duration": 5.544,
+      "bytes": 33264,
+      "sha256": "56bf573611884a99bfb3640fda9f0fb186caf47c1a13a7a9808ec78292668f5c",
+      "boundaryText": "Pada pagi Sabtu, Hana dan Iman menyediakan bekal bersama Tok Wan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-02a6de2be6f2",
+      "text": "Mereka membawa buah, roti dan air kosong untuk berkelah.",
+      "path": "audio-ms/clips/v38-02a6de2be6f2.mp3",
+      "duration": 5.016,
+      "bytes": 30096,
+      "sha256": "e4e50b01ae48c710464b54b16cabaff24acb021add20160513029f5590ffbebc",
+      "boundaryText": "Mereka membawa buah, roti dan air kosong untuk berkelah.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-b0a8938d40f6",
+      "text": "Di tepi tasik, Hana dan Iman bermain sehingga tangan mereka kotor.",
+      "path": "audio-ms/clips/v38-b0a8938d40f6.mp3",
+      "duration": 5.568,
+      "bytes": 33408,
+      "sha256": "23600da6c7b9c6507df1d9b94ed3a2ea489eb76ac3061af02e6f6e80d2ec0fdc",
+      "boundaryText": "Di tepi tasik, Hana dan Iman bermain sehingga tangan mereka kotor.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-b947e4c2761e",
+      "text": "Mereka pun membasuh tangan secara bergilir-gilir.",
+      "path": "audio-ms/clips/v38-b947e4c2761e.mp3",
+      "duration": 4.104,
+      "bytes": 24624,
+      "sha256": "8c593b10e6f83d90314527a990ec084e1eee7963b8ca06cc197a356f4c422852",
+      "boundaryText": "Mereka pun membasuh tangan secara bergilir-gilir.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-5434efc60083",
+      "text": "Selepas membasuh tangan, mereka berkongsi bekal di atas tikar.",
+      "path": "audio-ms/clips/v38-5434efc60083.mp3",
+      "duration": 5.376,
+      "bytes": 32256,
+      "sha256": "83eca3435efee03639ac0e0cad3b7078209771947a109806ae9095ace9af173d",
+      "boundaryText": "Selepas membasuh tangan, mereka berkongsi bekal di atas tikar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-43b7380831a0",
+      "text": "Iman menutup bekas makanan supaya makanan kekal bersih.",
+      "path": "audio-ms/clips/v38-43b7380831a0.mp3",
+      "duration": 4.704,
+      "bytes": 28224,
+      "sha256": "d4205b805bc86ac98e454b974c784cbc46dac6c026ffd67d8502f671a3d78c47",
+      "boundaryText": "Iman menutup bekas makanan supaya makanan kekal bersih.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-079841196b02",
+      "text": "Ayat bukti: Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang. Teruskan menentukan nilai murni.",
+      "path": "audio-ms/clips/v38-079841196b02.mp3",
+      "duration": 10.2,
+      "bytes": 61200,
+      "sha256": "2c34824e717ae45d9a4e7bebebedb4d06d4d4300fc0ba4c95dc11cd7bf1e9c58",
+      "boundaryText": "Ayat bukti: Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang. Teruskan menentukan nilai murni.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-3b1ab91849e4",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang..",
+      "path": "audio-ms/clips/v38-3b1ab91849e4.mp3",
+      "duration": 8.64,
+      "bytes": 51840,
+      "sha256": "1ce480fee140c830082c041281714c7f815f87f0030af4c1becb3a00db68bb26",
+      "boundaryText": "Kamu berjaya memilih jawapan yang tepat: Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang..",
+      "textMatched": true
+    },
+    {
+      "id": "v38-dde3eb96a0c9",
+      "text": "Jawapan yang tepat: Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang. Dua mata ditolak. Kamu boleh meneruskan.",
+      "path": "audio-ms/clips/v38-dde3eb96a0c9.mp3",
+      "duration": 12.264,
+      "bytes": 73584,
+      "sha256": "f86938486a7a1d616323d168369325700b1e43263bc22f264c3aa49c454e7f1a",
+      "boundaryText": "Jawapan yang tepat: Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang. Dua mata ditolak. Kamu boleh meneruskan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-51898e6b5008",
+      "text": "Jawapan yang tepat ialah Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.. Dua mata ditolak. Teruskan permainan.",
+      "path": "audio-ms/clips/v38-51898e6b5008.mp3",
+      "duration": 12.168,
+      "bytes": 73008,
+      "sha256": "b291c661b1386f3238fb4be8228f1d5f415df13708a36e69447fe6f15db6ee2f",
+      "boundaryText": "Jawapan yang tepat ialah Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.. Dua mata ditolak. Teruskan permainan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-cbf638b51f68",
+      "text": "Sebelum pulang, Tok Wan melipat tikar.",
+      "path": "audio-ms/clips/v38-cbf638b51f68.mp3",
+      "duration": 3.768,
+      "bytes": 22608,
+      "sha256": "1f87a6e152c4437e436d6df6c5859dc655782c387af57efaad430b35b17833f9",
+      "boundaryText": "Sebelum pulang, Tok Wan melipat tikar.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-664221855dc9",
+      "text": "Mereka membuang sampah ke dalam tong sampah.",
+      "path": "audio-ms/clips/v38-664221855dc9.mp3",
+      "duration": 3.672,
+      "bytes": 22032,
+      "sha256": "f73929dbeb84e31c2574ba18d3d6af48a2729f011f64ba476b4d7ee06ff8172d",
+      "boundaryText": "Mereka membuang sampah ke dalam tong sampah.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-a08b63ff6fef",
+      "text": "Dalam perjalanan pulang, Hana dan Iman berbual tentang kebersihan.",
+      "path": "audio-ms/clips/v38-a08b63ff6fef.mp3",
+      "duration": 5.4,
+      "bytes": 32400,
+      "sha256": "a7d836bc0972927377c7db468eb8d9c0d4a4dd911e0bf76d499e3f2579ae1462",
+      "boundaryText": "Dalam perjalanan pulang, Hana dan Iman berbual tentang kebersihan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-88e1e18e3317",
+      "text": "Mereka mahu membuat poster tentang amalan membasuh tangan.",
+      "path": "audio-ms/clips/v38-88e1e18e3317.mp3",
+      "duration": 4.536,
+      "bytes": 27216,
+      "sha256": "339793da2499bf5c10ff6f6da8fa654f8f5e25879bce55bca9daa9408940fa32",
+      "boundaryText": "Mereka mahu membuat poster tentang amalan membasuh tangan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-f780e185369c",
+      "text": "Kamu berjaya memadankan maksud peribahasa: Mencegah penyakit.",
+      "path": "audio-ms/clips/v38-f780e185369c.mp3",
+      "duration": 5.64,
+      "bytes": 33840,
+      "sha256": "36e2e3e2e0b16176893b6f48c070b0c0b68be0ce418f3bb49d26bbac5b08994b",
+      "boundaryText": "Kamu berjaya memadankan maksud peribahasa: Mencegah penyakit.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-5ff082ed3bb4",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Mencegah penyakit.",
+      "path": "audio-ms/clips/v38-5ff082ed3bb4.mp3",
+      "duration": 5.352,
+      "bytes": 32112,
+      "sha256": "53d9fd5d8bfb00378cfde7e1e99fe039a308650605cf9aecf6691cfafc070299",
+      "boundaryText": "Kamu berjaya memilih jawapan yang tepat: Mencegah penyakit.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-9d3f6619179b",
+      "text": "Jawapan yang tepat ialah Mencegah penyakit. Dua mata ditolak. Kamu boleh meneruskan.",
+      "path": "audio-ms/clips/v38-9d3f6619179b.mp3",
+      "duration": 9.0,
+      "bytes": 54000,
+      "sha256": "8b7007b4469e9301a0b263593151e79050b8ada3dc9d0d77e16215fa92f9cf8f",
+      "boundaryText": "Jawapan yang tepat ialah Mencegah penyakit. Dua mata ditolak. Kamu boleh meneruskan.",
+      "textMatched": true
+    },
+    {
+      "id": "v38-ef8b8cb096f0",
+      "text": "Jawapan yang tepat ialah Mencegah penyakit. Dua mata ditolak. Teruskan permainan.",
+      "path": "audio-ms/clips/v38-ef8b8cb096f0.mp3",
+      "duration": 8.664,
+      "bytes": 51984,
+      "sha256": "d7b5f08992cc2a6390595fcc1f33ae77c6c795aac28511dfe32f4bc5147261bd",
+      "boundaryText": "Jawapan yang tepat ialah Mencegah penyakit. Dua mata ditolak. Teruskan permainan.",
+      "textMatched": true
+    }
+  ]
+}

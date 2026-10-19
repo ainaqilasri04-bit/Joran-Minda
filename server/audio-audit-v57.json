@@ -1,0 +1,248 @@
+{
+  "version": 57,
+  "stories": [
+    {
+      "key": "belang",
+      "title": "Belang dan Sahabat Baharu",
+      "pages": [
+        {
+          "page": 1,
+          "ready": true,
+          "text": "Pada pagi Sabtu, Hana dan Iman berjalan di tepi tasik bersama Tok Wan. Mereka terdengar bunyi anak kucing di tepi jeti. Anak kucing itu basah dan menggigil. Hana segera memanggil Tok Wan untuk membantu anak kucing itu.",
+          "takeId": "221de4b7-812c-45ae-a430-acfdd6079701",
+          "savedAt": 1792407705276,
+          "duration": 24.36,
+          "sha256": "cad5e1d2b5125ade27af2b0caa4797258b069c8370d6601b9e5c0d178f83eced"
+        },
+        {
+          "page": 2,
+          "ready": true,
+          "text": "Tok Wan membawa anak kucing itu pulang. Hana mengambil tuala bersih, manakala Iman menyediakan peti beralas kain lembut. Tok Wan mengeringkan bulu anak kucing itu. Mereka menamakan anak kucing itu Belang.",
+          "takeId": "cbe689cf-be30-4463-a36a-29247f767063",
+          "savedAt": 1792407774489,
+          "duration": 24.0,
+          "sha256": "efd7641cbd2cd9ede0f734ee36dd3ca9c274a01064d62078db76e22d848cfcf7"
+        },
+        {
+          "page": 3,
+          "ready": true,
+          "text": "Belang masih berasa takut. Hana bercakap dengan Belang menggunakan suara yang lembut. Iman pula meletakkan semangkuk air bersih berhampiran Belang. Tidak lama kemudian, Belang menjadi tenang.",
+          "takeId": "a4fe952c-9027-4ff8-b0e5-5d39e0711acb",
+          "savedAt": 1792407850109,
+          "duration": 21.78,
+          "sha256": "f04b513293908b80edec5ff32e4c13e075178320e127e06e4ec3185382d6902d"
+        },
+        {
+          "page": 4,
+          "ready": true,
+          "text": "Pada keesokan hari, Hana dan Iman membahagikan tugas. Hana menyediakan makanan untuk Belang. Iman menukar air minuman dan membersihkan peti Belang. Mereka melaksanakan tugas masing-masing setiap hari.",
+          "takeId": "449ac538-f2be-499f-a4db-9e7dcd3b7a98",
+          "savedAt": 1792407892680,
+          "duration": 23.28,
+          "sha256": "6497593b737f32bda6982ddddb8de2e015c998fc7bf15080b27f5ccdd9dbc2d0"
+        },
+        {
+          "page": 5,
+          "ready": true,
+          "text": "Beberapa hari kemudian, Belang semakin sihat. Belang bermain bersama Hana dan Iman di beranda. Tok Wan memuji mereka kerana saling membantu bagai aur dengan tebing. Hana dan Iman gembira dapat menjaga Belang.",
+          "takeId": "f2bf40bb-2aac-4a86-8c22-09a2b26a7160",
+          "savedAt": 1792407924297,
+          "duration": 21.66,
+          "sha256": "0226f7daddb67875b57c01cbc7ff2589d2f52546ec52118b3237ed147d84c5b8"
+        }
+      ]
+    },
+    {
+      "key": "pondok",
+      "title": "Pondok Bacaan Kembali Ceria",
+      "pages": [
+        {
+          "page": 1,
+          "ready": true,
+          "text": "Pada hari Ahad, Hana dan Iman pergi ke pondok bacaan bersama Tok Wan. Hana menawarkan diri untuk mengemas pondok yang berdebu itu. Iman turut membantu mengutip buku di atas lantai.",
+          "takeId": "ca77f39e-8dd8-41ef-96c5-42ce9e86cde4",
+          "savedAt": 1792407957703,
+          "duration": 19.38,
+          "sha256": "0627cdd889b48f49092390a3eedadd540674efc128c31a1edcf413a203eecda6"
+        },
+        {
+          "page": 2,
+          "ready": true,
+          "text": "Hana mengutip buku, manakala Iman mengelap meja. Kemudian, Iman membantu Hana meletakkan buku di atas meja yang bersih. Tok Wan pula membaiki rak buku yang senget.",
+          "takeId": "90bd97fb-652f-4bd9-b437-1779950f5cd5",
+          "savedAt": 1792407996294,
+          "duration": 19.38,
+          "sha256": "ac0c2794d8489cffdc74349b7cc3bebf853bb63b9f6a204b9488fd516aba0908"
+        },
+        {
+          "page": 3,
+          "ready": true,
+          "text": "Selepas rak dibaiki, mereka menyusun buku di rak. Hana berkongsi kertas berwarna dengan Iman untuk membuat hiasan dan penanda buku. Mereka juga menampal label supaya buku mudah dicari.",
+          "takeId": "69e87a67-9071-44d4-b052-634371466750",
+          "savedAt": 1792408025749,
+          "duration": 20.82,
+          "sha256": "dfb293988b9ee14fc2801c877fa720a3a765eab8de421672af790034417e15b7"
+        },
+        {
+          "page": 4,
+          "ready": true,
+          "text": "Mereka menggantung hiasan di dalam pondok. Iman mengutip sisa kertas dan membuangnya ke dalam tong sampah. Kini, pondok itu bersih dan ceria.",
+          "takeId": "79ad2723-dd7d-4ce2-9825-d35e390c82e7",
+          "savedAt": 1792408050216,
+          "duration": 16.44,
+          "sha256": "c17d8cb3853f8f0017788725be64bd83b951632427388c1ea4c6e9512a33ac28"
+        },
+        {
+          "page": 5,
+          "ready": true,
+          "text": "Pada petang itu, mereka mengajak rakan membaca di pondok. Semua pembaca memulangkan buku ke rak setelah selesai membaca. Tok Wan memuji Hana yang ringan tulang kerana rajin membantu.",
+          "takeId": "c72a1196-c647-4150-964c-d4b0790dd558",
+          "savedAt": 1792408079582,
+          "duration": 21.0,
+          "sha256": "9b4e960cd4ec1349e8f81c751066dd3d7ce27cd6488b8688359c8dd0f1ea5c0a"
+        }
+      ]
+    },
+    {
+      "key": "pokok",
+      "title": "Kebun Tok Wan Kembali Segar",
+      "pages": [
+        {
+          "page": 1,
+          "ready": true,
+          "text": "Pada suatu pagi, Hana dan Iman pergi ke kebun Tok Wan. Anak pokok di dalam pasu layu kerana cuaca panas. Hana segera menawarkan bantuan untuk menjaga anak pokok itu.",
+          "takeId": "ef371788-5f2d-429f-928f-d6541c7de1ca",
+          "savedAt": 1792408153238,
+          "duration": 18.84,
+          "sha256": "698411da8715d7d591dd9df0c214ae9c750d61064dcf5f617c886c8c30105754"
+        },
+        {
+          "page": 2,
+          "ready": true,
+          "text": "Tok Wan mengisi baldi dengan air. Iman membantu Hana menyiram anak pokok dengan cermat. Kemudian, mereka mengutip daun kering di sekitar pasu.",
+          "takeId": "cf89af38-c960-44bb-8fbd-a5cc8b610f05",
+          "savedAt": 1792408175585,
+          "duration": 10.44,
+          "sha256": "76f845c014b757380101c66a3c2b7450df5e7638548871771bfb6384f51d9b3a"
+        },
+        {
+          "page": 3,
+          "ready": true,
+          "text": "Selepas itu, Tok Wan menerangkan cara menjaga pokok. Hana mendengar penerangan Tok Wan dengan teliti sebelum menulis label penjagaan. Iman melukis gambar pada kad supaya pesanan itu mudah diingati.",
+          "takeId": "cd7c9c65-6916-40bd-ab1b-6ef9140065e7",
+          "savedAt": 1792408231656,
+          "duration": 25.8,
+          "sha256": "909d9f93c991b6770099ccabb2d6c8214447322136548bfd1f2661f7c9835ee9"
+        },
+        {
+          "page": 4,
+          "ready": true,
+          "text": "Mereka meletakkan label di sebelah pasu. Iman berjanji untuk membantu Tok Wan menjaga kebun setiap minggu. Hana menyediakan jadual supaya mereka ingat akan tugas masing-masing.",
+          "takeId": "02292aef-c16b-415f-af53-acb192d70e54",
+          "savedAt": 1792408262399,
+          "duration": 21.42,
+          "sha256": "cc9bf4897f7ac384174e48b4c2bd05b430c258a5d7109919e2304df843520d4b"
+        },
+        {
+          "page": 5,
+          "ready": true,
+          "text": "Beberapa hari kemudian, anak pokok itu kembali segar. Hana dan Iman mencatat perubahan pokok di dalam buku. Tok Wan gembira kerana mereka bekerjasama bagai aur dengan tebing.",
+          "takeId": "78dd04a2-adc7-4ecd-b5c0-2b07d17afa25",
+          "savedAt": 1792408491493,
+          "duration": 21.06,
+          "sha256": "d7643cf20ead4b6d727bc1a2631933af78c674f56f337860a156195a37f568a4"
+        }
+      ]
+    },
+    {
+      "key": "sihat",
+      "title": "Bekal Sihat di Tepi Tasik",
+      "pages": [
+        {
+          "page": 1,
+          "ready": true,
+          "text": "Pada pagi Sabtu, Hana dan Iman menyediakan bekal bersama Tok Wan. Hana membasuh tangan sebelum membantu menyediakan makanan. Mereka membawa buah, roti dan air kosong untuk berkelah.",
+          "takeId": "e6dd8669-c7da-4c29-ae0f-4fa767897e23",
+          "savedAt": 1792408534170,
+          "duration": 22.32,
+          "sha256": "d51fc54f43ce1a1a60c4377ca87bdd5eb088d7305ee0d74174f915f0f8a26a3c"
+        },
+        {
+          "page": 2,
+          "ready": true,
+          "text": "Di tepi tasik, Hana dan Iman bermain sehingga tangan mereka kotor. Tok Wan mengingatkan mereka supaya membasuh tangan dengan sabun sebelum makan. Mereka pun membasuh tangan secara bergilir-gilir.",
+          "takeId": "157a84b1-60db-43e9-b0da-09cf862029d8",
+          "savedAt": 1792408581269,
+          "duration": 21.96,
+          "sha256": "c44cde4405f1cd62ae6c642c501fa10ca12e92145684b97089ad89e5513e7dc0"
+        },
+        {
+          "page": 3,
+          "ready": true,
+          "text": "Selepas membasuh tangan, mereka berkongsi bekal di atas tikar. Iman menutup bekas makanan supaya makanan kekal bersih. Apabila sudah kenyang, mereka menyimpan baki bekal untuk dibawa pulang.",
+          "takeId": "d5492ae0-01a1-4b5b-9659-03467775be28",
+          "savedAt": 1792408629670,
+          "duration": 21.42,
+          "sha256": "bbf7d8431e28cf2454686fb774014488e656e9ad82018bff74a108cccb9f2c8b"
+        },
+        {
+          "page": 4,
+          "ready": true,
+          "text": "Sebelum pulang, Tok Wan melipat tikar. Hana mengajak Iman mengumpulkan sampah supaya tempat berkelah kekal bersih. Mereka membuang sampah ke dalam tong sampah.",
+          "takeId": "43804d93-01e5-47d7-97fd-c6a0f2aafd39",
+          "savedAt": 1792416490196,
+          "duration": 19.02,
+          "sha256": "fa59681c48f811f0e70069bbaf5d10707af76528f43237bf3cfd2148a68b17b5"
+        },
+        {
+          "page": 5,
+          "ready": true,
+          "text": "Dalam perjalanan pulang, Hana dan Iman berbual tentang kebersihan. Mereka mahu membuat poster tentang amalan membasuh tangan. Tok Wan berpesan bahawa mencegah lebih baik daripada mengubati.",
+          "takeId": "bc4e4ee8-0ed3-4664-88cb-6385821239d8",
+          "savedAt": 1792408699368,
+          "duration": 21.78,
+          "sha256": "93bcdaf035b9fc36c72accdb63825d15b921dad244c583a695c40db9950ae0a4"
+        }
+      ]
+    }
+  ],
+  "ai": {
+    "ready": 1481,
+    "total": 1481,
+    "missing": [],
+    "retired": [
+      "Selepas memuat naik buku, tekan Minta Guru semak. Guru akan menyemak buku dalam Google Drive. Selepas Guru mengesahkan penghantaran, tekan Seterusnya untuk membuat refleksi."
+    ]
+  },
+  "teacher": {
+    "ready": 20,
+    "total": 20,
+    "latestExportReceived": true,
+    "sourceSha256": "a21b336ac5fca0dcd18448655edd277424b29b8a2dd1933e2ea1eb7fc015fb80",
+    "bytesUnchanged": true,
+    "problems": [
+      {
+        "slot": "pokok:page2",
+        "latestTakeId": "615c47f6-0aeb-494f-9c04-b8f54d7099ca",
+        "latestDuration": 2.58,
+        "selectedTakeId": "cf89af38-c960-44bb-8fbd-a5cc8b610f05",
+        "selectedDuration": 10.44,
+        "reason": "Latest take too brief for the page or nearly silent."
+      }
+    ]
+  },
+  "backup": {
+    "inputRecords": 420,
+    "storyTakes": 43,
+    "instructionTakes": 377,
+    "decodeFailures": 0,
+    "excludedEarlierStoryTakes": 23
+  },
+  "verification": "Exact text metadata, latest usable timestamp, full decoding, non-silence and conservative duration screening; spoken content not transcribed.",
+  "export": {
+    "latestInstructionTakes": 376,
+    "identicalPackagedInstructionTakes": 376,
+    "websiteTeacherPages": 20,
+    "strategy": "Omit only exact SHA-256 matches to packaged instruction audio; preserve differing custom recordings and full backups."
+  }
+}

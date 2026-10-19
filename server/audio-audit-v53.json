@@ -1,0 +1,16 @@
+{
+  "version": 53,
+  "ai": {
+    "total": 1482,
+    "missing": [
+      "Selepas memuat naik buku, tekan Minta Guru semak. Guru akan menyemak buku dalam Google Drive. Selepas Guru mengesahkan penghantaran, tekan Seterusnya untuk membuat refleksi."
+    ]
+  },
+  "teacher": {
+    "obsoleteRemoved": 20,
+    "latestExportReceived": false,
+    "bundledPageReadings": 0,
+    "action": "Export existing latest readings from the original recording browser; no re-recording required if saved takes exist."
+  },
+  "tests": "DOM, IndexedDB and simulated media; no live speaker QA"
+}

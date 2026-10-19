@@ -1,0 +1,1669 @@
+{
+  "version": 40,
+  "clips": [
+    {
+      "id": "v40-54aaa97f0212",
+      "text": "Jawapan belum tepat."
+    },
+    {
+      "id": "v40-80b0c5c60360",
+      "text": "Kamu berjaya memilih jawapan tentang cerita."
+    },
+    {
+      "id": "v40-86d379c34e53",
+      "text": "Jawapan yang tepat:"
+    },
+    {
+      "id": "v40-590f3194a884",
+      "text": "Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-ceeab4777233",
+      "text": "Mengapakah Hana memanggil Tok Wan?"
+    },
+    {
+      "id": "v40-92823eeb70b7",
+      "text": "Mengapakah Hana memanggil Tok Wan? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-4dd002d1bcfb",
+      "text": "Mengapakah Hana memanggil Tok Wan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-4eff892be358",
+      "text": "Untuk membaca buku."
+    },
+    {
+      "id": "v40-aa9a4e3307be",
+      "text": "Untuk membaca buku.."
+    },
+    {
+      "id": "v40-a63cc87fa427",
+      "text": "Untuk membantu anak kucing."
+    },
+    {
+      "id": "v40-dcdb367846a6",
+      "text": "Untuk membantu anak kucing.."
+    },
+    {
+      "id": "v40-6180cf247007",
+      "text": "Untuk bermain bola."
+    },
+    {
+      "id": "v40-bd252a8d99f1",
+      "text": "Untuk bermain bola.."
+    },
+    {
+      "id": "v40-71007389ac1b",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Untuk membantu anak kucing.."
+    },
+    {
+      "id": "v40-97882fd4fe61",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Untuk membantu anak kucing.."
+    },
+    {
+      "id": "v40-b6489c09f5ed",
+      "text": "Jawapan yang tepat ialah Untuk membantu anak kucing.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-d88d9e3dc386",
+      "text": "Jawapan yang tepat ialah Untuk membantu anak kucing.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-b57fa31ac10d",
+      "text": "Mengapakah peti Belang dialas dengan kain lembut?"
+    },
+    {
+      "id": "v40-2fd31f1475dc",
+      "text": "Mengapakah peti Belang dialas dengan kain lembut? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-ec354830d181",
+      "text": "Mengapakah peti Belang dialas dengan kain lembut? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-9fd953f65990",
+      "text": "Supaya Belang ketakutan."
+    },
+    {
+      "id": "v40-50f538594c2d",
+      "text": "Supaya Belang ketakutan.."
+    },
+    {
+      "id": "v40-8dbd0c63d2e5",
+      "text": "Supaya buku berselerak.."
+    },
+    {
+      "id": "v40-54ee4121fb4d",
+      "text": "Supaya Belang selesa berehat."
+    },
+    {
+      "id": "v40-10d4c9a11154",
+      "text": "Supaya Belang selesa berehat.."
+    },
+    {
+      "id": "v40-a8be051fe2cd",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Supaya Belang selesa berehat.."
+    },
+    {
+      "id": "v40-aeef82d8f1b9",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Supaya Belang selesa berehat.."
+    },
+    {
+      "id": "v40-64d591d2fc40",
+      "text": "Jawapan yang tepat ialah Supaya Belang selesa berehat.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-89663521a65b",
+      "text": "Jawapan yang tepat ialah Supaya Belang selesa berehat.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-94aae5162b2e",
+      "text": "Apakah kesan suara Hana yang lembut kepada Belang?"
+    },
+    {
+      "id": "v40-67f14bcd12b2",
+      "text": "Apakah kesan suara Hana yang lembut kepada Belang? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-e6b33885a63b",
+      "text": "Apakah kesan suara Hana yang lembut kepada Belang? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-a0e1e17919c5",
+      "text": "Belang menjadi tenang."
+    },
+    {
+      "id": "v40-e0136229fcfd",
+      "text": "Belang menjadi tenang.."
+    },
+    {
+      "id": "v40-f19bc39a36f2",
+      "text": "Belang menjadi takut."
+    },
+    {
+      "id": "v40-bb5c4f5a9eb1",
+      "text": "Belang menjadi takut.."
+    },
+    {
+      "id": "v40-a25150956e3d",
+      "text": "Makanan Belang bertambah."
+    },
+    {
+      "id": "v40-2268906df5cc",
+      "text": "Makanan Belang bertambah.."
+    },
+    {
+      "id": "v40-f563912c6259",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Belang menjadi tenang.."
+    },
+    {
+      "id": "v40-48c879e56746",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Belang menjadi tenang.."
+    },
+    {
+      "id": "v40-d2d0586ab516",
+      "text": "Jawapan yang tepat ialah Belang menjadi tenang.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-90df223df958",
+      "text": "Jawapan yang tepat ialah Belang menjadi tenang.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-187b070fcb34",
+      "text": "Mengapakah Hana dan Iman membahagikan tugas?"
+    },
+    {
+      "id": "v40-42d3996815df",
+      "text": "Mengapakah Hana dan Iman membahagikan tugas? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-d5ef7bca2e27",
+      "text": "Mengapakah Hana dan Iman membahagikan tugas? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-1e4ff6d605e5",
+      "text": "Supaya mereka bermain sahaja."
+    },
+    {
+      "id": "v40-2f770a21c118",
+      "text": "Supaya mereka bermain sahaja.."
+    },
+    {
+      "id": "v40-5e3cfa6d187e",
+      "text": "Supaya seorang membuat semua kerja."
+    },
+    {
+      "id": "v40-e20783b8a3c1",
+      "text": "Supaya seorang membuat semua kerja.."
+    },
+    {
+      "id": "v40-5294f5d99cf4",
+      "text": "Supaya Belang dijaga setiap hari."
+    },
+    {
+      "id": "v40-9ddc0083222c",
+      "text": "Supaya Belang dijaga setiap hari.."
+    },
+    {
+      "id": "v40-424811d47a95",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Supaya Belang dijaga setiap hari.."
+    },
+    {
+      "id": "v40-1abdbb9c83d5",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Supaya Belang dijaga setiap hari.."
+    },
+    {
+      "id": "v40-135d4e1a5c45",
+      "text": "Jawapan yang tepat ialah Supaya Belang dijaga setiap hari.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-5dc741e57248",
+      "text": "Jawapan yang tepat ialah Supaya Belang dijaga setiap hari.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-e13f781f18c5",
+      "text": "Apakah hasil penjagaan Hana dan Iman?"
+    },
+    {
+      "id": "v40-ac1eb44aab81",
+      "text": "Apakah hasil penjagaan Hana dan Iman? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-5560646473a2",
+      "text": "Apakah hasil penjagaan Hana dan Iman? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-c183f60fb18a",
+      "text": "Belang semakin takut."
+    },
+    {
+      "id": "v40-b843b5b84f3f",
+      "text": "Belang semakin takut.."
+    },
+    {
+      "id": "v40-c0ed97bd0572",
+      "text": "Belang semakin sihat."
+    },
+    {
+      "id": "v40-ab81424fd378",
+      "text": "Belang semakin sihat.."
+    },
+    {
+      "id": "v40-875a24f3d807",
+      "text": "Buku semakin berselerak."
+    },
+    {
+      "id": "v40-f1cb743ac3c0",
+      "text": "Buku semakin berselerak.."
+    },
+    {
+      "id": "v40-8454ddf96334",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Belang semakin sihat.."
+    },
+    {
+      "id": "v40-7ebdb60bfbd0",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Belang semakin sihat.."
+    },
+    {
+      "id": "v40-b8a5f69ded99",
+      "text": "Jawapan yang tepat ialah Belang semakin sihat.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-e7e626810bca",
+      "text": "Jawapan yang tepat ialah Belang semakin sihat.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-97ce995580c8",
+      "text": "Lengkapkan ayat: Hana mengambil tuala, manakala Iman menyediakan _____. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-c4cce753e4b0",
+      "text": "makanan"
+    },
+    {
+      "id": "v40-4e8904c62ea9",
+      "text": "air minuman"
+    },
+    {
+      "id": "v40-73f38a9b7fd2",
+      "text": "tempat rehat"
+    },
+    {
+      "id": "v40-5b90f4651a22",
+      "text": "Selepas bulunya dikeringkan, anak kucing itu diberi nama apa? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-7671edac3ec5",
+      "text": "Belang"
+    },
+    {
+      "id": "v40-78b5b5558f2c",
+      "text": "Hana"
+    },
+    {
+      "id": "v40-9bf580174667",
+      "text": "Iman"
+    },
+    {
+      "id": "v40-a1afca57bd1c",
+      "text": "Lengkapkan ayat: Hana bercakap dengan suara yang _____. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-a411a6064fca",
+      "text": "kuat"
+    },
+    {
+      "id": "v40-6807d42c9b50",
+      "text": "lembut"
+    },
+    {
+      "id": "v40-dbedbb3183b6",
+      "text": "bising"
+    },
+    {
+      "id": "v40-e2e4c5b5a6d6",
+      "text": "Pada keesokan hari, apakah tugas Hana? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-c7359eb0bc5b",
+      "text": "Menyediakan makanan Belang."
+    },
+    {
+      "id": "v40-12dcdc7b68b1",
+      "text": "Menukar air Belang."
+    },
+    {
+      "id": "v40-b3b9d0e7d709",
+      "text": "Membersihkan peti Belang."
+    },
+    {
+      "id": "v40-311a2e879310",
+      "text": "Selepas Belang kembali sihat, apakah yang dilakukannya? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-56031287e265",
+      "text": "Menggigil ketakutan."
+    },
+    {
+      "id": "v40-2129e1761039",
+      "text": "Meminta bantuan Tok Wan."
+    },
+    {
+      "id": "v40-34d521061871",
+      "text": "Bermain bersama Hana dan Iman."
+    },
+    {
+      "id": "v40-a0852bf10ba5",
+      "text": "Kucing jiran tidak mahu makan. Siapakah yang patut kamu beritahu? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-bb1b91cdc82a",
+      "text": "Kucing itu sahaja."
+    },
+    {
+      "id": "v40-151a00240f29",
+      "text": "Orang dewasa."
+    },
+    {
+      "id": "v40-21a754289e60",
+      "text": "Rakan yang sedang bermain."
+    },
+    {
+      "id": "v40-d4b2002d674e",
+      "text": "Kawan kamu takut mendekati kucing. Apakah tindakan yang baik? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-7ad011dec753",
+      "text": "Tunjukkan cara mendekati dengan lembut."
+    },
+    {
+      "id": "v40-1de163b35ff5",
+      "text": "Jerit supaya dia mendekat."
+    },
+    {
+      "id": "v40-e294da743f5e",
+      "text": "Tinggalkan dia untuk bermain."
+    },
+    {
+      "id": "v40-9c16a2778b0c",
+      "text": "Kamu tidak sihat pada hari bertugas. Bagaimanakah tugas menjaga kucing boleh diteruskan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-83370a713d41",
+      "text": "Marah kepada kucing."
+    },
+    {
+      "id": "v40-4918ea2bf191",
+      "text": "Diam dan biarkan tugas itu."
+    },
+    {
+      "id": "v40-30ca8b6f3c72",
+      "text": "Minta bantuan dan semak jadual."
+    },
+    {
+      "id": "v40-8691e440004d",
+      "text": "Dua orang mahu memberi kucing makan pada waktu yang sama. Apakah rancangan yang sesuai? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-418ec6982a4b",
+      "text": "Kedua-duanya tambah makanan berkali-kali."
+    },
+    {
+      "id": "v40-0823254e9329",
+      "text": "Seorang sediakan makanan, seorang tukar air."
+    },
+    {
+      "id": "v40-776272bdcc01",
+      "text": "Bergaduh tentang tugas."
+    },
+    {
+      "id": "v40-83c3cdcddd79",
+      "text": "Tempat rehat kucing kotor tetapi kamu mahu bermain. Apakah yang patut didahulukan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-8fcbdd7455f4",
+      "text": "Bersihkan tempat rehat."
+    },
+    {
+      "id": "v40-236a1f8ff230",
+      "text": "Terus bermain bola."
+    },
+    {
+      "id": "v40-ec7897e260f5",
+      "text": "Berehat tanpa membersihkannya."
+    },
+    {
+      "id": "v40-8fe65a364580",
+      "text": "Kucing itu berundur apabila kamu menjerit. Bagaimanakah kamu membaiki tindakan itu? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-ee59899828b0",
+      "text": "Menjerit lebih kuat."
+    },
+    {
+      "id": "v40-a3ff8fefaa02",
+      "text": "Mengejarnya dengan pantas."
+    },
+    {
+      "id": "v40-11536cc4a9fb",
+      "text": "Bercakap dengan lembut."
+    },
+    {
+      "id": "v40-6beca9b55b5c",
+      "text": "Mengapakah pondok itu perlu dikemas?"
+    },
+    {
+      "id": "v40-3e47199f7cc4",
+      "text": "Mengapakah pondok itu perlu dikemas? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-a35f4676040e",
+      "text": "Mengapakah pondok itu perlu dikemas? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-0fa14a069bc3",
+      "text": "Pondok itu berdebu."
+    },
+    {
+      "id": "v40-183e78fa8217",
+      "text": "Pondok itu berdebu.."
+    },
+    {
+      "id": "v40-d4c31a0a045c",
+      "text": "Rakan sedang membaca."
+    },
+    {
+      "id": "v40-01ec8180c18a",
+      "text": "Rakan sedang membaca.."
+    },
+    {
+      "id": "v40-8da354996865",
+      "text": "Murid mahu bermain bola."
+    },
+    {
+      "id": "v40-52886fd49165",
+      "text": "Murid mahu bermain bola.."
+    },
+    {
+      "id": "v40-44ab9e12e070",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Pondok itu berdebu.."
+    },
+    {
+      "id": "v40-87d8840dd4b8",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Pondok itu berdebu.."
+    },
+    {
+      "id": "v40-b46725ec2b62",
+      "text": "Jawapan yang tepat ialah Pondok itu berdebu.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-ece3b1511d67",
+      "text": "Jawapan yang tepat ialah Pondok itu berdebu.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-f08361bd30c5",
+      "text": "Mengapakah Tok Wan membaiki rak?"
+    },
+    {
+      "id": "v40-3ae51991edc1",
+      "text": "Mengapakah Tok Wan membaiki rak? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-a95bebed2da4",
+      "text": "Mengapakah Tok Wan membaiki rak? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-89e51447313f",
+      "text": "Buku sedang dibaca."
+    },
+    {
+      "id": "v40-b894c3d11151",
+      "text": "Buku sedang dibaca.."
+    },
+    {
+      "id": "v40-f5f98e6438ba",
+      "text": "Kertas hendak dikongsi."
+    },
+    {
+      "id": "v40-eed237ae1a85",
+      "text": "Kertas hendak dikongsi.."
+    },
+    {
+      "id": "v40-4c2c686ef900",
+      "text": "Rak itu senget."
+    },
+    {
+      "id": "v40-01c1c9d274ce",
+      "text": "Rak itu senget.."
+    },
+    {
+      "id": "v40-735fe187a66f",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Rak itu senget.."
+    },
+    {
+      "id": "v40-7b283d45799f",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Rak itu senget.."
+    },
+    {
+      "id": "v40-eddd6f6543a5",
+      "text": "Jawapan yang tepat ialah Rak itu senget.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-6f447fbd3e45",
+      "text": "Jawapan yang tepat ialah Rak itu senget.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-9e0441e3867a",
+      "text": "Mengapakah label ditampal pada rak?"
+    },
+    {
+      "id": "v40-5d4c82d5fb64",
+      "text": "Mengapakah label ditampal pada rak? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-58662d359f7c",
+      "text": "Mengapakah label ditampal pada rak? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-48e85a0e8a06",
+      "text": "Supaya buku mudah koyak."
+    },
+    {
+      "id": "v40-440924deeb72",
+      "text": "Supaya buku mudah koyak.."
+    },
+    {
+      "id": "v40-e32b8795459f",
+      "text": "Supaya buku mudah dicari.."
+    },
+    {
+      "id": "v40-2d8a83d9a3ff",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Supaya buku mudah dicari.."
+    },
+    {
+      "id": "v40-48aaabdfe590",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Supaya buku mudah dicari.."
+    },
+    {
+      "id": "v40-61a390015ba1",
+      "text": "Jawapan yang tepat ialah Supaya buku mudah dicari.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-59e15aa58c59",
+      "text": "Jawapan yang tepat ialah Supaya buku mudah dicari.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-3bc9d496e265",
+      "text": "Apakah kesan membuang sisa kertas ke dalam tong sampah?"
+    },
+    {
+      "id": "v40-1163a8740514",
+      "text": "Apakah kesan membuang sisa kertas ke dalam tong sampah? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-46ca0b69b801",
+      "text": "Apakah kesan membuang sisa kertas ke dalam tong sampah? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-bac69e77e448",
+      "text": "Pondok menjadi bersih."
+    },
+    {
+      "id": "v40-3ad249b5a4b2",
+      "text": "Pondok menjadi bersih.."
+    },
+    {
+      "id": "v40-43281a064cec",
+      "text": "Buku bertaburan di lantai."
+    },
+    {
+      "id": "v40-d3f976c0677d",
+      "text": "Buku bertaburan di lantai.."
+    },
+    {
+      "id": "v40-1d1c9a1f0f9d",
+      "text": "Sampah semakin bertaburan."
+    },
+    {
+      "id": "v40-0ff00ac5f5a9",
+      "text": "Sampah semakin bertaburan.."
+    },
+    {
+      "id": "v40-f2fd18496434",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Pondok menjadi bersih.."
+    },
+    {
+      "id": "v40-c1d113252878",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Pondok menjadi bersih.."
+    },
+    {
+      "id": "v40-3c350b6b7dab",
+      "text": "Jawapan yang tepat ialah Pondok menjadi bersih.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-903c6138cee8",
+      "text": "Jawapan yang tepat ialah Pondok menjadi bersih.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-b85248fba301",
+      "text": "Apakah faedah memulangkan buku ke rak?"
+    },
+    {
+      "id": "v40-319eff077ce7",
+      "text": "Apakah faedah memulangkan buku ke rak? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-1981db4c90d0",
+      "text": "Apakah faedah memulangkan buku ke rak? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-20b576e8007a",
+      "text": "Halaman buku menjadi koyak."
+    },
+    {
+      "id": "v40-d35ec4811488",
+      "text": "Halaman buku menjadi koyak.."
+    },
+    {
+      "id": "v40-1dbfa89ad4d0",
+      "text": "Lantai dipenuhi buku."
+    },
+    {
+      "id": "v40-7482e566663c",
+      "text": "Lantai dipenuhi buku.."
+    },
+    {
+      "id": "v40-0055610bba97",
+      "text": "Rakan lain mudah mencari buku."
+    },
+    {
+      "id": "v40-b55d5f696e4f",
+      "text": "Rakan lain mudah mencari buku.."
+    },
+    {
+      "id": "v40-f1582c263760",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Rakan lain mudah mencari buku.."
+    },
+    {
+      "id": "v40-bcd8b3be6fd9",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Rakan lain mudah mencari buku.."
+    },
+    {
+      "id": "v40-4e160cefeade",
+      "text": "Jawapan yang tepat ialah Rakan lain mudah mencari buku.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-a290d7f7b86b",
+      "text": "Jawapan yang tepat ialah Rakan lain mudah mencari buku.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-f0b6ffd9189b",
+      "text": "Lengkapkan ayat: Hana mengutip buku, manakala Iman _____. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-dac47887eb0f",
+      "text": "membaiki rak"
+    },
+    {
+      "id": "v40-11c369bde62f",
+      "text": "mengelap meja"
+    },
+    {
+      "id": "v40-6476278af480",
+      "text": "berkongsi kertas"
+    },
+    {
+      "id": "v40-0458bb5e5a4f",
+      "text": "Siapakah yang membaiki rak buku? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-07e53177f9e9",
+      "text": "Tok Wan"
+    },
+    {
+      "id": "v40-398b2de0c7d6",
+      "text": "Selepas rak dibaiki, apakah yang mereka lakukan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-14b0d12072bd",
+      "text": "Bermain bola."
+    },
+    {
+      "id": "v40-67e17194a8c3",
+      "text": "Mengoyakkan buku."
+    },
+    {
+      "id": "v40-69b231dc5f90",
+      "text": "Lengkapkan ayat: Hana berkongsi _____ untuk membuat penanda buku. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-c4a58a4e87c7",
+      "text": "kertas berwarna"
+    },
+    {
+      "id": "v40-9fe430e52746",
+      "text": "air"
+    },
+    {
+      "id": "v40-2c7fd9ec53f9",
+      "text": "Apakah yang mereka lakukan pada petang itu? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-f64fdbf7873d",
+      "text": "Mengajak rakan membaca."
+    },
+    {
+      "id": "v40-c0f2a3f3b410",
+      "text": "Menyiram pokok."
+    },
+    {
+      "id": "v40-93545970ecaa",
+      "text": "Memberi kucing makan."
+    },
+    {
+      "id": "v40-6f54b43c7b9f",
+      "text": "Buku yang kamu pinjam terkoyak. Apakah tindakan jujur? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-b94494669834",
+      "text": "Sembunyikan buku di lantai."
+    },
+    {
+      "id": "v40-f12cec159251",
+      "text": "Koyakkan halaman yang lain."
+    },
+    {
+      "id": "v40-5d201a939bad",
+      "text": "Beritahu guru dan serahkan buku itu."
+    },
+    {
+      "id": "v40-e9c91c16bc90",
+      "text": "Dua orang mahu membaca sebuah buku yang sama. Apakah cadangan kamu? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-1c82dab34694",
+      "text": "Baca bersama-sama."
+    },
+    {
+      "id": "v40-5cb627c1ee85",
+      "text": "Tarik buku hingga koyak."
+    },
+    {
+      "id": "v40-d831d0bb9edd",
+      "text": "Ambil buku untuk diri sendiri sahaja."
+    },
+    {
+      "id": "v40-02720091bb80",
+      "text": "Sudut bacaan perlu dikemas sebelum kelas bermula. Apakah rancangan yang cepat dan teratur? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-cf006ab08d2e",
+      "text": "Biarkan seorang membuat semua kerja."
+    },
+    {
+      "id": "v40-9eff883a404b",
+      "text": "Bahagikan tugas menyusun dan mengelap."
+    },
+    {
+      "id": "v40-3837efa727a0",
+      "text": "Semua pergi bermain dahulu."
+    },
+    {
+      "id": "v40-6faecc47c9bb",
+      "text": "Kawan menggunakan semua kertas warna. Kamu masih memerlukannya. Apakah tindakan yang sopan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-d99b7d16eab0",
+      "text": "Minta berkongsi kertas."
+    },
+    {
+      "id": "v40-55cebddebdb9",
+      "text": "Koyakkan kertasnya."
+    },
+    {
+      "id": "v40-bcfe83f3bf00",
+      "text": "Jerit kepada kawan."
+    },
+    {
+      "id": "v40-b7f5f79ab7d4",
+      "text": "Kamu menemukan buku yang bukan milik kamu. Apakah tindakan yang sesuai? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-550f612b7ccd",
+      "text": "Koyakkan halaman buku."
+    },
+    {
+      "id": "v40-7101638d1db9",
+      "text": "Tinggalkan buku di lantai."
+    },
+    {
+      "id": "v40-a4e3dd3b5f3a",
+      "text": "Serahkan buku kepada guru."
+    },
+    {
+      "id": "v40-3fbf721444fc",
+      "text": "Kawan tersalah meletakkan buku. Bagaimanakah kamu membantunya? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-b5fc28e7b724",
+      "text": "Marah kepadanya."
+    },
+    {
+      "id": "v40-94bba2b0bdc5",
+      "text": "Tunjukkan rak yang betul."
+    },
+    {
+      "id": "v40-8615098f4959",
+      "text": "Sepahkan buku yang lain."
+    },
+    {
+      "id": "v40-f7fdfb8c4470",
+      "text": "Mengapakah anak pokok itu layu?"
+    },
+    {
+      "id": "v40-7bda3ad31155",
+      "text": "Mengapakah anak pokok itu layu? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-9a4b212be086",
+      "text": "Mengapakah anak pokok itu layu? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-1fe28a888c68",
+      "text": "Air diberi secukupnya."
+    },
+    {
+      "id": "v40-777ac2e209fe",
+      "text": "Air diberi secukupnya.."
+    },
+    {
+      "id": "v40-061124205ac7",
+      "text": "Pasu diletakkan di tempat teduh."
+    },
+    {
+      "id": "v40-54d03c37d7a3",
+      "text": "Pasu diletakkan di tempat teduh.."
+    },
+    {
+      "id": "v40-a6bb90877f97",
+      "text": "Cuaca panas."
+    },
+    {
+      "id": "v40-ccee48b1e1ec",
+      "text": "Cuaca panas.."
+    },
+    {
+      "id": "v40-f2ac83c21cf7",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Cuaca panas.."
+    },
+    {
+      "id": "v40-be1bf2524959",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Cuaca panas.."
+    },
+    {
+      "id": "v40-0cf0d4b5d8b7",
+      "text": "Jawapan yang tepat ialah Cuaca panas.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-60d1771e3e57",
+      "text": "Jawapan yang tepat ialah Cuaca panas.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-97fa3f4d15d8",
+      "text": "Apakah kesan menyiram pokok dengan air secukupnya?"
+    },
+    {
+      "id": "v40-f09f018e2683",
+      "text": "Apakah kesan menyiram pokok dengan air secukupnya? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-f62c7a5b72b1",
+      "text": "Apakah kesan menyiram pokok dengan air secukupnya? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-56126f2ae950",
+      "text": "Pokok menjadi segar."
+    },
+    {
+      "id": "v40-05cf2186c843",
+      "text": "Pokok menjadi segar.."
+    },
+    {
+      "id": "v40-938b9ea6588a",
+      "text": "Pokok semakin layu."
+    },
+    {
+      "id": "v40-198a6805d695",
+      "text": "Pokok semakin layu.."
+    },
+    {
+      "id": "v40-eba71a1074c1",
+      "text": "Semua daun dipetik."
+    },
+    {
+      "id": "v40-2754b543a489",
+      "text": "Semua daun dipetik.."
+    },
+    {
+      "id": "v40-cee3c6afc8a8",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Pokok menjadi segar.."
+    },
+    {
+      "id": "v40-83554be28204",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Pokok menjadi segar.."
+    },
+    {
+      "id": "v40-7b70d51b2c8b",
+      "text": "Jawapan yang tepat ialah Pokok menjadi segar.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-f1a7c17f5122",
+      "text": "Jawapan yang tepat ialah Pokok menjadi segar.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-97d5f2a33372",
+      "text": "Mengapakah Iman melukis gambar pada kad?"
+    },
+    {
+      "id": "v40-5793eb4bf5cf",
+      "text": "Mengapakah Iman melukis gambar pada kad? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-e78324846a63",
+      "text": "Mengapakah Iman melukis gambar pada kad? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-8a56950012ba",
+      "text": "Supaya daun mudah dipetik."
+    },
+    {
+      "id": "v40-ba157361c581",
+      "text": "Supaya daun mudah dipetik.."
+    },
+    {
+      "id": "v40-be185fe09f93",
+      "text": "Supaya pesanan mudah diingati."
+    },
+    {
+      "id": "v40-9b12119539f3",
+      "text": "Supaya pesanan mudah diingati.."
+    },
+    {
+      "id": "v40-a3560073de13",
+      "text": "Supaya air melimpah."
+    },
+    {
+      "id": "v40-0566678352b1",
+      "text": "Supaya air melimpah.."
+    },
+    {
+      "id": "v40-7af804a19650",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Supaya pesanan mudah diingati.."
+    },
+    {
+      "id": "v40-17848860a6ee",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Supaya pesanan mudah diingati.."
+    },
+    {
+      "id": "v40-bdaecc62bace",
+      "text": "Jawapan yang tepat ialah Supaya pesanan mudah diingati.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-3314009242a9",
+      "text": "Jawapan yang tepat ialah Supaya pesanan mudah diingati.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-390adc91fe77",
+      "text": "Mengapakah Hana menyediakan jadual?"
+    },
+    {
+      "id": "v40-3fa5bb67e1b2",
+      "text": "Mengapakah Hana menyediakan jadual? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-352e01e5523e",
+      "text": "Mengapakah Hana menyediakan jadual? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-1745c81d035e",
+      "text": "Supaya mereka ingat akan tugas."
+    },
+    {
+      "id": "v40-7574cc34a02d",
+      "text": "Supaya mereka ingat akan tugas.."
+    },
+    {
+      "id": "v40-a94fa34cc23f",
+      "text": "Supaya semua daun dipetik.."
+    },
+    {
+      "id": "v40-dc62b9c708da",
+      "text": "Supaya pokok dibiarkan layu."
+    },
+    {
+      "id": "v40-c4e005ca252d",
+      "text": "Supaya pokok dibiarkan layu.."
+    },
+    {
+      "id": "v40-252eee298af0",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Supaya mereka ingat akan tugas.."
+    },
+    {
+      "id": "v40-fb2e571fe7af",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Supaya mereka ingat akan tugas.."
+    },
+    {
+      "id": "v40-32a3d731b70b",
+      "text": "Jawapan yang tepat ialah Supaya mereka ingat akan tugas.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-bdc3e5dcc8c9",
+      "text": "Jawapan yang tepat ialah Supaya mereka ingat akan tugas.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-4a4ae976bd39",
+      "text": "Apakah hasil penjagaan pokok bersama-sama?"
+    },
+    {
+      "id": "v40-94ac3dad0816",
+      "text": "Apakah hasil penjagaan pokok bersama-sama? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-6dd551790945",
+      "text": "Apakah hasil penjagaan pokok bersama-sama? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-bec8d47807db",
+      "text": "Anak pokok terus layu."
+    },
+    {
+      "id": "v40-4604915f534a",
+      "text": "Anak pokok terus layu.."
+    },
+    {
+      "id": "v40-062d9876916b",
+      "text": "Air terus melimpah."
+    },
+    {
+      "id": "v40-5e82b56b500f",
+      "text": "Air terus melimpah.."
+    },
+    {
+      "id": "v40-e6eb6f60719f",
+      "text": "Anak pokok kembali segar."
+    },
+    {
+      "id": "v40-7601622d1531",
+      "text": "Anak pokok kembali segar.."
+    },
+    {
+      "id": "v40-5b835b09ace6",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Anak pokok kembali segar.."
+    },
+    {
+      "id": "v40-374eefe66a50",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Anak pokok kembali segar.."
+    },
+    {
+      "id": "v40-0a5da74536a9",
+      "text": "Jawapan yang tepat ialah Anak pokok kembali segar.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-17081c153884",
+      "text": "Jawapan yang tepat ialah Anak pokok kembali segar.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-27d37b64fc76",
+      "text": "Lengkapkan ayat: Tok Wan mengisi baldi dengan _____. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-c0e3b132ddc5",
+      "text": "daun"
+    },
+    {
+      "id": "v40-e1823cffbd84",
+      "text": "sampah"
+    },
+    {
+      "id": "v40-5c7da6b8da33",
+      "text": "Selepas menyiram pokok, apakah yang mereka kutip? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-75a4b13e6c5a",
+      "text": "Buku."
+    },
+    {
+      "id": "v40-4b3786541672",
+      "text": "Makanan."
+    },
+    {
+      "id": "v40-a6de03fa4208",
+      "text": "Daun kering."
+    },
+    {
+      "id": "v40-6d0a2c1fa340",
+      "text": "Siapakah yang menulis label penjagaan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-1c8654064f01",
+      "text": "Lengkapkan ayat: Label penjagaan diletakkan di sebelah _____. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-fb873e487179",
+      "text": "pasu"
+    },
+    {
+      "id": "v40-6f3dea251719",
+      "text": "rak buku"
+    },
+    {
+      "id": "v40-54a6c8364c51",
+      "text": "peti Belang"
+    },
+    {
+      "id": "v40-d782957f9df2",
+      "text": "Selepas pokok kembali segar, apakah yang Hana dan Iman catat? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-a5098c0679aa",
+      "text": "Jadual Belang."
+    },
+    {
+      "id": "v40-e942c3fb9700",
+      "text": "Baki bekal."
+    },
+    {
+      "id": "v40-aaeb516a3d30",
+      "text": "Perubahan pokok."
+    },
+    {
+      "id": "v40-ff1c512d691d",
+      "text": "Sekolah akan bercuti. Bagaimanakah pokok kelas boleh terus dijaga? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-1377cdab3f67",
+      "text": "Rancang penjagaan bersama guru."
+    },
+    {
+      "id": "v40-e5d186909173",
+      "text": "Biarkan pokok tanpa penjagaan."
+    },
+    {
+      "id": "v40-d411477febbb",
+      "text": "Petik semua daun."
+    },
+    {
+      "id": "v40-6e26852ba6a6",
+      "text": "Pasu kecil terdedah kepada hujan lebat. Apakah tindakan yang sesuai? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-472f61838c65",
+      "text": "Tambah air hingga melimpah."
+    },
+    {
+      "id": "v40-0eb3d3e6cb09",
+      "text": "Pindahkan ke tempat terlindung."
+    },
+    {
+      "id": "v40-c36dd0d2dace",
+      "text": "Rakan menyiram terlalu banyak air. Apakah nasihat kamu? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-bf84b823b618",
+      "text": "Teruskan hingga air melimpah."
+    },
+    {
+      "id": "v40-54d35bb291d3",
+      "text": "Jangan beri air selama-lamanya."
+    },
+    {
+      "id": "v40-ee8f65003e94",
+      "text": "Hentikan air apabila sudah cukup."
+    },
+    {
+      "id": "v40-03f7a7fb960d",
+      "text": "Kamu belum tahu cara menjaga pokok baharu. Apakah langkah pertama? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-c276931a693a",
+      "text": "Tanya orang yang tahu."
+    },
+    {
+      "id": "v40-8f453d3d45cf",
+      "text": "Petik daunnya dahulu."
+    },
+    {
+      "id": "v40-4aecdfe695cf",
+      "text": "Tuang semua air yang ada."
+    },
+    {
+      "id": "v40-c84239bfd853",
+      "text": "Bekas air berat dan rakan sukar membawanya. Bagaimanakah kamu membantu? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-0415e97eec4f",
+      "text": "Berlari meninggalkannya."
+    },
+    {
+      "id": "v40-3a6ec0c42d11",
+      "text": "Ajak rakan bermain sahaja."
+    },
+    {
+      "id": "v40-c725575e2c93",
+      "text": "Bawa bersama-sama."
+    },
+    {
+      "id": "v40-5f77d9331bc6",
+      "text": "Kamu terlupa giliran menjaga pokok. Apakah cara supaya tidak terlupa lagi? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-4f8e1c942eca",
+      "text": "Biarkan pokok itu layu."
+    },
+    {
+      "id": "v40-a2038c10dbc4",
+      "text": "Semak jadual setiap hari."
+    },
+    {
+      "id": "v40-9200d1d9ee9a",
+      "text": "Lupakan tugas dan bermain."
+    },
+    {
+      "id": "v40-e2ee9466b50a",
+      "text": "Mengapakah Hana membasuh tangan sebelum menyediakan bekal?"
+    },
+    {
+      "id": "v40-843021adf0cf",
+      "text": "Mengapakah Hana membasuh tangan sebelum menyediakan bekal? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-14fe5c28a637",
+      "text": "Mengapakah Hana membasuh tangan sebelum menyediakan bekal? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-d42caa3a5d80",
+      "text": "Supaya bekal dibuang."
+    },
+    {
+      "id": "v40-4f4ee8a55150",
+      "text": "Supaya bekal dibuang.."
+    },
+    {
+      "id": "v40-18e91e44766e",
+      "text": "Supaya tangannya bersih."
+    },
+    {
+      "id": "v40-887450692b0a",
+      "text": "Supaya tangannya bersih.."
+    },
+    {
+      "id": "v40-507a619a459c",
+      "text": "Supaya sampah bertambah.."
+    },
+    {
+      "id": "v40-06fef6707065",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Supaya tangannya bersih.."
+    },
+    {
+      "id": "v40-a24990b56d15",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Supaya tangannya bersih.."
+    },
+    {
+      "id": "v40-2f0709807a5f",
+      "text": "Jawapan yang tepat ialah Supaya tangannya bersih.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-ac80aaf048b7",
+      "text": "Jawapan yang tepat ialah Supaya tangannya bersih.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-2f0188081580",
+      "text": "Mengapakah tangan mereka kotor?"
+    },
+    {
+      "id": "v40-2d7f3f431918",
+      "text": "Mengapakah tangan mereka kotor? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-d973c4f8a15e",
+      "text": "Mengapakah tangan mereka kotor? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-b3f0b485a054",
+      "text": "Mereka baru bermain."
+    },
+    {
+      "id": "v40-c73da3b1ad68",
+      "text": "Mereka baru bermain.."
+    },
+    {
+      "id": "v40-7322343a6a86",
+      "text": "Mereka baru membasuh tangan."
+    },
+    {
+      "id": "v40-e1488d2ad0d5",
+      "text": "Mereka baru membasuh tangan.."
+    },
+    {
+      "id": "v40-ae8048c80f35",
+      "text": "Mereka baru menutup bekas."
+    },
+    {
+      "id": "v40-91d47df6b530",
+      "text": "Mereka baru menutup bekas.."
+    },
+    {
+      "id": "v40-adb55e30aa34",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Mereka baru bermain.."
+    },
+    {
+      "id": "v40-350cbebb1e40",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Mereka baru bermain.."
+    },
+    {
+      "id": "v40-9882a5621e99",
+      "text": "Jawapan yang tepat ialah Mereka baru bermain.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-9cbe657f23ea",
+      "text": "Jawapan yang tepat ialah Mereka baru bermain.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-b71181246f9f",
+      "text": "Mengapakah Iman menutup bekas makanan?"
+    },
+    {
+      "id": "v40-00d9b31350d0",
+      "text": "Mengapakah Iman menutup bekas makanan? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-6d1e7a6936dd",
+      "text": "Mengapakah Iman menutup bekas makanan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-1b07d97caf7b",
+      "text": "Supaya makanan dibuang.."
+    },
+    {
+      "id": "v40-c974ae0d09eb",
+      "text": "Supaya tempat berkelah kotor.."
+    },
+    {
+      "id": "v40-67f24900794c",
+      "text": "Supaya makanan kekal bersih."
+    },
+    {
+      "id": "v40-bee89adf8ffa",
+      "text": "Supaya makanan kekal bersih.."
+    },
+    {
+      "id": "v40-012a0042715b",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Supaya makanan kekal bersih.."
+    },
+    {
+      "id": "v40-af53a456ea6d",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Supaya makanan kekal bersih.."
+    },
+    {
+      "id": "v40-d847111ebdc0",
+      "text": "Jawapan yang tepat ialah Supaya makanan kekal bersih.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-1f7f5c3e4f49",
+      "text": "Jawapan yang tepat ialah Supaya makanan kekal bersih.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-70e94368e95d",
+      "text": "Apakah kesan mengutip sampah bersama-sama?"
+    },
+    {
+      "id": "v40-cb41fcc0de8f",
+      "text": "Apakah kesan mengutip sampah bersama-sama? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-1c3d4067848d",
+      "text": "Apakah kesan mengutip sampah bersama-sama? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-b264ce732264",
+      "text": "Sampah terus bertaburan."
+    },
+    {
+      "id": "v40-796a6fd0dc8e",
+      "text": "Sampah terus bertaburan.."
+    },
+    {
+      "id": "v40-38ade64567da",
+      "text": "Tempat berkelah menjadi bersih."
+    },
+    {
+      "id": "v40-f61387d6105d",
+      "text": "Tempat berkelah menjadi bersih.."
+    },
+    {
+      "id": "v40-f02973e5d512",
+      "text": "Makanan yang elok dibuang."
+    },
+    {
+      "id": "v40-36092f04a2ac",
+      "text": "Makanan yang elok dibuang.."
+    },
+    {
+      "id": "v40-f2c41c1f26bb",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Tempat berkelah menjadi bersih.."
+    },
+    {
+      "id": "v40-dbad88fe1b59",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Tempat berkelah menjadi bersih.."
+    },
+    {
+      "id": "v40-d12584564e8a",
+      "text": "Jawapan yang tepat ialah Tempat berkelah menjadi bersih.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-e2c88b511c6b",
+      "text": "Jawapan yang tepat ialah Tempat berkelah menjadi bersih.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-b1195848537b",
+      "text": "Apakah tujuan poster membasuh tangan?"
+    },
+    {
+      "id": "v40-7e9e84608f54",
+      "text": "Apakah tujuan poster membasuh tangan? Pilih satu jawapan."
+    },
+    {
+      "id": "v40-dee21c8679b0",
+      "text": "Apakah tujuan poster membasuh tangan? Pilih ikan, kemudian tekan Pancing ikan ini."
+    },
+    {
+      "id": "v40-0eb6933bf76b",
+      "text": "Mengingatkan orang menjaga kebersihan."
+    },
+    {
+      "id": "v40-25b25d8f8690",
+      "text": "Mengingatkan orang menjaga kebersihan.."
+    },
+    {
+      "id": "v40-8b962f29bf4f",
+      "text": "Mengajak orang membazir makanan."
+    },
+    {
+      "id": "v40-e90cf4d49556",
+      "text": "Mengajak orang membazir makanan.."
+    },
+    {
+      "id": "v40-bc2be87013c0",
+      "text": "Mengajak orang membuang sampah merata-rata."
+    },
+    {
+      "id": "v40-e605f643e4bd",
+      "text": "Mengajak orang membuang sampah merata-rata.."
+    },
+    {
+      "id": "v40-82f840f1c94a",
+      "text": "Kamu berjaya memilih jawapan tentang cerita: Mengingatkan orang menjaga kebersihan.."
+    },
+    {
+      "id": "v40-1ff421b79741",
+      "text": "Kamu berjaya memilih jawapan yang tepat: Mengingatkan orang menjaga kebersihan.."
+    },
+    {
+      "id": "v40-14e7aaef54e8",
+      "text": "Jawapan yang tepat ialah Mengingatkan orang menjaga kebersihan.. Dua mata ditolak. Kamu boleh meneruskan."
+    },
+    {
+      "id": "v40-370091619309",
+      "text": "Jawapan yang tepat ialah Mengingatkan orang menjaga kebersihan.. Dua mata ditolak. Teruskan permainan."
+    },
+    {
+      "id": "v40-d8d75d9ddea4",
+      "text": "Lengkapkan ayat: Mereka membawa buah, roti dan _____. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-05ed9135baf4",
+      "text": "buku"
+    },
+    {
+      "id": "v40-f135f2a56c2a",
+      "text": "air kosong"
+    },
+    {
+      "id": "v40-c3a90ac0db96",
+      "text": "Sebelum berkongsi bekal, apakah yang mereka lakukan? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-15cea6cd2b62",
+      "text": "Membasuh tangan."
+    },
+    {
+      "id": "v40-5347be1b474f",
+      "text": "Mengutip sampah."
+    },
+    {
+      "id": "v40-84770353ddc2",
+      "text": "Menyimpan baki bekal."
+    },
+    {
+      "id": "v40-8e37a868322a",
+      "text": "Lengkapkan ayat: Apabila kenyang, mereka menyimpan _____. Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-6c76d65255b7",
+      "text": "baki bekal"
+    },
+    {
+      "id": "v40-933267a55c4e",
+      "text": "Siapakah yang mengajak Iman mengumpulkan sampah? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-d67e653cdba7",
+      "text": "Selepas berkelah, apakah poster yang ingin mereka buat? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-71be7aa1580f",
+      "text": "Poster membasuh tangan."
+    },
+    {
+      "id": "v40-d5acb1e1a55d",
+      "text": "Poster menjaga kucing."
+    },
+    {
+      "id": "v40-17a6f04a45d0",
+      "text": "Poster menyiram pokok."
+    },
+    {
+      "id": "v40-5e6544b7ef82",
+      "text": "Kawan terlupa membawa bekal. Kamu ada makanan lebih. Apakah tindakan baik hati? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-cb1b724cbb69",
+      "text": "Buang makanan yang lebih."
+    },
+    {
+      "id": "v40-59f9c096af38",
+      "text": "Kongsi makanan dengannya."
+    },
+    {
+      "id": "v40-344cb6c33724",
+      "text": "Makan sendiri tanpa peduli."
+    },
+    {
+      "id": "v40-e73d0cdc9000",
+      "text": "Kamu hendak bersin semasa makan. Bagaimanakah kamu menjaga orang lain? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-f6486eba4e6c",
+      "text": "Terus hulurkan makanan."
+    },
+    {
+      "id": "v40-9108019b2912",
+      "text": "Buang semua makanan."
+    },
+    {
+      "id": "v40-ff7545abeea3",
+      "text": "Tutup mulut dan hidung dengan tisu."
+    },
+    {
+      "id": "v40-fa1e23ebfab4",
+      "text": "Buah jatuh di tempat berdebu. Orang dewasa mengatakan buah itu masih boleh dibersihkan. Apakah langkah sebelum memakannya? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-a719a9d4722c",
+      "text": "Basuh buah itu dahulu."
+    },
+    {
+      "id": "v40-c70cea9631d0",
+      "text": "Terus kongsi buah itu."
+    },
+    {
+      "id": "v40-d6c35b6854ff",
+      "text": "Tutup buah tanpa membasuhnya."
+    },
+    {
+      "id": "v40-607b2647b455",
+      "text": "Selepas jamuan, meja perlu dikemas. Apakah rancangan yang melibatkan semua ahli? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-aaccac02e8c2",
+      "text": "Suruh seorang buat semua kerja."
+    },
+    {
+      "id": "v40-4d336e0c89e4",
+      "text": "Semua pergi bermain."
+    },
+    {
+      "id": "v40-7ae620634840",
+      "text": "Bahagikan tugas mengemas."
+    },
+    {
+      "id": "v40-a36670b777fc",
+      "text": "Rakan mengambil terlalu banyak makanan. Apakah nasihat kamu? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-ac855e43d4a0",
+      "text": "Ambil makanan secukupnya."
+    },
+    {
+      "id": "v40-f729a78c6ada",
+      "text": "Tinggalkan makanan di lantai."
+    },
+    {
+      "id": "v40-d90e69c09482",
+      "text": "Kamu selesai membasuh tangan tetapi paip masih terbuka. Apakah tindakan kamu? Pilih satu gambar jawapan."
+    },
+    {
+      "id": "v40-989153a0e6dc",
+      "text": "Tutup paip itu."
+    },
+    {
+      "id": "v40-81d40b733afb",
+      "text": "Biarkan air terus mengalir."
+    },
+    {
+      "id": "v40-0792aabcb595",
+      "text": "Terus pergi bermain."
+    }
+  ]
+}

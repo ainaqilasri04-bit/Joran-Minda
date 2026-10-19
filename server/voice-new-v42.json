@@ -1,0 +1,21 @@
+{
+  "version": 42,
+  "clips": [
+    {
+      "id": "v42-6b95efe2a721",
+      "text": "Lihat pencapaian Objektif 1 dan Objektif 2. Semak bilangan nilai murni dan penerangan yang tepat. Kemudian, tekan Lihat buku cerita."
+    },
+    {
+      "id": "v42-74d244ea2162",
+      "text": "Lihat sijil kamu. Tekan Muat turun sijil saya untuk menyimpannya. Kemudian, tekan Lihat objektif pembelajaran."
+    },
+    {
+      "id": "v42-bd6e4aad837e",
+      "text": "Lihat sijil kumpulan kamu. Tekan Muat turun sijil semua ahli untuk menyimpan sijil setiap ahli. Kemudian, tekan Lihat objektif pembelajaran."
+    },
+    {
+      "id": "v42-6882ace64e92",
+      "text": "Sijil belum dibuka. Lihat senarai tugasan yang belum siap. Tekan Sambung tugasan untuk melengkapkannya."
+    }
+  ]
+}

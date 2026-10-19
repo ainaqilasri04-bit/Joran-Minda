@@ -1,0 +1,40 @@
+{
+  "version": "36.0.0",
+  "date": "2026-10-16",
+  "unitTests": {
+    "passed": 52,
+    "failed": 0
+  },
+  "domIntegration": {
+    "environment": "jsdom 26; layout, media and camera mocks",
+    "solo": "puzzle, five page recording gates, page-bound teacher audio, proof feedback, two guided explanations, three differentiated routes",
+    "group": "four named contributors; personal pemulihan, pengukuhan and pengayaan; saved subject identity; certificate gate"
+  },
+  "cameraSimulation": [
+    "ready",
+    "training skip",
+    "context cleanup",
+    "permission denial",
+    "detector failure",
+    "cancel initialization",
+    "late permission cleanup"
+  ],
+  "preservation": {
+    "originalAudioMappings": 656,
+    "audioFileHashesUnchanged": 459,
+    "teacherVoicePackUnchanged": true,
+    "storyEngineUnchanged": true
+  },
+  "audio": {
+    "newClips": 163,
+    "catalogueTotal": 819,
+    "decodingDurationAndProviderTextChecked": true,
+    "humanPronunciationReviewed": false
+  },
+  "notVerified": [
+    "real browser layout",
+    "real microphone and camera hardware",
+    "real hand detection",
+    "published Netlify room"
+  ]
+}

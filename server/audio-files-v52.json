@@ -1,0 +1,8 @@
+{
+  "aiUniqueFiles": 1750,
+  "existingAudioUnchanged": true,
+  "teacherStoredTakes": 20,
+  "teacherPackSha256": "47d7f084cbc0a3034198581e53148c95387df14cac6043389d48e9b74777bfe3",
+  "failures": [],
+  "checks": "All mapped files exist, are nonempty and byte-identical to V51. Exact text match assessed by runtime audit. Not a human listening test."
+}

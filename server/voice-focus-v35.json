@@ -1,0 +1,428 @@
+{
+  "version": 35,
+  "clips": [
+    {
+      "text": "Baca jawapan pada setiap ikan.",
+      "sourceText": "Baca jawapan pada setiap ikan. Pilih satu ikan, kemudian tekan butang untuk memancing. Kamu boleh menghentikan pergerakan ikan pada bila-bila masa.",
+      "sentence": 1,
+      "source": "audio-ms/suara-standard-v19.mp3",
+      "start": 0,
+      "end": 2.7520800000000003,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Pilih satu ikan, kemudian tekan butang untuk memancing.",
+      "sourceText": "Baca jawapan pada setiap ikan. Pilih satu ikan, kemudian tekan butang untuk memancing. Kamu boleh menghentikan pergerakan ikan pada bila-bila masa.",
+      "sentence": 2,
+      "source": "audio-ms/suara-standard-v19.mp3",
+      "start": 3.43467,
+      "end": 7.60825,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Kamu boleh menghentikan pergerakan ikan pada bila-bila masa.",
+      "sourceText": "Baca jawapan pada setiap ikan. Pilih satu ikan, kemudian tekan butang untuk memancing. Kamu boleh menghentikan pergerakan ikan pada bila-bila masa.",
+      "sentence": 3,
+      "source": "audio-ms/suara-standard-v19.mp3",
+      "start": 8.283619999999999,
+      "end": 13.058667,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Nyatakan satu nilai murni dan cara kamu akan mengamalkannya.",
+      "sourceText": "Nyatakan satu nilai murni dan cara kamu akan mengamalkannya. Kemudian, simpan refleksi.",
+      "sentence": 1,
+      "source": "audio-ms/clips/ff0f9a920cd5ad58e772.mp3",
+      "start": 0,
+      "end": 4.22333,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Kemudian, simpan refleksi.",
+      "sourceText": "Nyatakan satu nilai murni dan cara kamu akan mengamalkannya. Kemudian, simpan refleksi.",
+      "sentence": 2,
+      "source": "audio-ms/clips/ff0f9a920cd5ad58e772.mp3",
+      "start": 4.88329,
+      "end": 7.51775,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Pilih nilai murni.",
+      "sourceText": "Pilih nilai murni. Padankan perbuatan watak yang menyokong nilai itu. Kemudian, tulis penerangan sendiri.",
+      "sentence": 1,
+      "source": "audio-ms/clips/b75a3a87cf45af99abc1.mp3",
+      "start": 0,
+      "end": 1.8519999999999999,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Padankan perbuatan watak yang menyokong nilai itu.",
+      "sourceText": "Pilih nilai murni. Padankan perbuatan watak yang menyokong nilai itu. Kemudian, tulis penerangan sendiri.",
+      "sentence": 2,
+      "source": "audio-ms/clips/b75a3a87cf45af99abc1.mp3",
+      "start": 2.51412,
+      "end": 6.08404,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Kemudian, tulis penerangan sendiri.",
+      "sourceText": "Pilih nilai murni. Padankan perbuatan watak yang menyokong nilai itu. Kemudian, tulis penerangan sendiri.",
+      "sentence": 3,
+      "source": "audio-ms/clips/b75a3a87cf45af99abc1.mp3",
+      "start": 6.75787,
+      "end": 10.632,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Cadangkan satu perbuatan baik yang baharu.",
+      "sourceText": "Cadangkan satu perbuatan baik yang baharu. Terangkan nilai murni yang ditunjukkan melalui perbuatan itu. Semua ahli boleh memberikan idea; penyumbang menghantar jawapan.",
+      "sentence": 1,
+      "source": "audio-ms/clips/91757ca83c917cae0174.mp3",
+      "start": 0,
+      "end": 3.26667,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Terangkan nilai murni yang ditunjukkan melalui perbuatan itu.",
+      "sourceText": "Cadangkan satu perbuatan baik yang baharu. Terangkan nilai murni yang ditunjukkan melalui perbuatan itu. Semua ahli boleh memberikan idea; penyumbang menghantar jawapan.",
+      "sentence": 2,
+      "source": "audio-ms/clips/91757ca83c917cae0174.mp3",
+      "start": 3.94408,
+      "end": 8.17612,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Semua ahli boleh memberikan idea; penyumbang menghantar jawapan.",
+      "sourceText": "Cadangkan satu perbuatan baik yang baharu. Terangkan nilai murni yang ditunjukkan melalui perbuatan itu. Semua ahli boleh memberikan idea; penyumbang menghantar jawapan.",
+      "sentence": 3,
+      "source": "audio-ms/clips/91757ca83c917cae0174.mp3",
+      "start": 8.86692,
+      "end": 14.256,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Baca ayat bukti.",
+      "sourceText": "Baca ayat bukti. Pilih nilai yang sesuai. Catat nilai dan sebab kamu memilihnya. Kemudian, simpan catatan dan pancing jawapan. Dalam kumpulan, bincang bersama. Penyumbang menekan butang sendiri.",
+      "sentence": 1,
+      "source": "audio-ms/clips/defe4dac64e64e0d1860.mp3",
+      "start": 0,
+      "end": 1.91217,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Pilih nilai yang sesuai.",
+      "sourceText": "Baca ayat bukti. Pilih nilai yang sesuai. Catat nilai dan sebab kamu memilihnya. Kemudian, simpan catatan dan pancing jawapan. Dalam kumpulan, bincang bersama. Penyumbang menekan butang sendiri.",
+      "sentence": 2,
+      "source": "audio-ms/clips/defe4dac64e64e0d1860.mp3",
+      "start": 2.59554,
+      "end": 4.7925,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Catat nilai dan sebab kamu memilihnya.",
+      "sourceText": "Baca ayat bukti. Pilih nilai yang sesuai. Catat nilai dan sebab kamu memilihnya. Kemudian, simpan catatan dan pancing jawapan. Dalam kumpulan, bincang bersama. Penyumbang menekan butang sendiri.",
+      "sentence": 3,
+      "source": "audio-ms/clips/defe4dac64e64e0d1860.mp3",
+      "start": 5.48917,
+      "end": 8.52942,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Kemudian, simpan catatan dan pancing jawapan.",
+      "sourceText": "Baca ayat bukti. Pilih nilai yang sesuai. Catat nilai dan sebab kamu memilihnya. Kemudian, simpan catatan dan pancing jawapan. Dalam kumpulan, bincang bersama. Penyumbang menekan butang sendiri.",
+      "sentence": 4,
+      "source": "audio-ms/clips/defe4dac64e64e0d1860.mp3",
+      "start": 9.214,
+      "end": 13.0731,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Dalam kumpulan, bincang bersama.",
+      "sourceText": "Baca ayat bukti. Pilih nilai yang sesuai. Catat nilai dan sebab kamu memilihnya. Kemudian, simpan catatan dan pancing jawapan. Dalam kumpulan, bincang bersama. Penyumbang menekan butang sendiri.",
+      "sentence": 5,
+      "source": "audio-ms/clips/defe4dac64e64e0d1860.mp3",
+      "start": 13.770999999999999,
+      "end": 16.8128,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Penyumbang menekan butang sendiri.",
+      "sourceText": "Baca ayat bukti. Pilih nilai yang sesuai. Catat nilai dan sebab kamu memilihnya. Kemudian, simpan catatan dan pancing jawapan. Dalam kumpulan, bincang bersama. Penyumbang menekan butang sendiri.",
+      "sentence": 6,
+      "source": "audio-ms/clips/defe4dac64e64e0d1860.mp3",
+      "start": 17.4917,
+      "end": 20.712,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Susun enam keping gambar.",
+      "sourceText": "Susun enam keping gambar. Tekan dua keping untuk menukar tempatnya. Selepas siap, kongsi idea.",
+      "sentence": 1,
+      "source": "audio-ms/clips/c83414d4f7b312e8c4d2.mp3",
+      "start": 0,
+      "end": 2.30046,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Tekan dua keping untuk menukar tempatnya.",
+      "sourceText": "Susun enam keping gambar. Tekan dua keping untuk menukar tempatnya. Selepas siap, kongsi idea.",
+      "sentence": 2,
+      "source": "audio-ms/clips/c83414d4f7b312e8c4d2.mp3",
+      "start": 3.01342,
+      "end": 5.82212,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Selepas siap, kongsi idea.",
+      "sourceText": "Susun enam keping gambar. Tekan dua keping untuk menukar tempatnya. Selepas siap, kongsi idea.",
+      "sentence": 3,
+      "source": "audio-ms/clips/c83414d4f7b312e8c4d2.mp3",
+      "start": 6.52387,
+      "end": 9.888,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Baca halaman ini.",
+      "sourceText": "Baca halaman ini. Pembaca yang namanya dipaparkan menekan Rakam bacaan. Selepas membaca, tekan Henti dan simpan. Kemudian, tekan Seterusnya.",
+      "sentence": 1,
+      "source": "audio-ms/clips/6c541c9a88b48e1fcfe6.mp3",
+      "start": 0,
+      "end": 1.95442,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Pembaca yang namanya dipaparkan menekan Rakam bacaan.",
+      "sourceText": "Baca halaman ini. Pembaca yang namanya dipaparkan menekan Rakam bacaan. Selepas membaca, tekan Henti dan simpan. Kemudian, tekan Seterusnya.",
+      "sentence": 2,
+      "source": "audio-ms/clips/6c541c9a88b48e1fcfe6.mp3",
+      "start": 2.63508,
+      "end": 6.43579,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Selepas membaca, tekan Henti dan simpan.",
+      "sourceText": "Baca halaman ini. Pembaca yang namanya dipaparkan menekan Rakam bacaan. Selepas membaca, tekan Henti dan simpan. Kemudian, tekan Seterusnya.",
+      "sentence": 3,
+      "source": "audio-ms/clips/6c541c9a88b48e1fcfe6.mp3",
+      "start": 7.129289999999999,
+      "end": 10.8639,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Kemudian, tekan Seterusnya.",
+      "sourceText": "Baca halaman ini. Pembaca yang namanya dipaparkan menekan Rakam bacaan. Selepas membaca, tekan Henti dan simpan. Kemudian, tekan Seterusnya.",
+      "sentence": 4,
+      "source": "audio-ms/clips/6c541c9a88b48e1fcfe6.mp3",
+      "start": 11.5397,
+      "end": 15.048,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Gunakan Formula Ba Ca Ni.",
+      "sourceText": "Gunakan Formula Ba Ca Ni. Baca cerita. Cari perbuatan watak. Kemudian, tentukan nilai murni.",
+      "sentence": 1,
+      "source": "audio-ms/clips/f28bec3a6c222db1b6cc.mp3",
+      "start": 0,
+      "end": 2.47325,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Baca cerita.",
+      "sourceText": "Gunakan Formula Ba Ca Ni. Baca cerita. Cari perbuatan watak. Kemudian, tentukan nilai murni.",
+      "sentence": 2,
+      "source": "audio-ms/clips/f28bec3a6c222db1b6cc.mp3",
+      "start": 3.17404,
+      "end": 4.76121,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Cari perbuatan watak.",
+      "sourceText": "Gunakan Formula Ba Ca Ni. Baca cerita. Cari perbuatan watak. Kemudian, tentukan nilai murni.",
+      "sentence": 3,
+      "source": "audio-ms/clips/f28bec3a6c222db1b6cc.mp3",
+      "start": 5.46842,
+      "end": 7.45083,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Kemudian, tentukan nilai murni.",
+      "sourceText": "Gunakan Formula Ba Ca Ni. Baca cerita. Cari perbuatan watak. Kemudian, tentukan nilai murni.",
+      "sentence": 4,
+      "source": "audio-ms/clips/f28bec3a6c222db1b6cc.mp3",
+      "start": 8.12417,
+      "end": 11.784,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Baca semula halaman ini.",
+      "sourceText": "Baca semula halaman ini. Semak tajuk buku, tajuk halaman dan ayat. Jika perlu, tekan Baiki tajuk dan ayat. Simpan perubahan sebelum menekan Seterusnya.",
+      "sentence": 1,
+      "source": "audio-ms/clips/89ea4424d6cc0c1f3ed4.mp3",
+      "start": 0,
+      "end": 2.4650000000000003,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Semak tajuk buku, tajuk halaman dan ayat.",
+      "sourceText": "Baca semula halaman ini. Semak tajuk buku, tajuk halaman dan ayat. Jika perlu, tekan Baiki tajuk dan ayat. Simpan perubahan sebelum menekan Seterusnya.",
+      "sentence": 2,
+      "source": "audio-ms/clips/89ea4424d6cc0c1f3ed4.mp3",
+      "start": 3.1712100000000003,
+      "end": 6.72796,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Jika perlu, tekan Baiki tajuk dan ayat.",
+      "sourceText": "Baca semula halaman ini. Semak tajuk buku, tajuk halaman dan ayat. Jika perlu, tekan Baiki tajuk dan ayat. Simpan perubahan sebelum menekan Seterusnya.",
+      "sentence": 3,
+      "source": "audio-ms/clips/89ea4424d6cc0c1f3ed4.mp3",
+      "start": 7.42146,
+      "end": 10.9484,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Simpan perubahan sebelum menekan Seterusnya.",
+      "sourceText": "Baca semula halaman ini. Semak tajuk buku, tajuk halaman dan ayat. Jika perlu, tekan Baiki tajuk dan ayat. Simpan perubahan sebelum menekan Seterusnya.",
+      "sentence": 4,
+      "source": "audio-ms/clips/89ea4424d6cc0c1f3ed4.mp3",
+      "start": 11.6188,
+      "end": 15.72,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Tekan kad perbuatan, kemudian tekan nilai yang sepadan.",
+      "sourceText": "Tekan kad perbuatan, kemudian tekan nilai yang sepadan. Lengkapkan tiga pasangan. Tekan semula kad perbuatan untuk menukar jawapan.",
+      "sentence": 1,
+      "source": "audio-ms/clips/79833030176eab707517.mp3",
+      "start": 0,
+      "end": 4.45687,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Lengkapkan tiga pasangan.",
+      "sourceText": "Tekan kad perbuatan, kemudian tekan nilai yang sepadan. Lengkapkan tiga pasangan. Tekan semula kad perbuatan untuk menukar jawapan.",
+      "sentence": 2,
+      "source": "audio-ms/clips/79833030176eab707517.mp3",
+      "start": 5.1334599999999995,
+      "end": 7.28325,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Tekan semula kad perbuatan untuk menukar jawapan.",
+      "sourceText": "Tekan kad perbuatan, kemudian tekan nilai yang sepadan. Lengkapkan tiga pasangan. Tekan semula kad perbuatan untuk menukar jawapan.",
+      "sentence": 3,
+      "source": "audio-ms/clips/79833030176eab707517.mp3",
+      "start": 7.967079999999999,
+      "end": 12.144,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Jawab sendiri dahulu tanpa bantuan rakan.",
+      "sourceText": "Jawab sendiri dahulu tanpa bantuan rakan. Baca setiap soalan dan pilih satu jawapan. Jawapan tiga soalan ini menentukan latihan kamu: pemulihan, pengukuhan atau pengayaan. Selepas semakan awal, kamu boleh berbincang dengan rakan.",
+      "sentence": 1,
+      "source": "audio-ms/clips/3ddd300271b3fff26744.mp3",
+      "start": 0,
+      "end": 2.96971,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Baca setiap soalan dan pilih satu jawapan.",
+      "sourceText": "Jawab sendiri dahulu tanpa bantuan rakan. Baca setiap soalan dan pilih satu jawapan. Jawapan tiga soalan ini menentukan latihan kamu: pemulihan, pengukuhan atau pengayaan. Selepas semakan awal, kamu boleh berbincang dengan rakan.",
+      "sentence": 2,
+      "source": "audio-ms/clips/3ddd300271b3fff26744.mp3",
+      "start": 3.65083,
+      "end": 6.849,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Jawapan tiga soalan ini menentukan latihan kamu: pemulihan, pengukuhan atau pengayaan.",
+      "sourceText": "Jawab sendiri dahulu tanpa bantuan rakan. Baca setiap soalan dan pilih satu jawapan. Jawapan tiga soalan ini menentukan latihan kamu: pemulihan, pengukuhan atau pengayaan. Selepas semakan awal, kamu boleh berbincang dengan rakan.",
+      "sentence": 3,
+      "source": "audio-ms/clips/3ddd300271b3fff26744.mp3",
+      "start": 7.524249999999999,
+      "end": 14.0118,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Selepas semakan awal, kamu boleh berbincang dengan rakan.",
+      "sourceText": "Jawab sendiri dahulu tanpa bantuan rakan. Baca setiap soalan dan pilih satu jawapan. Jawapan tiga soalan ini menentukan latihan kamu: pemulihan, pengukuhan atau pengayaan. Selepas semakan awal, kamu boleh berbincang dengan rakan.",
+      "sentence": 4,
+      "source": "audio-ms/clips/3ddd300271b3fff26744.mp3",
+      "start": 14.6709,
+      "end": 18.913958,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Baca setiap situasi.",
+      "sourceText": "Baca setiap situasi. Pilih tindakan atau sebab yang paling sesuai. Kemudian, pilih satu jawapan kamu dan terangkan sebabnya. Rakan boleh membantu selepas kamu mencuba sendiri.",
+      "sentence": 1,
+      "source": "audio-ms/clips/0fea7f334bb0c87af02e.mp3",
+      "start": 0,
+      "end": 2.0826700000000002,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Pilih tindakan atau sebab yang paling sesuai.",
+      "sourceText": "Baca setiap situasi. Pilih tindakan atau sebab yang paling sesuai. Kemudian, pilih satu jawapan kamu dan terangkan sebabnya. Rakan boleh membantu selepas kamu mencuba sendiri.",
+      "sentence": 2,
+      "source": "audio-ms/clips/0fea7f334bb0c87af02e.mp3",
+      "start": 2.74183,
+      "end": 6.00075,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Kemudian, pilih satu jawapan kamu dan terangkan sebabnya.",
+      "sourceText": "Baca setiap situasi. Pilih tindakan atau sebab yang paling sesuai. Kemudian, pilih satu jawapan kamu dan terangkan sebabnya. Rakan boleh membantu selepas kamu mencuba sendiri.",
+      "sentence": 3,
+      "source": "audio-ms/clips/0fea7f334bb0c87af02e.mp3",
+      "start": 6.654789999999999,
+      "end": 10.9735,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Rakan boleh membantu selepas kamu mencuba sendiri.",
+      "sourceText": "Baca setiap situasi. Pilih tindakan atau sebab yang paling sesuai. Kemudian, pilih satu jawapan kamu dan terangkan sebabnya. Rakan boleh membantu selepas kamu mencuba sendiri.",
+      "sentence": 4,
+      "source": "audio-ms/clips/0fea7f334bb0c87af02e.mp3",
+      "start": 11.6454,
+      "end": 15.287708,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Baca muka surat ini dengan tenang.",
+      "sourceText": "Baca muka surat ini dengan tenang. Kamu boleh mendengar rakaman cikgu. Perhatikan watak dan peristiwa dalam cerita. Selepas selesai, tekan butang Selesai baca.",
+      "sentence": 1,
+      "source": "audio-ms/suara-standard-v19.mp3",
+      "start": 0,
+      "end": 2.7827900000000003,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Kamu boleh mendengar rakaman cikgu.",
+      "sourceText": "Baca muka surat ini dengan tenang. Kamu boleh mendengar rakaman cikgu. Perhatikan watak dan peristiwa dalam cerita. Selepas selesai, tekan butang Selesai baca.",
+      "sentence": 2,
+      "source": "audio-ms/suara-standard-v19.mp3",
+      "start": 3.4729200000000002,
+      "end": 6.4,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Perhatikan watak dan peristiwa dalam cerita.",
+      "sourceText": "Baca muka surat ini dengan tenang. Kamu boleh mendengar rakaman cikgu. Perhatikan watak dan peristiwa dalam cerita. Selepas selesai, tekan butang Selesai baca.",
+      "sentence": 3,
+      "source": "audio-ms/suara-standard-v19.mp3",
+      "start": 7.077369999999999,
+      "end": 10.331999999999999,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    },
+    {
+      "text": "Selepas selesai, tekan butang Selesai baca.",
+      "sourceText": "Baca muka surat ini dengan tenang. Kamu boleh mendengar rakaman cikgu. Perhatikan watak dan peristiwa dalam cerita. Selepas selesai, tekan butang Selesai baca.",
+      "sentence": 4,
+      "source": "audio-ms/suara-standard-v19.mp3",
+      "start": 11.0237,
+      "end": 15.390333,
+      "method": "Existing supplied TTS, exact sentence order, verified one-second punctuation gaps; no regeneration."
+    }
+  ]
+}

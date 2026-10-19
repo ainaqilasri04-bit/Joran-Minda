@@ -1,0 +1,49 @@
+{
+  "version": 42,
+  "provider": "Microsoft Edge online TTS via edge-tts 7.3.1",
+  "voice": "ms-MY-YasminNeural",
+  "rate": "-3%",
+  "includesTeacherStoryNarration": false,
+  "clips": [
+    {
+      "id": "v42-6b95efe2a721",
+      "text": "Lihat pencapaian Objektif 1 dan Objektif 2. Semak bilangan nilai murni dan penerangan yang tepat. Kemudian, tekan Lihat buku cerita.",
+      "path": "audio-ms/clips/v42-6b95efe2a721.mp3",
+      "duration": 12.624,
+      "bytes": 75744,
+      "sha256": "0ea70797ff2a8c2b397bf0a0bd3667ad8ffe68aebcb34a6ed627459ce32fd29a",
+      "boundaryText": "Lihat pencapaian Objektif 1 dan Objektif 2. Semak bilangan nilai murni dan penerangan yang tepat. Kemudian, tekan Lihat buku cerita.",
+      "textMatched": true
+    },
+    {
+      "id": "v42-74d244ea2162",
+      "text": "Lihat sijil kamu. Tekan Muat turun sijil saya untuk menyimpannya. Kemudian, tekan Lihat objektif pembelajaran.",
+      "path": "audio-ms/clips/v42-74d244ea2162.mp3",
+      "duration": 10.824,
+      "bytes": 64944,
+      "sha256": "bf0be0b6eade58dba428b5cfbdf987041c0b5951f4a9581a32f5cbee757e9969",
+      "boundaryText": "Lihat sijil kamu. Tekan Muat turun sijil saya untuk menyimpannya. Kemudian, tekan Lihat objektif pembelajaran.",
+      "textMatched": true
+    },
+    {
+      "id": "v42-bd6e4aad837e",
+      "text": "Lihat sijil kumpulan kamu. Tekan Muat turun sijil semua ahli untuk menyimpan sijil setiap ahli. Kemudian, tekan Lihat objektif pembelajaran.",
+      "path": "audio-ms/clips/v42-bd6e4aad837e.mp3",
+      "duration": 13.008,
+      "bytes": 78048,
+      "sha256": "e1ba31f6cf42e56f4a8bb3fe099cdb618f4cdacbfea1bb544134d44a706a7847",
+      "boundaryText": "Lihat sijil kumpulan kamu. Tekan Muat turun sijil semua ahli untuk menyimpan sijil setiap ahli. Kemudian, tekan Lihat objektif pembelajaran.",
+      "textMatched": true
+    },
+    {
+      "id": "v42-6882ace64e92",
+      "text": "Sijil belum dibuka. Lihat senarai tugasan yang belum siap. Tekan Sambung tugasan untuk melengkapkannya.",
+      "path": "audio-ms/clips/v42-6882ace64e92.mp3",
+      "duration": 10.128,
+      "bytes": 60768,
+      "sha256": "b7f4df396fafe3238f2bb5af40ca65e3568593eaa37638fa5dac352352ee53da",
+      "boundaryText": "Sijil belum dibuka. Lihat senarai tugasan yang belum siap. Tekan Sambung tugasan untuk melengkapkannya.",
+      "textMatched": true
+    }
+  ]
+}
