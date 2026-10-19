@@ -1,9 +1,21 @@
 # Gabungkan media daripada pakej muat naik sebelum menyemak binaan.
-# Fail yang sudah berada dalam public dikekalkan.
+# Media lama tidak menimpa public. Pakej AUDIO-01 hingga AUDIO-18 mengatasi audio lama.
 [build]
   command = '''
 node --input-type=commonjs -e "
   const fs = require('node:fs');
+  const audioGroups = Array.from({ length: 18 }, (_, i) => 'AUDIO-' + String(i + 1).padStart(2, '0'));
+  const countFiles = directory => fs.readdirSync(directory, { withFileTypes: true }).reduce((total, item) => total + (item.isDirectory() ? countFiles(directory + '/' + item.name) : item.isFile() ? 1 : 0), 0);
+  const useAudioGroups = audioGroups.some(group => fs.existsSync(group));
+  if (useAudioGroups) {
+    for (const [index, group] of audioGroups.entries()) {
+      const source = group + '/public/audio-ms';
+      const expected = index === 17 ? 57 : 100;
+      if (!fs.existsSync(source) || !fs.statSync(source).isDirectory()) throw Error('Folder audio belum lengkap: ' + source);
+      const count = countFiles(source);
+      if (count !== expected) throw Error(group + ': perlu ' + expected + ' fail, tetapi ditemui ' + count + '. Semak muat naik bahagian ini.');
+    }
+  }
   const groups = ['02-GAMBAR-HD', '03-AUDIO', '04-KAMERA', '05-ENJIN-KAMERA'];
   for (const group of groups) {
     const source = group + '/public';
@@ -11,6 +23,13 @@ node --input-type=commonjs -e "
       fs.cpSync(source, 'public', { recursive: true, force: false });
       console.log('Media disediakan: ' + group);
     }
+  }
+  if (useAudioGroups) {
+    for (const group of audioGroups) {
+      fs.cpSync(group + '/public/audio-ms', 'public/audio-ms', { recursive: true, force: true });
+      console.log('Audio baharu disediakan: ' + group);
+    }
+    console.log('Lengkap: 18 bahagian audio, 1757 fail.');
   }
 " && npm run build
 '''
