@@ -38,8 +38,13 @@ export function createDeviceHandler(store,{now=()=>Date.now()}={}){
    return createHandler(scoped(code,id),{now})(new Request(req.url,{method:'POST',headers:{'Content-Type':'application/json',...(bearer?{Authorization:'Bearer '+bearer}:{})},body:JSON.stringify({...body,code})}));
   }
   if(b.action==='begin'){
+   if(parent.closed)fail(423,'Bilik ditutup oleh Guru. Minta Guru membuka bilik semula.');
+   if(parent.accessMode==='room')fail(409,'Bilik ini menggunakan peranti masing-masing. Buka pautan dalam talian daripada Guru.');
    if(raw.length>18000||!uuid(b.deviceId)||!/^[a-f0-9]{64}$/.test(b.key||''))fail(400,'Pengenal sesi tidak sah.');
    const mode=b.mode==='kendiri'?'kendiri':b.mode==='kumpulan'?'kumpulan':null;
+   if(mode!==parent.mode)fail(409,'Mod kelas ini ialah '+(parent.mode==='kendiri'?'individu':'berkumpulan')+'. Ikut tetapan Guru.');
+   if(b.story&&b.story!==parent.story)fail(409,'Cerita tidak sepadan dengan tetapan Guru.');
+   if(b.members?.some(m=>m.story&&m.story!==parent.story))fail(409,'Cerita ahli tidak sepadan dengan tetapan Guru.');
    if(!mode||!Array.isArray(b.members)||b.members.length!==(mode==='kendiri'?1:4))fail(400,'Isi semua nama ahli.');
    const members=b.members.map(m=>({id:m.id,name:clean(m.name,60),kelas:parent.kelas,role:m.role,story:parent.story,code,joined:now()}));
    if(members.some(m=>!uuid(m.id)||!m.name||!(mode==='kendiri'?m.role==='kendiri':roles.includes(m.role)))||new Set(members.map(m=>m.id)).size!==members.length||new Set(members.map(m=>m.role)).size!==members.length)fail(400,'Maklumat ahli tidak lengkap.');
@@ -78,6 +83,8 @@ export function createDeviceHandler(store,{now=()=>Date.now()}={}){
   const child=scoped(code,b.deviceId),user=await child.get('auth/'+hash(bearer));
   if(!user||user.code!==code)fail(403,'Kunci sesi tidak sah.');
   if(user.kind==='student'&&(!await child.get(`room/${code}/members/${user.id}`)||await child.get(`room/${code}/purged/${user.id}`)||(await child.get(`room/${code}/report-hidden/${user.id}`))?.hidden))fail(410,'Rekod ini telah dipadam oleh Guru.');
+  if(user.kind==='student'&&parent.closed)fail(423,'Bilik ditutup oleh Guru. Tunggu Guru membuka bilik semula.');
+  if(user.kind==='student'&&b.story&&b.story!==parent.story)fail(409,'Gunakan cerita yang ditetapkan oleh Guru.');
   const receiptKey=b.deliveryId&&typeof b.deliveryId==='string'&&b.deliveryId.length<80?'delivery59/'+user.id+'/'+hash(b.deliveryId):null;
   const signature=hash(JSON.stringify(b));
   if(receiptKey){const old=await child.get(receiptKey);if(old){if(old.signature!==signature)fail(409,'Pengenal penghantaran telah digunakan.');return json(old.result,old.status);}}

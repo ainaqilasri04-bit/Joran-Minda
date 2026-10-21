@@ -119,7 +119,7 @@ async function syncDevices59(){
    if(state.disabled)continue;
    try{
    const plan=deliveryPlan59(state);if(!state.users){
-    const result=await deviceRequest59({action:'begin',deviceId:state.id,key:state.key,code:state.code,members:state.members,mode:state.mode,group:state.group});
+    const result=await deviceRequest59({action:'begin',deviceId:state.id,key:state.key,code:state.code,members:state.members,mode:state.mode,group:state.group,story:state.story});
     state.users=result.users;saveDevice59();
    }
    const send=(member,body)=>deviceRequest59({...body,deviceId:state.id,code:state.code},state.users.find(u=>u.id===member)?.token);

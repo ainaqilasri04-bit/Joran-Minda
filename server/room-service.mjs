@@ -1,3 +1,5 @@
+import {issueTeacherKey63,unlockTeacher63} from './teacher-keys.mjs';
+import {classRouter62} from './class-groups.mjs';
 import {pupilAudioAction,readingPages} from './pupil-audio.mjs';
 import {groupState,validateAction,roleOrder} from './group-flow.mjs';
 import '../public/achievement.js';
@@ -22,10 +24,11 @@ export function summarize(member,events){
  proofPages,decisions:decisions.map(e=>({page:e.page,choice:e.choice})),points:(proofPages?proofPages*2:main.some(e=>e.correct)?10:0)+new Set(decisions.map(e=>e.page)).size*2+(bonus.some(e=>e.correct)?5:0),book:answer('book').length>0,pdf:answer('pdf').length>0,
  notes:own.filter(e=>e.type==='note').map(e=>({round:e.round,text:e.text,page:e.page})),last:own.at(-1)?.at||member.joined};
 }
-export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(randomInt(100000,1000000))}={}){
+export function createHandler(store,options={}){return classRouter62(store,options,createSingleHandler);}
+function createSingleHandler(store,{now=()=>Date.now(),makeCode=()=>String(randomInt(100000,1000000)),makeTeacherKey}={}){
  const get=key=>store.get(key,{type:'json'});
  async function entries(prefix,limit=200){const {blobs}=await store.list({prefix});const keys=blobs.map(b=>b.key).sort().slice(-limit);return (await Promise.all(keys.map(get))).filter(Boolean);}
- async function auth(req,body){const token=(req.headers.get('authorization')||'').replace(/^Bearer /,'');if(!/^[a-f0-9]{64}$/.test(token))error(401,'Sila masuk ke bilik semula.');const user=await get('auth/'+hash(token));if(user?.kind==='student'&&(!(await get(`room/${user.code}/members/${user.id}`))||await get(`room/${user.code}/purged/${user.id}`)||(await get(`room/${user.code}/report-hidden/${user.id}`))?.hidden))error(410,'Rekod ini telah dipadam. Masuk semula sebagai murid baharu.');if(!user||user.code!==body.code)error(403,'Kunci bilik tidak sah.');const room=await get('rooms/'+user.code);if(!room||room.expires<now())error(410,'Bilik ini telah tamat. Minta kod bilik baharu daripada guru.');return {user,room};}
+ async function auth(req,body){const token=(req.headers.get('authorization')||'').replace(/^Bearer /,'');if(!/^[a-f0-9]{64}$/.test(token))error(401,'Sila masuk ke bilik semula.');const user=await get('auth/'+hash(token));if(user?.kind==='student'&&(!(await get(`room/${user.code}/members/${user.id}`))||await get(`room/${user.code}/purged/${user.id}`)||(await get(`room/${user.code}/report-hidden/${user.id}`))?.hidden))error(410,'Rekod ini telah dipadam. Masuk semula sebagai murid baharu.');if(!user||user.code!==body.code)error(403,'Kunci bilik tidak sah.');const room=await get('rooms/'+user.code);if(!room||room.expires<now())error(410,'Bilik ini telah tamat. Minta kod bilik baharu daripada guru.');if(user.kind==='student'&&room.closed)error(423,'Bilik ditutup oleh Guru. Tunggu Guru membuka bilik semula.');return {user,room};}
  async function append(code,type,data){const id=(type==='events'&&data.memberId?data.memberId+'-':'')+String(now()).padStart(15,'0')+'-'+randomUUID();await store.setJSON(`room/${code}/${type}/${id}`,{...data,at:now()});}
  async function allEvents(code){return entries(`room/${code}/events/`,Number.MAX_SAFE_INTEGER);}
  return async(req)=>{try{
@@ -33,6 +36,7 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
    const origin=req.headers.get('origin');if(origin&&origin!==new URL(req.url).origin)error(403,'Permintaan dari laman lain tidak dibenarkan.');
    if(Number(req.headers.get('content-length')||0)>4000000)error(413,'Maklumat terlalu panjang.');
    const raw=await req.text();if(raw.length>4000000)error(413,'Maklumat terlalu panjang.');let b;try{b=JSON.parse(raw);}catch{error(400,'Maklumat tidak sah.');}if(!b||typeof b!=='object')error(400,'Maklumat tidak sah.');if(raw.length>18000&&!['audio-save','pupil-audio-save'].includes(b.action))error(413,'Maklumat terlalu panjang.');
+   if(b.action==='teacher-unlock63')return json(await unlockTeacher63(store,b,{now}));
    if(b.action==='ping'){
      await get('system/healthcheck-v1');
      return json({ok:true,service:'joran-minda-kelas',version:40,lessonVersions:[24,25,26,28,29,34,37,38,39,40]});
@@ -42,21 +46,24 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
      if(!validRoomCode(code))error(400,'Masukkan kod 6 angka daripada Guru. Kod lama 10 aksara juga diterima.');
      const room=await get('rooms/'+code);
      if(!room||room.expires<now())error(404,'Kod bilik tidak ditemui atau telah tamat. Semak kod dengan Guru.');
+     if(room.closed)error(423,'Bilik ditutup oleh Guru. Minta Guru membuka bilik semula.');
      const occupied=room.mode==='kendiri'?[]:await entries(`room/${code}/roles/`,4);
-     return json({room:{code:room.code,name:room.name,kelas:room.kelas,story:room.story,mode:room.mode,expires:room.expires,lessonVersion:room.lessonVersion,leaderRole:room.leaderRole},takenRoles:occupied.map(r=>r.role)});
+     return json({room:{code:room.code,name:room.name,kelas:room.kelas,story:room.story,mode:room.mode,expires:room.expires,lessonVersion:room.lessonVersion,leaderRole:room.leaderRole,accessMode:room.accessMode||'either',closed:!!room.closed},takenRoles:occupied.map(r=>r.role)});
    }
    if(b.action==='create'){
      const name=clean(b.name,60),kelas=clean(b.kelas,40),story=clean(b.story,12);if(!name||!kelas||!(story in stories))error(400,'Isi nama kumpulan, kelas dan kisah.');
      let meet='';if(b.meet){try{const url=new URL(b.meet);if(url.protocol!=='https:')throw 0;meet=url.href.slice(0,500);}catch{error(400,'Pautan pertemuan mesti bermula dengan https://.');}}
+     if(b.groupCount62!==undefined&&(!Number.isInteger(b.groupCount62)||b.groupCount62<1||b.groupCount62>12))error(400,'Pilih antara 1 hingga 12 kumpulan.');
      const token=randomBytes(32).toString('hex'),created=now();
      for(let attempt=0;attempt<8;attempt++){
       const code=makeCode();if(!/^\d{6}$/.test(code))throw Error('Invalid room code generator');
-      const room={code,name,kelas,story,meet,requireUpload52:false,version:23,lesson:b.lesson===true,lessonVersion:b.lesson===true&&[25,26,28,29,34,37,38,39,40].includes(b.lessonVersion)?b.lessonVersion:24,leaderRole:roleOrder.includes(b.leaderRole)?b.leaderRole:'pembaca',mode:b.mode==='kendiri'?'kendiri':'kumpulan',sessionAt:clean(b.sessionAt,40),created,expires:created+30*86400000};
+      const room={code,name,kelas,story,meet,closed:false,groupCount62:b.mode!=='kendiri'&&b.accessMode==='room'?(b.groupCount62||0):0,accessMode:['device','room'].includes(b.accessMode)?b.accessMode:'either',requireUpload52:false,version:23,lesson:b.lesson===true,lessonVersion:b.lesson===true&&[25,26,28,29,34,37,38,39,40].includes(b.lessonVersion)?b.lessonVersion:24,leaderRole:roleOrder.includes(b.leaderRole)?b.leaderRole:'pembaca',mode:b.mode==='kendiri'?'kendiri':'kumpulan',sessionAt:clean(b.sessionAt,40),created,expires:created+30*86400000};
       const written=await store.setJSON('rooms/'+code,room,{onlyIfNew:true});
       if(written.modified){
-       try{await store.setJSON('auth/'+hash(token),{kind:'teacher',code});}
-       catch(e){try{await store.delete('rooms/'+code);}catch{}throw e;}
-       return json({room,teacherToken:token},201);
+       let teacherKey63;
+       try{await store.setJSON('auth/'+hash(token),{kind:'teacher',code});teacherKey63=await issueTeacherKey63(store,room,{makeTeacherKey});}
+       catch(e){try{await store.delete('rooms/'+code);await store.delete('auth/'+hash(token));}catch{}throw e;}
+       return json({room,teacherToken:token,teacherKey63},201);
       }
      }
      error(409,'Kod baharu belum dapat disediakan. Tekan Dapatkan pautan murid sekali lagi.');
@@ -64,6 +71,9 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
    if(b.action==='join'){
      const code=roomCode(b.code);if(!validRoomCode(code))error(400,'Semak kod 6 angka daripada Guru. Kod lama 10 aksara juga diterima.');
      const room=await get('rooms/'+code);if(!room||room.expires<now())error(404,'Bilik tidak ditemui atau telah tamat.');
+     if(room.closed)error(423,'Bilik ditutup oleh Guru. Minta Guru membuka bilik semula.');
+     if(room.accessMode==='device')error(409,'Kelas ini menggunakan satu peranti. Buka pautan kelas daripada Guru.');
+     if(b.story&&b.story!==room.story)error(409,'Gunakan cerita yang ditetapkan oleh Guru.');
      const name=clean(b.name,60),kelas=clean(b.kelas,40),role=clean(b.role,20);if(!name||!kelas||!roles.includes(role))error(400,'Isi nama, kelas dan pilihan peranan.');if(kelas.toLowerCase()!==room.kelas.toLowerCase())error(400,'Kelas bilik ini ialah '+room.kelas+'. Semak kelas kamu.');
      const members=await entries(`room/${code}/members/`,101);if(members.length>=80)error(409,'Bilik ini penuh. Minta guru membuka bilik baharu.');
      const id=randomUUID(),token=randomBytes(32).toString('hex'),member={id,code,name,kelas,role,story:room.story,joined:now()};
@@ -80,6 +90,13 @@ export function createHandler(store,{now=()=>Date.now(),makeCode=()=>String(rand
      return json({room,member,token},201);
    }
    const authenticated=await auth(req,b),user=authenticated.user,room={...authenticated.room,requireUpload52:false},code=room.code;
+   if(b.action==='teacher-key63'){if(user.kind!=='teacher')error(403,'Hanya Guru boleh menjana kata kunci kelas.');return json({teacherKey63:await issueTeacherKey63(store,room,{makeTeacherKey})});}
+   if(b.action==='room-access'){
+     if(user.kind!=='teacher')error(403,'Hanya Guru boleh menutup atau membuka bilik.');
+     if(typeof b.closed!=='boolean')error(400,'Pilih buka atau tutup bilik.');
+     room.closed=b.closed;room.accessChangedAt=now();await store.setJSON('rooms/'+code,room);return json({ok:true,room});
+   }
+   if(user.kind==='student'&&b.story&&b.story!==room.story)error(409,'Gunakan cerita yang ditetapkan oleh Guru.');
    const collaborative=room.lessonVersion>=26&&room.mode!=='kendiri';
    const pupilResult=await pupilAudioAction({b,user,room,store,get,entries,now});if(pupilResult)return json(pupilResult);
    const readingRows=room.lessonVersion>=26?await entries(`room/${code}/pupil-meta/`,Number.MAX_SAFE_INTEGER):[];

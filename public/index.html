@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="only light">
   <meta name="theme-color" content="#fff8e9">
-  <title>Joran Minda V59 — PdP 60 Minit</title>
+  <title>Joran Minda V63 — Kata Kunci Guru Empat Huruf</title>
   <style>
     html,body{margin:0;padding:0;min-height:100%;background:#fff8e9!important;color:#174d91;color-scheme:only light!important}
     body{font-family:Arial,sans-serif}
@@ -4951,11 +4951,14 @@ teacherRoom=function(){
  $('#jm-online-help58').textContent=teacherSession?'Bilik aktif: '+teacherSession.code+'. Kongsi pautan murid bagi bilik ini.':'Belum ada bilik aktif pada pelayar ini. Sediakan pautan murid atau pulihkan akses Guru.';
 };
 const refreshBefore58=refreshReport;
-refreshReport=async function(){
- if(reportBusy58)return;
- reportBusy58=true;
- try{await refreshBefore58();updateReportHelp21();}
- finally{reportBusy58=false;}
+let reportQueue62=Promise.resolve();
+refreshReport=function(){
+ const next=reportQueue62.catch(()=>{}).then(async()=>{
+  reportBusy58=true;
+  try{await refreshBefore58();updateReportHelp21();}
+  finally{reportBusy58=false;}
+ });
+ reportQueue62=next;return next;
 };
 $('#jm-refresh-report').onclick=refreshReport;
 const showBefore58=showView;
@@ -5093,7 +5096,7 @@ async function syncDevices59(){
    if(state.disabled)continue;
    try{
    const plan=deliveryPlan59(state);if(!state.users){
-    const result=await deviceRequest59({action:'begin',deviceId:state.id,key:state.key,code:state.code,members:state.members,mode:state.mode,group:state.group});
+    const result=await deviceRequest59({action:'begin',deviceId:state.id,key:state.key,code:state.code,members:state.members,mode:state.mode,group:state.group,story:state.story});
     state.users=result.users;saveDevice59();
    }
    const send=(member,body)=>deviceRequest59({...body,deviceId:state.id,code:state.code},state.users.find(u=>u.id===member)?.token);
@@ -5169,6 +5172,321 @@ copyDevice59.onclick=async()=>{
 root.dataset.version='59';$('#jm-version').textContent='Joran Minda · Versi 59 · PdP 60 minit dan rekod kelas';
 modeChanged();clockTick59();
 if(linkedClass59&&hosted58)queueMicrotask(()=>{$('#jm-session-access').value='device';setEntryKind('solo');showView('entry');checkClass59();});
+
+// V60: three explicit entry routes; teacher settings are authoritative.
+let entryAccess60='local',accessBusy60=false,blockedCode60='',accessProbe60=false;
+const teacherRooms60=new Map();
+const entryAccessSelect60=$('#jm-session-access');
+entryAccessSelect60.replaceChildren(new Option('1. Main tanpa kod','local'),new Option('2. Kelas guru: satu peranti','device'),new Option('3. Kelas guru: peranti berasingan','room'));
+entryAccessSelect60.closest('label').firstChild.textContent='Bagaimana kamu mahu bermain?';
+const entrySummary60=makeBox23('p','jm-entry-summary60','');entryDestination58.after(entrySummary60);entrySummary60.setAttribute('role','status');
+const css60=document.createElement('style');css60.textContent=`
+#jm19 #jm-entry-summary60:empty{display:none}
+#jm19 #jm-entry-summary60{padding:12px;border:2px solid #29786b;border-radius:12px;background:#f1f7ee;font-size:18px;line-height:1.5}
+#jm19 #jm-session-access{height:auto;min-height:52px;max-width:100%;font-size:17px}
+#jm19 #jm-room-access60{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:16px 0;padding:12px;background:#eff6ef;border:1px solid #aac8b7;border-radius:12px}
+#jm19 #jm-room-state60{font-weight:700;flex:1 1 200px}
+#jm19 #jm-toggle-room60{min-height:48px;background:#a83123;color:white;border:0;border-radius:10px;padding:12px 18px;font:inherit;font-weight:700;cursor:pointer}
+#jm19 #jm-toggle-room60[data-closed=true]{background:#236b54}
+#jm19 #jm-review-bar52{flex-wrap:wrap;max-width:100%;min-width:0}
+#jm19 #jm-shell27 #jm-edit-open31{display:block;min-height:48px;max-width:100%;white-space:normal;line-height:1.35;touch-action:manipulation}
+#jm19 #jm-book-editor31{box-sizing:border-box;width:min(720px,calc(100vw - 24px));max-height:calc(100dvh - 24px);overflow:auto}
+#jm19 #jm-room-paused60{width:min(480px,calc(100vw - 24px));box-sizing:border-box;max-height:90dvh;overflow:auto;border:2px solid #286b61;border-radius:18px;padding:22px;color:#163b35}
+#jm19 #jm-room-paused60::backdrop{background:#102d42a3}
+#jm19 #jm-room-paused60 button{min-height:48px;margin:6px 4px}
+@media(max-width:600px){#jm19 #jm-shell27 #jm-edit-open31{width:100%;font-size:17px;padding:12px}#jm19 #jm-review-bar52{width:100%;margin:6px 0}#jm19 #jm-book-editor31{padding:14px}#jm19 #jm-book-editor31 footer{position:sticky;bottom:-14px;gap:8px}#jm19 #jm-book-editor31 footer button{min-height:48px;flex:1 1 140px;font-size:16px}#jm19 #jm-book-editor31 input,#jm19 #jm-book-editor31 textarea{font-size:18px}}
+`;document.head.append(css60);
+// Keep the edit action above the instructions even when a phone header scrolls.
+$('.jm-location27').prepend(reviewBar52);
+const entryRoom60=()=>entryAccess60==='device'?targetClass59:entryAccess60==='room'?verifiedRoom21?.room:null;
+const linkedRoom60=()=>roomSession?.code?{code:roomSession.code,story:roomData?.room.story||profile?.story}:localState59()?{code:localState59().code,story:localState59().story}:null;
+const kind60=room=>room?.mode==='kendiri'?'solo':'group';
+const modeName60=mode=>mode==='kendiri'?'Individu':'Berkumpulan · 4 ahli';
+function entrySettings60(){
+ const room=entryRoom60(),kind=room?kind60(room):root.dataset.entryMode||'solo';
+ entryAccessSelect60.value=entryAccess60;entryAccessSelect60.closest('label').hidden=false;
+ classBox59.hidden=entryAccess60!=='device';roomEntry21.hidden=entryAccess60!=='room';
+ $('.jm-mode-cards').hidden=entryAccess60!=='local';
+ $('#jm-entry-story').disabled=entryAccess60!=='local';$('#jm-story-field').hidden=entryAccess60!=='local';
+ $('#jm-student-class').readOnly=entryAccess60!=='local';
+ $('#jm-enter').disabled=accessBusy60||(entryAccess60!=='local'&&!room);
+ entryDestination58.textContent=entryAccess60==='local'?'Pilih individu atau kumpulan. Tidak perlu kod guru. Keputusan disimpan di sini sahaja. Guru boleh menyemaknya menggunakan peranti dan pelayar yang sama.':entryAccess60==='device'?'Gunakan pautan guru. Seorang murid menggunakan satu komputer, tablet atau telefon. Jika berkumpulan, empat ahli berkongsi peranti itu. Keputusan dihantar kepada guru.':'Gunakan pautan guru. Setiap ahli masuk dengan nama sendiri melalui komputer, tablet atau telefon yang berasingan. Semua ahli menyertai bilik yang sama. Keputusan dihantar kepada guru.';
+ entrySummary60.textContent=room?'Ditetapkan oleh Guru: '+modeName60(room.mode)+' · '+stories[room.story].title+' · '+room.kelas:'';
+ if(room){$('#jm-entry-story').value=room.story;$('#jm-student-class').value=room.kelas;}
+ $('#jm-enter').textContent=entryAccess60==='local'?'Mula latihan →':'Mula aktiviti kelas →';
+ $('#jm-entry-status').textContent='Tempoh PdP: 60 minit.';
+ $('.jm-entry-intro p').textContent=kind==='solo'?'Baca, cari dan nilai. Lengkapkan aktiviti dengan nama sendiri.':'Empat ahli berbincang bersama. Ahli yang namanya diserlahkan menekan butang.';
+ $('#jm-play-device').textContent='Main tanpa kod';
+ if(entryAccess60==='room'){codeTools21.hidden=false;codeField21.hidden=false;roomEntry21.querySelector('h3').textContent='Kelas guru: peranti berasingan';roomEntry21.querySelector('p').textContent='Masukkan kod Guru dan tekan Semak kod. Mod dan buku cerita ditetapkan oleh Guru.';}
+}
+modeChanged=function(){modeBefore58();entrySettings60();};
+setEntryKind=function(kind){
+ const room=entryRoom60();if(room)kind=kind60(room);
+ $('#jm-play-mode').value=kind==='solo'?(entryAccess60==='room'?'home':'solo'):(entryAccess60==='room'?'online':'local');
+ modeChanged();
+};
+function setAccess60(value){
+ entryAccess60=['local','device','room'].includes(value)?value:'local';
+ targetClass59=null;verifiedRoom21=null;lookupTicket21++;
+ $('#jm-student-class').value='';$('#jm-class-status59').textContent='Buka pautan kelas atau masukkan kod daripada Guru.';
+ roomInfo21.hidden=true;setEntryKind(root.dataset.entryMode||'solo');
+}
+entryAccessSelect60.onchange=()=>setAccess60(entryAccessSelect60.value);
+$('#jm-play-device').onclick=()=>setAccess60('local');
+$$('[data-play-kind]').forEach(b=>b.onclick=()=>{if(entryAccess60==='local')setEntryKind(b.dataset.playKind);});
+
+// All code lookups use live server state: a cached room cannot reopen a closed class.
+let lookup60=0;
+async function resolveEntry60(code){
+ const ticket=++lookup60;accessBusy60=true;entrySettings60();
+ try{
+  const result=await api({action:'room-info',code},null);if(ticket!==lookup60)return false;
+  const room=result.room;
+  if(room.accessMode==='device'||room.accessMode==='room')entryAccess60=room.accessMode;
+  if(entryAccess60==='device'){targetClass59=room;$('#jm-class-code59').value=room.code;$('#jm-class-status59').textContent='Kelas disahkan. Keputusan dihantar kepada Guru.';}
+  else{verifiedRoom21=result;joinCode21.value=room.code;roomInfo21.textContent=room.name+' · '+room.kelas;roomInfo21.hidden=false;roomNotice21('Bilik disahkan. Isi nama dan sertai aktiviti.');}
+  setEntryKind(kind60(room));
+  if(entryAccess60==='room'){
+   for(const option of $('#jm-student-role').options)option.disabled=(result.takenRoles||[]).includes(option.value);
+   if($('#jm-student-role').selectedOptions[0]?.disabled)$('#jm-student-role').value='';restoreRoleChoice21();
+  }
+  return true;
+ }catch(e){
+  if(ticket===lookup60){targetClass59=null;verifiedRoom21=null;$('#jm-class-status59').textContent=e.message;roomNotice21(e.message,true);}
+  return false;
+ }finally{if(ticket===lookup60){accessBusy60=false;entrySettings60();}}
+}
+checkClass59=()=>resolveEntry60(code59());
+lookupRoom21=()=>resolveEntry60(normalizeRoomCode21(joinCode21.value));
+$('#jm-check-class59').onclick=checkClass59;$('#jm-check-code').onclick=lookupRoom21;
+$('#jm-class-code59').oninput=()=>{lookup60++;accessBusy60=false;targetClass59=null;entrySettings60();$('#jm-class-status59').textContent='Tekan Semak kelas.';};
+joinCode21.addEventListener('input',()=>{lookup60++;accessBusy60=false;verifiedRoom21=null;entrySettings60();});
+openMode28=function(kind){
+ const params=new URL(location.href).searchParams;
+ entryAccess60=params.has('kelas')?'device':params.has('bilik')?'room':'local';targetClass59=null;verifiedRoom21=null;
+ openModeBefore58(kind);setEntryKind(kind);
+ if(entryAccess60==='device'){$('#jm-class-code59').value=params.get('kelas');checkClass59();}
+ if(entryAccess60==='room'){joinCode21.value=params.get('bilik');lookupRoom21();}
+};
+$('#jm-home-code').onclick=()=>{
+ if(profile){leaveStudent();teamMembers=[];sharedFlow=null;}
+ setAccess60('device');showView('entry');$('#jm-class-code59').focus();
+};
+$('#jm-home-code').textContent='Sertai kelas Guru';
+const startBefore60=startStudent;
+startStudent=async function(e){
+ e.preventDefault();if(accessBusy60)return;
+ if(entryAccess60!=='local'){
+  if(!hosted58){$('#jm-entry-status').textContent='Buka laman Netlify untuk menyertai kelas Guru.';return;}
+  const code=entryAccess60==='device'?code59():normalizeRoomCode21(joinCode21.value);
+  if(!await resolveEntry60(code))return;
+ }
+ setEntryKind(root.dataset.entryMode||'solo');
+ if(!$('#jm-entry-form').reportValidity())return;
+ await startBefore60(e);lockStory60();if(profile&&linkedRoom60())probeRoom60();
+};$('#jm-entry-form').onsubmit=startStudent;
+
+const chooseStoryBefore60=chooseStory;
+chooseStory=function(key){const assigned=linkedRoom60()?.story;if(assigned&&key!==assigned)return;return chooseStoryBefore60(key);};
+function lockStory60(){
+ const assigned=profile&&linkedRoom60()?.story;
+ $('#jm-choose').hidden=!!assigned;if(assigned)$('#jm-story-picker').hidden=true;
+ $$('[data-story]').forEach(b=>{const disabled=!!assigned&&b.dataset.story!==assigned;if(b.disabled!==disabled)b.disabled=disabled;});
+}
+const displayBefore60=displayProfile;displayProfile=function(){displayBefore60();lockStory60();};
+
+// Closing a room is a server operation. Signing out is a separate local action.
+const accessField60=makeBox23('label','jm-teacher-access-field60','Cara murid menggunakan peranti<select class="jm-input" id="jm-teacher-access60"><option value="device">Satu peranti bagi setiap individu / kumpulan</option><option value="room">Peranti masing-masing dalam talian</option></select>');
+$('#jm-teacher-mode').closest('label').before(accessField60);
+teacherModeHelp23=function(){
+ const group=$('#jm-teacher-mode').value==='kumpulan',remote=$('#jm-teacher-access60').value==='room';
+ roomHelp23.textContent=group?(remote?'Satu bilik untuk satu kumpulan empat ahli. Setiap ahli masuk menggunakan peranti sendiri.':'Satu pautan untuk kelas. Setiap kumpulan mengisi empat nama pada satu peranti. Rekod diasingkan mengikut kumpulan.'):'Satu pautan untuk kelas. Setiap murid mengisi nama sendiri. Rekod diasingkan mengikut individu.';
+};$('#jm-teacher-access60').onchange=teacherModeHelp23;teacherModeHelp23();
+teacherHelp21.textContent='Pilih peranti, mod dan cerita, kemudian tekan Dapatkan pautan murid. Tetapan ini digunakan untuk bilik baharu; bilik sedia ada mengekalkan tetapan asal.';
+const roomAccess60=makeBox23('div','jm-room-access60','<span id="jm-room-state60" role="status"></span><button type="button" id="jm-toggle-room60">Tutup bilik</button>');$('#jm-teacher-room-info').after(roomAccess60);
+const roomAccessHelp60=makeBox23('p','jm-room-access-help60','Tutup bilik menghentikan akses murid. Rekod sedia ada kekal untuk disemak. Keluar ruang guru hanya menutup paparan guru pada peranti ini.');roomAccess60.after(roomAccessHelp60);
+$('#jm-teacher-signout').textContent='Keluar ruang guru';
+function rememberTeacher60(room){
+ if(!room?.code)return;teacherRooms60.set(room.code,room);
+ if(teacherSession?.code===room.code){Object.assign(teacherSession,{mode:room.mode,story:room.story,accessMode:room.accessMode||'either',closed:!!room.closed});storeJSON('joran-minda-guru-v7',teacherSession);rememberRoom23();}
+}
+const apiBefore60=api;
+api=async function(data,session=roomSession){
+ const input=data.action==='create'?{...data,accessMode:$('#jm-teacher-access60').value}:data;
+ try{
+  const result=await apiBefore60(input,session);
+  if(result.room&&['create','report','room-access'].includes(data.action)){rememberTeacher60(result.room);if(teacherSession?.code===result.room.code)teacherRoom();}
+  return result;
+ }catch(e){
+  if(session&&roomSession&&session.code===roomSession.code&&session?.token===roomSession?.token&&/Bilik ditutup/.test(e.message))blockRoom60(session.code);
+  throw e;
+ }
+};
+const teacherBefore60=teacherRoom;teacherRoom=function(){
+ teacherBefore60();const room=teacherRooms60.get(teacherSession?.code)||teacherSession;
+ roomAccess60.hidden=!teacherSession;if(!teacherSession)return;
+ if(room.mode){$('#jm-teacher-room-info').textContent=(room.name||teacherSession.name)+' · '+(room.kelas||teacherSession.kelas)+' · '+modeName60(room.mode)+' · '+stories[room.story].title;}
+ const closed=!!room.closed;$('#jm-room-state60').textContent=closed?'Bilik ditutup — murid tidak boleh masuk atau menghantar jawapan.':'Bilik dibuka — murid boleh masuk.';
+ const b=$('#jm-toggle-room60');b.textContent=closed?'Buka semula bilik':'Tutup bilik';b.dataset.closed=String(closed);
+ const route=room.accessMode||'either';copyDevice59.hidden=route==='room';deviceLink59.hidden=route==='room';$('#jm-copy-room-link').hidden=route==='device';studentLink21.hidden=route==='device';
+ copyDevice59.disabled=closed;$('#jm-copy-room-link').disabled=closed;$('#jm-copy-room-code').disabled=closed;
+ copyDevice59.textContent='Salin pautan kelas · satu peranti';$('#jm-copy-room-link').textContent='Salin pautan · peranti masing-masing';
+};
+$('#jm-toggle-room60').onclick=async()=>{
+ if(!teacherSession)return;const b=$('#jm-toggle-room60');b.disabled=true;
+ try{const room=teacherRooms60.get(teacherSession.code)||teacherSession;await api({action:'room-access',closed:!room.closed},teacherSession);teacherRoom();teacherNotice21.textContent='Status bilik telah dikemas kini. Rekod murid dikekalkan.';}
+ catch(e){teacherNotice21.textContent=e.message;}finally{b.disabled=false;}
+};
+teacherHelp58.querySelector('h3').textContent='Kelas dan rekod murid';
+const teacherParagraphs60=teacherHelp58.querySelectorAll(':scope > p');
+['1. Sediakan kelas: pilih peranti, mod individu atau berkumpulan, dan satu cerita.','2. Tekan Dapatkan pautan murid. Kongsi pautan yang dipaparkan; murid tidak perlu menaip kod.','3. Pilih Rekod kelas Guru dan Muat semula rekod. Tutup bilik apabila aktiviti berakhir.','Main tanpa kod menyimpan rekod pada peranti murid sahaja. Simpan kunci Guru untuk membuka rekod kelas pada peranti lain.'].forEach((t,i)=>{if(teacherParagraphs60[i])teacherParagraphs60[i].textContent=t;});
+
+// Active pupils see a clear pause, while their existing work remains stored.
+const paused60=makeBox23('dialog','jm-room-paused60','<h2>Bilik ditutup oleh Guru</h2><p>Aktiviti kelas dihentikan. Kerja yang sudah disimpan dikekalkan. Minta Guru membuka bilik semula untuk menyambung.</p><p id="jm-pause-status60" role="status"></p><button type="button" class="jm-primary" id="jm-recheck-room60">Semak semula</button><button type="button" class="jm-secondary" id="jm-pause-home60">Kembali ke menu</button>');root.append(paused60);
+paused60.addEventListener('cancel',e=>e.preventDefault());
+function blockRoom60(code){blockedCode60=code;stopVoice();if(profile&&view!=='teacher'&&!paused60.open)paused60.showModal();}
+async function probeRoom60(){
+ const active=linkedRoom60();if(!active||accessProbe60||navigator.onLine===false)return;
+ accessProbe60=true;
+ try{await api({action:'room-info',code:active.code},null);if(blockedCode60===active.code){blockedCode60='';if(paused60.open)paused60.close();}$('#jm-pause-status60').textContent='';}
+ catch(e){if(/Bilik ditutup/.test(e.message))blockRoom60(active.code);$('#jm-pause-status60').textContent=e.message;}
+ finally{accessProbe60=false;}
+}
+$('#jm-recheck-room60').onclick=probeRoom60;
+$('#jm-pause-home60').onclick=()=>{paused60.close();blockedCode60='';leaveStudent();showView('home');};
+setInterval(()=>{if(profile&&view!=='teacher')probeRoom60();},5000);window.addEventListener('online',probeRoom60);
+const paintBefore60=paint27;paint27=function(){paintBefore60();lockStory60();};
+function homeArrows61(){
+ const button=$('#jm-home-group');
+ if(!button.querySelector('[data-play-arrow61]'))button.innerHTML='Mula PdP berkumpulan <span data-play-arrow61 aria-hidden="true">▶</span>';
+}
+const showBefore60=showView;showView=function(v){if(v==='teacher'&&paused60.open)paused60.close();showBefore60(v);homeArrows61();if(v==='entry')entrySettings60();if(profile&&v!=='teacher'&&linkedRoom60())probeRoom60();};
+root.dataset.version='61';$('#jm-version').textContent='Joran Minda · Versi 61 · Pilihan bermain yang jelas';
+homeArrows61();
+setAccess60('local');teacherRoom();
+queueMicrotask(()=>{
+ const params=new URL(location.href).searchParams;
+ if(params.has('kelas')){entryAccess60='device';$('#jm-class-code59').value=params.get('kelas');setEntryKind('solo');showView('entry');checkClass59();}
+ else if(params.has('bilik')){entryAccess60='room';joinCode21.value=params.get('bilik');setEntryKind('solo');showView('entry');lookupRoom21();}
+ if(profile&&linkedRoom60())probeRoom60();
+});
+
+// V63: one class code for many groups, with a unique four-letter teacher key.
+const groupField62=makeBox23('label','jm-group-field62','Kumpulan saya<select id="jm-group62" class="jm-input" aria-describedby="jm-group-help62"><option value="">Pilih kumpulan</option></select><span id="jm-group-help62" class="jm-small">Pilih nombor kumpulan yang diberikan oleh Guru. Empat ahli memilih kumpulan yang sama.</span>');
+roomEntry21.append(groupField62);groupField62.hidden=true;
+const groupSelect62=$('#jm-group62');let groupClass62='';
+const countField62=makeBox23('label','jm-group-count-field62','Bilangan kumpulan<select id="jm-group-count62" class="jm-input"></select>');
+accessField60.after(countField62);
+$('#jm-group-count62').replaceChildren(...Array.from({length:12},(_,i)=>new Option((i+1)+' kumpulan · '+((i+1)*4)+' murid',String(i+1))));$('#jm-group-count62').value='6';
+const css62=document.createElement('style');css62.textContent='#jm19 #jm-group-field62{display:grid;gap:10px;margin-top:14px;padding:14px;border:2px solid #277767;border-radius:12px;background:#fffdf5}#jm19 #jm-group-field62[hidden],#jm19 #jm-group-count-field62[hidden]{display:none}#jm19 #jm-group62,#jm19 #jm-group-count62{min-height:48px;font-size:18px;width:100%}#jm19 #jm-import-access62{min-height:48px;margin:10px 0}';document.head.append(css62);
+function showGroups62(data){
+ const current=groupClass62===data.room.code?groupSelect62.value:'';groupClass62=data.room.code;
+ groupSelect62.replaceChildren(new Option('Pilih kumpulan',''),...(data.groups62||[]).map(g=>new Option(g.name+' · '+g.count+'/4 ahli',g.id)));
+ if([...groupSelect62.options].some(o=>o.value===current))groupSelect62.value=current;
+}
+const settingsBefore62=entrySettings60;
+entrySettings60=function(){
+ settingsBefore62();const grouped=entryAccess60==='room'&&!!entryRoom60()?.groupCount62;
+ groupField62.hidden=!grouped;groupSelect62.required=grouped;groupSelect62.disabled=!grouped;
+ if(grouped){$('#jm-enter').disabled=accessBusy60||!groupSelect62.value;entryDestination58.textContent='Masukkan kod kelas. Pilih kumpulan kamu, kemudian isi nama sendiri. Semua ahli kumpulan berbincang bersama melalui peranti masing-masing.';}
+};
+groupSelect62.onchange=async()=>{if(entryAccess60==='room')await resolveEntry60(normalizeRoomCode21(joinCode21.value));};
+teacherModeHelp23=function(){
+ const group=$('#jm-teacher-mode').value==='kumpulan',remote=$('#jm-teacher-access60').value==='room';
+ countField62.hidden=!(group&&remote);
+ roomHelp23.textContent=group?(remote?'Satu kod untuk seluruh kelas. Tentukan bilangan kumpulan. Setiap kumpulan mempunyai empat ahli yang menggunakan peranti masing-masing.':'Satu kod untuk seluruh kelas. Setiap kumpulan berkongsi satu peranti dan mengisi empat nama ahli. Gunakan nama kumpulan yang berbeza.'):'Satu kod untuk seluruh kelas. Setiap murid masuk dengan nama sendiri. Keputusan diasingkan mengikut individu.';
+};
+$('#jm-teacher-access60').onchange=teacherModeHelp23;$('#jm-teacher-mode').addEventListener('change',teacherModeHelp23);teacherModeHelp23();
+$('#jm-teacher-group').closest('label').firstChild.textContent='Nama kelas / sesi (pilihan)';
+teacherHelp21.textContent='Pilih mod, cerita dan cara menggunakan peranti. Untuk peranti berasingan, tetapkan bilangan kumpulan. Satu kod boleh digunakan oleh seluruh kelas. Tetapan ini digunakan apabila mencipta kelas baharu.';
+const teacherKeys63=loadJSON('joran-teacher-keys63',{});
+const apiBefore62=api;
+api=async function(data,session=roomSession){
+ let input={...data};
+ if(data.action==='create'&&data.mode==='kumpulan'&&$('#jm-teacher-access60').value==='room')input.groupCount62=Number($('#jm-group-count62').value);
+ if(['room-info','join'].includes(data.action)&&groupSelect62.value&&groupClass62===String(data.code||session?.code||''))input.groupId62=groupSelect62.value;
+ if(data.action==='state'&&!roomSession&&view==='entry'&&verifiedRoom21?.room.groupCount62&&groupSelect62.value)input.groupId62=groupSelect62.value;
+ const result=await apiBefore62(input,session);
+ if(data.action==='room-info')showGroups62(result);
+ if(data.action==='create'&&result.teacherKey63){teacherKeys63[result.room.code]=result.teacherKey63;storeJSON('joran-teacher-keys63',teacherKeys63);}
+ return result;
+};
+const teacherBefore62=teacherRoom;
+teacherRoom=function(){teacherBefore62();const room=teacherRooms60.get(teacherSession?.code)||teacherSession;if(room?.groupCount62)$('#jm-teacher-room-info').textContent=(room.name||room.kelas)+' · '+room.kelas+' · '+room.groupCount62+' kumpulan · 4 ahli setiap kumpulan · '+stories[room.story].title;};
+
+const keyBox63=makeBox23('section','jm-teacher-key-box63','<label for="jm-teacher-key63"><strong>Kata kunci Guru · 4 huruf</strong></label><div class="jm-row"><input id="jm-teacher-key63" class="jm-input" type="password" readonly aria-label="Kata kunci Guru empat huruf"><button id="jm-reveal-key63" class="jm-secondary" type="button">Lihat kata kunci</button><button id="jm-generate-key63" class="jm-secondary" type="button">Jana kata kunci 4 huruf</button></div><p class="jm-small">Simpan kata kunci ini untuk Guru sahaja. Kongsi kod kelas 6 angka dengan murid.</p><p id="jm-key-status63" role="status"></p>');
+$('#jm-teacher-room-info').after(keyBox63);
+const keyCss63=document.createElement('style');keyCss63.textContent='#jm19 #jm-teacher-key-box63{margin:14px 0;padding:16px;background:#fff7df;border:2px solid #b58627;border-radius:14px}#jm19 #jm-teacher-key-box63 .jm-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px}#jm19 #jm-teacher-key63{width:140px;min-height:48px;font-size:26px;letter-spacing:5px;font-weight:bold}#jm19 #jm-teacher-key-box63 button{min-height:48px}';document.head.append(keyCss63);
+let visibleClass63='';
+const teacherBefore63=teacherRoom;
+teacherRoom=function(){
+ teacherBefore63();keyBox63.hidden=!teacherSession;if(!teacherSession)return;
+ const input=$('#jm-teacher-key63'),key=teacherKeys63[teacherSession.code]||'';
+ if(visibleClass63!==teacherSession.code){input.type='password';$('#jm-reveal-key63').textContent='Lihat kata kunci';visibleClass63=teacherSession.code;}
+ input.value=key;input.hidden=!key;$('#jm-reveal-key63').hidden=!key;$('#jm-generate-key63').hidden=!!key;
+ $('#jm-key-status63').textContent=key?'Kata kunci ini khusus untuk kelas '+teacherSession.code+'.':'Kelas ini belum mempunyai kata kunci empat huruf pada peranti ini. Jana kata kunci untuk kelas ini.';
+};
+$('#jm-reveal-key63').onclick=()=>{const input=$('#jm-teacher-key63'),show=input.type==='password';input.type=show?'text':'password';$('#jm-reveal-key63').textContent=show?'Sembunyikan kata kunci':'Lihat kata kunci';};
+$('#jm-generate-key63').onclick=async()=>{
+ if(!teacherSession)return;const session={...teacherSession},button=$('#jm-generate-key63');button.disabled=true;
+ try{const result=await api({action:'teacher-key63'},session);teacherKeys63[session.code]=result.teacherKey63;storeJSON('joran-teacher-keys63',teacherKeys63);teacherRoom();$('#jm-key-status63').textContent='Kata kunci baharu telah dijana. Tekan Lihat kata kunci dan simpan empat huruf itu. Kata kunci terdahulu bagi kelas ini tidak lagi digunakan.';}
+ catch(e){$('#jm-key-status63').textContent=e.message;}finally{button.disabled=false;}
+};
+
+// Four-letter keys are verified by the server, including on another device.
+const restoreForm62=$('#jm-restore-room'),restoreKey62=$('#jm-restore-key');
+restoreForm62.closest('details').querySelector('summary').textContent='Buka semula kelas Guru';
+$('#jm-restore-code').closest('label').firstChild.textContent='Kod kelas';
+restoreKey62.closest('label').firstChild.textContent='Kata kunci Guru';
+restoreKey62.maxLength=4;restoreKey62.placeholder='Empat huruf';restoreKey62.pattern='[A-Za-z]{4}';restoreKey62.autocomplete='off';restoreKey62.setAttribute('autocapitalize','characters');
+const keyHelp62=makeBox23('p','jm-key-help62','Masukkan kod kelas dan kata kunci empat huruf yang dijana untuk kelas itu. Boleh digunakan pada peranti Guru yang lain.',restoreForm62);
+const importButton62=makeBox23('button','jm-import-access62','Muat masuk fail akses kelas',restoreForm62);importButton62.type='button';importButton62.className='jm-secondary';
+const importInput62=document.createElement('input');importInput62.type='file';importInput62.accept='.json,.txt';importInput62.hidden=true;restoreForm62.append(importInput62);
+const accessStatus62=makeBox23('p','jm-access-status62','',restoreForm62);accessStatus62.setAttribute('role','status');
+const restoreSubmit62=restoreForm62.querySelector('button[type="submit"]');restoreSubmit62.textContent='Buka rekod kelas';
+async function openTeacher62(candidate){
+ const data=await api({action:'report'},candidate);
+ teacherSession={...candidate,...data.room};storeJSON('joran-minda-guru-v7',teacherSession);teacherRoom();
+ $('#jm-report-source').value='online';updateReportHelp21();await refreshReport();
+ $('#jm-teacher-status').textContent='Kelas Guru telah dibuka.';accessStatus62.textContent='Kelas Guru telah dibuka.';return true;
+}
+restoreTeacher=async function(e){
+ e.preventDefault();const code=normalizeRoomCode21($('#jm-restore-code').value),key=restoreKey62.value.trim().toUpperCase();
+ if(!/^[A-Z]{4}$/.test(key)){accessStatus62.textContent='Masukkan kata kunci empat huruf bagi kelas ini.';return;}
+ restoreSubmit62.disabled=true;accessStatus62.textContent='Sedang membuka kelas…';
+ try{
+  const result=await api({action:'teacher-unlock63',code,key},null);
+  teacherKeys63[code]=key;storeJSON('joran-teacher-keys63',teacherKeys63);
+  await openTeacher62({code,token:result.teacherToken});restoreKey62.value='';
+ }catch(e){accessStatus62.textContent=e.message;}finally{restoreSubmit62.disabled=false;}
+};restoreForm62.onsubmit=restoreTeacher;
+saveTeacherKey=function(){
+ if(!teacherSession)return;
+ const data={format:'joran-minda-akses-guru',version:63,teacherKey63:teacherKeys63[teacherSession.code]||'',code:teacherSession.code,token:teacherSession.token,name:teacherSession.name,kelas:teacherSession.kelas,story:teacherSession.story};
+ downloadBlob(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),'akses-kelas-'+teacherSession.code+'.json');
+};$('#jm-teacher-backup').onclick=saveTeacherKey;$('#jm-teacher-backup').textContent='Simpan fail akses kelas';
+teacherAccess22.querySelector('summary').textContent='Simpan akses atau keluar';
+if(teacherSmall22)teacherSmall22.textContent='Simpan fail akses sebagai sandaran. Untuk membuka kelas pada peranti lain, masukkan kod kelas dan kata kunci empat huruf. Murid hanya memerlukan kod kelas.';
+importButton62.onclick=()=>importInput62.click();
+async function importTeacher62(file){
+ if(!file)return;importButton62.disabled=true;
+ try{
+  if(file.size>16000)throw Error('Pilih fail akses kelas (.json) atau kunci Guru lama (.txt).');
+  const text=await file.text();let candidate;
+  try{const d=JSON.parse(text);if(d.format==='joran-minda-akses-guru')candidate={code:d.code,token:d.token,teacherKey63:/^[A-Z]{4}$/.test(d.teacherKey63||'')?d.teacherKey63:''};}catch{}
+  if(!candidate)candidate={code:text.match(/Kod bilik:\s*([A-Fa-f0-9]{6,10})/)?.[1],token:text.match(/Kunci guru:\s*([a-f0-9]{64})/)?.[1]};
+  if(!/^(?:\d{6}|[A-Fa-f0-9]{10})$/.test(candidate.code||'')||!/^[a-f0-9]{64}$/.test(candidate.token||''))throw Error('Fail akses kelas tidak sah. Pilih fail yang disimpan melalui Ruang Guru.');
+  candidate.code=candidate.code.toUpperCase();await openTeacher62(candidate);if(candidate.teacherKey63){teacherKeys63[candidate.code]=candidate.teacherKey63;storeJSON('joran-teacher-keys63',teacherKeys63);teacherRoom();}$('#jm-restore-code').value=candidate.code;restoreKey62.value='';
+  accessStatus62.textContent='Akses kelas disimpan. Lihat kata kunci empat huruf di ruang kelas Guru. Jika belum ada, tekan Jana kata kunci 4 huruf.';
+ }catch(e){accessStatus62.textContent=e.message;}finally{importInput62.value='';importButton62.disabled=false;}
+}
+importInput62.onchange=()=>importTeacher62(importInput62.files[0]);
+// Sign-out hides the view, while retaining access on this teacher device.
+$('#jm-teacher-signout').onclick=()=>{rememberRoom23();teacherSession=null;try{localStorage.removeItem('joran-minda-guru-v7');}catch{}teacherRoom();$('#jm-report-source').value='local';refreshReport();accessStatus62.textContent='Paparan Guru ditutup. Akses kelas kekal disimpan pada peranti ini.';};
+const paragraphs62=teacherHelp58.querySelectorAll(':scope > p');
+['1. Sediakan satu kelas. Pilih mod, cerita dan cara murid menggunakan peranti.','2. Kongsi satu kod atau pautan kelas kepada semua murid. Bagi peranti berasingan, setiap ahli memilih kumpulan yang diberikan oleh Guru.','3. Pilih Rekod kelas Guru dan Muat semula rekod. Hasil setiap kumpulan dipaparkan berasingan. Tutup bilik apabila aktiviti berakhir.','Setiap kelas mendapat kata kunci Guru yang berbeza, terdiri daripada empat huruf. Gunakan kod kelas bersama kata kunci itu untuk membuka rekod pada mana-mana peranti Guru. Main tanpa kod menyimpan rekod pada peranti murid sahaja.'].forEach((text,i)=>{if(paragraphs62[i])paragraphs62[i].textContent=text;});
+root.dataset.version='63';$('#jm-version').textContent='Joran Minda · Versi 63 · Kata kunci Guru empat huruf';
+entrySettings60();teacherRoom();
 
 /* END_PDP_UI */
 restoreWork();$('#jm-voice-story').value=stories[studioSelection33?.story]?studioSelection33.story:storyKey;renderStory();renderQuestion();renderFish();renderFlow();renderPause();showView('home');requestAnimationFrame(animate);

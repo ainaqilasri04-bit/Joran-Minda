@@ -121,11 +121,14 @@ teacherRoom=function(){
  $('#jm-online-help58').textContent=teacherSession?'Bilik aktif: '+teacherSession.code+'. Kongsi pautan murid bagi bilik ini.':'Belum ada bilik aktif pada pelayar ini. Sediakan pautan murid atau pulihkan akses Guru.';
 };
 const refreshBefore58=refreshReport;
-refreshReport=async function(){
- if(reportBusy58)return;
- reportBusy58=true;
- try{await refreshBefore58();updateReportHelp21();}
- finally{reportBusy58=false;}
+let reportQueue62=Promise.resolve();
+refreshReport=function(){
+ const next=reportQueue62.catch(()=>{}).then(async()=>{
+  reportBusy58=true;
+  try{await refreshBefore58();updateReportHelp21();}
+  finally{reportBusy58=false;}
+ });
+ reportQueue62=next;return next;
 };
 $('#jm-refresh-report').onclick=refreshReport;
 const showBefore58=showView;
