@@ -7,7 +7,8 @@ const source54=source53+'\n'+await readFile(new URL('./lesson-v54.js',import.met
 const source55=source54+'\n'+await readFile(new URL('./lesson-v55.js',import.meta.url),'utf8');
 const source56=source55+'\n'+await readFile(new URL('./lesson-v56.js',import.meta.url),'utf8');
 const source57=source56+'\n'+await readFile(new URL('./lesson-v57.js',import.meta.url),'utf8');
+const source59=source57+'\n'+await readFile(new URL('./lesson-v58.js',import.meta.url),'utf8')+'\n'+await readFile(new URL('./lesson-v59.js',import.meta.url),'utf8');
 const start='/* BEGIN_PDP_UI */',end='/* END_PDP_UI */',a=html.indexOf(start),b=html.indexOf(end);
 if(a<0||b<a||html.indexOf(start,a+start.length)>=0||html.indexOf(end,b+end.length)>=0)throw Error('PdP insertion markers missing or duplicated');
-await writeFile(path,html.slice(0,a)+start+'\n'+source57+'\n'+end+html.slice(b+end.length));
+await writeFile(path,html.slice(0,a)+start+'\n'+source59+'\n'+end+html.slice(b+end.length));
 console.log('PdP UI source synchronized.');

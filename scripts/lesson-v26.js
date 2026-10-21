@@ -39,10 +39,27 @@ function renderPupilAudio26(container,page){
  panel.querySelectorAll('[data-pupil-stop]').forEach(b=>b.onclick=()=>pupilAudio26.stop());
  bindTakeButtons26(panel);
 }
-async function fullTake26(id,teacher=false){const pending=pendingPupil26.find(r=>r.id===id);if(pending)return pending;const local=await pupilAudio26.get(id);if(local?.audio)return local;return(await api({action:'pupil-audio-read',id},teacher?teacherSession:roomSession)).record;}
+function cachedTake26(id){return pendingPupil26.find(r=>r.id===id&&r.audio)||pupilTakes26.find(r=>r.id===id&&r.audio);}
+async function fullTake26(id,teacher=false){const cached=cachedTake26(id);if(cached)return cached;const local=await pupilAudio26.get(id);if(local?.audio)return local;return(await api({action:'pupil-audio-read',id},teacher?teacherSession:roomSession)).record;}
 function bindTakeButtons26(panel,teacher=false){
- panel.querySelectorAll('[data-pupil-play]').forEach(b=>b.onclick=async()=>{try{stopVoice();const r=await fullTake26(b.dataset.pupilPlay,teacher);if(!r?.audio)throw Error('Rakaman belum ditemui.');let audio=b.parentElement.querySelector('audio');if(!audio){audio=document.createElement('audio');audio.controls=true;audio.style.width='100%';b.after(audio);}audio.src=r.audio;activeVoice=audio;await audio.play();}catch(e){b.parentElement.append(document.createTextNode(' '+e.message));}});
- panel.querySelectorAll('[data-pupil-download]').forEach(b=>b.onclick=async()=>{try{const r=await fullTake26(b.dataset.pupilDownload,teacher),response=await fetch(r.audio),blob=await response.blob();downloadBlob(blob,'bacaan-'+fileStem(r.name)+'-halaman-'+(r.page+1)+'-'+r.id.slice(0,6)+(r.mime?.includes('mp4')?'.m4a':r.mime?.includes('ogg')?'.ogg':'.webm'));}catch(e){b.parentElement.append(document.createTextNode(' '+e.message));}});
+ panel.querySelectorAll('[data-pupil-play]').forEach(b=>{let ready=null;b.onclick=async()=>{
+  stopVoice();const ticket=voiceSequence;
+  let status=b.parentElement.querySelector('[data-pupil-play-status]');
+  if(!status){status=document.createElement('p');status.dataset.pupilPlayStatus='';status.setAttribute('role','status');b.parentElement.append(status);}
+  status.textContent='Memuatkan rakaman…';
+  try{
+   // Local recordings start in the tap handler, preserving mobile playback permission.
+   const r=ready||cachedTake26(b.dataset.pupilPlay)||await fullTake26(b.dataset.pupilPlay,teacher);ready=r;
+   if(ticket!==voiceSequence||!b.isConnected)return;
+   if(!r?.audio)throw Error('Rakaman belum ditemui.');
+   let audio=b.parentElement.querySelector('audio');
+   if(!audio){audio=document.createElement('audio');audio.controls=true;audio.style.width='100%';b.after(audio);}
+   audio.onerror=()=>{status.textContent='Rakaman ini tidak dapat dimainkan pada peranti ini. Cuba dengar pada peranti asal atau rakam semula pada halaman rakaman.';};
+   pupilAudio26.preparePlayback(audio,r);activeVoice=audio;
+   await audio.play();if(ticket===voiceSequence)status.textContent='';
+  }catch(e){if(ticket===voiceSequence)status.textContent=e.name==='NotAllowedError'?'Rakaman sudah dimuatkan. Tekan Dengar rakaman sekali lagi untuk memainkannya.':e.name==='NotSupportedError'?'Rakaman ini tidak dapat dimainkan pada peranti ini. Cuba dengar pada peranti asal atau rakam semula pada halaman rakaman.':e.message;}
+ };});
+ panel.querySelectorAll('[data-pupil-download]').forEach(b=>b.onclick=async()=>{try{const r=await fullTake26(b.dataset.pupilDownload,teacher),blob=pupilAudio26.asBlob(r);downloadBlob(blob,'bacaan-'+fileStem(r.name)+'-halaman-'+(r.page+1)+'-'+r.id.slice(0,6)+(blob.type.includes('mp4')?'.m4a':blob.type.includes('ogg')?'.ogg':blob.type.includes('wav')?'.wav':'.webm'));}catch(e){b.parentElement.append(document.createTextNode(' '+e.message));}});
  panel.querySelectorAll('[data-pupil-local-save]').forEach(b=>b.onclick=async()=>{try{await voiceWrite26(pendingPupil26.find(r=>r.id===b.dataset.pupilLocalSave));pupilAudioNotice26='Rakaman telah disimpan.';if(view==='lesson')renderLesson24();else renderFinish23();}catch(e){pupilAudioNotice26=e.message;b.textContent='Cuba simpan semula';}});
  panel.querySelectorAll('[data-pupil-sync]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{const record=await pupilAudio26.get(b.dataset.pupilSync);await voiceWrite26(record);pupilAudioNotice26=record.synced?'Rakaman telah dihantar kepada Guru.':'Rakaman disimpan pada peranti. Sambungan belum pulih; cuba hantar semula nanti.';if(view==='lesson')renderLesson24();}catch(e){b.disabled=false;b.textContent='Cuba lagi: '+e.message;}});
 }

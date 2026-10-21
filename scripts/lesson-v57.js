@@ -21,6 +21,13 @@ function fitViewport57(){
 }
 const paintBefore57=paint27;
 paint27=function(){paintBefore57();fitPond57();};
+// Only the redundant teacher audio below the Cari answer choices is hidden.
+const gameBeforePhone57=gameScreen27;
+gameScreen27=function(){
+ gameBeforePhone57();const listen=$('#jm-listen');listen.hidden=step===1;
+ if(listen.stop30)listen.stop30.hidden=listen.hidden;
+ if(listen.hidden)$('#jm-audio-note').hidden=true;
+};
 const pondResize57=window.ResizeObserver?new ResizeObserver(fitPond57):null;pondResize57?.observe($('#jm-stage'));
 window.addEventListener('resize',fitViewport57,{passive:true});
 window.visualViewport?.addEventListener('resize',fitViewport57,{passive:true});
